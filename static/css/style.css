@@ -1,15 +1,23 @@
-header .container-fluid a:hover {
-    color: #2e6d49;
+body {
+    background-color: #a5c4a5;
+}
+
+body .body-container {
+    padding: 10px 10px 10px 10px;
 }
 
 .green-font {
     color: #337a52;
 }
 
+.green-grey-font {
+    color: #a5c4a5;
+}
+
 .grey-font {
-    color: #f4f4f4;
+    color: #748379;
 }
 
 .white-font {
-    color: #ffffff;
+    color: #f4f4f4;
 }
