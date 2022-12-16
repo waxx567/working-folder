@@ -1,4 +1,4 @@
-.navbar-item:hover {
+.navbar-item a:hover {
     color: #6aaa51;
 }
 
