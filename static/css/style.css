@@ -4,14 +4,14 @@ body .body-container {
     display: flex;
 }
 
-body .thumbs {
+body .thumbs-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 }
 
-body .thumbs img {
+body .thumbs-container img {
     width: 30%;
     background-color: #a5c4a5;
 }
