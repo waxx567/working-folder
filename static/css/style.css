@@ -6,12 +6,16 @@ body h4 {
     padding: 0px 0px 7px 0px;
 }
 
+.nav-item {
+    color: #337a52;
+}
+
 .base-font {
     color: #337a52;
 }
 
 .base-bright-font {
-    color: #3b9d65;
+    color: #2d9f5e;
 }
 
 .base-grey-font {
