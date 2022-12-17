@@ -2,15 +2,8 @@ body .body-container {
     background-color: #a5c4a5;
 }
 
-body h5 {
-    padding: 0px 0px 0px 0px;
-}
-
-body img {
+body .thumbs img {
     width: 90px;
-}
-.container-fluid image {
-    margin: 0px 0px 0px 0px;
 }
 
 .nav-item {
