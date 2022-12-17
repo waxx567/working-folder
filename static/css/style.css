@@ -5,7 +5,7 @@ body .body-container {
 }
 
 body .thumbs-container {
-    display: inline;
+    display: flex;
     justify-content: space-around;
     align-items: center;
 
