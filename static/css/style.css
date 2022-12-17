@@ -11,31 +11,26 @@ body #showcase {
     padding: 13.5px 0px 0px 0px;
 }
 
-#shocase .showcase-image {
+#showcase .showcase-image {
     display: flex;
     width: 100%;
 }
 
-.blue-font {
-    color: #33557a;
-}
-
-.bright-blue-font {
+.bright-color {
     color: #08dcf4;
 }
 
-.green-font {
-    color: #337a52;
+.dark-color {
+    color: #33557a;
 }
 
-.green-grey-font {
-    color: #a5c4a5;
+.light-color {
+    color: #87a9af;
 }
 
-.grey-font {
-    color: #748379;
+.medium-color {
+    color: #5fa2ae;
 }
-
-.white-font {
+.white-color {
     color: #f4f4f4;
 }
