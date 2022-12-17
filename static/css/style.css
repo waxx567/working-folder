@@ -1,41 +1,23 @@
 body .body-container {
-    background-color: #87a9af;
+    background-color: #a5c4a5;
 }
 
 body h4 {
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 7px 0px;
 }
 
-body #showcase {
-    margin: 0px 0px 0px 0px;
-    padding: 13.5px 0px 0px 0px;
+.green-font {
+    color: #337a52;
 }
 
-#showcase .showcase-image {
-    display: flex;
-    width: 100%;
+.green-grey-font {
+    color: #a5c4a5;
 }
 
-.bright-font {
-    color: #3f8b26; /*GREEN*/
-    /*color: #08dcf4; BLUE*/
+.grey-font {
+    color: #748379;
 }
 
-.color-font {
-    color: #33557a; /*BLUE*/
-}
-
-.dark-font {
-    color: #1a4068; /*BLUE*/
-}
-
-.light-font {
-    color: #87a9af; /*BLUE*/
-}
-
-.medium-font {
-    color: #5fa2ae; /*BLUE*/
-}
 .white-font {
-    color: #f4f4f4; /*BLUE*/
+    color: #f4f4f4;
 }
