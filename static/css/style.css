@@ -12,7 +12,8 @@ body #thumbs-container {
 
 body #thumbs-container .thumb {
     width: 30%;
-    background-color: #ddecdb;
+    background-color: #a5c4a5;
+
     text-align: center;
 
     display: flex;
