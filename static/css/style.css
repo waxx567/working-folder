@@ -12,6 +12,7 @@ body #showcase {
 }
 
 #shocase .showcase-image {
+    display: flex;
     width: 100%;
 }
 
