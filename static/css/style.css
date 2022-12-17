@@ -1,11 +1,12 @@
 body .body-container {
     background-color: #a5c4a5;
+
+    display: flex;
 }
 
 body .thumbs img {
     width: 25%;
     display: inline;
-    justify-content: space-around;
 }
 
 .nav-item {
