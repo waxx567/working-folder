@@ -16,21 +16,21 @@ body #showcase {
     width: 100%;
 }
 
-.bright-color {
+.bright-font {
     color: #08dcf4;
 }
 
-.dark-color {
+.dark-font {
     color: #33557a;
 }
 
-.light-color {
+.light-font {
     color: #87a9af;
 }
 
-.medium-color {
+.medium-font {
     color: #5fa2ae;
 }
-.white-color {
+.white-font {
     color: #f4f4f4;
 }
