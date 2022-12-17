@@ -7,13 +7,13 @@ body .body-container {
 body .thumbs-container {
     display: flex;
     justify-content: space-around;
-    align-items: center;
 
 }
 
 body .thumbs-container .thumb {
     width: 30%;
     background-color: #ddecdb;
+    text-align: center;
 
     display: flex;
     justify-content: space-around;
