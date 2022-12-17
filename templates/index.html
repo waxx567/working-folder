@@ -5,5 +5,20 @@ content %}
   src="{{ url_for('.static', filename='images/image-4.jpg')}}"
   class="img-fluid"
   alt="Background Image"
-></image
->{% endblock content %}
+></image>
+<img
+  src="{{ url_for('.static', filename='images/image-1.jpg')}}"
+  class="img-thumbnail"
+  alt="Thumbnail Image"
+/>
+<img
+  src="{{ url_for('.static', filename='images/image-2.jpg')}}"
+  class="img-thumbnail"
+  alt="Thumbnail Image"
+/>
+<img
+  src="{{ url_for('.static', filename='images/image-3.jpg')}}"
+  class="img-thumbnail"
+  alt="Thumbnail Image"
+/>
+{% endblock content %}
