@@ -18,7 +18,6 @@ body #thumbs-container .thumb {
 
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 body #thumbs-container img {
