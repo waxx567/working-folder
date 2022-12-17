@@ -11,6 +11,10 @@ body #showcase {
     padding: 0px 0px 0px 0px;
 }
 
+#shocase .showcase-image {
+    width: 100%;
+}
+
 .green-font {
     color: #337a52;
 }
