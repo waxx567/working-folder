@@ -17,12 +17,14 @@ body #thumbs-container .thumb {
     text-align: center;
 
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 body #thumbs-container img {
     width: 30%;
     background-color: #ddecdb;
+
 }
 
 .nav-item {
