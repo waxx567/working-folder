@@ -1,4 +1,9 @@
 {% extends 'layout.html' %} {% block title %}Home page{% endblock title %} {%
 block content %}
+<section id="showcase">
+    <div class="">
+        <image src="{{ url_for('static', filename='images/showcase.jpg') }}">
+    </div>
+</section>
 <h4>Home page</h4>
 {% endblock content %}
