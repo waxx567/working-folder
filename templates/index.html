@@ -6,19 +6,21 @@ content %}
   class="img-fluid"
   alt="Background Image"
 ></image>
-<img
-  src="{{ url_for('.static', filename='images/image-1.jpg')}}"
-  class="img-thumbnail"
-  alt="Thumbnail Image"
-/>
-<img
-  src="{{ url_for('.static', filename='images/image-2.jpg')}}"
-  class="img-thumbnail"
-  alt="Thumbnail Image"
-/>
-<img
-  src="{{ url_for('.static', filename='images/image-3.jpg')}}"
-  class="img-thumbnail"
-  alt="Thumbnail Image"
-/>
+<div class="thumbs">
+  <img
+    src="{{ url_for('.static', filename='images/image-1.jpg')}}"
+    class="img-thumbnail"
+    alt="Thumbnail Image"
+  />
+  <img
+    src="{{ url_for('.static', filename='images/image-2.jpg')}}"
+    class="img-thumbnail"
+    alt="Thumbnail Image"
+  />
+  <img
+    src="{{ url_for('.static', filename='images/image-3.jpg')}}"
+    class="img-thumbnail"
+    alt="Thumbnail Image"
+  />
+</div>
 {% endblock content %}
