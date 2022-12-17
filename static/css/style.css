@@ -13,6 +13,7 @@ body .thumbs {
 
 body .thumbs img {
     width: 33%;
+    background-color: #a5c4a5;
 }
 
 .nav-item {
