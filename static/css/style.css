@@ -3,7 +3,10 @@ body .body-container {
 }
 
 body .thumbs img {
-    width: 30%;
+    padding: 10px;
+    width: 25%;
+    display: inline;
+    justify-content: space-around;
 }
 
 .nav-item {
