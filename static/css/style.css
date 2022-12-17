@@ -6,11 +6,15 @@ body h4 {
     padding: 0px 0px 7px 0px;
 }
 
-.green-font {
+.base-font {
     color: #337a52;
 }
 
-.green-grey-font {
+.base-bright-font {
+    color: #3b9d65;
+}
+
+.base-grey-font {
     color: #a5c4a5;
 }
 
@@ -18,6 +22,6 @@ body h4 {
     color: #748379;
 }
 
-.white-font {
-    color: #f4f4f4;
+.base-white-font {
+    color: #ddecdb;
 }
