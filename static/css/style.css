@@ -6,6 +6,9 @@ body h5 {
     padding: 0px 0px 0px 0px;
 }
 
+body img {
+    width: 90px;
+}
 .container-fluid image {
     margin: 0px 0px 0px 0px;
 }
