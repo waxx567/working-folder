@@ -11,6 +11,15 @@ body .thumbs-container {
 
 }
 
+body .thumbs-container .thumb {
+    width: 30%;
+    background-color: #ddecdb;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 body .thumbs-container img {
     width: 30%;
     background-color: #a5c4a5;
