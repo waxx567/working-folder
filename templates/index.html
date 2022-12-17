@@ -1,4 +1,6 @@
 {% extends 'layout.html' %} {% block title %}Home page{% endblock title %} {%
 block content %}
-<h4>Home page</h4>
-{% endblock content %}
+<image src="{{ url_for('.static', filename='images/image-1.jpg')}}">
+  <h4>Home page</h4>
+  {% endblock content %}
+</image>
