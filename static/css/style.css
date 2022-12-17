@@ -17,24 +17,24 @@ body #showcase {
 }
 
 .bright-font {
-    color: #08dcf4;
+    color: #08dcf4; /*BLUE*/
 }
 
 .color-font {
-    color: #33557a;
+    color: #33557a; /*BLUE*/
 }
 
 .dark-font {
-    color: #1a4068;
+    color: #1a4068; /*BLUE*/
 }
 
 .light-font {
-    color: #87a9af;
+    color: #87a9af; /*BLUE*/
 }
 
 .medium-font {
-    color: #5fa2ae;
+    color: #5fa2ae; /*BLUE*/
 }
 .white-font {
-    color: #f4f4f4;
+    color: #f4f4f4; /*BLUE*/
 }
