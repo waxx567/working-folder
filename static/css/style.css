@@ -4,13 +4,13 @@ body .body-container {
     display: flex;
 }
 
-body .thumbs-container {
+body #thumbs-container {
     display: flex;
     justify-content: space-around;
 
 }
 
-body .thumbs-container .thumb {
+body #thumbs-container .thumb {
     width: 30%;
     background-color: #ddecdb;
     text-align: center;
@@ -20,7 +20,7 @@ body .thumbs-container .thumb {
     align-items: center;
 }
 
-body .thumbs-container img {
+body #thumbs-container img {
     width: 30%;
     background-color: #a5c4a5;
 }
