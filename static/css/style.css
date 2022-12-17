@@ -20,8 +20,12 @@ body #showcase {
     color: #08dcf4;
 }
 
-.dark-font {
+.color-font {
     color: #33557a;
+}
+
+.dark-font {
+    color: #1a4068;
 }
 
 .light-font {
