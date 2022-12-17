@@ -6,6 +6,10 @@ body h4 {
     padding: 0px 0px 7px 0px;
 }
 
+.bg {
+    background-image: image(xywh=160,120,1280,853);
+}
+
 .nav-item {
     color: #337a52;
 }
