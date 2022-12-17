@@ -7,7 +7,7 @@ body h4 {
 }
 
 .container-fluid .bg {
-    background-image: image("image-4.jpg#xywh=160,120,1280,853");
+    background-image: image("{{ url_for('.static', filename='images/image-1.jpg')}}");
 }
 
 .nav-item {
