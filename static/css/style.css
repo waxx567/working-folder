@@ -1,18 +1,18 @@
 body .body-container {
-    background-color: #a5c4a5;
+    background-color: #ddecdb;
 
     display: flex;
 }
 
 body .thumbs {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
 }
 
 body .thumbs img {
-    width: 33%;
+    width: 30%;
     background-color: #a5c4a5;
 }
 
