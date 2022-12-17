@@ -7,7 +7,7 @@ body h4 {
 }
 
 .bg-image {
-    background-image: image("image-4.jpg#xyxh=160, 120, 1280, 853");
+    background-image: image();
 }
 
 .nav-item {
