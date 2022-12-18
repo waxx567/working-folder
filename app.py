@@ -20,7 +20,7 @@ BUILDER = "fivefiftyfive web designs"
 info = [CLIENT, CLIENT_1, CLIENT_2, BUILDER]
 
 
-def get_info():
+def get_info(info):
     for item in info:
         key = item.lower()
         value = item
@@ -29,7 +29,7 @@ def get_info():
         return params
 
 
-INFO = get_info()
+INFO = get_info(info)
 
 
 class users(db.Model):
