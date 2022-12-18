@@ -49,6 +49,14 @@ body #thumbs-container img {
 
 }
 
+body #footer {
+    height: ;
+}
+
+.bold-font {
+    font-weight: bold;
+}
+
 .base-font {
     color: #337a52;
 }
