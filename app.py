@@ -26,7 +26,11 @@ def get_info(info):
         value = item
         params = f"{key}={value}"
         print(params)
-        return params
+        all_params = []
+        all_params = all_params.append(params)
+
+    print(all_params)
+    return all_params
 
 
 INFO = get_info(info)
