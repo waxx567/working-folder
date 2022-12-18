@@ -6,6 +6,7 @@ body #body-container {
 
 body #body-container .container-fluid .bg-image {
     background-image: url('../images/image-4.jpg');
+    height: 100%;
 }
 
 body #thumbs-container {
