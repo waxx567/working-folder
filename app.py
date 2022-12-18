@@ -10,6 +10,9 @@ app.permanent_session_lifetime = timedelta(minutes=5)
 
 db = SQLAlchemy(app)
 
+OWNER = "fivefiftyfive web designs"
+BUILDER = "Wayne McRae"
+
 
 class users(db.Model):
     _id = db.Column("id", db.Integer, primary_key=True)
@@ -23,12 +26,12 @@ class users(db.Model):
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("index.html", owner=OWNER, builder=BUILDER)
 
 
 @app.route("/view")
 def view():
-    return render_template("view.html", values=users.query.all())
+    return render_template("view.html", owner=OWNER, builder=BUILDER, values=users.query.all())
 
 
 @app.route("/login", methods=["POST", "GET"])
@@ -53,7 +56,7 @@ def login():
             flash("You are already logged in")
             return redirect(url_for("user"))
 
-        return render_template("login.html")
+        return render_template("login.html", owner=OWNER, builder=BUILDER)
 
 
 @app.route("/user", methods=["POST", "GET"])
@@ -73,7 +76,7 @@ def user():
             if "email" in session:
                 email = session["email"]
 
-        return render_template("user.html", email=email)
+        return render_template("user.html", owner=OWNER, builder=BUILDER, email=email)
     else:
         flash("You are not logged in", "info")
         return redirect(url_for("login"))
@@ -91,7 +94,7 @@ def logout():
 
 @app.route("/test")
 def test():
-    return render_template("test.html")
+    return render_template("test.html", owner=OWNER, builder=BUILDER)
 
 
 if __name__ == "__main__":
