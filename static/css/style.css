@@ -49,10 +49,14 @@ body #thumbs-container img {
 
 }
 
-body #footer {
+#footer {
     height: 15px;
     background-color: #337a52;
     text-align: center;
+}
+
+#footer a {
+    text-decoration: none;
 }
 
 .bold-font {
