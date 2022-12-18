@@ -21,7 +21,7 @@ body #thumbs-container {
     display: flex;
     justify-content: space-between;
     background-image: url('../images/image-8.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 
 }
 
