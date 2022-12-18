@@ -49,9 +49,7 @@ body #thumbs-container img {
 
 }
 
-#footer {
-    height: 15px;
-    background-color: #337a52;
+.footer {
     text-align: center;
 }
 
