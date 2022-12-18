@@ -16,7 +16,7 @@ CLIENT_2 = "web designs"
 
 BUILDER = "fivefiftyfive web designs"
 
-
+'''
 info = [CLIENT, CLIENT_1, CLIENT_2, BUILDER]
 
 
@@ -30,7 +30,7 @@ def get_info(info):
         all_params = all_params.append(params)
 
     print(all_params)
-    return all_params
+    return all_params'''
 
 
 class users(db.Model):
@@ -45,12 +45,12 @@ class users(db.Model):
 
 @app.route("/")
 def home():
-    return render_template("index.html", info=get_info())
+    return render_template("index.html", client_1=CLIENT_1)
 
 
 @app.route("/view")
 def view():
-    return render_template("view.html", info=get_info(), values=users.query.all())
+    return render_template("view.html", client_1=CLIENT_1, values=users.query.all())
 
 
 @app.route("/login", methods=["POST", "GET"])
@@ -75,7 +75,7 @@ def login():
             flash("You are already logged in")
             return redirect(url_for("user"))
 
-        return render_template("login.html", info=get_info())
+        return render_template("login.html", client_1=CLIENT_1)
 
 
 @app.route("/user", methods=["POST", "GET"])
@@ -95,7 +95,7 @@ def user():
             if "email" in session:
                 email = session["email"]
 
-        return render_template("user.html", info=get_info(), email=email)
+        return render_template("user.html", client_1=CLIENT_1, email=email)
     else:
         flash("You are not logged in", "info")
         return redirect(url_for("login"))
@@ -113,7 +113,7 @@ def logout():
 
 @app.route("/test")
 def test():
-    return render_template("test.html", info=get_info())
+    return render_template("test.html", client_1=CLIENT_1)
 
 
 if __name__ == "__main__":
