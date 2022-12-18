@@ -3,7 +3,7 @@ body #body-container {
 }
 
 body #body-container .container-fluid .bg-images {
-    background-image: image("url('../images/image-4.jpg')#xywh=640,427,1280,853");
+    background-image: url('../images/image-4.jpg');
 }
 
 body #thumbs-container {
