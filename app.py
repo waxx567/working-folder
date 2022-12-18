@@ -103,7 +103,6 @@ def test():
 
 def get_info(info):
     for item in info:
-        store_params = {}
         key = item.lower()
         value = item
         params = f"{key}={value}"
