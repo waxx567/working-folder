@@ -51,8 +51,7 @@ body #thumbs-container img {
 
 body #footer {
     height: 15px;
-    background-image: url('../images/image-2.jpg');
-    background-repeat: repeat;
+    background-color: #337a52;
     text-align: center;
 }
 
