@@ -17,22 +17,6 @@ CLIENT_2 = "web designs"
 BUILDER = "fivefiftyfive web design"
 YEAR = "2022"
 
-'''
-info = [CLIENT, CLIENT_1, CLIENT_2, BUILDER]
-
-
-def get_info(info):
-    for item in info:
-        key = item.lower()
-        value = item
-        params = f"{key}={value}"
-        print(params)
-        all_params = []
-        all_params = all_params.append(params)
-
-    print(all_params)
-    return all_params'''
-
 
 class users(db.Model):
     _id = db.Column("id", db.Integer, primary_key=True)
