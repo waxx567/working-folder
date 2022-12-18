@@ -9,6 +9,10 @@ body #body-container {
     background-repeat: no-repeat;
 }
 
+.d-flex button {
+    color: #45f192;
+}
+
 #showcase .showcase-container {
     outline: 2px solid black;
     background-size: 100%;
