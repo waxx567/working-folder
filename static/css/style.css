@@ -5,7 +5,7 @@ body #body-container {
 }
 
 body #body-container .bg-image {
-    background-image: image("{{ url_for('.static', filename='images/image-4.jpg) }}#xywh=160, 120, 1280, 853");
+    background-image: image("url('.static', filename='images/image-4.jpg') }}#xywh=160, 120, 1280, 853");
 }
 
 body #thumbs-container {
