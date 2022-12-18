@@ -4,6 +4,10 @@ body #body-container {
     display: flex;
 }
 
+body #body-container .bg-image {
+    background-image: image("{{ url_for('.static', filename='images/image-4.jpg) }}#xywh=160, 120, 1280, 853");
+}
+
 body #thumbs-container {
     display: flex;
     justify-content: space-around;
