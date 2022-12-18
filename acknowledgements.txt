@@ -3,3 +3,4 @@ image-1.jpg: Photo by Pixabay: https://www.pexels.com/photo/technology-computer-
 image-2.jpg: Photo by Pixabay "image-2.jpg" originally "pexels-pixabay-531880.jpg"
 image-3.jpg: Photo by John Petalcurin: https://www.pexels.com/photo/close-up-photo-of-gaming-keyboard-2115257/
 image-4.jpg: Photo by Josh Sorenson: https://www.pexels.com/photo/apple-magic-keyboard-with-numeric-pad-on-table-near-wireless-mouse-1714205/
+image-7.jpg: Photo by Riccardo Bertolo: https://www.pexels.com/photo/blue-sea-under-blue-sky-4245826/
