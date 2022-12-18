@@ -4,7 +4,7 @@ body #body-container {
 }
 
 [class*="bg-dark"] {
-    outline: 2px solid black;
+    outline: 2px solid #a5c4a5;
     background-image: url('../images/image-2.jpg');
     background-repeat: no-repeat;
 }
