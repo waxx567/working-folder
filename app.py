@@ -10,7 +10,9 @@ app.permanent_session_lifetime = timedelta(minutes=5)
 
 db = SQLAlchemy(app)
 
-CLIENT, CLIENT_1, CLIENT_2 = "fivefiftyfive web designs", "fivefiftyfive", "web designs"
+CLIENT = "fivefiftyfive web designs"
+CLIENT_1 = "fivefiftyfive"
+CLIENT_2 = "web designs"
 
 BUILDER = "fivefiftyfive web designs"
 
