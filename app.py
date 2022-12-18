@@ -15,6 +15,7 @@ CLIENT_1 = "fivefiftyfive"
 CLIENT_2 = "web designs"
 
 BUILDER = "fivefiftyfive web designs"
+YEAR = "2022"
 
 '''
 info = [CLIENT, CLIENT_1, CLIENT_2, BUILDER]
@@ -45,12 +46,12 @@ class users(db.Model):
 
 @app.route("/")
 def home():
-    return render_template("index.html", client_1=CLIENT_1)
+    return render_template("index.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, year=YEAR, builder=BUILDER)
 
 
 @app.route("/view")
 def view():
-    return render_template("view.html", client_1=CLIENT_1, values=users.query.all())
+    return render_template("view.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, year=YEAR, builder=BUILDER, values=users.query.all())
 
 
 @app.route("/login", methods=["POST", "GET"])
@@ -75,7 +76,7 @@ def login():
             flash("You are already logged in")
             return redirect(url_for("user"))
 
-        return render_template("login.html", client_1=CLIENT_1)
+        return render_template("login.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, year=YEAR, builder=BUILDER)
 
 
 @app.route("/user", methods=["POST", "GET"])
@@ -95,7 +96,7 @@ def user():
             if "email" in session:
                 email = session["email"]
 
-        return render_template("user.html", client_1=CLIENT_1, email=email)
+        return render_template("user.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, year=YEAR, builder=BUILDER, email=email)
     else:
         flash("You are not logged in", "info")
         return redirect(url_for("login"))
@@ -113,7 +114,7 @@ def logout():
 
 @app.route("/test")
 def test():
-    return render_template("test.html", client_1=CLIENT_1)
+    return render_template("test.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, year=YEAR, builder=BUILDER)
 
 
 if __name__ == "__main__":
