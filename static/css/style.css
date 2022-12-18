@@ -4,7 +4,7 @@ body #body-container {
     display: flex;
 }
 
-body #body-container .bg-image {
+body #body-container .container-fluid .bg-image {
     background-image: url('static/images/image-4.jpg');
 }
 
