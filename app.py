@@ -89,6 +89,11 @@ def logout():
     return redirect(url_for("login"))
 
 
+@app.route("/test")
+def test():
+    return render_template("test.html")
+
+
 if __name__ == "__main__":
     with app.app_context():
         db.create_all()
