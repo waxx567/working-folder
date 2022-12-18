@@ -10,7 +10,7 @@ body #body-container {
     outline: 2px solid black;
     background-size: 100%;
     padding: 20em;
-    background-image: url('../images/image-3.jpg');
+    background-image: url('../images/image-2.jpg');
     background-repeat: no-repeat;
     /*background-position: top 20px left 50px, bottom right;*/
 }
