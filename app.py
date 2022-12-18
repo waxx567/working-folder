@@ -26,7 +26,7 @@ def get_info():
         return params
 
 
-INFO = get_info(info)
+INFO = get_info()
 
 
 class users(db.Model):
