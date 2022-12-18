@@ -4,6 +4,7 @@ body #body-container {
 
 [class*="bg-dark"] {
     background-image: url('../images/image-7.jpg');
+    background-repeat: no-repeat;
 }
 
 #showcase .showcase-container {
@@ -18,7 +19,9 @@ body #body-container {
 body #thumbs-container {
     background-color: #a5c4a5;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-image: url('../images/image-8.jpg');
+    background-repeat: no-repeat;
 
 }
 
