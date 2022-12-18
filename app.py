@@ -25,8 +25,8 @@ def get_info():
         key = item.lower()
         value = item
         params = f"{key}={value}"
-        return params
         print(params)
+        return params
 
 
 INFO = get_info()
