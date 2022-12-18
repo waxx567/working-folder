@@ -1,7 +1,5 @@
 body #body-container {
     background-color: #ddecdb;
-
-    display: flex;
 }
 
 body #body-container .container-fluid .bg-images {
