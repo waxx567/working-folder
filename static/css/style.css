@@ -2,11 +2,11 @@ body #body-container {
     background-color: #337a52;
 }
 
-[class*="bg-"] {
+[class*="bg-dark"] {
     background-image: url('../images/image-7.jpg');
 }
 
-body #showcase .bgr-container {
+body #showcase .bg-container {
     outline: 2px solid black;
     /*background-size: 100%;*/
     padding: 20em;
