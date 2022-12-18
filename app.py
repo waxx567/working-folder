@@ -18,15 +18,6 @@ BUILDER = "fivefiftyfive web designs"
 info = [CLIENT, CLIENT_1, CLIENT_2, BUILDER]
 
 
-def get_info(info):
-    for item in info:
-        store_params = {}
-        key = item.lower()
-        value = item
-        params = f"{key}={value}"
-        return params
-
-
 class users(db.Model):
     _id = db.Column("id", db.Integer, primary_key=True)
     name = db.Column(db.String(100))
@@ -108,6 +99,15 @@ def logout():
 @app.route("/test")
 def test():
     return render_template("test.html", info=get_info())
+
+
+def get_info(info):
+    for item in info:
+        store_params = {}
+        key = item.lower()
+        value = item
+        params = f"{key}={value}"
+        return params
 
 
 if __name__ == "__main__":
