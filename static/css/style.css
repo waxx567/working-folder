@@ -5,6 +5,7 @@ body #body-container {
 [class*="bg-"] {
     background-image: url('../images/image-7.jpg');
 }
+
 body #showcase .bgr-container {
     outline: 2px solid black;
     /*background-size: 100%;*/
