@@ -1,5 +1,5 @@
 body #body-container {
-    background-image: url('../images/image-8.jpg');
+    background-image: url('../images/image-2.jpg');
     background-repeat: repeat;
 }
 
@@ -21,7 +21,7 @@ body #thumbs-container {
     background-color: #a5c4a5;
     display: flex;
     justify-content: space-between;
-    background-image: url('../images/image-8.jpg');
+    background-image: url('../images/image-2.jpg');
     background-repeat: repeat;
 
 }
