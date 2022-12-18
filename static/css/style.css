@@ -8,7 +8,7 @@ body #body-container .container-fluid .bg-images {
     padding: 20em;
     background-image: url('../images/image-5.jpg'), url('../images/image-3.jpg');
     background-repeat: no-repeat, no-repeat;
-    background-position: top 20px left 50px, bottom 20px right 50px;
+    background-position: top 20px left 50px, bottom right;
 }
 
 body #thumbs-container {
