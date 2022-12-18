@@ -2,6 +2,10 @@ body #body-container {
     background-color: #ddecdb;
 }
 
+[class*="bg-"] {
+    background-image: url('../images/image-5.jpg');
+}
+
 body #body-container .container-fluid .bg-images {
     outline: 2px solid black;
     /*background-size: 100%;*/
