@@ -45,12 +45,12 @@ body #thumbs-container img {
 
 }
 
-.nav-item {
+.base-font {
     color: #337a52;
 }
 
-.base-font {
-    color: #337a52;
+.base-dark-font {
+    color: #1c5a37;
 }
 
 .base-bright-font {
