@@ -9,7 +9,7 @@ body #body-container .container-fluid .bg-images {
     background-image: url('../images/image-5.jpg');
     background-repeat: no-repeat;
 
-    background-position: center right;
+    background-position: top 20px right 50px;
 }
 
 body #thumbs-container {
