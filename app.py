@@ -14,8 +14,17 @@ CLIENT, CLIENT_1, CLIENT_2 = "fivefiftyfive web designs", "fivefiftyfive", "web 
 
 BUILDER = "fivefiftyfive web designs"
 
-site_info = {CLIENT: "client", CLIENT_1: "client_1",
-             CLIENT_2: "client_2", BUILDER: "builder"}
+
+site_info = [CLIENT, CLIENT_1, CLIENT_2, BUILDER]
+
+
+def get_site_info(site_info):
+    for item in site_info:
+        store_params = {}
+        key = item.lower()
+        value = item
+        params = f"{key}={value}"
+        return params
 
 
 class users(db.Model):
@@ -30,12 +39,12 @@ class users(db.Model):
 
 @app.route("/")
 def home():
-    return render_template("index.html", site_info=site_info)
+    return render_template("index.html", site_info=get_site_info())
 
 
 @app.route("/view")
 def view():
-    return render_template("view.html", site_info=site_info, values=users.query.all())
+    return render_template("view.html", site_info=get_site_info(), values=users.query.all())
 
 
 @app.route("/login", methods=["POST", "GET"])
@@ -60,7 +69,7 @@ def login():
             flash("You are already logged in")
             return redirect(url_for("user"))
 
-        return render_template("login.html", site_info=site_info)
+        return render_template("login.html", site_info=get_site_info())
 
 
 @app.route("/user", methods=["POST", "GET"])
@@ -80,7 +89,7 @@ def user():
             if "email" in session:
                 email = session["email"]
 
-        return render_template("user.html", site_info=site_info, email=email)
+        return render_template("user.html", site_info=get_site_info(), email=email)
     else:
         flash("You are not logged in", "info")
         return redirect(url_for("login"))
@@ -98,7 +107,7 @@ def logout():
 
 @app.route("/test")
 def test():
-    return render_template("test.html", site_info=site_info)
+    return render_template("test.html", site_info=get_site_info())
 
 
 if __name__ == "__main__":
