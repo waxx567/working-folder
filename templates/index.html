@@ -1,8 +1,9 @@
 {% extends 'layout.html' %}{% block title %}Home page{% endblock title %}{%block
 content %}
 <!-- BODY CODE STARTS HERE -->
-<h5>Home page</h5>
-<img
+<div class="bg-image">
+    <h5>Home page</h5>
+</div>
   src="{{ url_for('.static', filename='images/image-4.jpg')}}"
   class="img-fluid"
   alt="Background Image"
