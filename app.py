@@ -15,7 +15,7 @@ CLIENT, CLIENT_1, CLIENT_2 = "fivefiftyfive web designs", "fivefiftyfive", "web 
 BUILDER = "fivefiftyfive web designs"
 
 site_info = {CLIENT: "client", CLIENT_1: "client_1",
-             CLIENT_2: "client_2", BUILDER: "builder="}
+             CLIENT_2: "client_2", BUILDER: "builder"}
 
 
 class users(db.Model):
