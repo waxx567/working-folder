@@ -3,6 +3,7 @@ body #body-container {
 }
 
 body #body-container .container-fluid .bg-images {
+    outline: 2px solid black;
     padding: 20em;
     background-image: url('../images/image-4.jpg');
     background-repeat: no-repeat;
