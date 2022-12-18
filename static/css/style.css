@@ -6,7 +6,7 @@ body #body-container .container-fluid .bg-images {
     outline: 2px solid black;
     /*background-size: 100%;*/
     padding: 20em;
-    background-image: url('../images/image-5.jpg');
+    background-image: url('../images/image-5.jpg'), url('../images/image-3.jpg');
     background-repeat: no-repeat;
 
     background-position: top 20px right 50px;
