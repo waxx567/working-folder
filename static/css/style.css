@@ -1,5 +1,5 @@
 body #body-container {
-    background-color: #ddecdb;
+    background-color: #337a52;
 }
 
 [class*="bg-"] {
@@ -16,7 +16,7 @@ body #body-container .container-fluid .bg-images {
 }
 
 body #thumbs-container {
-    background-color: #337a52;
+    background-color: #a5c4a5;
     display: flex;
     justify-content: space-around;
 
@@ -24,7 +24,7 @@ body #thumbs-container {
 
 body #thumbs-container .thumb {
     width: 30%;
-    background-color: #a5c4a5;
+    background-color: #748379;
 
     text-align: center;
 
