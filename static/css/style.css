@@ -16,6 +16,7 @@ body #body-container .container-fluid .bg-images {
 }
 
 body #thumbs-container {
+    background-color: #337a52;
     display: flex;
     justify-content: space-around;
 
