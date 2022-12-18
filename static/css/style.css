@@ -50,7 +50,10 @@ body #thumbs-container img {
 }
 
 body #footer {
-    height: ;
+    height: 15px;
+    background-image: url('../images/image-2.jpg');
+    background-repeat: repeat;
+    text-align: center;
 }
 
 .bold-font {
