@@ -50,7 +50,9 @@ body #thumbs-container img {
 }
 
 .footer {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bg-dark a {
