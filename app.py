@@ -26,6 +26,7 @@ def get_info():
         value = item
         params = f"{key}={value}"
         return params
+        print(params)
 
 
 INFO = get_info()
