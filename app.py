@@ -14,7 +14,7 @@ CLIENT = "fivefiftyfive web designs"
 CLIENT_1 = "fivefiftyfive"
 CLIENT_2 = "web designs"
 
-BUILDER = "fivefiftyfive web designs"
+BUILDER = "fivefiftyfive web design"
 YEAR = "2022"
 
 '''
