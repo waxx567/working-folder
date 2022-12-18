@@ -18,6 +18,17 @@ BUILDER = "fivefiftyfive web designs"
 info = [CLIENT, CLIENT_1, CLIENT_2, BUILDER]
 
 
+def get_info():
+    for item in info:
+        key = item.lower()
+        value = item
+        params = f"{key}={value}"
+        return params
+
+
+INFO = get_info(info)
+
+
 class users(db.Model):
     _id = db.Column("id", db.Integer, primary_key=True)
     name = db.Column(db.String(100))
@@ -30,7 +41,7 @@ class users(db.Model):
 
 @app.route("/")
 def home():
-    return render_template("index.html", info=get_info())
+    return render_template("index.html", info=INFO)
 
 
 @app.route("/view")
@@ -99,14 +110,6 @@ def logout():
 @app.route("/test")
 def test():
     return render_template("test.html", info=get_info())
-
-
-def get_info(info):
-    for item in info:
-        key = item.lower()
-        value = item
-        params = f"{key}={value}"
-        return params
 
 
 if __name__ == "__main__":
