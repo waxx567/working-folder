@@ -19,6 +19,7 @@ body #body-container {
 }
 
 body #thumbs-container {
+    outline: 2px solid black;
     background-color: #a5c4a5;
     background-image: url('../images/image-2.jpg');
     background-repeat: repeat;
