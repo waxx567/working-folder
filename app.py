@@ -10,6 +10,13 @@ app.permanent_session_lifetime = timedelta(minutes=5)
 
 db = SQLAlchemy(app)
 
+CLIENT, CLIENT_1, CLIENT_2 = "fivefiftyfive web designs", "fivefiftyfive", "web designs"
+
+BUILDER = "fivefiftyfive web designs"
+
+site_info = ["client=CLIENT", "client_1=CLIENT_1",
+             "client_2=CLIENT_2", "builder=BUILDER"]
+
 
 class users(db.Model):
     _id = db.Column("id", db.Integer, primary_key=True)
