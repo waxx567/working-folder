@@ -5,7 +5,7 @@ body #body-container {
 }
 
 body #body-container .container-fluid .bg-images {
-    background-image: url('../images/image-4.jpg'), no-repeat;
+    background-image: url('../images/image-4.jpg');
 }
 
 body #thumbs-container {
