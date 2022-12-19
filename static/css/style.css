@@ -136,7 +136,7 @@ span:hover {
 
 .thumbs-container img {
     margin: 0;
-    padding: 0;
+    padding: 0px 5px 0px 0px;
     width: 30%;
 
 }
