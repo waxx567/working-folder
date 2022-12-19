@@ -64,6 +64,11 @@ body .thumbs-container img {
     text-decoration: none;
 }
 
+.cushion {
+    margin: 5px;
+    
+}
+
 .base-font {
     color: #337a52;
 }
