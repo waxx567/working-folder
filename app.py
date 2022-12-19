@@ -86,11 +86,6 @@ def user():
         return redirect(url_for("login"))
 
 
-@app.route("/products")
-def products():
-    return render_template("prdct001.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, year=YEAR, builder=BUILDER)
-
-
 @app.route("/logout")
 def logout():
     if "user" in session:
@@ -99,6 +94,11 @@ def logout():
     session.pop("user", None)
     session.pop("email", None)
     return redirect(url_for("login"))
+
+
+@app.route("/products")
+def products():
+    return render_template("prdct001.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, year=YEAR, builder=BUILDER)
 
 
 @app.route("/test")
