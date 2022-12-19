@@ -52,6 +52,10 @@ body .thumbs-container img {
 
 }
 
+footer {
+    margin: 10px 0px 0px 0px;
+}
+
 .footer {
     padding: 8px 0px 0px 0px;
     display: flex;
