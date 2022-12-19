@@ -103,7 +103,7 @@ body {
     align-items: center;
 }
 
-.highlight a:hover {
+.highlight-hover a:hover {
     color: #000555;
 }
 .margin-padding-10 {
