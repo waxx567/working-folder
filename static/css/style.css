@@ -42,7 +42,6 @@ body {
 /* Header and footer */
 [class*="bg-dark"] {
     outline: 2px solid #337a52;
-    background-color: none;
     /*background-image: url('../images/image-9.jpg');*/
     background-repeat: repeat;
 
