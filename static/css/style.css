@@ -7,6 +7,8 @@ body {
 .box {
     background-color: pink;
     width: 300px;
+
+    margin: 20px;
 }
 
 /* Header and footer */
