@@ -57,6 +57,10 @@ body {
     width: 65%;
 }
 
+.container-fluid a:hover {
+    color: #66ff33;
+}
+
 .d-flex button {
     color: #728472;
 }
