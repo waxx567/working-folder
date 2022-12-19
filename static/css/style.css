@@ -30,6 +30,7 @@ body {
 }
 
 body .thumbs-container {
+    padding: 10px 0px 10px 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -50,10 +51,6 @@ body .thumbs-container img {
     padding: 0;
     width: 30%;
 
-}
-
-footer {
-    padding: 10px 0px 0px 0px;
 }
 
 .footer {
