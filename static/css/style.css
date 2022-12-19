@@ -13,7 +13,7 @@ body {
     color: #ddecdb;
 }
 
-#showcase .showcase-container {
+#showcase {
     outline: 2px solid #337a52;
     background-size: 100%;
     padding: 20em;
