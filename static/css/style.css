@@ -1,3 +1,7 @@
+.bg-dark a {
+    text-decoration: none;
+}
+
 body {
     background-color: #728472;
     width: 100%;
@@ -35,6 +39,12 @@ body {
     padding: 30px 0px 50px 50px;
 }
 
+
+.cushion {
+    margin: 10px;
+
+}
+
 /* Header and footer */
 [class*="bg-dark"] {
     outline: 2px solid #337a52;
@@ -57,17 +67,25 @@ body {
     color: #728472;
 }
 
+.footer {
+    outline: 2px solid #337a52;
+    padding: 8px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .showcase {
     padding: 112px 11px 140px 112px;
 }
 
-body .thumbs-container {
+.thumbs-container {
     padding: 0px 0px 20px 0px;
     display: flex;
     justify-content: space-between;
 }
 
-body .thumbs-container .thumb {
+.thumbs-container .thumb {
     width: 30%;
 
     text-align: center;
@@ -78,29 +96,13 @@ body .thumbs-container .thumb {
     
 }
 
-body .thumbs-container img {
+.thumbs-container img {
     margin: 0;
     padding: 0;
     width: 30%;
 
 }
 
-.footer {
-    outline: 2px solid #337a52;
-    padding: 8px 0px 0px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.bg-dark a {
-    text-decoration: none;
-}
-
-.cushion {
-    margin: 10px;
-
-}
 
 .base-font {
     color: #337a52;
