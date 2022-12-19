@@ -86,6 +86,11 @@ def user():
         return redirect(url_for("login"))
 
 
+@app.route("/products")
+def products():
+    return render_template("prdct001.html")
+
+
 @app.route("/logout")
 def logout():
     if "user" in session:
