@@ -31,8 +31,8 @@ body #thumbs-container .thumb {
 }
 
 body #thumbs-container img {
+    margin: 0;
     width: 30%;
-    background-color: none;
 
 }
 
