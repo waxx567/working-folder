@@ -22,6 +22,7 @@ body {
 }
 
 .box:nth-of-type(2) h3 {
+    margin-top: 0;
     padding: 0px 0px 0px 50px;
 }
 
