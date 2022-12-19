@@ -4,6 +4,10 @@ body {
     background-repeat: no-repeat;
 }
 
+h3 {
+    padding-left: 1px;
+}
+
 [class*="bg-dark"] {
     outline: 2px solid #337a52;
     background-image: url('../images/image-2.jpg');
