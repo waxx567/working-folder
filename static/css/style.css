@@ -1,5 +1,5 @@
 body #body-container {
-    background-image: url('./images/image-2.jpg');
+    background-image: url('../images/image-2.jpg');
     background-repeat: repeat;
 }
 
@@ -44,7 +44,7 @@ body #thumbs-container .thumb {
     
 }
 
-body #thumbs-container image {
+body #thumbs-container img {
     width: 30%;
     background-color: #ddecdb;
 
