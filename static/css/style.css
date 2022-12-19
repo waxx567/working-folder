@@ -13,8 +13,8 @@ body {
     background-position: center;
 }
 
-span:hover {
-    color: blue;
+body span:hover {
+    color: #436255;
 }
 
 .box {

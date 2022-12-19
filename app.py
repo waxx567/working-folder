@@ -88,7 +88,7 @@ def user():
 
 @app.route("/products")
 def products():
-    return render_template("prdct001.html")
+    return render_template("prdct001.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, year=YEAR, builder=BUILDER)
 
 
 @app.route("/logout")

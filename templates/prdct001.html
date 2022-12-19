@@ -4,7 +4,28 @@
 <!-- Body -->
 <!-- Header -->
 <!-- Showcase -->
-{%block showcase%} {%endblock%}
+{%block showcase%}
+<section class="showcase">
+  <div class="showcase-container">
+    <!-- .box:nth-of-type(1) -->
+    <div class="box">
+      <h1 class="font-color-white font-bold">experience</h1>
+    </div>
+    <!-- .box:nth-of-type(2) -->
+    <div class="box">
+      <h3 class="font-color-bright">{{ client_1 }}</h3>
+    </div>
+    <!-- .box:nth-of-type(3) -->
+    <div class="box">
+      <p class="font-color-white">
+        Morbi efficitur eros eros, ut posuere neque facilisis. Suspendisse non
+        elementum magna, pretium efficitur ex. Nulla func sapien leo, accumsan
+        vitae.
+      </p>
+    </div>
+  </div>
+</section>
+{%endblock%}
 <!-- Content -->
 {%block content %}
 <!-- Thumbnails -->
