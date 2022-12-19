@@ -44,6 +44,8 @@ body {
     outline: 2px solid #337a52;
     background-image: url('../images/image-9.jpg');
     background-repeat: repeat;
+
+    background-position: top center;
 }
 
 .col-35 aside {
