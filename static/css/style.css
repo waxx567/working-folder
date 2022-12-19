@@ -19,6 +19,16 @@ body {
     padding: 0px 11px 0px 11px;
 }
 
+.col-35 {
+    float: right;
+    width: 35%;
+}
+
+.col-65 {
+    float: left;
+    width: 65%;
+}
+
 body .thumbs-container {
     display: flex;
     justify-content: space-between;
