@@ -17,6 +17,7 @@ body {
 }
 
 .box:nth-of-type(1) h1 {
+    margin-bottom: 0;
     padding: 50px 0px 0px 50px;
 }
 
