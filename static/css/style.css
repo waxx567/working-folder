@@ -1,3 +1,7 @@
+a:hover {
+    color: blue;
+}
+
 .bg-dark a {
     text-decoration: none;
 }
@@ -103,9 +107,6 @@ body {
     align-items: center;
 }
 
-.highlight-hover a:hover {
-    color: #000555;
-}
 .margin-padding-10 {
     margin: 10px;
     padding: 10px;
