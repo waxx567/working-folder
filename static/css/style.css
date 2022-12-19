@@ -39,6 +39,10 @@ body {
     text-align: left;
 }
 
+.box:nth-of-type(4) {
+    align-items: right;
+})
+
 /* Header and footer */
 [class*="bg-dark"] {
     outline: 2px solid #337a52;
