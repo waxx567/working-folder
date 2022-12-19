@@ -1,13 +1,13 @@
 body {
     width: 100%;
-    background-image: url('../images/image-2.jpg');
+    background-image: url('../images/image-9.jpg');
     background-repeat: repeat;
 }
 
 /* Header and footer */
 [class*="bg-dark"] {
     outline: 2px solid #337a52;
-    background-image: url('../images/image-2.jpg');
+    background-image: url('../images/image-9.jpg');
     background-repeat: repeat;
 }
 
