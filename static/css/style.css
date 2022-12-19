@@ -87,7 +87,7 @@ body span:hover {
 }
 
 .showcase {
-    outline: 2px solid yellow;
+    outline: 5px solid yellow;
     padding: 112px 11px 140px 112px;
 }
 
@@ -118,7 +118,7 @@ body span:hover {
 }
 
 .showcase-container {
-    outline: 2px solid tomato;
+    outline: 5px solid tomato;
 }
 
 .thumbs-container {
