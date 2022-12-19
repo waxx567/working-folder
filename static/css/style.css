@@ -31,6 +31,7 @@ body {
 }
 
 .box:nth-of-type(4) p {
+    padding: 15px;
     text-align: left;
 }
 
