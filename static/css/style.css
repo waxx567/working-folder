@@ -121,7 +121,7 @@ body span:hover {
     outline: 5px solid black;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .thumbs-container {
