@@ -15,7 +15,6 @@ body {
 }
 
 body #thumbs-container {
-    background-color: #337a52;
     display: flex;
     justify-content: space-between;
 }
