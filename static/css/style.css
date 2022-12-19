@@ -4,10 +4,7 @@ body {
     background-repeat: no-repeat;
 }
 
-h3 {
-    padding-left: 1px;
-}
-
+/* Header and footer */
 [class*="bg-dark"] {
     outline: 2px solid #337a52;
     background-image: url('../images/image-2.jpg');
@@ -16,6 +13,10 @@ h3 {
 
 .d-flex button {
     color: #ddecdb;
+}
+
+#showcase h3 {
+    padding-left: 11px;
 }
 
 body #thumbs-container {
