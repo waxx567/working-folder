@@ -15,16 +15,16 @@ body {
     color: #728472;
 }
 
-#showcase {
+.showcase {
     padding: 0px 11px 0px 11px;
 }
 
-body #thumbs-container {
+body .thumbs-container {
     display: flex;
     justify-content: space-between;
 }
 
-body #thumbs-container .thumb {
+body .thumbs-container .thumb {
     width: 30%;
 
     text-align: center;
@@ -35,7 +35,7 @@ body #thumbs-container .thumb {
     
 }
 
-body #thumbs-container img {
+body .thumbs-container img {
     margin: 0;
     padding: 0;
     width: 30%;
