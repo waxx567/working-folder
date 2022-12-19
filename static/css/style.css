@@ -87,7 +87,7 @@ body span:hover {
 }
 
 .showcase {
-    outline: 5px solid yellow;
+    border: 5px solid yellow;
     padding: 112px 11px 140px 112px;
 }
 
