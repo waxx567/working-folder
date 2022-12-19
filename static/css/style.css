@@ -57,7 +57,7 @@ body {
     width: 65%;
 }
 
-.container-fluid a:hover {
+.container-fluid .navbar-brand a:hover {
     color: black;
 }
 
