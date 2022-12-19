@@ -35,15 +35,6 @@ body {
     padding: 30px 0px 50px 50px;
 }
 
-.box:nth-of-type(4) p {
-    padding: 15px;
-    text-align: left;
-}
-
-.box:nth-of-type(4) {
-    align-items: right;
-}
-
 /* Header and footer */
 [class*="bg-dark"] {
     outline: 2px solid #337a52;
@@ -95,6 +86,7 @@ body .thumbs-container img {
 }
 
 .footer {
+    outline: 2px solid #337a52;
     padding: 8px 0px 0px 0px;
     display: flex;
     justify-content: center;
