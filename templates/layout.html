@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../static/css/style.css" />
     {%block title%}{%endblock%}
   </head>
+  <!-- Body -->
   <body>
     <!-- Headline banner starts here -->
     <header>
@@ -31,6 +32,7 @@
             ><span class="font-color-grey"> web design</span></a
           >
           <!-- Navbar -->
+          <!-- Navbar toggler -->
           <button
             class="navbar-toggler"
             type="button"
@@ -43,6 +45,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Navbar elements -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <!-- First navbar link Products -->
               <li class="nav-item">
@@ -101,8 +104,8 @@
         </div>
       </nav>
     </header>
-    <!-- Body -->
-    {%block showcase%}{%endblock%}
+    <!-- Showcase -->
+    {%block showcase%}{%endblock%}{%block content%}
     <section class="body-container">
       <div class="container-fluid">{%block content%}{%endblock%}</div>
     </section>
@@ -135,4 +138,5 @@
       crossorigin="anonymous"
     ></script>
   </body>
+  {%endblock%}
 </html>
