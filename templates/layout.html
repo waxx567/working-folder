@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <!-- Head -->
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -108,9 +109,13 @@
     </header>
     <!-- Showcase -->
     {%block showcase%}{%endblock%}
-    <!-- Body content -->
     <section class="body-container">
-      <div class="container-fluid">{%block content%}{%endblock%}</div>
+      <div class="container-fluid">
+        <!-- Content -->
+        {%block content%}
+        <!-- Thumbnails -->
+        {%endblock%}
+      </div>
     </section>
     <!-- Footer -->
     <section>
