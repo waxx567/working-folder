@@ -6,6 +6,7 @@ body {
 
 .box {
     background-color: pink;
+    width: 300px;
 }
 
 /* Header and footer */
