@@ -21,9 +21,6 @@ body #thumbs-container {
 
 body #thumbs-container .thumb {
     width: 30%;
-    background-color: #748379;
-    background-image: url('../images/image-2.jpg');
-    background-repeat: repeat;
 
     text-align: center;
 
