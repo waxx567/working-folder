@@ -39,12 +39,6 @@ body {
     padding: 30px 0px 50px 50px;
 }
 
-
-.cushion {
-    margin: 10px;
-
-}
-
 /* Header and footer */
 [class*="bg-dark"] {
     outline: 2px solid #337a52;
@@ -63,8 +57,43 @@ body {
     width: 65%;
 }
 
+.cushion {
+    margin: 10px;
+
+}
+
 .d-flex button {
     color: #728472;
+}
+
+.font-color {
+    color: #337a52;
+}
+
+.font-color-dark {
+    color: #003300;
+    /* or 
+    color: #006600; */
+}
+
+.font-color-bright {
+    color: #45f192;
+}
+
+.font-color-grey {
+    color: #669999;
+}
+
+.font-grey {
+    color: #000555;
+}
+
+.font-color-white {
+    color: #ccffcc;
+}
+
+.font-white {
+    color: #ffffff;
 }
 
 .footer {
@@ -101,33 +130,4 @@ body {
     padding: 0;
     width: 30%;
 
-}
-
-
-.base-font {
-    color: #337a52;
-}
-
-.base-dark-font {
-    color: #104e2b;
-}
-
-.base-bright-font {
-    color: #45f192;
-}
-
-.base-grey-font {
-    color: #728472;
-}
-
-.grey-font {
-    color: #535e56;
-}
-
-.base-white-font {
-    color: #ddecdb;
-}
-
-.white-font {
-    color: #ffffff;
 }
