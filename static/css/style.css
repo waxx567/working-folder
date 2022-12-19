@@ -57,10 +57,6 @@ body {
     width: 65%;
 }
 
-header .container-fluid a:hover {
-    color: black;
-}
-
 .d-flex button {
     color: #728472;
 }
@@ -107,6 +103,9 @@ header .container-fluid a:hover {
     align-items: center;
 }
 
+.highlight a:hover {
+    color: #000555;
+}
 .margin-padding-10 {
     margin: 10px;
     padding: 10px;
