@@ -119,7 +119,9 @@ body span:hover {
 
 .showcase-container {
     outline: 5px solid black;
+
     display: flex;
+    justify-content: center;
 }
 
 .thumbs-container {
