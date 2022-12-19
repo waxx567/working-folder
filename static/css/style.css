@@ -19,12 +19,11 @@ body {
     padding: 0px 11px 0px 11px;
 }
 
-.col-35 {
+article .col-35 {
     float: right;
     width: 35%;
 }
-
-.col-65 {
+article .col-65 {
     float: left;
     width: 65%;
 }
