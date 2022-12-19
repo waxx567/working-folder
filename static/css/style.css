@@ -116,7 +116,14 @@ span:hover {
     padding: 112px 11px 140px 112px;
 }
 
-.thumb {
+.thumbs-container {
+    padding: 0px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbs-container .thumb {
     width: 30%;
 
     text-align: center;
@@ -125,13 +132,6 @@ span:hover {
     justify-content: center;
     align-items: center;
     
-}
-
-.thumbs-container {
-    padding: 0px 0px 20px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .thumbs-container img {
