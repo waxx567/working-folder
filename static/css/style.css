@@ -66,6 +66,10 @@ body {
     color: #728472;
 }
 
+.font-bold {
+    font-weight: bold;
+}
+
 .font-color {
     color: #337a52;
 }
