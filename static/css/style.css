@@ -1,6 +1,7 @@
 body {
+    background-size: 100%;
     background-image: url('../images/image-2.jpg');
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 }
 
 [class*="bg-dark"] {
@@ -11,15 +12,6 @@ body {
 
 .d-flex button {
     color: #ddecdb;
-}
-
-#showcase {
-    outline: 2px solid #337a52;
-    background-size: 100%;
-    padding: 20em;
-    background-image: url('../images/image-2.jpg');
-    background-repeat: no-repeat;
-    /*background-position: top 20px left 50px, bottom right;*/
 }
 
 body #thumbs-container {
