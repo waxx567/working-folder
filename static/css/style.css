@@ -19,11 +19,11 @@ body {
     padding: 0px 11px 0px 11px;
 }
 
-aside #col-35 {
+.col-35 aside {
     float: right;
     width: 35%;
 }
-article #col-65 {
+.col-65 article {
     float: left;
     width: 65%;
 }
