@@ -2,9 +2,9 @@
 >{%endblock%}{%block showcase%}
 <section class="showcase">
   <div class="showcase-container">
-    <h1 class="base-white-font">experience</h1>
-    <h3 class="base-bright-font">@{{ client_1 }}</h3>
-    <p class="base-white-font">
+    <h1 class="font-color-white">experience</h1>
+    <h3 class="font-color-bright">@{{ client_1 }}</h3>
+    <p class="font-color-white">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius
       leo a purus lacinia cursus sed non metus. Donec malesuada, dolor non
       condimentum efficitur, arcu mi mattis nisi, sit amet auctor lectus ante ut
@@ -17,7 +17,7 @@
       condimentum sollicitudin leo. Curabitur bibendum bibendum magna vel
       cursus.
     </p>
-    <p class="base-white-font">
+    <p class="font-color-white">
       Morbi efficitur eros eros, ut posuere neque facilisis a. Suspendisse non
       elementum magna, pretium efficitur ex. Nulla facilisi. Nunc sapien leo,
       accumsan eu vulputate eu, euismod sit amet urna. Sed accumsan nulla ac
@@ -27,41 +27,40 @@
   </div>
 </section>
 {%endblock%}{%block content %}
-<!-- BODY CODE STARTS HERE -->
+<!-- Body -->
 <div class="thumbs-container">
   <div class="thumb">
-    <h6 class="base-bright-font cushion">Websites</h6>
+    <h6 class="font-color-bright cushion">Websites</h6>
     <img
       src="{{ url_for('.static', filename='images/image-1.jpg')}}"
       class="img-thumbnail"
       alt="Thumbnail Image"
     />
-    <p class="base-white-font">
+    <p class="font-color-white">
       Et harum quidem rerum facilis est et expedita distinctio.
     </p>
   </div>
   <div class="thumb">
-    <h6 class="base-bright-font cushion">Design</h6>
+    <h6 class="font-color-bright cushion">Design</h6>
     <img
       src="{{ url_for('.static', filename='images/image-3.jpg')}}"
       class="img-thumbnail"
       alt="Thumbnail Image"
     />
-    <p class="base-white-font">
+    <p class="font-color-white">
       Quisque sagittis dolor congue elit malesuada convallis.
     </p>
   </div>
   <div class="thumb">
-    <h6 class="base-bright-font cushion">Hosting</h6>
+    <h6 class="font-color-bright cushion">Hosting</h6>
     <img
       src="{{ url_for('.static', filename='images/image-4.jpg')}}"
       class="img-thumbnail"
       alt="Thumbnail Image"
     />
-    <p class="base-white-font">
+    <p class="font-color-white">
       Duis vehicula tempus turpis, aliquet finibus sem volutpat.
     </p>
   </div>
 </div>
-<!-- BODY CODE ENDS HERE -->
 {%endblock%}
