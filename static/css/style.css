@@ -102,15 +102,15 @@ body span:hover {
 }
 
 .showcase-box:nth-of-type(1) h1 {
-    
+    margin: 0 auto;
 }
 
 .showcase-box:nth-of-type(2) h3 {
-    
+    margin: 0 auto;
 }
 
 .showcase-box:nth-of-type(3) p {
-
+    margin: 0 auto;
 }
 
 .showcase-container {
