@@ -120,6 +120,7 @@ body span:hover {
 
 .showcase-test {
     margin: 20px;
+    padding: 10px;
     display: flex;
     outline: 4px solid blue;
 }
