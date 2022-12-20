@@ -126,29 +126,30 @@ body span:hover {
     display: flex;
     */
     /*outline: 4px solid blue;*/
+
+    display: flex;
+    gap: 2rem;
+    border: 10px solid firebrick;
 }
 
 
-
+/*
 .showcase-test section {
-    /*
     padding: 50px 50px 50px 200px;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 75%;
     color: #ccffcc;
-    */
-}
+}*/
 /* Sidebar */
+/*
 .showcase-test aside {
-    /*
     padding: 50px 75px 50px 100px;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 25%;
     color: #ccffcc;
-    */
-}
+}*/
 /*
 .showcase-test aside h2 {
     flex-shrink: 0;
