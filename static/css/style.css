@@ -124,11 +124,12 @@ body span:hover {
 }
 
 .showcase-test section {
-    margin: 20px;
+    margin: 20px 10px 20px 20px;
     outline: 2px solid yellow;
 }
 
 .showcase-test aside {
+    margin: 20px 20px 20px 10px
     outline: 2px solid red;
 }
 
