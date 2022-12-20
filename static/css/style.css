@@ -129,7 +129,7 @@ body span:hover {
     padding: 10px;
     outline: 2px solid yellow;
 }
-
+/*
 .showcase-test section h1 {
     flex-shrink: 0;
 }
@@ -137,12 +137,12 @@ body span:hover {
 .showcase-test section p {
     flex-shrink: 0;
 }
-
+*/
 .showcase-test aside {
     padding: 5px 5px 5px 30px;
     outline: 2px solid red;
 }
-
+/*
 .showcase-test aside h2 {
     flex-shrink: 0;
 }
@@ -150,7 +150,7 @@ body span:hover {
 .showcase-test aside li {
     flex-shrink: 0;
 }
-
+*/
 .thumbs-container {
     padding: 0px 0px 20px 0px;
     display: flex;
