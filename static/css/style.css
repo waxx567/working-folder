@@ -99,7 +99,7 @@ body span:hover {
 
     /*margin: 20px;*/
     border: 2px solid blue;
-    text-align: right;
+    text-align: left;
 }
 
 .showcase-box:nth-of-type(1) h1 {
