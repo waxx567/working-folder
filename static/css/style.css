@@ -90,7 +90,6 @@ body span:hover {
 
 .showcase {
     border: 5px solid yellow;
-    padding: 112px 112px 140px 112px;
 }
 
 .showcase-box {
@@ -115,7 +114,7 @@ body span:hover {
 }
 
 .showcase-container {
-    width: 170%;
+    width: 70%;
     outline: 5px solid black;
 
 }
