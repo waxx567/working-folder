@@ -102,6 +102,7 @@ body span:hover {
 }
 
 .showcase-box:nth-of-type(1) h1 {
+    /* This margin: 0 auto; on all 3 is just so the class is not empty */
     margin: 0 auto;
 }
 
