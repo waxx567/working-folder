@@ -120,35 +120,34 @@ body span:hover {
 }
 
 .showcase-test {
+    /*
     margin: 20px;
     padding: 10px;
     display: flex;
+    */
     /*outline: 4px solid blue;*/
 }
 
+
+
 .showcase-test section {
+    /*
     padding: 50px 50px 50px 200px;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 75%;
     color: #ccffcc;
+    */
 }
-/*
-.showcase-test section h1 {
-    flex-shrink: 0;
-}
-
-.showcase-test section p {
-    flex-shrink: 0;
-}
-*/
 /* Sidebar */
 .showcase-test aside {
+    /*
     padding: 50px 75px 50px 100px;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 25%;
     color: #ccffcc;
+    */
 }
 /*
 .showcase-test aside h2 {
