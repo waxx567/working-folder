@@ -1,5 +1,13 @@
 /* Alphabetized except in instances where order of operations does not allow */
+/* Header and footer */
+[class*="bg-dark"] {
+    outline: 2px solid #337a52;
+    /*background-image: url('../images/image-9.jpg');*/
+    background-repeat: repeat;
 
+    background-position: top center;
+}
+/* Bootstrap header class */
 .bg-dark a {
     text-decoration: none;
 }
@@ -8,7 +16,7 @@ body {
     background-color: #728472;
     width: 100%;
     background-image: url('../images/image-9.jpg');
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-size: cover;
@@ -17,15 +25,6 @@ body {
 
 body span:hover {
     color: #728472;
-}
-
-/* Header and footer */
-[class*="bg-dark"] {
-    outline: 2px solid #337a52;
-    /*background-image: url('../images/image-9.jpg');*/
-    background-repeat: repeat;
-
-    background-position: top center;
 }
 
 .col-35 aside {
