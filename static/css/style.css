@@ -1,11 +1,13 @@
 /* Alphabetized except in instances where order of operations does not allow */
+
 /* Header and footer */
 [class*="bg-dark"] {
+    background-color: transparent;
     outline: 2px solid #337a52;
-    /*background-image: url('../images/image-9.jpg');*/
+    /*background-image: url('../images/image-9.jpg');
     background-repeat: repeat;
 
-    background-position: top center;
+    background-position: top center;*/
 }
 /* Bootstrap header class */
 .bg-dark a {
