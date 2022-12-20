@@ -91,6 +91,8 @@ body span:hover {
 .showcase {
     border: 5px solid yellow;
     padding: 112px 112px 140px 112px;
+    
+    opacity: 0.5;    
 }
 
 .showcase-box {
@@ -116,8 +118,6 @@ body span:hover {
 
 .showcase-container {
     outline: 5px solid black;
-
-    opacity: 0.5;    
 }
 
 .thumbs-container {
