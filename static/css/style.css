@@ -99,9 +99,6 @@ body span:hover {
 
     /*margin: 20px;*/
     border: 2px solid blue;
-    
-    display: flex;
-    justify-content: right;
     text-align: right;
 }
 
