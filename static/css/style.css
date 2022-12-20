@@ -130,7 +130,7 @@ body span:hover {
 }
 
 .showcase-test aside {
-    padding: 5px;
+    padding: 5px 5px 5px 10px;
     outline: 2px solid red;
 }
 
