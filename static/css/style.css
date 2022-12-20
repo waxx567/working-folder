@@ -142,8 +142,8 @@ body span:hover {
 */
 .showcase-test aside {
     padding: 50px 150px 50px 25px;
-    flex-grow: 1;
-    flex-shrink: 1;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 /*
 .showcase-test aside h2 {
