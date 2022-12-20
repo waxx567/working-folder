@@ -147,7 +147,7 @@ body span:hover {
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: 25%;
-    color: firebrick;
+    color: #669999;
 }
 /*
 .showcase-test aside h2 {
