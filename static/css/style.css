@@ -122,6 +122,15 @@ body span:hover {
 .showcase-test {
     display: flex;
 }
+
+.showcase-test section {
+    outline: 2px solid yellow;
+}
+
+.showcase-test aside {
+    outline: 2px solid red;
+}
+
 .thumbs-container {
     padding: 0px 0px 20px 0px;
     display: flex;
