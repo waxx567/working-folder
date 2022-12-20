@@ -120,6 +120,7 @@ body span:hover {
 }
 
 .showcase-test {
+    margin: 20px;
     display: flex;
 }
 
