@@ -129,7 +129,7 @@ body span:hover {
 .showcase-test section {
     padding: 50px 50px 50px 150px;
     flex-grow: 0;
-    flex-shrink: 1;
+    flex-shrink: 0;
 }
 /*
 .showcase-test section h1 {
