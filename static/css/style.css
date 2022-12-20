@@ -101,6 +101,7 @@ body span:hover {
     border: 2px solid blue;
     text-align: right;
 
+    opacity: 0.5;
 }
 
 .showcase-box:nth-of-type(1) h1 {
