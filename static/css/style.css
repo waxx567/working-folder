@@ -96,10 +96,12 @@ body span:hover {
 .showcase-box {
     /*background-color: brown;*/
     width: 1300px;
-
+    margin-left: auto;
+    margin-right: auto;
     /*margin: 20px;*/
     border: 2px solid blue;
     text-align: left;
+
 }
 
 .showcase-box:nth-of-type(1) h1 {
@@ -116,6 +118,8 @@ body span:hover {
 
 .showcase-container {
     outline: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .thumbs-container {
