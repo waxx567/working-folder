@@ -141,8 +141,9 @@ body span:hover {
     flex-shrink: 0;
 }
 */
+/* Sidebar */
 .showcase-test aside {
-    padding: 50px 150px 50px 25px;
+    padding: 50px 75px 50px 100px;
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: 25%;
