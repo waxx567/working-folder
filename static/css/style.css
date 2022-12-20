@@ -141,7 +141,7 @@ body span:hover {
 }
 */
 .showcase-test aside {
-    padding: 50px;
+    padding: 50px 150px 50px 50px;
     flex-grow: 1;
     flex-shrink: 1;
 }
