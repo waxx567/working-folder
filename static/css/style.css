@@ -132,6 +132,9 @@ body span:hover {
     border: 10px solid firebrick;
 }
 
+.showcase-test > * {
+    flex-basis: 100%;
+}
 
 /*
 .showcase-test section {
