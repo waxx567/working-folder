@@ -2,7 +2,6 @@
 
 /* Header and footer */
 [class*="bg-dark"] {
-    background-color: pink;
     outline: 2px solid #337a52;
     /*background-image: url('../images/image-9.jpg');
     background-repeat: repeat;
