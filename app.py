@@ -16,6 +16,7 @@ CLIENT_2 = "catfish"
 CLIENT_3 = "web designs"
 
 BUILDER = "fivefiftyfive"
+BUILDER_1 = "design"
 YEAR = "2022"
 
 
