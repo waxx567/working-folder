@@ -10,11 +10,12 @@ app.permanent_session_lifetime = timedelta(minutes=5)
 
 db = SQLAlchemy(app)
 
-CLIENT = "fivefiftyfive web designs"
-CLIENT_1 = "fivefiftyfive"
-CLIENT_2 = "web designs"
+CLIENT = "gaslit catfish web designs"
+CLIENT_1 = "gaslit"
+CLIENT_2 = "catfish"
+CLIENT_3 = "web designs"
 
-BUILDER = "fivefiftyfive web design"
+BUILDER = "gaslit catfish web design"
 YEAR = "2022"
 
 
@@ -60,7 +61,7 @@ def login():
             flash("You are already logged in")
             return redirect(url_for("user"))
 
-        return render_template("login.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, year=YEAR, builder=BUILDER)
+        return render_template("login.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, client_3=CLIENT_3, year=YEAR, builder=BUILDER)
 
 
 @app.route("/user", methods=["POST", "GET"])
@@ -80,7 +81,7 @@ def user():
             if "email" in session:
                 email = session["email"]
 
-        return render_template("user.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, year=YEAR, builder=BUILDER, email=email)
+        return render_template("user.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, client_3=CLIENT_3, year=YEAR, builder=BUILDER, email=email)
     else:
         flash("You are not logged in", "info")
         return redirect(url_for("login"))
@@ -98,12 +99,12 @@ def logout():
 
 @app.route("/products")
 def products():
-    return render_template("prdct001.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, year=YEAR, builder=BUILDER)
+    return render_template("prdct001.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, client_3=CLIENT_3, year=YEAR, builder=BUILDER)
 
 
 @app.route("/test")
 def test():
-    return render_template("test.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, year=YEAR, builder=BUILDER)
+    return render_template("test.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, client_3=CLIENT_3, year=YEAR, builder=BUILDER)
 
 
 if __name__ == "__main__":
