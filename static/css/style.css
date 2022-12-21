@@ -130,7 +130,7 @@ body span:hover {
     display: flex;
     gap: 2rem;
 
-    margin: 0;
+    margin: 20px;
     padding: 0;
     
 }
