@@ -32,12 +32,12 @@ class users(db.Model):
 
 @app.route("/")
 def home():
-    return render_template("index.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, year=YEAR, builder=BUILDER)
+    return render_template("index.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, year=YEAR, builder=BUILDER, builder_1=BUILDER_1)
 
 
 @app.route("/view")
 def view():
-    return render_template("view.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, year=YEAR, builder=BUILDER, values=users.query.all())
+    return render_template("view.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, year=YEAR, builder=BUILDER, builder_1=BUILDER_1, values=users.query.all())
 
 
 @app.route("/login", methods=["POST", "GET"])
@@ -62,7 +62,7 @@ def login():
             flash("You are already logged in")
             return redirect(url_for("user"))
 
-        return render_template("login.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, client_3=CLIENT_3, year=YEAR, builder=BUILDER)
+        return render_template("login.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, client_3=CLIENT_3, year=YEAR, builder=BUILDER, builder_1=BUILDER_1)
 
 
 @app.route("/user", methods=["POST", "GET"])
@@ -82,7 +82,7 @@ def user():
             if "email" in session:
                 email = session["email"]
 
-        return render_template("user.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, client_3=CLIENT_3, year=YEAR, builder=BUILDER, email=email)
+        return render_template("user.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, client_3=CLIENT_3, year=YEAR, builder=BUILDER, builder_1=BUILDER_1, email=email)
     else:
         flash("You are not logged in", "info")
         return redirect(url_for("login"))
@@ -100,12 +100,12 @@ def logout():
 
 @app.route("/products")
 def products():
-    return render_template("prdct001.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, client_3=CLIENT_3, year=YEAR, builder=BUILDER)
+    return render_template("prdct001.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, client_3=CLIENT_3, year=YEAR, builder=BUILDER, builder_1=BUILDER_1)
 
 
 @app.route("/test")
 def test():
-    return render_template("test.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, client_3=CLIENT_3, year=YEAR, builder=BUILDER)
+    return render_template("test.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, client_3=CLIENT_3, year=YEAR, builder=BUILDER, builder_1=BUILDER_1)
 
 
 if __name__ == "__main__":
