@@ -128,7 +128,7 @@ body span:hover {
     /*outline: 4px solid blue;*/
 
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
 
     margin: 20px;
     padding: 0;
