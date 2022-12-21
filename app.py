@@ -13,7 +13,7 @@ db = SQLAlchemy(app)
 CLIENT = "gaslitcatfish web designs"
 CLIENT_1 = "gaslit"
 CLIENT_2 = "catfish"
-CLIENT_3 = "web designs"
+CLIENT_3 = "designs"
 
 BUILDER = "fivefiftyfive"
 BUILDER_1 = "webworld"
