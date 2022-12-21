@@ -129,7 +129,6 @@ body span:hover {
 
     display: flex;
     gap: 2rem;
-    border: 10px solid firebrick;
 }
 
 .showcase-test > * {
