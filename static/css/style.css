@@ -177,8 +177,7 @@ body span:hover {
     width: 30%;
 
 }
-/* Thumbnail Container - header and boxes  */
-/* Thumbnail Box */
+/* Thumbnail box contains header and boxes  */
 .tn-box {
     /*background-color: #c8d7c8;*/
     margin: 10px;
