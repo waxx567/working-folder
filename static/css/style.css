@@ -213,8 +213,12 @@ body span:hover {
 
 .thumbnail h5 {
     /*border: 2px solid red;*/
+    display: flex;
+    justify-content: space-around;
 }
 
 .thumbnail p {
     /*border: 2px solid turquoise;*/
+    display: flex;
+    justify-content: space-around;
 }
