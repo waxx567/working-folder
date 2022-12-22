@@ -128,7 +128,7 @@ body span:hover {
     padding: 0;
     list-style: none;
 
-    outline: 2px solid pink;
+    outline: 2px solid magenta;
 }
 
 .showcase-test li {
