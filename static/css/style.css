@@ -190,6 +190,7 @@ body span:hover {
 
     display: flex;
 }
+/* Paragraph element inside header box */
 .tn-heading p {
     padding: 9px 0px 0px 20px; 
 }
