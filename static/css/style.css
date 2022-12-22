@@ -195,6 +195,7 @@ body span:hover {
 
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
 
     flex-basis: 100%;
     justify-content: space-around;
