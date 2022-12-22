@@ -215,12 +215,10 @@ body span:hover {
 .thumbnail {
     margin: 10px;
     padding: 10px;
-    /*background-color: #7fa38f;*/
-    outline: 1px solid #003300;
     border: 2px solid darkmagenta;
-    justify-content: space-around;
 }
-/* Every child of thumbnail class */
+/*
+/* Every child of thumbnail class 
 .thumbnail > * {
     outline: 2px solid #45f192;
 }
@@ -228,7 +226,7 @@ body span:hover {
     flex-basis: : 200px;
 }
 .thumbnail img {
-    /*border: 4px solid gold;*/
+    /*border: 4px solid gold;
     padding: 10px 0px 10px 0px;
 }
 .thumbnail h5 {
@@ -238,7 +236,7 @@ body span:hover {
 .thumbnail p {
     color: #0c6f6f;
 }
-/* Footer container */
+/* Footer container 
 .footer {
     outline: 2px solid #337a52;
     padding: 8px 0px 0px 0px;
@@ -246,3 +244,4 @@ body span:hover {
     justify-content: center;
     align-items: center;
 }
+*/
