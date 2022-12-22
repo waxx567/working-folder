@@ -179,7 +179,7 @@ body span:hover {
 }
 
 .sc-container {
-    margin: 50px;
+    margin: 50px 60px 40px 60px;
 }
 /* Thumbnail box contains header and boxes  */
 .tn-box {
