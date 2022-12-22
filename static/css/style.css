@@ -224,7 +224,6 @@ body span:hover {
 /* Every child of thumbnail class */
 .thumbnail > * {
     display: flex;
-    flex-wrap: wrap;
     gap: 1rem;
     outline: 2px solid #45f192;
     flex-shrink: 0;
