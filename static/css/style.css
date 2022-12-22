@@ -192,7 +192,7 @@ body span:hover {
  {
     padding: 25px 25px 0px 40px;
     /*color: #1a4a2f;*/
-    outline: 2px solid greenyellow;
+    border: 2px solid greenyellow;
 }
 /* Paragraph element inside header box */
 .tn-heading p {
@@ -210,7 +210,7 @@ body span:hover {
 
     flex-basis: 100%;
     justify-content: space-around;
-    outline: 2px solid orangered;
+    border: 2px solid goldenrod;
 }
 /* Image img, heading h5 and paragraph p */
 .thumbnail {
