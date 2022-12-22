@@ -201,6 +201,11 @@ body span:hover {
     justify-content: space-around;
 }
 
+.tn-box > *:nth-of-type(1)
+ {
+    padding: 25px 25px 15px 40px;
+}
+
 .thumbnail {
     margin: 10px;
     padding: 10px;
@@ -226,8 +231,4 @@ body span:hover {
 
 .thumbnail p {
     color: #669999;
-}
-
-.tn-box h3 {
-    padding: 25px 25px 15px 40px;
 }
