@@ -218,3 +218,7 @@ body span:hover {
     /*border: 4px solid gold;*/
     padding: 10px 0px 10px 0px;
 }
+
+.thumbnail p {
+    color: #2029a3
+}
