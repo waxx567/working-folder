@@ -177,7 +177,7 @@ body span:hover {
     width: 30%;
 
 }
-/* Thumbnail Container - heading and boxes  */
+/* Thumbnail Container - header and boxes  */
 /* Thumbnail Box */
 .tn-box {
     /*background-color: #c8d7c8;*/
@@ -194,6 +194,7 @@ body span:hover {
 .tn-heading p {
     padding: 9px 0px 0px 20px; 
 }
+/* Thumbnail Boxes */
 /* Container for Thumbnail Boxes */
 .tn-box > *:nth-of-type(2)
  {
