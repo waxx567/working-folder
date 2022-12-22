@@ -1,18 +1,4 @@
-/* Alphabetized except in instances where order of operations does not allow */
-
-/* Header and footer */
-[class*="bg-dark"] {
-    outline: 2px solid #337a52;
-    /*background-image: url('../images/image-9.jpg');
-    background-repeat: repeat;
-
-    background-position: top center;*/
-}
-/* Bootstrap header class */
-.bg-dark a {
-    text-decoration: none;
-}
-
+/* Body including header and footer */
 body {
     background-color: #728472;
     width: 100%;
@@ -24,6 +10,15 @@ body {
     background-position: top;
 }
 
+/* Header and footer */
+[class*="bg-dark"] {
+    outline: 2px solid #337a52;
+}
+/* Bootstrap header class */
+.bg-dark a {
+    text-decoration: none;
+}
+/* Highlight span elements when pointer hovers over them */
 body span:hover {
     color: #728472;
 }
