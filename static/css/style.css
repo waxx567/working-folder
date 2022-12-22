@@ -190,10 +190,6 @@ body span:hover {
 
 }
 
-.thumbnail {
-    border: 2px solid darkmagenta;
-}
-
 .thumbnail-container {
     border: 2px solid magenta;
     display: flex;
@@ -201,6 +197,10 @@ body span:hover {
 
     flex-basis: 100%;
     justify-content: space-between;
+}
+
+.thumbnail {
+    border: 2px solid darkmagenta;
 }
 
 .thumbnail img {
