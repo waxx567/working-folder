@@ -205,6 +205,9 @@ body span:hover {
     display: flex;
 }
 
+.tn-heading {
+    color: #669999;
+}
 .tn-heading p {
     padding: 9px 0px 0px 20px; 
 }
