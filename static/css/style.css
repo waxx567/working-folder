@@ -22,6 +22,10 @@ body {
 body span:hover {
     color: #728472;
 }
+/* Changes colour of text on header bar button */
+.d-flex button {
+    color: #728472;
+}
 /* Sidebar */
 .col-35 aside {
     float: right;
@@ -31,10 +35,6 @@ body span:hover {
 .col-65 article {
     float: left;
     width: 65%;
-}
-
-.d-flex button {
-    color: #728472;
 }
 
 .font-bold {
