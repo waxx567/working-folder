@@ -205,6 +205,10 @@ body span:hover {
     display: flex;
 }
 
+.tn-heading p {
+    padding: 10px 0px 0px 20px; 
+}
+
 /* Thumbnail Boxes */
 .tn-box > *:nth-of-type(2)
  {
