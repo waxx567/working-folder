@@ -127,7 +127,7 @@ body span:hover {
     gap: 3rem;
 
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
     
 }
 
