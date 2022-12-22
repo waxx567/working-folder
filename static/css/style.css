@@ -197,6 +197,7 @@ body span:hover {
 }
 /* Container for Thumbnail Header and Boxes */
 .thumbnails {
+    outline: 2px solid magenta;
     padding: 20px;
 }
 
