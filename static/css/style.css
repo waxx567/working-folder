@@ -27,7 +27,7 @@ body span:hover {
     float: right;
     width: 35%;
 }
-
+/* Main column adjacent sidebar */
 .col-65 article {
     float: left;
     width: 65%;
