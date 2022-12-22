@@ -220,5 +220,6 @@ body span:hover {
 }
 
 .thumbnail p {
-    color: #2029a3
+    color: #2029a3;
+    flex-wrap: wrap;
 }
