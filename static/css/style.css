@@ -190,16 +190,20 @@ body span:hover {
 
 }
 
-.thumbnail-container {
+/* Container for Thumbnail Header and Boxes */
+.tn-container {
     padding: 20px;
 
 }
 
+/* Thumbnail Header */
 .tn-box > *:nth-of-type(1)
  {
-    padding: 25px 25px 15px 40px;
+    padding: 25px 25px 0px 40px;
+    color: #889b88;
 }
 
+/* Thumbnail Boxes */
 .tn-box > *:nth-of-type(2)
  {
     padding: 10px 20px 20px 20px;
