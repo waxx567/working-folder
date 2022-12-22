@@ -215,7 +215,7 @@ body span:hover {
 .thumbnail {
     margin: 10px;
     padding: 10px;
-    background-color: #7fa38f;
+    /*background-color: #7fa38f;*/
     outline: 1px solid #003300;
     /*border: 2px solid darkmagenta;*/
 }
