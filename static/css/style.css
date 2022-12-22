@@ -136,7 +136,7 @@ body span:hover {
     flex-shrink: 1;
     /*flex-basis: 100%;*/
     /*width: max-content;*/
-    outline: 2px solid green;
+    border: 2px solid yellow;
 }
 
 /*
