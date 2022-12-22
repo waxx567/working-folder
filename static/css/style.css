@@ -179,7 +179,8 @@ body span:hover {
 }
 
 .sc-container {
-    margin: 50px 60px 20px 60px;
+    margin: 50px 40px 30px 40px;
+    padding: 20px;
     background-color: firebrick;
 }
 /* Thumbnail box contains header and boxes  */
