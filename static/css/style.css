@@ -219,6 +219,7 @@ body span:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    flex: 1;
 }
 
 /* Every child of thumbnail class */
