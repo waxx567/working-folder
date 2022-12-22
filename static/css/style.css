@@ -124,13 +124,13 @@ body span:hover {
     padding: 0;
 
     display: flex;
-    gap: 3rem;
+    gap: 1rem;
 
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
     
 }
 
-.showcase-test > * {
+.showcase-test li {
     flex-grow: 1;
     flex-shrink: 1;
     /*flex-basis: 100%;*/
