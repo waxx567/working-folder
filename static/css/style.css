@@ -190,6 +190,9 @@ body span:hover {
 
 }
 
+.tn-box {
+    outline: 1px solid #003300;
+}
 /* Container for Thumbnail Header and Boxes */
 .tn-container {
     padding: 20px;
