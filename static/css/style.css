@@ -192,6 +192,7 @@ body span:hover {
 
 .thumbnail-container {
     border: 2px solid magenta;
+    display: flex;
 }
 
 .thumbnail-container img {
