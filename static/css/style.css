@@ -195,11 +195,6 @@ body span:hover {
     background-color: #c8d7c8;
     margin: 10px;
 }
-/* Container for Thumbnail Header and Boxes */
-.thumbnails {
-    outline: 2px solid magenta;
-    padding: 20px;
-}
 
 /* Thumbnail Header */
 .tn-box > *:nth-of-type(1)
@@ -215,6 +210,7 @@ body span:hover {
 }
 
 /* Thumbnail Boxes */
+/* Container for Thumbnail Boxes */
 .tn-box > *:nth-of-type(2)
  {
     padding: 10px 20px 20px 20px;
