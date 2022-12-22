@@ -214,7 +214,7 @@ body span:hover {
     /*background-color: #7fa38f;*/
     outline: 1px solid #003300;
     border: 2px solid darkmagenta;
-    justify-content: space-around;
+    
     flex-wrap: wrap;
 }
 /* Every child of thumbnail class */
