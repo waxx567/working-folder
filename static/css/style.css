@@ -193,17 +193,23 @@ body span:hover {
 .thumbnail-container {
     padding: 20px;
 
+}
+
+.tn-box > *:nth-of-type(1)
+ {
+    padding: 25px 25px 15px 40px;
+}
+
+.tn-box > *:nth-of-type(2)
+ {
+    padding: 10px 20px 20px 20px;
+    
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 
     flex-basis: 100%;
     justify-content: space-around;
-}
-
-.tn-box > *:nth-of-type(1)
- {
-    padding: 25px 25px 15px 40px;
 }
 
 .thumbnail {
