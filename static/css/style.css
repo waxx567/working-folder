@@ -190,12 +190,6 @@ body span:hover {
 
 }
 
-/* Thumbnail Container */
-.tn-container {
-    outline: 3px solid sienna;
-    padding: 10px;
-}
-
 /* Thumbnail Box*/
 .tn-box {
     border: 3px solid #45f192;
