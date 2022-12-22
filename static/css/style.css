@@ -196,6 +196,7 @@ body span:hover {
     flex-wrap: wrap;
 
     flex-basis: 100%;
+    justify-content: space-between;
 }
 
 .thumbnail-container img {
