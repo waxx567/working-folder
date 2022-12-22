@@ -120,15 +120,13 @@ body span:hover {
 }
 
 .showcase-test {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap; 
+    
     margin: 20px;
     padding: 0;
     list-style: none;
-
-    display: flex;
-    gap: 1rem;
-
-    flex-wrap: wrap;
-    
 }
 
 .showcase-test li {
