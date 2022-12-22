@@ -232,6 +232,7 @@ body span:hover {
     /*border: 2px solid darkmagenta;*/
 }
 
+/* Every child of thumbnail class */
 .thumbnail > * {
     display: flex;
     justify-content: space-around;
