@@ -189,3 +189,19 @@ body span:hover {
     width: 30%;
 
 }
+
+.thumbnail-container {
+    outline: 2px solid magenta;
+}
+
+.thumbnail-container img {
+    outline: 12px solid gold;
+}
+
+.thumbnail-container h5 {
+    outline: 2px solid red;
+}
+
+.thumbnail-container p {
+    outline: 2px solid turquoise;
+}
