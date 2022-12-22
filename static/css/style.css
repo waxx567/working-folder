@@ -219,6 +219,8 @@ body span:hover {
 /* Every child of thumbnail class */
 .thumbnail > * {
     outline: 2px solid #45f192;
+}
+.thumbnail:nth-of-type(1) {
     justify-content: space-around;
 }
 .thumbnail img {
