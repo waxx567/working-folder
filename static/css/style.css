@@ -227,6 +227,7 @@ body span:hover {
     flex-wrap: wrap;
     gap: 1rem;
     outline: 2px solid #45f192;
+    flex-shrink: 0;
 }
 /*
 .thumbnail:nth-of-type(1) img {
