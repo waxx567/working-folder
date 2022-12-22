@@ -126,7 +126,7 @@ body span:hover {
     display: flex;
     gap: 3rem;
 
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     
 }
 
