@@ -120,18 +120,13 @@ body span:hover {
 }
 
 .showcase-test {
-    /*
     margin: 20px;
-    padding: 10px;
-    display: flex;
-    */
-    /*outline: 4px solid blue;*/
+    padding: 0;
 
     display: flex;
     gap: 3rem;
 
-    margin: 20px;
-    padding: 0;
+    flex-wrap: wrap;
     
 }
 
