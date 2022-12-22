@@ -215,6 +215,7 @@ body span:hover {
     outline: 1px solid #003300;
     border: 2px solid darkmagenta;
     justify-content: space-around;
+    align-items: end;
 }
 /* Every child of thumbnail class */
 .thumbnail > * {
