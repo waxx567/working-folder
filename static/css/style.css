@@ -207,7 +207,7 @@ body span:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-
+ 
     justify-content: space-around;
     border: 2px solid goldenrod;
 }
@@ -220,11 +220,15 @@ body span:hover {
     flex-wrap: wrap;
     gap: 1rem;
 }
-/*
-/* Every child of thumbnail class 
+
+/* Every child of thumbnail class */
 .thumbnail > * {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
     outline: 2px solid #45f192;
 }
+/*
 .thumbnail:nth-of-type(1) img {
     flex-basis: : 200px;
 }
