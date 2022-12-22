@@ -208,7 +208,6 @@ body span:hover {
     flex-wrap: wrap;
     gap: 1rem;
 
-    flex-basis: 100%;
     justify-content: space-around;
     border: 2px solid goldenrod;
 }
