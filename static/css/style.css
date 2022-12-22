@@ -201,6 +201,8 @@ body span:hover {
  {
     padding: 25px 25px 0px 40px;
     color: #889b88;
+
+    display: flex;
 }
 
 /* Thumbnail Boxes */
