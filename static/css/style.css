@@ -131,8 +131,6 @@ body span:hover {
 }
 
 .showcase-test > * {
-    flex-grow: 1;
-    flex-shrink: 1;
     flex-basis: 100%;
     /*width: max-content;*/
 }
