@@ -193,6 +193,7 @@ body span:hover {
 /* Container for Thumbnail Header and Boxes */
 .tn-container {
     padding: 20px;
+    outline: 2px solid magenta;
 
 }
 
