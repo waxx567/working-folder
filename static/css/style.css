@@ -183,7 +183,6 @@ body span:hover {
     /*background-color: #c8d7c8;*/
     margin: 10px;
 }
-
 /* Thumbnail Header */
 .tn-box > *:nth-of-type(1)
  {
@@ -192,11 +191,9 @@ body span:hover {
 
     display: flex;
 }
-
 .tn-heading p {
     padding: 9px 0px 0px 20px; 
 }
-
 /* Thumbnail Boxes */
 /* Container for Thumbnail Boxes */
 .tn-box > *:nth-of-type(2)
@@ -210,7 +207,6 @@ body span:hover {
     flex-basis: 100%;
     justify-content: space-around;
 }
-
 /* Image img, heading h5 and paragraph p */
 .thumbnail {
     margin: 10px;
@@ -219,23 +215,19 @@ body span:hover {
     outline: 1px solid #003300;
     /*border: 2px solid darkmagenta;*/
 }
-
 /* Every child of thumbnail class */
 .thumbnail > * {
     display: flex;
     justify-content: space-around;
 }
-
 .thumbnail img {
     /*border: 4px solid gold;*/
     padding: 10px 0px 10px 0px;
 }
-
 .thumbnail h5 {
     padding: 2px;
     color: #1a4a2f;
 }
-
 .thumbnail p {
     color: #0c6f6f;
 }
