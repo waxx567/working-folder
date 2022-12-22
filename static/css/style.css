@@ -190,6 +190,10 @@ body span:hover {
 
 }
 
+.thumbnail {
+    border: darkmagenta;
+}
+
 .thumbnail-container {
     border: 2px solid magenta;
     display: flex;
@@ -199,14 +203,14 @@ body span:hover {
     justify-content: space-between;
 }
 
-.thumbnail-container img {
+.thumbnail img {
     border: 4px solid gold;
 }
 
-.thumbnail-container h5 {
+.thumbnail h5 {
     border: 2px solid red;
 }
 
-.thumbnail-container p {
+.thumbnail p {
     border: 2px solid turquoise;
 }
