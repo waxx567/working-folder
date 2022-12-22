@@ -193,6 +193,7 @@ body span:hover {
 /* Thumbnail Container */
 .tn-container {
     outline: 3px solid sienna;
+    padding: 10px;
 }
 
 /* Thumbnail Box*/
