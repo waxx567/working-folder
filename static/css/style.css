@@ -201,7 +201,6 @@ body span:hover {
     padding: 10px 20px 20px 20px;
     
     display: flex;
-    flex-wrap: wrap;
     gap: 1rem;
 
     flex-basis: 100%;
@@ -214,8 +213,6 @@ body span:hover {
     /*background-color: #7fa38f;*/
     outline: 1px solid #003300;
     border: 2px solid darkmagenta;
-    
-    flex-wrap: wrap;
 }
 /* Every child of thumbnail class */
 .thumbnail > * {
