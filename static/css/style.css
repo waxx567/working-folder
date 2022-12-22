@@ -191,7 +191,7 @@ body span:hover {
 }
 
 .thumbnail-container {
-    padding: 20px;
+    padding: 20px 20px 20px 10px;
 
     display: flex;
     flex-wrap: wrap;
