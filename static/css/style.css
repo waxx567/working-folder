@@ -212,6 +212,7 @@ body span:hover {
 .thumbnail > * {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .thumbnail img {
@@ -221,5 +222,4 @@ body span:hover {
 
 .thumbnail p {
     color: #2029a3;
-    flex-wrap: wrap;
 }
