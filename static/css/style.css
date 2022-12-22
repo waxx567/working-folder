@@ -22,11 +22,12 @@ body {
 body span:hover {
     color: #728472;
 }
-
+/* Sidebar */
 .col-35 aside {
     float: right;
     width: 35%;
 }
+
 .col-65 article {
     float: left;
     width: 65%;
