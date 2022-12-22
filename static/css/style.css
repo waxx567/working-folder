@@ -201,9 +201,9 @@ body span:hover {
     padding: 10px 20px 20px 20px;
     
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
 
-    flex-basis: 100%;
     justify-content: space-around;
 }
 /* Image img, heading h5 and paragraph p */
