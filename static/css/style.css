@@ -222,6 +222,7 @@ body span:hover {
 .thumbnail img {
     /*border: 4px solid gold;*/
     padding: 10px 0px 10px 0px;
+    flex-basis: : 66%;
 }
 .thumbnail h5 {
     padding: 2px;
