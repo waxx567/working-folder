@@ -108,6 +108,11 @@ def test():
     return render_template("test.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, client_3=CLIENT_3, year=YEAR, builder=BUILDER, builder_1=BUILDER_1)
 
 
+@app.route("/build")
+def build():
+    return render_template("build.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, client_3=CLIENT_3, year=YEAR, builder=BUILDER, builder_1=BUILDER_1)
+
+
 if __name__ == "__main__":
     with app.app_context():
         db.create_all()
