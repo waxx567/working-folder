@@ -219,6 +219,10 @@ body span:hover {
     padding: 10px 0px 10px 0px;
 }
 
+.thumbnail h5 {
+    padding: 2px;
+}
+
 .thumbnail p {
     color: #4a52b8;
 }
