@@ -197,7 +197,6 @@ body span:hover {
  {
     padding: 25px 25px 0px 40px;
     /*color: #1a4a2f;*/
-    border: 2px solid greenyellow;
 }
 /* Paragraph element inside header box */
 .tn-heading p {
@@ -214,13 +213,11 @@ body span:hover {
     gap: 1rem;
  
     justify-content: space-around;
-    border: 2px solid goldenrod;
 }
 /* Image img, heading h5 and paragraph p */
 .thumbnail {
     margin: 10px;
     padding: 10px;
-    border: 2px solid darkmagenta;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -230,7 +227,6 @@ body span:hover {
 /* Every child of thumbnail class */
 .thumbnail > * {
     gap: 1rem;
-    outline: 2px solid #45f192;
     flex: 1;
 }
 /*
