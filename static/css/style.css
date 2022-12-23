@@ -267,7 +267,7 @@ body span:hover {
     background: orange;
 }
 .box4 {
-    background: rgb(0, 128, 0);
+    background: rgba(0, 128, 0, 0.5);
 }
 .box5 {
     background: firebrick;
