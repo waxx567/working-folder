@@ -182,7 +182,7 @@ body span:hover {
 .sc-container {
     margin: 50px 20px 30px 20px;
     padding: 20px;
-    outline: 1px solid firebrick;
+    outline: 1px solid #003300;
     background: rgba(74, 122, 94, 0.4);
 }
 
@@ -190,7 +190,7 @@ body span:hover {
 .tn-box {
     /*background-color: #c8d7c8;*/
     margin: 10px 10px 40px 10px;
-    outline: 1px solid firebrick;
+    outline: 1px solid #003300;
     background: rgba(74, 122, 94, 0.4);
 }
 /* Thumbnail Header */
