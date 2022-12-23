@@ -256,10 +256,9 @@ body span:hover {
 .box {
     width: 100px;
     height: 100px;
-    /*float: left;*/
 }
 .box1 {
-    background-color: pink;
+    background: pink;
 }
 .box2 {
     background: red;
@@ -280,8 +279,11 @@ body span:hover {
     background: blue;
 }
 .box8 {
-    background: purple;
+    background: lawngreen;
 }
 .box9 {
-    background: olive;
+    background: fuchsia;
+}
+.box10 {
+    background: teal;
 }
