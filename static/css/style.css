@@ -253,7 +253,7 @@ body span:hover {
     align-items: center;
 }
 
-.box {
+.container-fluid .box {
     width: 100px;
     height: 100px;
     margin: 20px;
