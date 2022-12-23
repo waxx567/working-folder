@@ -2,8 +2,8 @@
 body {
     background-color: #728472;
     width: 100%;
-    background-image: url('../images/image-9.jpg');
-    background-repeat: no-repeat;
+    /*background-image: url('../images/image-9.jpg');
+    background-repeat: no-repeat;*/
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-size: cover;
