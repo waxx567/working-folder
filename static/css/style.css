@@ -189,6 +189,7 @@ body span:hover {
 .sc-box h3 {
     color: #2d955c;
     font-weight: bold;
+    text-align: right;
 }
 /* Thumbnail box contains header and boxes  */
 .tn-box {
