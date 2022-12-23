@@ -190,6 +190,7 @@ body span:hover {
     color: #ccffcc;
     
     display: flex;
+    flex-basis: 100%;
 }
 /* Showcase box */
 .sc-box {
