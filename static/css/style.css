@@ -202,6 +202,9 @@ body span:hover {
     color: #2d955c;
     font-weight: bold;
 }
+.sc-box p {
+    padding: 20px;
+}
 /* Thumbnail box contains header and boxes  */
 .tn-box {
     /*background-color: #c8d7c8;*/
