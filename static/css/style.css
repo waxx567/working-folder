@@ -189,6 +189,7 @@ body span:hover {
     background-image: url('../images/image-15.jpg');
     color: #ccffcc;
     width: 100%;
+    height: 800px;
 }
 /* Showcase box */
 .sc-box {
