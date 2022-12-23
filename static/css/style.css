@@ -178,11 +178,13 @@ body span:hover {
 
 }
 
+/* Showcase container */
 .sc-container {
-    margin: 50px 40px 30px 40px;
+    margin: 50px 30px 30px 30px;
     padding: 20px;
     background: rgba(255, 99, 71, 0.5);
 }
+
 /* Thumbnail box contains header and boxes  */
 .tn-box {
     /*background-color: #c8d7c8;*/
@@ -285,3 +287,4 @@ body span:hover {
 .box9 {
     background: teal;
 }
+
