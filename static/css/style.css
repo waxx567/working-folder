@@ -203,7 +203,7 @@ body span:hover {
     font-weight: bold;
 }
 .sc-box p {
-    padding: 20px;
+    padding: 20px 10px 0px 10px;
 }
 /* Thumbnail box contains header and boxes  */
 .tn-box {
