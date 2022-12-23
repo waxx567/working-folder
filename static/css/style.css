@@ -260,6 +260,7 @@ body span:hover {
 }
 .box1 {
     background-color: pink;
+    float: right;
 }
 .box2 {
     background: red;
