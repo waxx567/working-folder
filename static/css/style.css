@@ -12,7 +12,6 @@ body {
 
 /* Header and footer */
 [class*="bg-dark"] {
-    background-image: url('../images/image-15.jpg')
     outline: 2px solid #337a52;
 }
 /* Bootstrap header class */
@@ -185,6 +184,10 @@ body span:hover {
     padding: 0px;
     outline: 1px solid #003300;
     background: rgba(74, 122, 94, 0.4);
+}
+.scroller {
+    background-image: url('../images/image-15.jpg');
+    color: #ccffcc;
 }
 /* Showcase box */
 .sc-box {
