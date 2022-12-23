@@ -186,12 +186,12 @@ body span:hover {
     background: rgba(74, 122, 94, 0.4);
 }
 /* Showcase box */
+.sc-box {
+    text-align: right;
+}
 .sc-box h3 {
     color: #2d955c;
     font-weight: bold;
-    text-align: right;
-}
-.sc-box p {
     text-align: right;
 }
 /* Thumbnail box contains header and boxes  */
