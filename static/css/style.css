@@ -185,7 +185,11 @@ body span:hover {
     outline: 1px solid #003300;
     background: rgba(74, 122, 94, 0.4);
 }
-
+/* Showcase box */
+.sc-box h3 {
+    color: #45f192;
+    font-weight: bold;
+}
 /* Thumbnail box contains header and boxes  */
 .tn-box {
     /*background-color: #c8d7c8;*/
