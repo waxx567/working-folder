@@ -256,10 +256,10 @@ body span:hover {
 .container-fluid .box {
     width: 100px;
     height: 100px;
+    float: left;
 }
 .box1 {
     background-color: pink;
-    float: left;
 }
 .box2 {
     background: red;
