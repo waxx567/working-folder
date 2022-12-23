@@ -182,7 +182,6 @@ body span:hover {
     margin: 0px;
     padding: 0px;
     outline: 1px solid #003300;
-    background: rgba(74, 122, 94, 0.4);
 }
 .scroller {
     background-image: url('../images/image-15.jpg');
