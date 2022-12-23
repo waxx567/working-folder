@@ -186,6 +186,9 @@ body span:hover {
     outline: 1px solid #003300;
     background: rgba(74, 122, 94, 0.4);
 }
+.sc-container .scroller {
+    flex-basis: 100%;
+}
 /* Showcase box */
 .sc-box {
     color: #003300;
