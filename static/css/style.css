@@ -181,7 +181,6 @@ body span:hover {
 .sc-container {
     margin: 0px;
     padding: 0px;
-    outline: 1px solid #003300;
 }
 .scroller {
     background-image: url('../images/image-15.jpg');
@@ -207,7 +206,6 @@ body span:hover {
 .tn-box {
     /*background-color: #c8d7c8;*/
     margin: 10px 10px 40px 10px;
-    outline: 1px solid #003300;
     color: #003300;
 }
 /* Thumbnail Header */
