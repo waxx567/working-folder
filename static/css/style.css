@@ -196,7 +196,7 @@ body span:hover {
 .sc-box {
     color: black;
     text-align: right;
-    padding: 40px 40px 20px 40px;
+    padding: 40px 40px 0px 40px;
 }
 .sc-box h3 {
     color: #2d955c;
