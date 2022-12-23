@@ -180,7 +180,7 @@ body span:hover {
 /* Showcase container */
 .sc-container {
     margin: 0px;
-    padding: 0px;
+    padding: 20px;
 }
 .scroller {
     background-image: url('../images/image-15.jpg');
