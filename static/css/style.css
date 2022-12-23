@@ -259,6 +259,7 @@ body span:hover {
 }
 .box1 {
     background-color: pink;
+    float: left;
 }
 .box2 {
     background: red;
