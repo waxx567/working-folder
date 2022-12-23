@@ -256,7 +256,7 @@ body span:hover {
 .box {
     width: 100px;
     height: 100px;
-    float: left;
+    /*float: left;*/
 }
 .box1 {
     background-color: pink;
