@@ -256,8 +256,6 @@ body span:hover {
 .container-fluid .box {
     width: 100px;
     height: 100px;
-    margin: 20px;
-    padding: 20px;
 }
 .box1 {
     background-color: pink;
