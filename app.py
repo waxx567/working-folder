@@ -15,7 +15,7 @@ CLIENT_1 = "gaslit"
 CLIENT_2 = "catfish"
 CLIENT_3 = "designs"
 
-BUILDER = "fivefiftyfive inc"
+BUILDER = "fivefiftyfive ltd"
 BUILDER_1 = "webworld"
 YEAR = "2022"
 
