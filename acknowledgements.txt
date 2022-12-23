@@ -6,3 +6,4 @@ image-4.jpg: Photo by Josh Sorenson: https://www.pexels.com/photo/apple-magic-ke
 image-7.jpg: Photo by Riccardo Bertolo: https://www.pexels.com/photo/blue-sea-under-blue-sky-4245826/
 image-11.jpg: Photo by Tobias Bjørkli: https://www.pexels.com/photo/man-standing-on-a-rock-near-snow-covered-land-1853354/
 image-12.jpg: Photo by urtimud.89: https://www.pexels.com/photo/close-up-photograph-of-wet-stones-9328774/
+image-13.jpg: Photo by Emma Pollard: https://www.pexels.com/photo/full-frame-photo-of-monstera-leaves-1534925/
