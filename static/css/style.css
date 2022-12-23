@@ -181,7 +181,7 @@ body span:hover {
 /* Showcase container */
 .sc-container {
     margin: 0px;
-    padding: 20px;
+    padding: 0px;
     outline: 1px solid #003300;
     background: rgba(74, 122, 94, 0.4);
 }
