@@ -181,6 +181,7 @@ body span:hover {
 .sc-container {
     margin: 50px 40px 30px 40px;
     padding: 20px;
+    background: rgba(255, 99, 71, 0.5);
 }
 /* Thumbnail box contains header and boxes  */
 .tn-box {
