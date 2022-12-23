@@ -194,7 +194,7 @@ body span:hover {
 
 /* Showcase box */
 .sc-box {
-    color: #003300;
+    color: black;
     text-align: right;
     padding: 40px;
 }
@@ -207,7 +207,7 @@ body span:hover {
 .tn-box {
     /*background-color: #c8d7c8;*/
     margin: 10px 10px 40px 10px;
-    color: #003300;
+    color: black;
 }
 /* Thumbnail Header */
 .tn-box > *:nth-of-type(1)
