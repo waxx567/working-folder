@@ -188,6 +188,8 @@ body span:hover {
 .scroller {
     background-image: url('../images/image-15.jpg');
     color: #ccffcc;
+    
+    display: flex;
 }
 /* Showcase box */
 .sc-box {
