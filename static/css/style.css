@@ -188,7 +188,7 @@ body span:hover {
 .scroller {
     background-image: url('../images/image-15.jpg');
     color: #ccffcc;
-    padding: 150px;
+    padding: 0px 150px 75px 0px;
     width: 100%;
     height: 780px;
     text-align: right;
