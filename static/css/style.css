@@ -8,7 +8,10 @@ body {
     background-size: cover;
     background-position: top;
 }
-
+/* Highlight all links when pointer hovers over them */
+body a:hover {
+    color: #728472;
+}
 /* Header and footer */
 [class*="bg-dark"] {
     outline: 2px solid #3c8d5f;
@@ -17,10 +20,6 @@ body {
 /* Also used for footer */
 .bg-dark a {
     text-decoration: none;
-}
-/* Highlight header nav elements when pointer hovers over them */
-.highlight-hover .nav-link-active a:hover {
-    color: #728472;
 }
 /* Changes colour of text on header bar button */
 .d-flex button {
