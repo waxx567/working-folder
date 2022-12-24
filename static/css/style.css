@@ -19,7 +19,7 @@ body {
     text-decoration: none;
 }
 /* Highlight header nav elements when pointer hovers over them */
-.bg-dark li a:hover {
+.highlight-hover .nav-link-active a:hover {
     color: #728472;
 }
 /* Changes colour of text on header bar button */
