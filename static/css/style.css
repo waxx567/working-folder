@@ -10,7 +10,7 @@ body {
 }
 /* Highlight links when pointer hovers over them */
 a:hover {
-    color: #728472;
+    color: #05fa05;
 }
 /* Header and footer */
 [class*="bg-dark"] {
