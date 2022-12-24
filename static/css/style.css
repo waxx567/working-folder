@@ -14,11 +14,12 @@ body {
     outline: 2px solid #3c8d5f;
 }
 /* Bootstrap header class */
+/* Also used for footer */
 .bg-dark a {
     text-decoration: none;
 }
-/* Highlight span elements when pointer hovers over them */
-body span:hover {
+/* Highlight header nav elements when pointer hovers over them */
+.nav-item a:hover {
     color: #728472;
 }
 /* Changes colour of text on header bar button */
