@@ -11,7 +11,7 @@ body {
 
 /* Header and footer */
 [class*="bg-dark"] {
-    outline: 2px solid #337a52;
+    outline: 2px solid #3c8d5f;
 }
 /* Bootstrap header class */
 .bg-dark a {
