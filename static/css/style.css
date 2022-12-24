@@ -20,7 +20,7 @@ body {
 /* Highlight links when pointer hovers over them */
 .nav-item a:hover,
 .nav-item span:hover {
-    color: #05fa05;
+    color: #45f192;
 }
 /* Changes colour of text on header bar button */
 .d-flex button {
