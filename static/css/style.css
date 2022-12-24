@@ -18,7 +18,7 @@ body {
     text-decoration: none;
 }
 /* Highlight links when pointer hovers over them */
-.highlight-hover span:hover,
+.highlight-hover li:hover,
 .nav-item a:hover {
     color: #45f192;
 }
