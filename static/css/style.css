@@ -9,7 +9,7 @@ body {
     background-position: top;
 }
 /* Highlight links when pointer hovers over them */
-a:hover {
+.highlight-hover li:hover {
     color: #05fa05;
 }
 /* Header and footer */
