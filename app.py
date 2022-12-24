@@ -98,9 +98,9 @@ def logout():
     return redirect(url_for("login"))
 
 
-@app.route("/products")
-def products():
-    return render_template("prdct001.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, client_3=CLIENT_3, year=YEAR, builder=BUILDER, builder_1=BUILDER_1)
+@app.route("/services")
+def services():
+    return render_template("services.html", client=CLIENT, client_1=CLIENT_1, client_2=CLIENT_2, client_3=CLIENT_3, year=YEAR, builder=BUILDER, builder_1=BUILDER_1)
 
 
 @app.route("/test")
