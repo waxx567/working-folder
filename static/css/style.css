@@ -8,8 +8,8 @@ body {
     background-size: cover;
     background-position: top;
 }
-/* Highlight all links when pointer hovers over them */
-body a:hover {
+/* Highlight links when pointer hovers over them */
+a:hover {
     color: #728472;
 }
 /* Header and footer */
