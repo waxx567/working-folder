@@ -18,8 +18,7 @@ body {
     text-decoration: none;
 }
 /* Highlight links when pointer hovers over them */
-.nav-item a:hover,
-.nav-item span:hover {
+.nav-item a:hover, {
     color: #45f192;
 }
 /* Changes colour of text on header bar button */
