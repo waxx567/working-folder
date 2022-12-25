@@ -16,10 +16,6 @@ body {
 /* Also used for footer */
 .bg-dark a {
     text-decoration: none;
-}
-.nav-color a {
-    color: #3c8d5f;
-}
 /* Highlight links when pointer hovers over them */
 .nav-item span:hover,
 .nav-item a:hover,
