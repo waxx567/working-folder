@@ -23,6 +23,9 @@ body {
 .nav-item a span:hover {
     color: #45f192;
 }
+.header-bar a:hover {
+    color: #45f192;
+}
 /* Changes colour of text on header bar button */
 .d-flex button {
     color: #728472;
