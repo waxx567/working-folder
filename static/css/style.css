@@ -270,35 +270,3 @@ body {
     align-items: center;
 }
 
-.box {
-    width: 100px;
-    height: 100px;
-}
-.box1 {
-    background: pink;
-}
-.box2 {
-    background: red;
-}
-.box3 {
-    background: orange;
-}
-.box4 {
-    background: rgba(0, 128, 0, 0.5);
-}
-.box5 {
-    background: firebrick;
-}
-.box6 {
-    background: transparent;
-}
-.box7 {
-    background: rgb(0, 0, 255);
-}
-.box8 {
-    background: fuchsia;
-}
-.box9 {
-    background: teal;
-}
-
