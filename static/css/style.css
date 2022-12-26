@@ -18,6 +18,7 @@ body {
     text-decoration: none;
 }
 /* Highlight links when pointer hovers over them */
+ul a:hover,
 .nav-item span:hover,
 .nav-item a:hover,
 .nav-item a span:hover {
