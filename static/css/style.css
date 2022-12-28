@@ -182,6 +182,15 @@ body {
 
 }
 
+/* Body container */
+.content {
+    background-image: url('../images/image-16.jpg');
+    color: white;
+    padding-right: 50px;
+    padding-top: 680px;
+    width: 100%;
+    height: 780px;
+}
 /* Showcase container */
 .sc-container {
     margin: 0px;
