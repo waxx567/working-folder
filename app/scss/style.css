@@ -27,9 +27,15 @@ body {
   align-items: center;
 }
 
+.header nav {
+  padding: 24px;
+}
 .header__menu > span {
   display: block;
   width: 26px;
   height: 2px;
   background-color: hsl(233deg, 26%, 24%);
+}
+.header__menu > span:not(:last-child) {
+  margin-bottom: 3px;
 }
