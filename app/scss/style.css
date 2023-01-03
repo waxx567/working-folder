@@ -12,6 +12,7 @@ body {
   padding: 0;
   font-family: "Public Sans", sans-serif;
   font-size: 1.125rem;
+  color: hsl(233deg, 8%, 62%);
   line-height: 1.3;
 }
 
