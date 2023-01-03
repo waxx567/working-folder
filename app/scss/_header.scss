@@ -30,6 +30,12 @@
 
         a {
             font-size: $font-sml14; 
+            color: $grayishBlue;
         }
+    }
+
+    &__cta {
+        font-size:$font-sml14;
+        color: $white;
     }
 }

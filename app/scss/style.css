@@ -19,7 +19,6 @@ body {
 
 a, a:visited, a:hover {
   text-decoration: none;
-  color: hsl(233deg, 8%, 62%);
 }
 
 .flex {
@@ -59,4 +58,9 @@ button, .button {
 }
 .header__links a {
   font-size: 0.875rem;
+  color: hsl(233deg, 8%, 62%);
+}
+.header__cta {
+  font-size: 0.875rem;
+  color: hsl(0deg, 0%, 100%);
 }
