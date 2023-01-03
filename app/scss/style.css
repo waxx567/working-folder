@@ -39,6 +39,8 @@ button, .button {
   background: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
   border: 0;
   border-radius: 50px;
+  cursor: pointer;
+  color: hsl(0deg, 0%, 100%);
 }
 
 .header nav {
