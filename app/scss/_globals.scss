@@ -41,6 +41,6 @@ a, a:visited, a:hover {
 // Buttons 
 button, .button {
     padding: 1rem 1.875rem;
-    background: linear-gradient($limeGreen, $brightCyan);
+    background: linear-gradient(to right, $limeGreen, $brightCyan);
     border-radius: 50px;
 }
