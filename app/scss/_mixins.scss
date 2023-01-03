@@ -15,3 +15,9 @@ $breakpoints-down: ("small": "39.9375em", "medium": "63.9375em", "large": "87.43
         @content;
     }
 }
+
+@mixin breakpoint-down($size){
+    @media (max-width: map-get($breakpoints-down, $size)){
+        @content;
+    }
+}
