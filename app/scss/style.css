@@ -36,6 +36,7 @@ a, a:visited, a:hover {
 
 button, .button {
   padding: 1rem 1.875rem;
+  background: linear-gradient(hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
   border-radius: 50px;
 }
 
