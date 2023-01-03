@@ -1,4 +1,8 @@
 // Breakpoints
-@media (min-width: 64em /* 1024pixels for desktop */) {
+@media (min-width: 64em/* 1024px for desktop */) {
     
 }
+
+// Sass map
+// At this point and bigger, use these styles
+$breakpoints-up: ("medium": "40em"/* 640px */, "large": "64em"/* 1024px */, "xlarge": "87.5em"/* 1400px */);
