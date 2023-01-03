@@ -23,3 +23,6 @@ body {
 .flex-jc-c {
   justify-content: center;
 }
+.flex-ai-c {
+  align-items: center;
+}
