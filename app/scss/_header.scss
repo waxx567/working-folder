@@ -31,6 +31,10 @@
         a {
             font-size: $font-sml14; 
             color: $grayishBlue;
+
+            &:not(:last-child) {
+                margin-right: 32px;
+            }
         }
     }
 
