@@ -57,7 +57,7 @@ button, .button {
 }
 
 .header nav {
-  padding: 17px 24px;
+  padding: 1.0625rem 1.5rem;
 }
 .header__logo img {
   width: 8.8125rem;
