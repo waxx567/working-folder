@@ -76,12 +76,23 @@ button, .button {
   border: 1px solid red;
 }
 .header__links a {
+  position: relative;
   font-size: 0.875rem;
   color: hsl(233deg, 8%, 62%);
   transition: color 200ms ease-in-out;
 }
 .header__links a:not(:last-child) {
   margin-right: 32px;
+}
+.header__links a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 5px;
+  background: hsl(233deg, 26%, 24%);
+  left: 0;
+  right: 0;
+  bottom: -1.875rem;
 }
 .header__links a:hover {
   color: hsl(233deg, 26%, 24%);

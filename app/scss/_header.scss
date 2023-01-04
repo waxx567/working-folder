@@ -31,12 +31,24 @@
         border: 1px solid red;
 
         a {
+            position: relative;
             font-size: $font-sml14; 
             color: $grayishBlue;
             transition: color 200ms ease-in-out;
 
             &:not(:last-child) {
                 margin-right: 32px;
+            }
+
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                height: 5px;
+                background: $darkBlue;
+                left: 0;
+                right: 0;
+                bottom: -1.875rem;
             }
 
             &:hover {
