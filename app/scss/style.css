@@ -75,6 +75,7 @@ button, .button {
 .header__links a {
   font-size: 0.875rem;
   color: hsl(233deg, 8%, 62%);
+  transition: color 200ms ease-in-out;
 }
 .header__links a:not(:last-child) {
   margin-right: 32px;
