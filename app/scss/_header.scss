@@ -48,13 +48,16 @@
                 left: 0;
                 right: 0;
                 bottom: -1.875rem;
+                background: linear-gradient(to right, $limeGreen, $brightCyan);
+                opacity: 0;
+                transition: opacity 300ms ease-in-out;
             }
 
             &:hover {
                 color: $darkBlue;
 
                 &::before {
-                    background: linear-gradient(to right, $limeGreen, $brightCyan);
+                    opacity: 1;
                 }
             }
         }
