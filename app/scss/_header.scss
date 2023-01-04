@@ -10,10 +10,10 @@
             width: 8.8125rem;
             height: 1.375rem;
         }
-
     }
 
-    &__menu { // Mobile menu 
+    // Mobile menu
+    &__menu {  
 
         > span {
             display: block;
@@ -23,6 +23,20 @@
 
             &:not(:last-child) {
                 margin-bottom: 5px;
+            }
+        }
+
+        &.open {
+            > span:first-child {
+                transform: rotate(45deg);
+            }
+    
+            > span:nth-child(2) {
+                opacity: 0;
+            }
+    
+            > span:last-child {
+                transform: rotate(-45deg);
             }
         }
     }

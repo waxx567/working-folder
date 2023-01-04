@@ -72,6 +72,15 @@ button, .button {
 .header__menu > span:not(:last-child) {
   margin-bottom: 5px;
 }
+.header__menu.open > span:first-child {
+  transform: rotate(45deg);
+}
+.header__menu.open > span:nth-child(2) {
+  opacity: 0;
+}
+.header__menu.open > span:last-child {
+  transform: rotate(-45deg);
+}
 .header__links a {
   position: relative;
   font-size: 0.875rem;
