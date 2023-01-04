@@ -79,6 +79,9 @@ button, .button {
 .header__links a:not(:last-child) {
   margin-right: 32px;
 }
+.header__links a:hover {
+  color: hsl(233deg, 26%, 24%);
+}
 .header__cta {
   font-size: 0.875rem;
   color: hsl(0deg, 0%, 100%);
