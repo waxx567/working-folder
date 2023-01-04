@@ -56,13 +56,13 @@ button, .button {
   }
 }
 
-.header.open > span:first-child {
+.header.open .header__menu > span:first-child {
   transform: rotate(45deg);
 }
-.header.open > span:nth-child(2) {
+.header.open .header__menu > span:nth-child(2) {
   opacity: 0;
 }
-.header.open > span:last-child {
+.header.open .header__menu > span:last-child {
   transform: rotate(-45deg);
 }
 .header .overlay {
