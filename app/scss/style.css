@@ -121,7 +121,7 @@ button, .button {
 
 .overlay {
   position: fixed;
-  top: 60px;
+  top: 3.75rem;
   right: 0;
   bottom: 0;
   left: 0;
