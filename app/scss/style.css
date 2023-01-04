@@ -72,6 +72,9 @@ button, .button {
 .header__menu > span:not(:last-child) {
   margin-bottom: 3px;
 }
+.header__links {
+  border: 1px solid red;
+}
 .header__links a {
   font-size: 0.875rem;
   color: hsl(233deg, 8%, 62%);
