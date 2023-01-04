@@ -65,5 +65,10 @@
     &__cta {
         font-size:$font-sml14;
         color: $white;
+        transition: opacity 300ms ease-in-out;
+
+        &:hover {
+            opacity: 0.75;
+        }
     }
 }
