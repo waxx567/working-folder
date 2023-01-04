@@ -88,3 +88,8 @@
         }
     }
 }
+
+.overlay {
+    background-color: $darkBlue;
+    background-image: linear-gradient($darkBlue, transparent);
+}

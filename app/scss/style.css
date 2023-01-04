@@ -118,3 +118,8 @@ button, .button {
 .header__cta:hover {
   opacity: 0.75;
 }
+
+.overlay {
+  background-color: hsl(233deg, 26%, 24%);
+  background-image: linear-gradient(hsl(233deg, 26%, 24%), transparent);
+}
