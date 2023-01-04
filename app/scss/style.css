@@ -89,7 +89,7 @@ button, .button {
   display: block;
   position: absolute;
   height: 5px;
-  background: hsl(233deg, 26%, 24%);
+  background: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
   left: 0;
   right: 0;
   bottom: -1.875rem;
