@@ -21,6 +21,12 @@ a, a:visited, a:hover {
     text-decoration: none;
 }
 
+// Spacing 
+.container {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
 // Flexbox
 .flex {
     display: flex;

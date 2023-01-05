@@ -8,7 +8,7 @@
             animation: fade-in 300ms ease-in-out forwards;
         }
         
-        .header__menu {
+        .header__toggle {
             > span:first-child {
                 transform: rotate(45deg);
             }
@@ -34,7 +34,9 @@
     }
 
     nav {
-        padding: 1.0625rem 1.5rem;
+        padding-top: 1.0625rem;
+        padding-bottom: 1.0625rem;
+        
     }
 
     &__logo {
@@ -46,8 +48,8 @@
         }
     }
 
-    // Mobile menu
-    &__menu {  
+    // Mobile menu toggle
+    &__toggle {  
 
         > span {
             display: block;
@@ -60,6 +62,24 @@
             &:not(:last-child) {
                 margin-bottom: 0.3125rem; // 5px
             }
+        }
+    }
+
+    &__menu {
+        position: absolute;
+        width: calc(100% - 3rem);
+        left: 50%;
+        transform: translateX(-50%);
+        background: $white;
+        margin-top: 1.5rem; // 24px
+        padding: 1.625rem; // 26px
+        border-radius: 0.3125rem; // 5px
+        
+        a {
+            display: block;
+            padding: 0.625rem; // 10px
+            color: $darkBlue;
+            text-align: center;
         }
     }
 
