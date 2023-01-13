@@ -5,7 +5,7 @@
     }
 
     &__text {
-        background: hsla(233, 7%, 24%, 0.75);
+        background-image: linear-gradient(to left, $darkBlue, transparent);
         text-align: right;
 
         h2 {

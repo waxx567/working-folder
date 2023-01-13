@@ -230,7 +230,7 @@ button, .button {
 }
 
 .hero__text {
-  background: hsla(233deg, 7%, 24%, 0.75);
+  background-image: linear-gradient(to left, hsl(233deg, 26%, 24%), transparent);
   text-align: right;
 }
 .hero__text h2 {
