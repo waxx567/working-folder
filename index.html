@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Displays site properly based on user's device -->
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Links to fonts-->
+    <!-- Public Sans -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Gruppo -->
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet"
+    />
+
+    <!-- Link for CSS file -->
+    <link 
+      rel="stylesheet" href="app/scss/style.css" 
+    />
+    <!-- Page title -->
+    <title>home | gaslitcatfish</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="overlay has-fade"></div>
+            <!-- Header navbar -->
+            <nav class="container flex flex-jc-sb flex-ai-c">
+                <!-- Logo -->
+                <a href="/" class="header__logo">
+                    <p class="logostyle">gaslit<span class="logostyle__2">catfish</span></p> 
+                </a>
+                <!-- Hamburger menu icons -->
+                <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+                    <span></span><span></span><span></span>
+                </a>
+                <!-- Header links (desktop) -->
+                <div class="header__links hide-for-mobile">
+                    <a href="#">Home</a><a href="#">About</a><a href="#">Contact</a><a href="#">Blog</a><a href="#">Services</a>
+                </div>
+                <!-- CTA button -->
+                <a href="#" class="button header__cta hide-for-mobile">Request Info 
+                </a>
+            </nav>
+            <!-- Header menu links on mobile (after click on hamburger icon) -->
+            <div class="header__menu has-fade">
+                <a href="#">Home</a><a href="#">About</a><a href="#">Contact</a><a href="#">Blog</a><a href="#">Services</a>
+            </div>
+    </header>
+    <!-- Showcase -->
+    <section id="showcase" class="container hero">
+        <!-- Background image -->
+        <div class="hero__image"></div>
+        <!-- Text & CTA button -->
+        <div class="hero__text">
+            <!-- Headings -->
+            <h2>gaslitcatfish</h2>
+            <h3>custom web environments</h3>
+            <!-- Button -->
+            <a href="#" class="button hero__cta">Request info</a>
+            <!-- Paragraph -->
+            <p>
+                Quibusdam quaerat id error!
+            </p>
+        </div>
+    </section>
+    <!-- Javascript link -->
+    <script src="app/js/script.js"></script>
+</body>
+</html>
+
+
