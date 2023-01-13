@@ -5,10 +5,11 @@
     }
 
     &__text {
+        background: hsla(233, 7%, 24%, 0.75);
         text-align: right;
 
         h2 {
-            padding-top: 400px;
+            margin-top: 400px;
         }
     }
 }

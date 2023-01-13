@@ -65,7 +65,7 @@ body {
   font-weight: 300;
   color: hsl(197deg, 39%, 64%);
   line-height: 1.3;
-  background-image: url("/images/459439.jpg");
+  background-image: url("/images/2325446.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -230,8 +230,9 @@ button, .button {
 }
 
 .hero__text {
+  background: hsla(233deg, 7%, 24%, 0.75);
   text-align: right;
 }
 .hero__text h2 {
-  padding-top: 400px;
+  margin-top: 400px;
 }
