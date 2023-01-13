@@ -120,7 +120,7 @@ button, .button {
 
 .header {
   height: 74px;
-  background: linear-gradient(hsl(233deg, 7%, 24%), transparent);
+  background: linear-gradient(hsla(107deg, 39%, 64%, 0.5), hsla(107deg, 39%, 64%, 0.4), transparent);
 }
 .header.open .header__toggle > span:first-child {
   transform: rotate(45deg);
