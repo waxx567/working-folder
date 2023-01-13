@@ -49,7 +49,7 @@ html {
   font-size: 2rem;
 }
 .logostyle__2 {
-  color: #8ec67e;
+  color: brown;
 }
 
 *, *::before, *::after {
@@ -120,7 +120,7 @@ button, .button {
 
 .header {
   height: 74px;
-  background: linear-gradient(hsla(225deg, 29%, 67%, 0.55), hsla(225deg, 29%, 67%, 0.45), transparent);
+  background: linear-gradient(hsla(107deg, 39%, 64%, 0.5), hsla(107deg, 39%, 64%, 0.4), transparent);
 }
 .header.open .header__toggle > span:first-child {
   transform: rotate(45deg);
