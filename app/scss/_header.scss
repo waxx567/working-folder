@@ -1,8 +1,7 @@
 // Header class
 .header {
     height: 74px;
-    background: hsla(233, 7%, 24%, 0.35);
-    //background: linear-gradient(hsla(233, 7%, 24%, 0.85), transparent);
+    background: linear-gradient(hsla(225, 29%, 67%, 0.55), hsla(225, 29%, 67%, 0.45), transparent);
 
     // Hamburger open styles
     &.open {

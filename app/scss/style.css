@@ -45,11 +45,11 @@ html {
 
 .logostyle {
   font-family: Gruppo, sans-serif;
-  color: #b6745b;
+  color: black;
   font-size: 2rem;
 }
 .logostyle__2 {
-  color: #5b9db6;
+  color: #8ec67e;
 }
 
 *, *::before, *::after {
@@ -120,7 +120,7 @@ button, .button {
 
 .header {
   height: 74px;
-  background: hsla(233deg, 7%, 24%, 0.35);
+  background: linear-gradient(hsla(225deg, 29%, 67%, 0.55), hsla(225deg, 29%, 67%, 0.45), transparent);
 }
 .header.open .header__toggle > span:first-child {
   transform: rotate(45deg);
