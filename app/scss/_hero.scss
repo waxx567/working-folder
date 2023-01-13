@@ -5,11 +5,11 @@
     }
 
     &__text {
-        background: linear-gradient(315deg,  hsla(233, 7%, 24%, 0.35), transparent);
+        background: linear-gradient(to left,  hsla(233, 7%, 24%, 0.35), transparent, transparent);
         text-align: right;
 
-        h2 {
-            margin-top: 400px;
+        h3 {
+            margin-top: 460px;
         }
     }
 }
