@@ -5,7 +5,7 @@
     }
 
     &__text {
-        background: linear-gradient(to left,  hsla(233, 7%, 24%, 0.35), transparent, transparent);
+        background: linear-gradient(315deg,  $tunaGrey, transparent, transparent);
         text-align: right;
 
         h3 {
