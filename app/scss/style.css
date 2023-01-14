@@ -68,7 +68,7 @@ body {
   background-image: url("/images/459439.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
   min-height: 46.25rem;
 }
 body.noscroll {
@@ -120,7 +120,7 @@ button, .button {
 
 .header {
   height: 74px;
-  background: linear-gradient(hsla(107deg, 39%, 64%, 0.5), hsla(107deg, 39%, 64%, 0.4), transparent);
+  background: transparent;
 }
 .header.open .header__toggle > span:first-child {
   transform: rotate(45deg);
