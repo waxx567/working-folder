@@ -21,10 +21,12 @@ html {
 }
 
 body {
+
+    position: relative;
     // Body resets
     margin: 0;
     padding: 0;
-    height: 100%;
+    //height: 100%;
 
     // Body font
     font-family: 'Public Sans', sans-serif;
@@ -38,11 +40,19 @@ body {
         overflow: hidden;
     }
 
-    background-image: url('/images/459439.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-    min-height: 46.25rem; // 740px
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-image: url('/images/459439.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        min-height: 46.25rem; // 740px
+    }
 }
 
 // All link tag elements in all states

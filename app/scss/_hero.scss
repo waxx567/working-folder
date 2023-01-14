@@ -5,6 +5,7 @@
     }
 
     &__text {
+        position: relative;
         background: linear-gradient(315deg,  $tunaGrey, transparent, transparent);
         text-align: right;
 
