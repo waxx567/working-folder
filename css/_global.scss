@@ -12,9 +12,12 @@ html {
 
 body {
 
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
     // Base font size plus fluid responsiveness
     font-size: calc(16px + 0.3vw);
-    line-height: 1.3;
+    color: hsl(0, 0%, 100%);
 }
 
 // All link tag elements in all states
