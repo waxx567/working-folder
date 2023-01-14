@@ -3,11 +3,22 @@ $font-title: Raleway, sans-serif;
 $font-body: 'Open Sans', sans-serif;
 
 // Colours
-// Dark blue colour for intro and email sign up background
-$darkBlue1: hsl(217, 28%, 15%);
+
+// Primary
 // Dark blue colour for main background
-$darkBlue2: hsl(218, 28%, 13%);
+$mainBlue: hsl(218, 28%, 13%);
+// Dark blue colour for intro and email sign up background
+$introBlue: hsl(217, 28%, 15%);
 // Dark blue colour for footer background
-$darkBlue3: hsl(216, 53%, 9%);
+$footerBlue: hsl(216, 53%, 9%);
 // Dark blue colour for testimonials background
-$darkBlue4: hsl(219, 30%, 18%);
+$testimBlue: hsl(219, 30%, 18%);
+
+// Accent
+// Cyan colour for inside call-to-action gradient
+$blueCyan: hsl(176, 68%, 64%);
+// Blue colour for inside call-to-action gradient 
+$lightBlue: hsl(198, 60%, 50%);
+
+// Neutral
+$plainWhite: hsl(0, 0%, 100%);
