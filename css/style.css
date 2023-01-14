@@ -11,6 +11,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.3;
+  font-family: "Open Sans", sans-serif;
   font-size: calc(16px + 0.3vw);
 }
 
@@ -25,5 +26,6 @@ a, a:visited, a:hover {
 header {
   display: grid;
   grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
+  grid-auto-columns: 156px;
   background-color: hsl(217deg, 28%, 15%);
 }
