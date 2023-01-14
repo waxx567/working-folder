@@ -15,3 +15,8 @@ body {
 a, a:visited, a:hover {
   text-decoration: none;
 }
+
+header {
+  display: grid;
+  grid-template-columns: 1fr minmax(100px, 1fr) repeat(3, auto);
+}
