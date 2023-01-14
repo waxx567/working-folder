@@ -17,7 +17,11 @@ body {
     line-height: 1.3;
     // Base font size plus fluid responsiveness
     font-size: calc(16px + 0.3vw);
-    color: hsl(0, 0%, 100%);
+}
+
+// Font colour for all
+*, a {
+    color: hsl(0, 0%, 99%);
 }
 
 // All link tag elements in all states

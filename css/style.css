@@ -12,7 +12,10 @@ body {
   padding: 0;
   line-height: 1.3;
   font-size: calc(16px + 0.3vw);
-  color: hsl(0deg, 0%, 100%);
+}
+
+*, a {
+  color: hsl(0deg, 0%, 99%);
 }
 
 a, a:visited, a:hover {
