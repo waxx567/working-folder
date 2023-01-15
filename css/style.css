@@ -59,9 +59,6 @@ header a {
   }
 }
 
-.hero {
-  display: flex;
-}
 .hero img {
   width: 550px;
 }
