@@ -22,7 +22,7 @@ header {
 
     a {
         font-size: 0.875rem; // 14px
-        color: hsla(0, 0% 90%, 0.9);
+        color: hsl(0, 0%, 80%);
 
         @include breakpoint(large) {
             font-size: 1rem; // 16px
