@@ -28,6 +28,10 @@ h1, h2, h3 {
   font-family: Raleway, sans-serif;
 }
 
+section {
+  padding: 0 27px;
+}
+
 footer {
   background: hsl(216deg, 53%, 9%);
 }
@@ -38,6 +42,7 @@ header {
   align-items: center;
   background-color: hsl(217deg, 28%, 15%);
   padding: 1.5625rem 1.25rem 3.125rem 1.25rem;
+  font-family: Raleway, sans-serif;
 }
 header .header__links a:not(last-child) {
   padding-right: 20px;
@@ -51,7 +56,7 @@ header img {
   }
 }
 header a {
-  font-size: 0.875rem;
+  font-size: 0.84375rem;
 }
 @media screen and (min-width: 1023px) {
   header a {
@@ -85,6 +90,8 @@ header a {
 .hero h1 {
   max-width: 716px;
   font-size: 1.5em;
+  line-height: 1.4;
+  margin: 1.3em 0;
 }
 .hero p {
   max-width: 585px;

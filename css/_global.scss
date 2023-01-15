@@ -35,6 +35,10 @@ h1, h2, h3 {
     font-family: $font-title; // Raleway
 }
 
+section {
+    padding: 0 27px;
+}
+
 footer {
     background: $footerBlue;
 }

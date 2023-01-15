@@ -4,6 +4,7 @@ header {
     align-items: center;
     background-color: $introBlue;
     padding: 1.5625rem 1.25rem 3.125rem 1.25rem; // 25px 20px 50px 20px
+    font-family: $font-title; // Raleway
 
     .header__links {
         a:not(last-child) {
@@ -21,6 +22,7 @@ header {
 
     a {
         font-size: 0.875rem; // 14px
+        color: hsla(0, 0% 90%, 0.9);
 
         @include breakpoint(large) {
             font-size: 16px; // 16px
