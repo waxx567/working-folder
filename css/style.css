@@ -30,5 +30,5 @@ header {
   padding: 4.5625rem 5rem;
 }
 header .header__links a:not(last-child) {
-  padding: 56px;
+  padding: 3.5rem;
 }
