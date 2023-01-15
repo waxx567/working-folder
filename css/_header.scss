@@ -1,6 +1,11 @@
 header {
     display: grid;
     grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
-    grid-gap: 56px;
     background-color: $introBlue;
+
+    &__links {
+        &:not(last-child) {
+            padding: 56px;
+        }
+        }
 }
