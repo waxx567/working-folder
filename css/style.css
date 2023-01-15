@@ -27,6 +27,7 @@ header {
   display: grid;
   grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
   background-color: hsl(217deg, 28%, 15%);
+  padding: 4.5625rem 5rem;
 }
 header .header__links a:not(last-child) {
   padding: 56px;

@@ -2,6 +2,8 @@ header {
     display: grid;
     grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
     background-color: $introBlue;
+    padding: 4.5625rem 5rem; // 73px 80px
+
 
     .header__links {
         a:not(last-child) {
