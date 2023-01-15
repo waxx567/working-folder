@@ -43,6 +43,32 @@ section {
     padding: 0 1.6875rem; // 0 27px
 }
 
-footer {
-    background: $footerBlue;
+button {
+    border: none;
+    background: linear-gradient(to right, $ctaCyan, $ctaBlue);
+    font-size: 0.75em; // 12px
+    padding: 1.25rem 2.5rem; // 20px 40px
+    margin-top: 1.25rem; // 20px
+    margin-bottom: 1.25rem; // 20px
+    width: 100%;
+    max-width: 17.8125rem; // 285px
+    border-radius: 1.875rem; // 30px
+    transition: background 300ms ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        background: linear-gradient(to right, $ctaBlue, $ctaCyan);
+    }
 }
+
+footer {
+    padding-top: 15px;
+    text-align: center;
+    background: $footerBlue;
+
+    a:hover span {
+            cursor: pointer;
+            color: lawngreen;
+        }
+}
+

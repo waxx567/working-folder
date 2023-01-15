@@ -1,9 +1,9 @@
 header {
+    padding: 1.5625rem 1.25rem 3.125rem 1.25rem; // 25px 20px 50px 20px
+    background-color: $introBlue;
     display: grid;
     grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
     align-items: center;
-    background-color: $introBlue;
-    padding: 1.5625rem 1.25rem 3.125rem 1.25rem; // 25px 20px 50px 20px
     font-family: $font-title; // Raleway
 
     .header__links {
