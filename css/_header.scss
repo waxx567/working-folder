@@ -1,5 +1,6 @@
 header {
-    //display: grid;
-    //grid-template-columns: minmax(100px, 1fr) repeat(3, 1fr);
-    //background-color: $introBlue;
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
+    grid-gap: 56px;
+    background-color: $introBlue;
 }

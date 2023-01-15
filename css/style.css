@@ -8,10 +8,24 @@ html {
 }
 
 body {
+  margin: 0;
+  padding: 0;
   line-height: 1.3;
+  font-family: "Open Sans", sans-serif;
   font-size: calc(16px + 0.3vw);
+}
+
+*, a {
+  color: hsl(0deg, 0%, 95%);
 }
 
 a, a:visited, a:hover {
   text-decoration: none;
+}
+
+header {
+  display: grid;
+  grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
+  grid-gap: 56px;
+  background-color: hsl(217deg, 28%, 15%);
 }

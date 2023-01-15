@@ -12,17 +12,17 @@ html {
 
 body {
 
-    //margin: 0;
-    //padding: 0;
+    margin: 0;
+    padding: 0;
     line-height: 1.3;
-    //font-family: $font-body; // Open Sans
+    font-family: $font-body; // Open Sans
     // Base font size plus fluid responsiveness
     font-size: calc(16px + 0.3vw);
 }
 
 // Font colour for all and link tags
 *, a {
-    //color: hsl(0, 0%, 99%);
+    color: hsl(0, 0%, 95%);
 }
 
 // No decoration for all link tag elements in all states
