@@ -20,6 +20,14 @@ $ctaCyan: hsl(176, 68%, 64%);
 $ctaBlue: hsl(198, 60%, 50%);
 
 // Breakpoints
+$breakpoints: (
+    small: 499px, // Phones
+    medium: 899px, // Tablets
+    large: 1023px, // Small desktop
+    xlarge: 1399px // Large desktop
+
+);
+
 @mixin breakpoint($size) {
     $breakpoint-value: map-get($breakpoints, $size);
 
