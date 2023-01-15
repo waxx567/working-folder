@@ -8,7 +8,7 @@ header {
 
     .header__links {
         a:not(last-child) {
-            padding-right: 20px; // 56px
+            padding-right: 1.25rem; // 20px
         }
     }
 
@@ -16,7 +16,7 @@ header {
         width: 5.1875rem; // 83px
 
         @include breakpoint(large) {
-            width: 185px;
+            width: 11.5625rem; // 185px
         }
     }
 
@@ -25,19 +25,18 @@ header {
         color: hsla(0, 0% 90%, 0.9);
 
         @include breakpoint(large) {
-            font-size: 16px; // 16px
-            grid-gap: 56px;
+            font-size: 1rem; // 16px
         }
     }
 
     
     @include breakpoint(large) { // Larger than 1023px
         padding: 4.5625rem 5rem; // 73px 80px
-        font-size: 16px; // 16px
+        font-size: 1rem; // 16px
 
         .header__links {
             a:not(last-child) {
-                padding-right: 56px;
+                padding-right: 3.5rem; // 56px
             }
         }
     }
