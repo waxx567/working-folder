@@ -5,14 +5,14 @@ header {
     background-color: $introBlue;
     padding: 1.5625rem 1.25rem 3.125rem 1.25rem; // 25px 20px 50px 20px
 
+    @include breakpoint(large) { // Larger than 1023px
+        padding: 4.5625rem 5rem; // 73px 80px
+    }
+
     .header__links {
         a:not(last-child) {
             padding-right: 3.5rem; // 56px
         }
-    }
-
-    @include breakpoint(large) { // Larger than 1023px
-        padding: 4.5625rem 5rem; // 73px 80px
     }
 
     img {
@@ -24,11 +24,9 @@ header {
     }
 
     a {
-        font-size: 0.875rem; // 14px
-
-        @include breakpoint(large) {
+        /*@include breakpoint(large) {
             font-size: 16px; // 16px
-            color: white;
+            color: white;*/
         }
     }
 }
