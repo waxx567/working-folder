@@ -1,13 +1,34 @@
 header {
     display: grid;
     grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
+    align-items: center;
     background-color: $introBlue;
-    padding: 4.5625rem 5rem; // 73px 80px
-
+    padding: 1.5625rem 1.25rem 3.125rem 1.25rem; // 25px 20px 50px 20px
 
     .header__links {
         a:not(last-child) {
-            padding: 3.5rem; // 56px
+            padding-right: 3.5rem; // 56px
         }
+    }
+
+    @include breakpoint(large) { // Larger than 1023px
+        padding: 4.5625rem 5rem; // 73px 80px
+    }
+
+    img {
+        width: 5.1875rem; // 83px
+
+        @include breakpoint(large) {
+            width: 185px;
         }
+    }
+
+    a {
+        font-size: 0.875rem; // 14px
+
+        @include breakpoint(large) {
+            font-size: 1rem; // 16px
+        }
+    }
 }
+
