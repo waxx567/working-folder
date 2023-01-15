@@ -34,13 +34,8 @@ header {
   background-color: hsl(217deg, 28%, 15%);
   padding: 1.5625rem 1.25rem 3.125rem 1.25rem;
 }
-@media screen and (min-width: 1023px) {
-  header {
-    padding: 4.5625rem 5rem;
-  }
-}
 header .header__links a:not(last-child) {
-  padding-right: 3.5rem;
+  padding-right: 20px;
 }
 header img {
   width: 5.1875rem;
@@ -56,12 +51,24 @@ header a {
 @media screen and (min-width: 1023px) {
   header a {
     font-size: 16px;
+    grid-gap: 56px;
+  }
+}
+@media screen and (min-width: 1023px) {
+  header {
+    padding: 4.5625rem 5rem;
+    font-size: 16px;
+  }
+  header .header__links a:not(last-child) {
+    padding-right: 56px;
   }
 }
 
 .hero {
   background: hsl(217deg, 28%, 15%);
+  text-align: center;
 }
 .hero img {
-  width: 550px;
+  width: 100%;
+  max-width: 716px;
 }
