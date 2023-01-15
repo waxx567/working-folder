@@ -15,6 +15,10 @@ body {
   font-size: calc(16px + 0.3vw);
 }
 
+.body {
+  background: hsl(217deg, 28%, 15%);
+}
+
 *, a {
   color: hsl(0deg, 0%, 95%);
 }
@@ -30,13 +34,13 @@ header {
   background-color: hsl(217deg, 28%, 15%);
   padding: 1.5625rem 1.25rem 3.125rem 1.25rem;
 }
-header .header__links a:not(last-child) {
-  padding-right: 3.5rem;
-}
 @media screen and (min-width: 1023px) {
   header {
     padding: 4.5625rem 5rem;
   }
+}
+header .header__links a:not(last-child) {
+  padding-right: 3.5rem;
 }
 header img {
   width: 5.1875rem;
@@ -52,6 +56,5 @@ header a {
 @media screen and (min-width: 1023px) {
   header a {
     font-size: 16px;
-    color: white;
   }
 }
