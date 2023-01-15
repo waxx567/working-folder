@@ -18,7 +18,10 @@ body {
     font-family: $font-body; // Open Sans
     // Base font size plus fluid responsiveness
     font-size: calc(16px + 0.3vw); // 16px
-    background-color: $mainBlue;
+}
+
+.body {
+    background: $mainBlue;
 }
 
 // Font colour for all and link tags
