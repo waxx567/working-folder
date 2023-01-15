@@ -58,3 +58,10 @@ header a {
     font-size: 16px;
   }
 }
+
+.hero {
+  display: flex;
+}
+.hero img {
+  width: 550px;
+}
