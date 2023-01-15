@@ -3,7 +3,7 @@ header {
     grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
     background-color: $introBlue;
 
-    &__links {
+    .header__links {
         a:not(last-child) {
             padding: 56px;
         }
