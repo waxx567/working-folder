@@ -20,10 +20,6 @@ body {
     font-size: calc(16px + 0.3vw); // 16px
 }
 
-.body {
-    background: $introBlue;
-}
-
 // Font colour for all and link tags
 *, a {
     color: hsl(0, 0%, 95%);
@@ -32,4 +28,8 @@ body {
 // No decoration for all link tag elements in all states
 a, a:visited, a:hover {
     text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: $font-title; // Raleway
 }
