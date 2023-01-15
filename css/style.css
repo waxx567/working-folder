@@ -12,10 +12,6 @@ body {
   font-size: calc(16px + 0.3vw);
 }
 
-*, a {
-  color: hsl(0deg, 0%, 99%);
-}
-
 a, a:visited, a:hover {
   text-decoration: none;
 }
