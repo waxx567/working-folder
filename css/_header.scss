@@ -1,14 +1,5 @@
 header {
     display: grid;
-    grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
+    grid-template-columns: minmax(100px, 1fr) repeat(3, 1fr);
     background-color: $introBlue;
-
-    // Links
-    &__links {
-
-        // All elements except the last one
-        &:not(:last-child) {
-            margin-right: 32px;
-        }
-    }
 }

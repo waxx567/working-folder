@@ -25,9 +25,6 @@ a, a:visited, a:hover {
 
 header {
   display: grid;
-  grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
+  grid-template-columns: minmax(100px, 1fr) repeat(3, 1fr);
   background-color: hsl(217deg, 28%, 15%);
-}
-header__links:not(:last-child) {
-  margin-right: 32px;
 }
