@@ -4,7 +4,7 @@ header {
     background-color: $introBlue;
 
     &__links {
-        &:not(last-child) {
+        a:not(last-child) {
             padding: 56px;
         }
         }

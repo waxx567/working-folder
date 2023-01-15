@@ -28,6 +28,6 @@ header {
   grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
   background-color: hsl(217deg, 28%, 15%);
 }
-header__links:not(last-child) {
+header__links a:not(last-child) {
   padding: 56px;
 }
