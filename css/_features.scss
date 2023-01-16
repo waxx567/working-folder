@@ -1,0 +1,10 @@
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: $mainBlue;
+    
+    .feature {
+        border: 1px solid firebrick;
+        min-height: 150px;
+    }
+}

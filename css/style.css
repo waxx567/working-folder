@@ -123,4 +123,15 @@ header a:hover {
 .hero p {
   max-width: 36.5625rem;
   margin: 0 0.7em;
+  padding: 0 0.7rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: hsl(218deg, 28%, 13%);
+}
+.features .feature {
+  border: 1px solid firebrick;
+  min-height: 150px;
 }
