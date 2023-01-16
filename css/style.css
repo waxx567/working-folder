@@ -196,8 +196,8 @@ footer a .alt-color {
   color: royalblue;
 }
 footer a:hover {
-  color: palevioletred;
+  color: grey;
 }
 footer a:hover .alt-color {
-  color: palevioletred;
+  color: grey;
 }
