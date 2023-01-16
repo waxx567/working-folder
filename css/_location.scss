@@ -39,5 +39,15 @@
         p {
             font-size: 1rem; // 16rem
         }
+
+        a {
+            background-image: url(/images/icon-arrow.svg);
+            background-repeat: no-repeat;
+            background-position: right center;
+            padding-right: 1.875rem; // 30px 
+            font-size: 0.875rem; // 14px
+            text-decoration: underline;
+            color: $ctaCyan;
+        }
     }
 }

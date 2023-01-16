@@ -222,6 +222,15 @@ header a:hover {
 .location-text p {
   font-size: 1rem;
 }
+.location-text a {
+  background-image: url(/images/icon-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 1.875rem;
+  font-size: 0.875rem;
+  text-decoration: underline;
+  color: hsl(176deg, 68%, 64%);
+}
 
 footer {
   padding-top: 0.9375rem;
