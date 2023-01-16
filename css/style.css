@@ -194,10 +194,13 @@ header a:hover {
   display: grid;
   grid-template-columns: 1fr;
   gap: 3.125rem;
+  max-width: 31.25rem;
+  margin: 0 auto;
 }
 @media screen and (min-width: 999px) {
   .location-container {
     grid-template-columns: repeat(2, 1fr);
+    max-width: none;
   }
 }
 .location-image {

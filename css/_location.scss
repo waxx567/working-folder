@@ -5,9 +5,13 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 3.125rem; // 50px
+        max-width: 31.25rem; // 500px
+        margin: 0 auto;
+
 
         @include breakpoint(large) {
             grid-template-columns: repeat(2, 1fr);
+            max-width: none;
         }
     }
 
