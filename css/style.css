@@ -144,12 +144,12 @@ header a:hover {
 .features {
   background-color: hsl(218deg, 28%, 13%);
 }
-.features .feature-grid {
+.features .feature-container {
   max-width: 880px;
   margin: 0 auto;
 }
 @media screen and (min-width: 699px) {
-  .features .feature-grid {
+  .features .feature-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -161,6 +161,7 @@ header a:hover {
   flex-direction: column;
 }
 .features .feature-image {
+  height: 80px;
   margin-bottom: 1.875rem;
 }
 .features .feature-title {

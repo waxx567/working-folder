@@ -1,7 +1,8 @@
 .features {
+
     background-color: $mainBlue;
     
-    .feature-grid {
+    .feature-container {
         max-width: 880px;
         margin: 0 auto;
     
@@ -18,6 +19,7 @@
         flex-direction: column;
         
         &-image {
+            height: 80px;
             margin-bottom: 1.875rem; // 30px
         }
 
