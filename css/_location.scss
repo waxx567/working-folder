@@ -1,3 +1,27 @@
 .location {
     background-color: $mainBlue;
+
+    &-container {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        @include breakpoint(large) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    &-image {
+
+    }
+
+    &-text {
+
+        h3 {
+
+        }
+
+        p {
+
+        }
+    }
 }

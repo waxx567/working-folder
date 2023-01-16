@@ -190,7 +190,15 @@ header a:hover {
 .location {
   background-color: hsl(218deg, 28%, 13%);
 }
-
+.location-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 999px) {
+  .location-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 footer {
   padding-top: 0.9375rem;
   margin-bottom: 0;
