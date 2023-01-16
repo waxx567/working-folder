@@ -143,6 +143,7 @@ header a:hover {
 
 .features {
   background-color: hsl(218deg, 28%, 13%);
+  padding-top: 0.25rem;
 }
 .features .feature-container {
   display: grid;
@@ -154,6 +155,11 @@ header a:hover {
 @media screen and (min-width: 699px) {
   .features .feature-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 999px) {
+  .features .feature-container {
+    gap: 6vw 7vw;
   }
 }
 .features .feature {

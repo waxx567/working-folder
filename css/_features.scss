@@ -1,6 +1,7 @@
 .features {
 
     background-color: $mainBlue;
+    padding-top: 0.25rem; // 4px
     
     .feature-container {
         display: grid;
@@ -11,7 +12,11 @@
     
         @include breakpoint(medium) {
             grid-template-columns: repeat(2, 1fr);
-        }   
+        }
+        
+        @include breakpoint(large) {
+            gap: 6vw 7vw;
+        }
     }
 
     .feature {
