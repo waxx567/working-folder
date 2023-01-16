@@ -19,6 +19,9 @@
 
         h3 {
 
+            @include breakpoint(large) {
+                max-width: 25rem; // 400px
+            }
         }
 
         p {
