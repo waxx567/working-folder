@@ -43,7 +43,7 @@ button {
   font-weight: 700;
   padding: 1.25rem 2.5rem;
   margin-top: 3.125rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0;
   width: 100%;
   max-width: 18.75rem;
   border-radius: 1.875rem;
@@ -129,7 +129,7 @@ header a:hover {
 .features {
   background-color: hsl(218deg, 28%, 13%);
 }
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 899px) {
   .features {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

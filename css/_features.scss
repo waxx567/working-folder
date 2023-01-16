@@ -1,7 +1,7 @@
 .features {
     background-color: $mainBlue;
     
-    @include breakpoint(large) {
+    @include breakpoint(medium) {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
