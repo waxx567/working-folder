@@ -4,6 +4,7 @@
     &-container {
         display: grid;
         grid-template-columns: 1fr;
+        align-items: center;
         gap: 3.125rem; // 50px
         max-width: 31.25rem; // 500px
         margin: 0 auto;
@@ -31,7 +32,7 @@
 
         h3 {
 
-            font-size: 1.25rem; // 20px
+            font-size: 1.25em;
 
             @include breakpoint(large) {
                 max-width: 25rem; // 400px
@@ -39,7 +40,7 @@
         }
 
         p {
-            font-size: 1rem; // 16rem
+            font-size: 1rem; // 16px
         }
 
         a {

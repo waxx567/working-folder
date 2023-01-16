@@ -148,7 +148,7 @@ header a:hover {
 .features .feature-container {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 6vw 10vw;
+  gap: 6vw 8vw;
   max-width: 880px;
   margin: 0 auto;
 }
@@ -194,6 +194,7 @@ header a:hover {
 .location-container {
   display: grid;
   grid-template-columns: 1fr;
+  align-items: center;
   gap: 3.125rem;
   max-width: 31.25rem;
   margin: 0 auto;
@@ -216,7 +217,7 @@ header a:hover {
   }
 }
 .location-text h3 {
-  font-size: 1.25rem;
+  font-size: 1.25em;
 }
 @media screen and (min-width: 999px) {
   .location-text h3 {
