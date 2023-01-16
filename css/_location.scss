@@ -31,6 +31,8 @@
 
         h3 {
 
+            font-size: 1.25rem; // 20px
+
             @include breakpoint(large) {
                 max-width: 25rem; // 400px
             }
@@ -44,10 +46,16 @@
             background-image: url(/images/icon-arrow.svg);
             background-repeat: no-repeat;
             background-position: right center;
-            padding-right: 1.875rem; // 30px 
+            padding-right: 1.5rem; // 24px 
             font-size: 0.875rem; // 14px
-            text-decoration: underline;
             color: $ctaCyan;
+            border-bottom: 1px solid $ctaCyan;
+            transition: all 200ms ease-in-out;
+
+            &:hover {
+                color: $ctaBlue;
+                border-bottom: 1px solid $ctaBlue;
+            }
         }
     }
 }
