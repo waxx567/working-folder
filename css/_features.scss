@@ -1,8 +1,11 @@
 .features {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     background-color: $mainBlue;
     
+    @include breakpoint(large) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .feature {
         border: 1px solid firebrick;
         min-height: 150px;
