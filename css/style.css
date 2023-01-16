@@ -74,7 +74,7 @@ header .header__links a:not(last-child) {
 header img {
   width: 5.1875rem;
 }
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 999px) {
   header img {
     width: 11.5625rem;
   }
@@ -83,7 +83,7 @@ header a {
   font-size: 0.875rem;
   color: hsl(0deg, 0%, 80%);
 }
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 999px) {
   header a {
     font-size: 1rem;
   }
@@ -91,7 +91,7 @@ header a {
 header a:hover {
   color: hsl(6deg, 93%, 80%);
 }
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 999px) {
   header {
     padding: 4.5625rem 5rem;
     font-size: 1rem;
@@ -129,7 +129,7 @@ header a:hover {
 .features {
   background-color: hsl(218deg, 28%, 13%);
 }
-@media screen and (min-width: 899px) {
+@media screen and (min-width: 699px) {
   .features {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
