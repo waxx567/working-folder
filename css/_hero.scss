@@ -2,6 +2,8 @@
     
     > * {
         text-align: center;
+        position: relative;
+        z-index: 1;
     }
 
     position: relative;
@@ -13,13 +15,15 @@
     &:after {
         content: '';
         position: absolute;
+        z-index: 0;
         width: 100%;
-        height: 220px;
+        height: 105vw;
         bottom: 0px;
         background-image: url('/images/bg-curvy-mobile.svg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom center;
+        border: 1px solid aqua;
 
         @include breakpoint(medium) {
             background-image: url('/images/bg-curvy-desktop.svg');
