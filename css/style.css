@@ -89,7 +89,7 @@ header a {
   }
 }
 header a:hover {
-  color: coral;
+  color: palevioletred;
 }
 @media screen and (min-width: 999px) {
   header {
@@ -118,7 +118,7 @@ header a:hover {
   position: absolute;
   z-index: 0;
   width: 100%;
-  height: 105vw;
+  height: 65vw;
   bottom: 0px;
   background-image: url("/images/bg-curvy-mobile.svg");
   background-size: cover;
@@ -129,7 +129,7 @@ header a:hover {
 @media screen and (min-width: 699px) {
   .hero:after {
     background-image: url("/images/bg-curvy-desktop.svg");
-    height: 480px;
+    height: 55vw;
   }
 }
 .hero img {
