@@ -203,12 +203,17 @@ header a:hover {
 .location-image {
   text-align: center;
 }
-.location-text {
-  padding-right: 2rem;
+.location-image img {
+  width: 100%;
+}
+@media screen and (min-width: 999px) {
+  .location-text {
+    padding-right: 4rem;
+  }
 }
 @media screen and (min-width: 999px) {
   .location-text h3 {
-    max-width: 20rem;
+    max-width: 25rem;
   }
 }
 .location-text p {

@@ -13,15 +13,22 @@
 
     &-image {
         text-align: center;
+
+        img {
+            width: 100%;
+        }
     }
 
     &-text {
-        padding-right: 2rem; // 32px
+
+        @include breakpoint(large) {
+            padding-right: 4rem; // 64px
+        }
 
         h3 {
 
             @include breakpoint(large) {
-                max-width: 20rem; // 400px
+                max-width: 25rem; // 400px
             }
         }
 
