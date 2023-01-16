@@ -193,12 +193,17 @@ header a:hover {
 .location-container {
   display: grid;
   grid-template-columns: 1fr;
+  gap: 3.125rem;
 }
 @media screen and (min-width: 999px) {
   .location-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+.location-text p {
+  font-size: 1rem;
+}
+
 footer {
   padding-top: 0.9375rem;
   margin-bottom: 0;
