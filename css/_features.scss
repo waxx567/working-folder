@@ -1,7 +1,6 @@
 .features {
 
     background-color: $mainBlue;
-    padding-top: 0.25rem; // 4px
     
     .feature-container {
         display: grid;
@@ -15,7 +14,7 @@
         }
         
         @include breakpoint(large) {
-            gap: 6vw 7vw;
+            gap: 7vw 7vw;
         }
     }
 
@@ -26,8 +25,13 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 5rem; // 80px
+            height: 5.625rem; // 90px
             margin-bottom: 1.875rem; // 30px
+
+            img {
+                height: 100%;
+                width: auto;
+            }
         }
 
         &-title {

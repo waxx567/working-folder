@@ -1,8 +1,9 @@
 
 footer {
-    padding-top: 15px;
+    padding-top: 0.9375rem; // 15px
+    margin-bottom: 0;
     text-align: center;
-    background: $footerBlue;
+    background-color: $footerBlue;
 
     a {
         color: coral;
