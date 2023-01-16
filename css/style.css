@@ -157,6 +157,8 @@ header a:hover {
 .features .feature {
   border: 1px solid firebrick;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 .features .feature-image {
   margin-bottom: 1.875rem;
