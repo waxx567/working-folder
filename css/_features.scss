@@ -3,23 +3,25 @@
     background-color: $mainBlue;
     
     .feature-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 6vw 10vw;
         max-width: 880px;
         margin: 0 auto;
     
         @include breakpoint(medium) {
-            display: grid;
             grid-template-columns: repeat(2, 1fr);
         }   
     }
 
     .feature {
-        border: 1px solid firebrick;
         text-align: center;
-        display: flex;
-        flex-direction: column;
         
         &-image {
-            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 5rem; // 80px
             margin-bottom: 1.875rem; // 30px
         }
 

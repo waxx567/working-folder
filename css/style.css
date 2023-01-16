@@ -145,23 +145,25 @@ header a:hover {
   background-color: hsl(218deg, 28%, 13%);
 }
 .features .feature-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6vw 10vw;
   max-width: 880px;
   margin: 0 auto;
 }
 @media screen and (min-width: 699px) {
   .features .feature-container {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 .features .feature {
-  border: 1px solid firebrick;
   text-align: center;
-  display: flex;
-  flex-direction: column;
 }
 .features .feature-image {
-  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
   margin-bottom: 1.875rem;
 }
 .features .feature-title {
