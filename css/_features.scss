@@ -1,5 +1,6 @@
 .features {
     background-color: $mainBlue;
+    max-width: 880px;
     
     @include breakpoint(medium) {
         display: grid;

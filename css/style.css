@@ -128,6 +128,7 @@ header a:hover {
 
 .features {
   background-color: hsl(218deg, 28%, 13%);
+  max-width: 880px;
 }
 @media screen and (min-width: 699px) {
   .features {
