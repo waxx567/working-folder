@@ -1,0 +1,22 @@
+
+footer {
+    padding-top: 15px;
+    text-align: center;
+    background: $footerBlue;
+
+    a {
+        color: coral;
+
+        .alt-color {
+            color: royalblue;
+        }
+
+        &:hover {
+            color: palevioletred;
+
+            .alt-color {
+                color: palevioletred;
+            }
+        }
+    }
+}

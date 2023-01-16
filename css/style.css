@@ -54,21 +54,6 @@ button:hover {
   background: linear-gradient(to right, hsl(198deg, 60%, 50%), hsl(176deg, 68%, 64%));
 }
 
-footer {
-  padding-top: 15px;
-  text-align: center;
-  background: hsl(216deg, 53%, 9%);
-}
-footer a {
-  color: coral;
-}
-footer a .alt-color {
-  color: royalblue;
-}
-footer a:hover {
-  color: palevioletred;
-}
-
 header {
   padding: 1.5625rem 1.25rem 3.125rem 1.25rem;
   background-color: hsl(217deg, 28%, 15%);
@@ -186,4 +171,22 @@ header a:hover {
 .features .feature-description {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
+}
+
+footer {
+  padding-top: 15px;
+  text-align: center;
+  background: hsl(216deg, 53%, 9%);
+}
+footer a {
+  color: coral;
+}
+footer a .alt-color {
+  color: royalblue;
+}
+footer a:hover {
+  color: palevioletred;
+}
+footer a:hover .alt-color {
+  color: palevioletred;
 }
