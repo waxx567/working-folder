@@ -59,7 +59,7 @@ button {
   margin-bottom: 0;
   width: 100%;
   max-width: 18.75rem;
-  border-radius: 1.875rem;
+  border-radius: 2.1875rem;
   transition: background 300ms ease-in-out;
 }
 button:hover {
@@ -338,6 +338,10 @@ header a:hover {
 .sign-up {
   background-color: hsl(217deg, 28%, 15%);
   width: 50%;
+}
+
+.feedback-container button {
+  width: 400px;
 }
 
 footer {
