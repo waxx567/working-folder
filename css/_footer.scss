@@ -1,6 +1,5 @@
 
-footer {
-    padding-top: 0.9375rem; // 15px
+.footer {
     margin-bottom: 0;
     background-color: $footerBlue;
     font-family: $font-title;
@@ -8,8 +7,20 @@ footer {
     display: flex;
     flex-direction: column;
 
-    a {
+    &-container {
+        margin: 50px;
+        //margin: 2.5rem 3rem 3.5rem 3rem; // 40px 48px 56px 48px
+    }
+
+    &-info {
+        font-size: 0.8125rem; // 13px
+        color: hsl(0, 0%, 65%);
+        display: grid;
+        grid-template-columns: 4fr 2fr 1fr 1fr 2fr;
 
     }
 }
 
+.location-container {
+    border: 1px solid lawngreen;
+}
