@@ -24,6 +24,10 @@ a, a:visited, a:hover {
   text-decoration: none;
 }
 
+h1, h2, h3 {
+  font-family: Raleway, sans-serif;
+}
+
 h1 {
   font-size: 1.5em;
 }
@@ -34,10 +38,6 @@ h2 {
 
 h3 {
   font-size: 1em;
-}
-
-h1, h2, h3 {
-  font-family: Raleway, sans-serif;
 }
 
 p {
@@ -256,37 +256,46 @@ header a:hover {
 .testimonials .testimonial-container {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
+  gap: 15px;
   margin: 0;
-  padding: 0 0 0 10px;
+  padding: 0 70px 0 70px;
 }
 @media screen and (min-width: 699px) {
   .testimonials .testimonial-container {
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 25px;
   }
 }
 @media screen and (min-width: 999px) {
   .testimonials .testimonial-container {
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    gap: 35px;
   }
 }
 .testimonial {
   background-color: hsl(219deg, 30%, 18%);
-  padding: 40px 30px 20px 30px;
+  padding: 22px 18px;
   width: 100%;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 .testimonial-text p {
-  font-size: 0.9375rem;
+  font-size: 0.8125rem;
+}
+.testimonial-image img {
+  border-radius: 50%;
+  height: 30px;
 }
 .testimonial-name p {
-  font-size: 0.75rem;
+  font-size: 0.625rem;
   font-weight: 700;
 }
 .testimonial-title p {
-  font-size: 0.75rem;
+  font-size: 0.625rem;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
 }
 
 footer {

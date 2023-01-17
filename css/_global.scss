@@ -31,6 +31,10 @@ a, a:visited, a:hover {
     text-decoration: none;
 }
 
+h1, h2, h3 {
+    font-family: $font-title; // Raleway
+}
+
 h1 {
     font-size: 1.5em;
 }
@@ -41,10 +45,6 @@ h2 {
 
 h3 {
     font-size: 1em;
-}
-
-h1, h2, h3 {
-    font-family: $font-title; // Raleway
 }
 
 p {
