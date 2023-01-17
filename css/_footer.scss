@@ -5,6 +5,10 @@ footer {
     text-align: center;
     background-color: $footerBlue;
     font-family: $font-title;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     a {
         color: coral;
@@ -22,3 +26,4 @@ footer {
         }
     }
 }
+
