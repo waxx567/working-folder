@@ -110,7 +110,7 @@ header a:hover {
 
 .hero {
   position: relative;
-  background: hsl(217deg, 28%, 15%);
+  background-color: hsl(217deg, 28%, 15%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -256,26 +256,25 @@ header a:hover {
 .testimonials .testimonial-container {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 5vw;
-  max-width: 575px;
-  margin: 0 auto;
-  padding: 0 auto;
-  justify-content: center;
+  min-width: 155rem;
+  margin: 0;
+  padding: 0 0 0 10px;
 }
 @media screen and (min-width: 699px) {
   .testimonials .testimonial-container {
     grid-template-columns: repeat(3, 1fr);
-    gap: 3.5vw;
+    gap: 4.25vw;
   }
 }
-
+@media screen and (min-width: 999px) {
+  .testimonials .testimonial-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
 .testimonial {
   background-color: hsl(219deg, 30%, 18%);
-  width: 300px;
-  height: 200px;
-}
-.testimonial-image {
-  height: 20px;
+  width: 100%;
 }
 footer {
   padding-top: 0.9375rem;
