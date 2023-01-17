@@ -253,26 +253,51 @@ header a:hover {
 .testimonials {
   background-color: hsl(218deg, 28%, 13%);
 }
+.testimonials > * {
+  position: relative;
+  z-index: 1;
+}
+.testimonials:after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  height: 3.125rem;
+  background-image: url("/images/bg-quotes.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
 .testimonials-container {
   display: grid;
   grid-template-columns: 1fr;
   gap: 0.9375rem;
   margin: 0px;
-  padding: 0px 4.375rem;
+  padding: 0px 1.875rem;
 }
 @media screen and (min-width: 699px) {
   .testimonials-container {
-    padding: 0px 1.875rem;
+    padding: 0px 3.125rem;
   }
 }
 @media screen and (min-width: 999px) {
   .testimonials-container {
+    padding: 0px 4.375rem;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.1875rem;
   }
 }
 .testimonials-graphic img {
-  padding-left: 3.75rem;
+  padding-left: 1.5rem;
+}
+@media screen and (min-width: 699px) {
+  .testimonials-graphic {
+    padding-left: 1.75rem;
+  }
+}
+@media screen and (min-width: 999px) {
+  .testimonials-graphic {
+    padding-left: 2.5rem;
+  }
 }
 
 .testimonial {
