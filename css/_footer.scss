@@ -2,7 +2,7 @@
 .footer {
     margin-bottom: 0;
     background-color: $footerBlue;
-    font-family: $font-title;
+    font-family: $font-body;
     height: 25rem; // 400px
     display: flex;
     flex-direction: column;
@@ -28,11 +28,18 @@
     }
 
     &-links-1 {
-        padding: auto;
+        
+        img {
+            padding: auto;
+        }
     }
 
     &-links-2 { 
-        padding-right: 30px;
+
+        img {
+            padding-right: 30px;
+        }
+        
 
     }
 
