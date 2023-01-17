@@ -2,12 +2,12 @@
 
     background-color: $mainBlue;
 
-    .testimonial-container {
+    &-container {
         display: grid;
         grid-template-columns: 1fr;
         gap: 15px;
-        margin: 0;
-        padding: 0 70px 0 70px;
+        margin: 0px;
+        padding: 0px 70px;
 
         @include breakpoint(medium) {
             grid-template-columns: repeat(3, 1fr);
@@ -19,16 +19,18 @@
         }
     }
 
-
     &-graphic {
 
+        img {
+            padding-left: 45px;
+        }
     }
 }
 
 .testimonial {
 
     background-color: $testimBlue;
-    padding: 22px 18px;
+    padding: 22px 18px 20px 16px;
     width: 100%;
     border-radius: 4px;
 
@@ -52,6 +54,9 @@
         p {
             font-size: 0.625rem; // 10px
             font-weight: 700;
+            margin: 0px;
+            padding: 0px;
+            padding-bottom: 2px;
         }
     }
 
@@ -59,6 +64,8 @@
         
         p {
             font-size: 0.625rem; // 10px
+            margin: 0px;
+            padding: 0px;
         }
     }
 }
@@ -67,3 +74,4 @@
     display: grid;
     grid-template-columns: 1fr 5fr;
 }
+
