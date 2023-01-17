@@ -302,7 +302,7 @@ header a:hover {
   padding: 0px;
 }
 
-.profile {
+.profile-container {
   display: grid;
   grid-template-columns: 1fr 5fr;
 }
