@@ -252,6 +252,18 @@ header a:hover {
 .testimonial {
   background-color: hsl(218deg, 28%, 13%);
 }
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonial-text {
+  background: hsl(219deg, 30%, 18%);
+}
+.testimonial-text:not(last-child) {
+  padding-right: 4rem;
+}
+
 footer {
   padding-top: 0.9375rem;
   margin-bottom: 0;

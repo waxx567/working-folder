@@ -1,11 +1,33 @@
 .testimonial {
     background-color: $mainBlue;
 
+    &-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &-graphic {
+
+    }
+
     &-image {
 
     }
 
-    &-text {
+    &-name {
+
+    }
+
+    &-title {
         
+    }
+
+    &-text {
+        background: $testimBlue;
+        
+        &:not(last-child) {
+            padding-right: 4rem;
+        }
     }
 }
