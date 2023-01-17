@@ -7,7 +7,7 @@
         grid-template-columns: 1fr;
         gap: 0.9375rem; // 15px
         margin: 0px;
-        padding: 0px 4.375rem; // 70px
+        padding: 0px 4.375rem; // 0px 70px
 
         @include breakpoint(medium) {
             grid-template-columns: repeat(3, 1fr);
