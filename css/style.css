@@ -40,6 +40,10 @@ h3 {
   font-size: 1em;
 }
 
+h4 {
+  font-size: 0.75em;
+}
+
 p {
   font-size: 1rem;
   margin-top: 0;
@@ -336,22 +340,44 @@ header a:hover {
 }
 
 .sign-up {
-  background-color: hsl(217deg, 28%, 15%);
-  height: 350px;
-  width: 50%;
-  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .feedback-container {
+  background-color: hsl(217deg, 28%, 15%);
+  height: 350px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
-  padding: 25px 25px 20px 25px;
+  padding: 20px 15px 20px 15px;
 }
 .feedback-container p {
   padding-bottom: 15px;
 }
 .feedback-container button {
-  font-size: 0.875rem;
+  margin-top: 0px;
+  font-size: 0.8125rem;
   padding: 1.25rem 1.5625rem;
+}
+
+.form {
+  height: 59px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+  gap: 15px;
+}
+
+.text-area {
+  box-shadow: none;
+  font-size: 0.8125rem;
+  color: grey;
+  height: 59px;
+  border-radius: 2.1875rem;
+  padding-left: 2rem;
 }
 
 footer {
