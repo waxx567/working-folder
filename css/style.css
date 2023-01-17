@@ -337,14 +337,20 @@ header a:hover {
 
 .sign-up {
   background-color: hsl(217deg, 28%, 15%);
+  height: 400px;
   width: 50%;
 }
 
 .feedback-container {
   text-align: center;
+  padding: 25px 25px 20px 25px;
+}
+.feedback-container p {
+  padding-bottom: 15px;
 }
 .feedback-container button {
-  padding: 1.25rem 1.5rem;
+  font-size: 0.875rem;
+  padding: 1.25rem 1.5625rem;
 }
 
 footer {
