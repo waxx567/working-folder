@@ -254,6 +254,7 @@ footer {
   margin-bottom: 0;
   text-align: center;
   background-color: hsl(216deg, 53%, 9%);
+  font-family: Raleway, sans-serif;
 }
 footer a {
   color: coral;
