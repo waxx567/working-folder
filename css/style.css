@@ -256,45 +256,45 @@ header a:hover {
 .testimonials-container {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 15px;
+  gap: 0.9375rem;
   margin: 0px;
-  padding: 0px 70px;
+  padding: 0px 4.375rem;
 }
 @media screen and (min-width: 699px) {
   .testimonials-container {
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    gap: 1.5625rem;
   }
 }
 @media screen and (min-width: 999px) {
   .testimonials-container {
     grid-template-columns: repeat(3, 1fr);
-    gap: 35px;
+    gap: 2.1875rem;
   }
 }
 .testimonials-graphic img {
-  padding-left: 45px;
+  padding-left: 2.8125rem;
 }
 
 .testimonial {
   background-color: hsl(219deg, 30%, 18%);
-  padding: 22px 18px 20px 16px;
+  padding: 1.375rem 1.125rem 1.25rem 1rem;
   width: 100%;
-  border-radius: 4px;
+  border-radius: 0.25rem;
 }
 .testimonial-text p {
   font-size: 0.8125rem;
 }
 .testimonial-image img {
   border-radius: 50%;
-  height: 30px;
+  height: 1.875rem;
 }
 .testimonial-name p {
   font-size: 0.625rem;
   font-weight: 700;
   margin: 0px;
   padding: 0px;
-  padding-bottom: 2px;
+  padding-bottom: 0.125rem;
 }
 .testimonial-title p {
   font-size: 0.625rem;
