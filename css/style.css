@@ -340,8 +340,11 @@ header a:hover {
   width: 50%;
 }
 
+.feedback-container {
+  text-align: center;
+}
 .feedback-container button {
-  width: 400px;
+  padding: 1.25rem 2rem;
 }
 
 footer {
