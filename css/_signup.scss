@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    position: relative;
 }
 
 .feedback-container {
@@ -9,10 +11,12 @@
     height: 16.875rem; // 270px
     width: 80%;
     border-radius: 0.625rem; // 10px
-    box-shadow: 0 0.625rem 0.625rem 0 rgba(0, 0, 0, 0.2); // 10px
+    box-shadow: 0 0.625rem 1rem rgba(0, 0, 0, 0.2); // 16px
 
     text-align: center;
     padding: 0.9375rem; // 15px
+
+    position: absolute;
 
     h5 {
         margin-top: 0.9375rem; // 15px

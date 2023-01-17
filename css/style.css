@@ -284,7 +284,7 @@ header a:hover {
   display: grid;
   grid-template-columns: 1fr;
   gap: 0.9375rem;
-  margin: 0px 0px 7.5rem;
+  margin: 0px 0px 8.4375rem;
   padding: 0px;
 }
 @media screen and (min-width: 699px) {
@@ -351,6 +351,7 @@ header a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .feedback-container {
@@ -358,9 +359,10 @@ header a:hover {
   height: 16.875rem;
   width: 80%;
   border-radius: 0.625rem;
-  box-shadow: 0 0.625rem 0.625rem 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.625rem 1rem rgba(0, 0, 0, 0.2);
   text-align: center;
   padding: 0.9375rem;
+  position: absolute;
 }
 .feedback-container h5 {
   margin-top: 0.9375rem;
