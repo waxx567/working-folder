@@ -262,8 +262,6 @@ header a:hover {
   content: "";
   position: absolute;
   z-index: 0;
-  height: 3.125rem;
-  top: 10rem;
   background-image: url("/images/bg-quotes.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -287,6 +285,9 @@ header a:hover {
     grid-template-columns: repeat(3, 1fr);
     gap: 2.1875rem;
   }
+}
+.testimonials-graphic {
+  top: 1rem;
 }
 .testimonials-graphic img {
   padding-left: 1.5rem;
