@@ -337,8 +337,9 @@ header a:hover {
 
 .sign-up {
   background-color: hsl(217deg, 28%, 15%);
-  height: 400px;
+  height: 350px;
   width: 50%;
+  border-radius: 10px;
 }
 
 .feedback-container {
