@@ -335,6 +335,11 @@ header a:hover {
   font-family: Raleway, sans-serif;
 }
 
+.sign-up {
+  background-color: hsl(217deg, 28%, 15%);
+  width: 50%;
+}
+
 footer {
   padding-top: 0.9375rem;
   margin-bottom: 0;
