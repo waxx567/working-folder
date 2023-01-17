@@ -6,13 +6,17 @@
 
 .feedback-container {
     background-color: $introBlue;
-    height: 21.875rem; // 350px
+    height: 16.875rem; // 270px
     width: 80%;
     border-radius: 0.625rem; // 10px
     box-shadow: 0 0.625rem 0.625rem 0 rgba(0, 0, 0, 0.2); // 10px
 
     text-align: center;
-    padding: 1.25rem 0.9375rem; // 20px 15px
+    padding: 0.9375rem; // 15px
+
+    h5 {
+        margin-top: 0.9375rem; // 15px
+    }
 
     p {
         padding-bottom: 0.9375rem; // 15px

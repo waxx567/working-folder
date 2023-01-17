@@ -285,7 +285,7 @@ header a:hover {
   grid-template-columns: 1fr;
   gap: 0.9375rem;
   margin: 0px;
-  padding: 0px 1.875rem;
+  padding: 0px 5.625rem;
 }
 @media screen and (min-width: 699px) {
   .testimonials-container {
@@ -355,12 +355,15 @@ header a:hover {
 
 .feedback-container {
   background-color: hsl(217deg, 28%, 15%);
-  height: 21.875rem;
+  height: 16.875rem;
   width: 80%;
   border-radius: 0.625rem;
   box-shadow: 0 0.625rem 0.625rem 0 rgba(0, 0, 0, 0.2);
   text-align: center;
-  padding: 1.25rem 0.9375rem;
+  padding: 0.9375rem;
+}
+.feedback-container h5 {
+  margin-top: 0.9375rem;
 }
 .feedback-container p {
   padding-bottom: 0.9375rem;
