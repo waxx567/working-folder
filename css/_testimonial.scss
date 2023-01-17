@@ -5,39 +5,38 @@
     .testimonial-container {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 6vw;
-        max-width: 480px;
+        gap: 5vw;
+        max-width: 575px;
         margin: 0 auto;
+        padding: 0 auto;
         justify-content: center;
 
         @include breakpoint(medium) {
             grid-template-columns: repeat(3, 1fr);
-            gap: 4vw;
+            gap: 3.5vw;
         }
-        
     }
+}
 
-    .testimonial {
-        background-color: $testimBlue;
-        width: 300px;
-        height: 200px;
-    }
+.testimonial {
+
+    background-color: $testimBlue;
+    width: 300px;
+    height: 200px;
 
     &-text {
-
-        font-size: 1rem; // 16px
-        
+    
         &:not(last-child) {
             //padding-right: 4rem;
         }
     }
 
     &-graphic {
-        padding-left: 20px;
+
     }
 
     &-image {
-
+        height: 20px;
     }
 
     &-name {
@@ -48,3 +47,4 @@
 
     }
 }
+
