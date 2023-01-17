@@ -108,19 +108,19 @@ header a:hover {
   }
 }
 
-.hero {
+.showcase {
   position: relative;
   background-color: hsl(217deg, 28%, 15%);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.hero > * {
+.showcase > * {
   text-align: center;
   position: relative;
   z-index: 1;
 }
-.hero:after {
+.showcase:after {
   content: "";
   position: absolute;
   z-index: 0;
@@ -133,31 +133,31 @@ header a:hover {
   background-position: bottom center;
 }
 @media screen and (min-width: 699px) {
-  .hero:after {
+  .showcase:after {
     background-image: url("/images/bg-curvy-desktop.svg");
     height: 55vw;
   }
 }
-.hero img {
+.showcase img {
   width: 100%;
   max-width: 44.75rem;
 }
-.hero h1 {
+.showcase h1 {
   max-width: 44.75rem;
   line-height: 1.4;
   margin: 1em 0.5em;
 }
-.hero p {
+.showcase p {
   max-width: 37.5rem;
   margin: 0 0.7em;
   padding: 0 0.7rem;
   font-size: 1.125rem;
 }
 
-.features {
+.services {
   background-color: hsl(218deg, 28%, 13%);
 }
-.features .feature-container {
+.services .services-container {
   display: grid;
   grid-template-columns: 1fr;
   gap: 6vw 8vw;
@@ -165,44 +165,44 @@ header a:hover {
   margin: 0 auto;
 }
 @media screen and (min-width: 699px) {
-  .features .feature-container {
+  .services .services-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (min-width: 999px) {
-  .features .feature-container {
+  .services .services-container {
     gap: 7vw 7vw;
   }
 }
-.features .feature {
+.services .service {
   text-align: center;
 }
-.features .feature-image {
+.services .service-image {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 5.625rem;
   margin-bottom: 1.875rem;
 }
-.features .feature-image img {
+.services .service-image img {
   height: 100%;
   width: auto;
 }
-.features .feature-title {
+.services .service-title {
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-family: Raleway, sans-serif;
   font-weight: 700;
 }
-.features .feature-description {
+.services .service-description {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
 }
 
-.location {
+.feature {
   background-color: hsl(218deg, 28%, 13%);
 }
-.location-container {
+.feature-container {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
@@ -211,31 +211,31 @@ header a:hover {
   margin: 0 auto;
 }
 @media screen and (min-width: 999px) {
-  .location-container {
+  .feature-container {
     grid-template-columns: repeat(2, 1fr);
     max-width: none;
   }
 }
-.location-image {
+.feature-image {
   text-align: center;
 }
-.location-image img {
+.feature-image img {
   width: 100%;
 }
 @media screen and (min-width: 999px) {
-  .location-text {
+  .feature-text {
     padding-right: 4rem;
   }
 }
 @media screen and (min-width: 999px) {
-  .location-text h1 {
+  .feature-text h1 {
     max-width: 25rem;
   }
 }
-.location-text p {
+.feature-text p {
   font-size: 1rem;
 }
-.location-text a {
+.feature-text a {
   background-image: url(/images/icon-arrow.svg);
   background-repeat: no-repeat;
   background-position: right center;
@@ -245,7 +245,7 @@ header a:hover {
   border-bottom: 1px solid hsl(176deg, 68%, 64%);
   transition: all 200ms ease-in-out;
 }
-.location-text a:hover {
+.feature-text a:hover {
   color: hsl(198deg, 60%, 50%);
   border-bottom: 1px solid hsl(198deg, 60%, 50%);
 }
