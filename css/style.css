@@ -160,7 +160,7 @@ header a:hover {
   display: grid;
   grid-template-columns: 1fr;
   gap: 6vw 8vw;
-  max-width: 880px;
+  max-width: 55rem;
   margin: 0 auto;
 }
 @media screen and (min-width: 699px) {
@@ -249,21 +249,34 @@ header a:hover {
   border-bottom: 1px solid hsl(198deg, 60%, 50%);
 }
 
-.testimonial {
+.testimonials {
   background-color: hsl(218deg, 28%, 13%);
 }
-.testimonial-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.testimonials .testimonial-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6vw;
+  max-width: 480px;
+  margin: 0 auto;
+  justify-content: center;
 }
-.testimonial-text {
-  background: hsl(219deg, 30%, 18%);
+@media screen and (min-width: 699px) {
+  .testimonials .testimonial-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4vw;
+  }
 }
-.testimonial-text:not(last-child) {
-  padding-right: 4rem;
+.testimonials .testimonial {
+  background-color: hsl(219deg, 30%, 18%);
+  width: 300px;
+  height: 200px;
 }
-
+.testimonials-text {
+  font-size: 1rem;
+}
+.testimonials-graphic {
+  padding-left: 20px;
+}
 footer {
   padding-top: 0.9375rem;
   margin-bottom: 0;

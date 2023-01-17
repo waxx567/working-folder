@@ -6,7 +6,7 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 6vw 8vw;
-        max-width: 880px;
+        max-width: 55rem; // 880px
         margin: 0 auto;
     
         @include breakpoint(medium) {
