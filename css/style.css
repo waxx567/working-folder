@@ -262,8 +262,7 @@ header a:hover {
 }
 @media screen and (min-width: 699px) {
   .testimonials-container {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5625rem;
+    padding: 0px 1.875rem;
   }
 }
 @media screen and (min-width: 999px) {
@@ -273,7 +272,7 @@ header a:hover {
   }
 }
 .testimonials-graphic img {
-  padding-left: 2.8125rem;
+  padding-left: 3.75rem;
 }
 
 .testimonial {
@@ -283,28 +282,33 @@ header a:hover {
   border-radius: 0.25rem;
 }
 .testimonial-text p {
-  font-size: 0.8125rem;
+  font-size: 0.9375rem;
 }
 .testimonial-image img {
   border-radius: 50%;
   height: 1.875rem;
 }
 .testimonial-name p {
-  font-size: 0.625rem;
+  font-size: 0.75rem;
   font-weight: 700;
   margin: 0px;
   padding: 0px;
   padding-bottom: 0.125rem;
 }
 .testimonial-title p {
-  font-size: 0.625rem;
+  font-size: 0.6825rem;
   margin: 0px;
   padding: 0px;
 }
 
 .profile-container {
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 9fr;
+}
+
+.profile-right {
+  padding-left: 0.125rem;
+  font-family: Raleway, sans-serif;
 }
 
 footer {

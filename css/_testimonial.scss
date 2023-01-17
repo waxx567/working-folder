@@ -10,9 +10,9 @@
         padding: 0px 4.375rem; // 0px 70px
 
         @include breakpoint(medium) {
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1.5625rem; // 25px
+            padding: 0px 1.875rem; // 30px
         }
+        
         @include breakpoint(large) {
             grid-template-columns: repeat(3, 1fr);
             gap: 2.1875rem; // 35px
@@ -22,7 +22,7 @@
     &-graphic {
 
         img {
-            padding-left: 2.8125rem; // 45px
+            padding-left: 3.75rem; // 60px
         }
     }
 }
@@ -37,7 +37,7 @@
     &-text {
         
         p {
-            font-size: 0.8125rem; // 13px
+            font-size: 0.9375rem; // 15px
         }
     }
 
@@ -52,7 +52,7 @@
     &-name {
 
         p {
-            font-size: 0.625rem; // 10px
+            font-size: 0.75rem; // 12px
             font-weight: 700;
             margin: 0px;
             padding: 0px;
@@ -63,7 +63,7 @@
     &-title {
         
         p {
-            font-size: 0.625rem; // 10px
+            font-size: 0.6825rem; // 11px
             margin: 0px;
             padding: 0px;
         }
@@ -72,6 +72,10 @@
 
 .profile-container {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 9fr;   
 }
 
+.profile-right {
+    padding-left: 0.125rem; // 2px
+    font-family: $font-title;
+}
