@@ -6,11 +6,14 @@
         z-index: 1;
     }
 
+    position: relative;
+
     &:after {
         content: '';
         position: absolute;
         z-index: 0;
         height: 3.125rem; // 50px
+        top: 10rem; // 16px
         background-image: url('/images/bg-quotes.png');
         background-size: cover;
         background-repeat: no-repeat;

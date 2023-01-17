@@ -251,6 +251,7 @@ header a:hover {
 }
 
 .testimonials {
+  position: relative;
   background-color: hsl(218deg, 28%, 13%);
 }
 .testimonials > * {
@@ -262,6 +263,7 @@ header a:hover {
   position: absolute;
   z-index: 0;
   height: 3.125rem;
+  top: 10rem;
   background-image: url("/images/bg-quotes.png");
   background-size: cover;
   background-repeat: no-repeat;
