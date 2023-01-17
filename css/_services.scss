@@ -1,8 +1,8 @@
-.features {
+.services {
 
     background-color: $mainBlue;
     
-    .feature-container {
+    .service-container {
         display: grid;
         grid-template-columns: 1fr;
         gap: 6vw 8vw;
@@ -18,7 +18,7 @@
         }
     }
 
-    .feature {
+    .service {
         text-align: center;
         
         &-image {
