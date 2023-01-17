@@ -402,7 +402,13 @@ header a:hover {
   flex-direction: column;
 }
 .footer-container {
-  margin: 50px;
+  margin: 30px 50px;
+}
+.footer-logo {
+  width: 100%;
+}
+.footer-logo img {
+  padding-top: 2.5rem;
 }
 .footer-info {
   font-size: 0.8125rem;
@@ -410,7 +416,26 @@ header a:hover {
   display: grid;
   grid-template-columns: 4fr 2fr 1fr 1fr 2fr;
 }
+.footer-links-1 {
+  padding: auto;
+}
+.footer-links-2 {
+  padding-right: 30px;
+}
+.footer-links-3 {
+  margin-left: 20px;
+  display: flex;
+  justify-content: right;
+}
+.footer-link {
+  padding: 0px 3px;
+}
+.footer-icon {
+  padding: 5px;
+}
 
 .location-container {
-  border: 1px solid lawngreen;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 7fr;
 }
