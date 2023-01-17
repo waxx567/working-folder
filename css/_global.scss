@@ -31,26 +31,30 @@ a, a:visited, a:hover {
     text-decoration: none;
 }
 
-h1, h2, h3 {
+// Font for headings
+h1, h2, h3, h4 {
     font-family: $font-title; // Raleway
 }
 
+// Font sizes
 h1 {
+    font-size: 1.75em;
+}
+h2 {
+    font-size: 1.625em;
+}
+h3 {
     font-size: 1.5em;
 }
-
-h2 {
+h4 {
+    font-size: 1.375em;
+}
+h5 {
     font-size: 1.25em;
 }
-
-h3 {
-    font-size: 1em;
+h6 {
+    font-size: 1.125em;
 }
-
-h4 {
-    font-size: 0.75em;
-}
-
 p {
     font-size: 1rem; // 16px
     margin-top: 0;
