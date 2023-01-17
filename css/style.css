@@ -396,23 +396,9 @@ header a:hover {
 footer {
   padding-top: 0.9375rem;
   margin-bottom: 0;
-  text-align: center;
   background-color: hsl(216deg, 53%, 9%);
   font-family: Raleway, sans-serif;
-  height: 400px;
+  height: 25rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-footer a {
-  color: coral;
-}
-footer a .alt-color {
-  color: royalblue;
-}
-footer a:hover {
-  color: grey;
-}
-footer a:hover .alt-color {
-  color: grey;
+  flex-direction: column;
 }
