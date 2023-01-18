@@ -6,3 +6,8 @@ html {
 *, *:after, *:before {
     box-sizing: inherit; // applies to all elements in all states
 }
+
+body {
+    font-size: 1rem; // 16px
+    line-height: 1.3; // spacing between lines on screen
+}
