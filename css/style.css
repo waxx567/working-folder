@@ -31,22 +31,10 @@ header {
   align-items: center;
   padding: 1.5rem 1.875rem 3rem 1.875rem;
 }
-@media screen and (min-width: 56.1875rem) {
-  header {
-    gap: 3rem;
-    padding: 3rem 4rem;
-  }
-}
 @media screen and (min-width: 63.9375rem) {
   header {
     gap: 3.5rem;
-    padding: 4.5rem 5rem;
-  }
-}
-@media screen and (min-width: 87.4375rem) {
-  header {
-    gap: 3.875rem;
-    padding: 5.25rem 5.5rem;
+    padding: 4rem 3.5rem;
   }
 }
 header img {
@@ -68,7 +56,10 @@ header img {
   }
 }
 header a {
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
+}
+header a:hover {
+  color: palevioletred;
 }
 @media screen and (min-width: 56.1875rem) {
   header a {
@@ -78,11 +69,6 @@ header a {
 @media screen and (min-width: 63.9375rem) {
   header a {
     font-size: 1rem;
-  }
-}
-@media screen and (min-width: 87.4375rem) {
-  header a {
-    font-size: 1.0625rem;
   }
 }
 

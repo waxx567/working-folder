@@ -7,19 +7,9 @@ header {
     align-items: center;
     padding: 1.5rem 1.875rem 3rem 1.875rem; // 24px 30px 48px 30px
 
-    @include breakpoint(medium) {
-        gap: 3rem; // 48px
-        padding: 3rem 4rem; // 48px 64px
-    }
-
     @include breakpoint(large) {
         gap: 3.5rem; // 56px
-        padding: 4.5rem 5rem; // 72px 80px
-    }
-
-    @include breakpoint(xlarge) {
-        gap: 3.875rem; // 62px
-        padding: 5.25rem 5.5rem; // 84px 88px
+        padding: 4rem 3.5rem; // 72px 80px
     }
 
     img {
@@ -41,18 +31,18 @@ header {
 
     a {
         // Small
-        font-size: 0.875rem; // 14px
+        font-size: 0.8125rem; // 13px
+
+        &:hover {
+            color: palevioletred;
+        }
 
         @include breakpoint(medium) {
             font-size: 0.9375rem; // 15px
         }
 
         @include breakpoint(large) {
-            font-size: 1rem; // 16px
+            font-size: 1rem; // 16px for large and xlarge
         }
-
-        @include breakpoint(xlarge) {
-            font-size: 1.0625rem; // 17px
-        }    
     }
 }
