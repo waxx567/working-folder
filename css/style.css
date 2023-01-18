@@ -90,16 +90,34 @@ h4 {
 
 .intro {
   background-color: hsl(217deg, 28%, 15%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 .intro img {
-  width: 100%;
+  width: 85%;
   max-width: 41.875rem;
+}
+@media screen and (min-width: 63.9375rem) {
+  .intro img {
+    width: 100%;
+    max-width: 41.875rem;
+  }
+}
+@media screen and (min-width: 87.4375rem) {
+  .intro img {
+    width: 100%;
+    max-width: 52.5rem;
+  }
 }
 .intro h1 {
   max-width: 41.875rem;
-  text-align: center;
 }
+.intro p {
+  max-width: 36.25rem;
+}
+
 .attribution {
   font-size: 0.6875rem;
   text-align: center;

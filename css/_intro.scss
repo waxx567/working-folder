@@ -1,18 +1,30 @@
 .intro {
     background-color: $introBlue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 
     img {
-        width: 100%;
+        width: 85%;
         max-width: 41.875rem; // 675px
+
+        @include breakpoint(large) {
+            width: 100%;
+            max-width: 41.875rem; // 675px
+        }
+
+        @include breakpoint(xlarge) {
+            width: 100%;
+            max-width: 52.5rem; // 840px
+        }
     }
 
     h1 {
         max-width: 41.875rem; // 675px
-        text-align: center;
     }
     
     p {
-
+        max-width: 36.25rem; // 580px
     }
 }
