@@ -6,3 +6,12 @@ html {
 *, *:after, *:before {
   box-sizing: inherit;
 }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+  text-decoration: none;
+}
