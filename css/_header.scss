@@ -1,48 +1,52 @@
-header {
-    // Mobile (small) is default
-    background-color: $introBlue;
-    display: grid;
-    grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
-    gap: 2.5rem; // 40px
-    align-items: center;
-    padding: rem 1.875rem 3rem 1.875rem; // 24px 30px 48px 30px
+.header {
 
-    @include breakpoint(large) {
-        gap: 3.5rem; // 56px
-        padding: 4rem 3.5rem; // 72px 80px
-    }
+    &-container {
 
-    img {
-        // Small
-        width: 5.125rem; // 82px
-
-        @include breakpoint(medium) {
-            width: 8.125rem; // 130px
-        }
-        
-        @include breakpoint(large) {
-            width: 11.25rem; // 180px
-        }
-
-        @include breakpoint(xlarge) {
-            width: 13.125rem; // 210px
-        }
-    }
-
-    a {
-        // Small
-        font-size: 0.8125rem; // 13px
-
-        &:hover {
-            color: palevioletred;
-        }
-
-        @include breakpoint(medium) {
-            font-size: 0.9375rem; // 15px
-        }
+        // Mobile (small) is default
+        background-color: $introBlue;
+        display: grid;
+        grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
+        gap: 2.5rem; // 40px
+        align-items: center;
+        padding: 1rem 1.875rem 3rem 1.875rem; // 24px 30px 48px 30px
 
         @include breakpoint(large) {
-            font-size: 1rem; // 16px for large and xlarge
+            gap: 3.5rem; // 56px
+            padding: 4rem 3.5rem; // 72px 80px
+        }
+
+        img {
+            // Small
+            width: 5.125rem; // 82px
+
+            @include breakpoint(medium) {
+                width: 8.125rem; // 130px
+            }
+            
+            @include breakpoint(large) {
+                width: 11.25rem; // 180px
+            }
+
+            @include breakpoint(xlarge) {
+                width: 13.125rem; // 210px
+            }
+        }
+
+        a {
+            // Small
+            font-size: 0.8125rem; // 13px
+
+            &:hover {
+                color: palevioletred;
+            }
+
+            @include breakpoint(medium) {
+                font-size: 0.9375rem; // 15px
+            }
+
+            @include breakpoint(large) {
+                font-size: 1rem; // 16px for large and xlarge
+            }
         }
     }
 }
