@@ -10,3 +10,19 @@ $lightRed: hsl(0, 100%, 63%); // error
 // Fonts 
 $font-title: 'Raleway', sans-serif;
 $font-body: 'Open Sans', sans-serif;
+
+// Breakpoints 
+@mixin breakpoint($size) {
+    $breakpoints: ( // map
+        small: 31.1875rem, // 499px
+        medium: 56.1875rem, // 899px
+        large: 63.9375rem, // 1023px
+        xlarge: 87.4375rem // 1399px
+    );
+
+    $breakpoint-value: map-get($map: $breakpoints, $key: $size);
+
+    @media screen and (min-width: $breakpoint-value) {
+        @content;        
+    }
+}
