@@ -24,7 +24,7 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 h2 {
@@ -94,6 +94,7 @@ h4 {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding: 0 1.875rem;
 }
 .intro img {
   width: 85%;
