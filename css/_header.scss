@@ -22,6 +22,7 @@
 
         img {
             // Small
+            cursor: pointer;
             width: 5.125rem; // 82px
 
             @include breakpoint(medium) {
@@ -40,6 +41,7 @@
         a {
             // Small
             font-size: 0.625em; // 10px
+            transition: color 200ms ease-in-out;
 
             &:hover {
                 color: $paleRed;

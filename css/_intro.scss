@@ -30,6 +30,7 @@
         font-size: 0.96875em; // 15.5px
         line-height: 1.4;
         margin-top: 0;
+        margin-bottom: 1.5em;
         padding: 0 0.3125rem; // 5px
 
         @include breakpoint(large) {
