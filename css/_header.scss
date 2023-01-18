@@ -34,18 +34,18 @@
 
         a {
             // Small
-            font-size: 0.8125em; // 13px
+            font-size: 0.625em; // 10px
 
             &:hover {
                 color: $paleRed;
             }
 
             @include breakpoint(medium) {
-                font-size: 0.9375em; // 15px
+                font-size: 0.6875em; // 11px
             }
 
             @include breakpoint(large) {
-                font-size: 1em; // 16px for large and xlarge
+                font-size: 0.75em; // 12px for large and xlarge
             }
         }
     }
