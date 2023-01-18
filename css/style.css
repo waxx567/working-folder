@@ -130,13 +130,14 @@ button {
 .intro h1 {
   max-width: 41.875rem;
   font-size: 1.5em;
-  padding: 5px;
+  padding: 0 0.3125rem;
 }
 .intro p {
   max-width: 36.25rem;
   font-size: 0.96875em;
   line-height: 1.4;
   margin-top: 0;
+  padding: 0 0.3125rem;
 }
 
 footer {
