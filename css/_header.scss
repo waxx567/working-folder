@@ -1,7 +1,12 @@
 header {
+    // Mobile (small) is default
     background-color: $introBlue;
     display: grid;
     grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
     gap: 3.5rem; // 56px
-    padding: 4.5625rem 5rem; // 73px 80px
+    padding: 1.5rem 1.875rem 3rem 1.875rem; // 24px 30px 48px 30px
+
+    @include breakpoint(large) {
+        padding: 4.5625rem 5rem; // 73px 80px
+    }
 }
