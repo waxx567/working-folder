@@ -1,4 +1,5 @@
 header {
+    background-color: white;
     display: grid;
     grid-template-columns: minmax(100px, 1fr) repeat(3, 1fr);
 }
