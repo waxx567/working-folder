@@ -28,6 +28,7 @@ header {
   display: grid;
   grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
   gap: 3.5rem;
+  padding: 4.5625rem 5rem;
 }
 
 .attribution {
