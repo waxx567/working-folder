@@ -1,5 +1,5 @@
-html {
-    font-size: 100%; // allows user to control zoom in own browser
+html { // allows user to control zoom in own browser
+    font-size: 100%;
 }
 
 *, *:after, *:before { // applies to all elements in all states
@@ -43,6 +43,6 @@ h4 { // 20px
     font-size: 1.25em; 
 }
 
-section {
-    padding: 0 1.875rem; // 30px
+section { // padding 30px
+    padding: 0 1.875rem;
 }

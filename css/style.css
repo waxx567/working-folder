@@ -110,13 +110,11 @@ section {
 }
 @media screen and (min-width: 63.9375rem) {
   .intro img {
-    width: 100%;
     max-width: 41.875rem;
   }
 }
 @media screen and (min-width: 87.4375rem) {
   .intro img {
-    width: 100%;
     max-width: 52.5rem;
   }
 }
