@@ -13,6 +13,7 @@ $font-body: 'Open Sans', sans-serif;
 
 // Breakpoints 
 @mixin breakpoint($size) {
+    
     $breakpoints: ( // map
         small: 31.1875rem, // 499px
         medium: 56.1875rem, // 899px
