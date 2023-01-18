@@ -412,7 +412,7 @@ header a:hover {
 }
 .footer-info {
   font-size: 0.8125rem;
-  color: hsl(0deg, 0%, 65%);
+  color: hsl(0deg, 0%, 95%);
   display: grid;
   grid-template-columns: 4fr 2fr 1fr 1fr 2fr;
 }
