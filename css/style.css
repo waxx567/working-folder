@@ -23,6 +23,22 @@ body {
   line-height: 1.3;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.375rem;
+}
+
 .header-container {
   background-color: hsl(217deg, 28%, 15%);
   display: grid;
@@ -78,7 +94,11 @@ body {
 }
 .intro img {
   width: 100%;
-  max-width: 43.75rem;
+  max-width: 41.875rem;
+}
+.intro h1 {
+  max-width: 41.875rem;
+  text-align: center;
 }
 .attribution {
   font-size: 0.6875rem;
