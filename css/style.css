@@ -17,26 +17,34 @@ a {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 1.875rem;
   font-family: "Open Sans", sans-serif;
-  font-size: calc(1rem + 0.3vw);
+  font-size: calc(1rem + 0.75vw);
   line-height: 1.3;
 }
 
+h1, h2, h3, h4 {
+  font-family: "Raleway", sans-serif;
+}
+
 h1 {
-  font-size: 1.75rem;
+  font-size: 1.75em;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 h3 {
-  font-size: 1.375rem;
+  font-size: 1.375em;
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: 1.25em;
+}
+
+section {
+  padding: 0 1.875rem;
 }
 
 .header-container {
@@ -72,19 +80,19 @@ h4 {
   }
 }
 .header-container a {
-  font-size: 0.8125rem;
+  font-size: 0.8125em;
 }
 .header-container a:hover {
   color: hsl(340deg, 57%, 64%);
 }
 @media screen and (min-width: 56.1875rem) {
   .header-container a {
-    font-size: 0.9375rem;
+    font-size: 0.9375em;
   }
 }
 @media screen and (min-width: 63.9375rem) {
   .header-container a {
-    font-size: 1rem;
+    font-size: 1em;
   }
 }
 
@@ -94,11 +102,11 @@ h4 {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 0 1.875rem;
 }
 .intro img {
   width: 85%;
   max-width: 41.875rem;
+  margin-bottom: 1.375rem;
 }
 @media screen and (min-width: 63.9375rem) {
   .intro img {
@@ -114,9 +122,14 @@ h4 {
 }
 .intro h1 {
   max-width: 41.875rem;
+  font-size: 1.5em;
+  padding: 5px;
 }
 .intro p {
   max-width: 36.25rem;
+  font-size: 0.96875em;
+  line-height: 1.4;
+  margin-top: 0;
 }
 
 .attribution {

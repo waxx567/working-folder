@@ -4,11 +4,11 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 0 1.875rem; // 30px
 
     img {
         width: 85%;
         max-width: 41.875rem; // 675px
+        margin-bottom: 1.375rem; // 24px
 
         @include breakpoint(large) {
             width: 100%;
@@ -23,9 +23,14 @@
 
     h1 {
         max-width: 41.875rem; // 675px
+        font-size: 1.5em;
+        padding: 5px;
     }
     
     p {
         max-width: 36.25rem; // 580px
+        font-size: 0.96875em; // 15.5px
+        line-height: 1.4;
+        margin-top: 0;
     }
 }
