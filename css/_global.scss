@@ -1,0 +1,8 @@
+html {
+    font-size: 100%; // allows user to control zoom in own browser
+    box-sizing: border-box; // includes padding in width as size changes
+}
+
+*, *:after, *:before {
+    box-sizing: inherit; // applies to all elements in all states
+}
