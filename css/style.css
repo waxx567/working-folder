@@ -29,7 +29,7 @@ body {
   grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
   gap: 2.5rem;
   align-items: center;
-  padding: 1rem 1.875rem 3rem 1.875rem;
+  padding: 1.875rem 1.875rem 3.75rem 1.875rem;
 }
 @media screen and (min-width: 63.9375rem) {
   .header-container {
