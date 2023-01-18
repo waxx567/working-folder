@@ -75,7 +75,7 @@ h4 {
   font-size: 0.8125rem;
 }
 .header-container a:hover {
-  color: palevioletred;
+  color: hsl(340deg, 57%, 64%);
 }
 @media screen and (min-width: 56.1875rem) {
   .header-container a {
