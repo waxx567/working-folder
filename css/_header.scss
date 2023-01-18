@@ -3,18 +3,22 @@ header {
     background-color: $introBlue;
     display: grid;
     grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
-    gap: 3.5rem; // 56px
+    gap: 2.5rem; // 40px
+    align-items: center;
     padding: 1.5rem 1.875rem 3rem 1.875rem; // 24px 30px 48px 30px
 
     @include breakpoint(medium) {
+        gap: 3rem; // 48px
         padding: 3rem 4rem; // 48px 64px
     }
 
     @include breakpoint(large) {
+        gap: 3.5rem; // 56px
         padding: 4.5rem 5rem; // 72px 80px
     }
 
     @include breakpoint(xlarge) {
+        gap: 3.875rem; // 62px
         padding: 5.25rem 5.5rem; // 84px 88px
     }
 
