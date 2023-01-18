@@ -52,17 +52,31 @@ button {
   background: linear-gradient(to right, hsl(176deg, 68%, 64%), hsl(198deg, 60%, 50%));
   font-size: 0.6875em;
   font-weight: 700;
-  padding: 1.25rem 4.0625rem;
+  padding: 1rem 4.0625rem;
   border-radius: 1.875rem;
+}
+button:hover {
+  background: linear-gradient(to left, hsl(176deg, 68%, 64%), hsl(198deg, 60%, 50%));
+}
+@media screen and (min-width: 63.9375rem) {
+  button {
+    padding: 0.9375rem 5rem;
+  }
 }
 
 .header-container {
   background-color: hsl(217deg, 28%, 15%);
   display: grid;
   grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
-  gap: 2.5rem;
+  gap: 1.5rem;
   align-items: center;
   padding: 1.875rem 1.875rem 3.75rem 1.875rem;
+}
+@media screen and (min-width: 56.1875rem) {
+  .header-container {
+    gap: 2.5rem;
+    padding: 3.5rem 3rem;
+  }
 }
 @media screen and (min-width: 63.9375rem) {
   .header-container {
@@ -94,14 +108,9 @@ button {
 .header-container a:hover {
   color: hsl(340deg, 57%, 64%);
 }
-@media screen and (min-width: 56.1875rem) {
-  .header-container a {
-    font-size: 0.6875em;
-  }
-}
 @media screen and (min-width: 63.9375rem) {
   .header-container a {
-    font-size: 0.75em;
+    font-size: 0.6875em;
   }
 }
 
@@ -138,6 +147,11 @@ button {
   line-height: 1.4;
   margin-top: 0;
   padding: 0 0.3125rem;
+}
+@media screen and (min-width: 63.9375rem) {
+  .intro p {
+    font-size: 0.75em;
+  }
 }
 
 footer {

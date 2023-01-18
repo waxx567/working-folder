@@ -6,13 +6,18 @@
         background-color: $introBlue;
         display: grid;
         grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
-        gap: 2.5rem; // 40px
+        gap: 1.5rem; // 24px
         align-items: center;
         padding: 1.875rem 1.875rem 3.75rem 1.875rem; // 30px 30px 60px 30px
 
+        @include breakpoint(medium) {
+            gap: 2.5rem; // 40px
+            padding: 3.5rem 3rem; // 56px 48px
+        }
+
         @include breakpoint(large) {
             gap: 3.5rem; // 56px
-            padding: 4rem 3.5rem; // 72px 80px
+            padding: 4rem 3.5rem; // 64px 56px
         }
 
         img {
@@ -40,12 +45,8 @@
                 color: $paleRed;
             }
 
-            @include breakpoint(medium) {
-                font-size: 0.6875em; // 11px
-            }
-
             @include breakpoint(large) {
-                font-size: 0.75em; // 12px for large and xlarge
+                font-size: 0.6875em; // 11px for large and xlarge
             }
         }
     }
