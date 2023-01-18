@@ -74,11 +74,11 @@ body {
 
 .intro {
   background-color: hsl(217deg, 28%, 15%);
+  text-align: center;
 }
 .intro img {
   width: 100%;
   max-width: 43.75rem;
-  text-align: center;
 }
 .attribution {
   font-size: 0.6875rem;
