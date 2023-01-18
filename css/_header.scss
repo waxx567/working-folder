@@ -1,5 +1,5 @@
 header {
-    background-color: white;
+    background-color: $introBlue;
     display: grid;
-    grid-template-columns: minmax(100px, 1fr) repeat(3, 1fr);
+    grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
 }
