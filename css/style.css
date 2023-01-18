@@ -72,6 +72,9 @@ body {
   }
 }
 
+.intro {
+  background-color: hsl(217deg, 28%, 15%);
+}
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
