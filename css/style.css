@@ -146,7 +146,6 @@ button:hover {
   .intro:after {
     background-image: url("/images/bg-curvy-desktop.svg");
     height: 56vh;
-    border: 1px solid aqua;
   }
 }
 .intro img {
@@ -195,13 +194,15 @@ button:hover {
 .features-container {
   max-width: 56.25rem;
   margin: 0 auto;
+  padding-bottom: 0.0625rem;
 }
 @media screen and (min-width: 43.6875rem) {
   .features-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 3rem;
     padding-top: 7rem;
+    padding-bottom: 3rem;
   }
 }
 @media screen and (min-width: 62.4375rem) {
@@ -211,7 +212,6 @@ button:hover {
 }
 
 .feature {
-  border: 1px solid firebrick;
   text-align: center;
 }
 .feature-icon {
@@ -228,6 +228,7 @@ button:hover {
 }
 .feature-text {
   font-size: 0.58em;
+  padding: 0 1rem;
 }
 
 footer {
