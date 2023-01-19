@@ -13,7 +13,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
   font-size: calc(1rem + 0.75vw);
   line-height: 1.5;
 }
@@ -60,7 +59,7 @@ button {
 button:hover {
   background: linear-gradient(to left, hsl(176deg, 68%, 64%), hsl(198deg, 60%, 50%));
 }
-@media screen and (min-width: 63.9375rem) {
+@media screen and (min-width: 62.4375rem) {
   button {
     padding: 0.9375rem 5rem;
   }
@@ -74,13 +73,13 @@ button:hover {
   align-items: center;
   padding: 1.875rem 1.875rem 3.75rem 1.875rem;
 }
-@media screen and (min-width: 56.1875rem) {
+@media screen and (min-width: 43.6875rem) {
   .header-container {
     gap: 2.5rem;
     padding: 3.5rem 3rem;
   }
 }
-@media screen and (min-width: 63.9375rem) {
+@media screen and (min-width: 62.4375rem) {
   .header-container {
     gap: 3.5rem;
     padding: 4rem 3.5rem;
@@ -90,12 +89,12 @@ button:hover {
   cursor: pointer;
   width: 5.125rem;
 }
-@media screen and (min-width: 56.1875rem) {
+@media screen and (min-width: 43.6875rem) {
   .header-container img {
     width: 8.125rem;
   }
 }
-@media screen and (min-width: 63.9375rem) {
+@media screen and (min-width: 62.4375rem) {
   .header-container img {
     width: 11.25rem;
   }
@@ -112,25 +111,40 @@ button:hover {
 .header-container a:hover {
   color: hsl(340deg, 57%, 64%);
 }
-@media screen and (min-width: 63.9375rem) {
+@media screen and (min-width: 62.4375rem) {
   .header-container a {
     font-size: 0.6875em;
   }
 }
 
 .intro {
+  position: relative;
   background-color: hsl(217deg, 28%, 15%);
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
+.intro:after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  background-image: url("/images/bg-curvy-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+@media screen and (min-width: 62.4375rem) {
+  .intro:after {
+    background-image: url("/images/bg-curvy-desktop.svg");
+  }
+}
 .intro img {
   width: 90%;
   max-width: 41.875rem;
   margin-bottom: 1rem;
 }
-@media screen and (min-width: 63.9375rem) {
+@media screen and (min-width: 62.4375rem) {
   .intro img {
     max-width: 41.875rem;
   }
@@ -146,7 +160,7 @@ button:hover {
   padding: 0 0.3125rem;
   margin-bottom: 1rem;
 }
-@media screen and (min-width: 63.9375rem) {
+@media screen and (min-width: 62.4375rem) {
   .intro h1 {
     line-height: 1.4;
   }
@@ -158,7 +172,7 @@ button:hover {
   margin-bottom: 1.5625em;
   padding: 0 0.3125rem 0.9375rem;
 }
-@media screen and (min-width: 63.9375rem) {
+@media screen and (min-width: 62.4375rem) {
   .intro p {
     font-size: 0.75em;
   }
@@ -166,11 +180,20 @@ button:hover {
 
 .features {
   background-color: hsl(218deg, 28%, 13%);
-  display: grid;
 }
-.features .feature {
+.features-container {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+@media screen and (min-width: 43.6875rem) {
+  .features-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.feature {
   border: 1px solid firebrick;
-  min-height: 10rem;
 }
 
 footer {
