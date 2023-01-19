@@ -4,8 +4,10 @@
 
     &-container {
         max-width: 56.25rem; // 900px
-        margin: 0 auto;
-        
+        margin: 0 auto;     
+        display: grid;
+        grid-template-columns: 1fr; 
+        gap: 2rem;  
 
         @include breakpoint(medium) {
             display: grid;
