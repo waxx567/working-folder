@@ -128,6 +128,8 @@ button:hover {
 .intro:after {
   content: "";
   width: 100%;
+  height: 38rem;
+  bottom: 0px;
   position: absolute;
   background-image: url("/images/bg-curvy-mobile.svg");
   background-size: cover;
@@ -137,6 +139,7 @@ button:hover {
 @media screen and (min-width: 62.4375rem) {
   .intro:after {
     background-image: url("/images/bg-curvy-desktop.svg");
+    height: 25rem;
   }
 }
 .intro img {
