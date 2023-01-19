@@ -219,3 +219,6 @@ footer {
   color: hsl(228deg, 45%, 44%);
   text-decoration: none;
 }
+.attribution a:hover {
+  color: hsl(340deg, 57%, 64%);
+}
