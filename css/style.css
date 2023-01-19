@@ -220,7 +220,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5rem;
+  height: 3rem;
 }
 .feature-title {
   font-family: "Raleway", sans-serif;
@@ -228,7 +228,11 @@ button:hover {
   font-weight: 700;
 }
 .feature-text {
-  font-size: 0.58em;
+  font-size: 0.7em;
+  padding: 0 1.2rem;
+}
+.feature-text:after {
+  font-size: 0.59em;
   padding: 0 1.2rem;
 }
 
