@@ -21,6 +21,9 @@ a {
   color: white;
   text-decoration: none;
 }
+a:hover {
+  color: hsl(340deg, 57%, 64%);
+}
 
 h1, h2, h3, h4 {
   font-family: "Raleway", sans-serif;

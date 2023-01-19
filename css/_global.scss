@@ -18,9 +18,13 @@ body {
     line-height: 1.5; // spacing between lines on screen
 }
 
-a { // Font colour and remove underline 
+a { // Links 
     color: white;
     text-decoration: none;
+
+    &:hover {
+        color: $paleRed;
+    }
 }
 
 h1, h2, h3, h4 { // Raleway font 
