@@ -124,6 +124,7 @@ button:hover {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-bottom: 0;
 }
 .intro > * {
   position: relative;
@@ -137,19 +138,13 @@ button:hover {
   background-repeat: no-repeat;
   background-position: bottom center;
   width: 100%;
-  height: 10.5rem;
+  height: 25vh;
   bottom: 0;
-  border: 1px solid lawngreen;
-}
-@media screen and (min-width: 43.6875rem) {
-  .intro:after {
-    height: 35rem;
-  }
 }
 @media screen and (min-width: 62.4375rem) {
   .intro:after {
     background-image: url("/images/bg-curvy-desktop.svg");
-    height: 42rem;
+    height: 56vh;
     border: 1px solid aqua;
   }
 }
@@ -194,6 +189,7 @@ button:hover {
 
 .features {
   background-color: hsl(218deg, 28%, 13%);
+  padding-top: 9rem;
 }
 .features-container {
   max-width: 50rem;
@@ -203,6 +199,12 @@ button:hover {
   .features-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding-top: 7rem;
+  }
+}
+@media screen and (min-width: 62.4375rem) {
+  .features-container {
+    padding-top: 0px;
   }
 }
 

@@ -1,5 +1,6 @@
 .features {
     background-color: $mainBlue;
+    padding-top: 9rem; // 144px
 
     &-container {
         max-width: 50rem; // 800px
@@ -8,6 +9,11 @@
         @include breakpoint(medium) {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+            padding-top: 7rem; // 112px
+        }
+
+        @include breakpoint(large) {
+            padding-top: 0px;
         }
     }
 }
