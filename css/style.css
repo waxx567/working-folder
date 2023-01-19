@@ -213,6 +213,14 @@ button:hover {
   min-height: 10rem;
   text-align: center;
 }
+.feature-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+}
+.feature-text {
+  font-size: 0.7em;
+}
+
 footer {
   margin: 0;
   padding: 0;

@@ -27,10 +27,13 @@
     }
 
     &-title{
+        font-family: $font-title;
+        font-size: 1em;
 
     }
 
     &-text {
+        font-size: 0.70em;
 
     }
 }
