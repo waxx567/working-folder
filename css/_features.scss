@@ -3,6 +3,7 @@
     padding-top: 9rem; // 144px
 
     &-container {
+        max-width: 56.25rem; // 900px
         margin: 0 auto;
 
         @include breakpoint(medium) {
@@ -21,6 +22,7 @@
     border: 1px solid firebrick;
     min-height: 10rem;
     text-align: center;
+    align-items: center;
 
     &-icon {
 
@@ -28,12 +30,12 @@
 
     &-title{
         font-family: $font-title;
-        font-size: 1em;
-
+        font-size: 0.62em;
+        font-weight: 700;
     }
 
     &-text {
-        font-size: 0.70em;
+        font-size: 0.58em;
 
     }
 }

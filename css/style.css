@@ -193,6 +193,7 @@ button:hover {
   padding-top: 9rem;
 }
 .features-container {
+  max-width: 56.25rem;
   margin: 0 auto;
 }
 @media screen and (min-width: 43.6875rem) {
@@ -212,13 +213,15 @@ button:hover {
   border: 1px solid firebrick;
   min-height: 10rem;
   text-align: center;
+  align-items: center;
 }
 .feature-title {
   font-family: "Raleway", sans-serif;
-  font-size: 1em;
+  font-size: 0.62em;
+  font-weight: 700;
 }
 .feature-text {
-  font-size: 0.7em;
+  font-size: 0.58em;
 }
 
 footer {
