@@ -6,6 +6,10 @@
     align-items: center;
     text-align: center;
 
+    > * {
+        position: relative;
+    }
+
     &:after {
         content: '';
         width: 100%;
@@ -16,10 +20,12 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom center;
+        border: 1px solid lawngreen;
 
         @include breakpoint(large) {
             background-image: url('/images/bg-curvy-desktop.svg');
             height: 25rem;
+            border: 1px solid aqua;
         }
     }
 

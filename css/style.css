@@ -125,6 +125,9 @@ button:hover {
   align-items: center;
   text-align: center;
 }
+.intro > * {
+  position: relative;
+}
 .intro:after {
   content: "";
   width: 100%;
@@ -135,11 +138,13 @@ button:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
+  border: 1px solid lawngreen;
 }
 @media screen and (min-width: 62.4375rem) {
   .intro:after {
     background-image: url("/images/bg-curvy-desktop.svg");
     height: 25rem;
+    border: 1px solid aqua;
   }
 }
 .intro img {
