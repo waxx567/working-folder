@@ -43,10 +43,6 @@
             font-size: 0.625em; // 10px
             transition: color 200ms ease-in-out;
 
-            &:hover {
-                color: $paleRed;
-            }
-
             @include breakpoint(large) {
                 font-size: 0.6875em; // 11px for large and xlarge
             }

@@ -108,9 +108,6 @@ button:hover {
   font-size: 0.625em;
   transition: color 200ms ease-in-out;
 }
-.header-container a:hover {
-  color: hsl(340deg, 57%, 64%);
-}
 @media screen and (min-width: 62.4375rem) {
   .header-container a {
     font-size: 0.6875em;
