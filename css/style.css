@@ -125,7 +125,7 @@ button:hover {
   align-items: center;
   text-align: center;
   margin-bottom: 0;
-  padding-bottom: 0;
+  padding-bottom: 0.0625rem;
 }
 .intro > * {
   position: relative;
@@ -194,7 +194,6 @@ button:hover {
 .features-container {
   max-width: 56.25rem;
   margin: 0 auto;
-  padding-bottom: 0.0625rem;
 }
 @media screen and (min-width: 43.6875rem) {
   .features-container {
@@ -227,7 +226,7 @@ button:hover {
 }
 .feature-text {
   font-size: 0.58em;
-  padding: 0 1rem;
+  padding: 0 1.2rem;
 }
 
 footer {
