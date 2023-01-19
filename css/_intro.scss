@@ -8,6 +8,7 @@
 
     > * {
         position: relative;
+        z-index: 1;
     }
 
     &:after {
@@ -23,8 +24,8 @@
         border: 1px solid lawngreen;
 
         @include breakpoint(large) {
-            background-image: url('/images/bg-curvy-desktop.svg');
-            height: 25rem;
+            background-image: url('/images/bg-curvy-mobile.svg');
+            height: 40rem;
             border: 1px solid aqua;
         }
     }

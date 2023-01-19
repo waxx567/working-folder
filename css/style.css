@@ -127,6 +127,7 @@ button:hover {
 }
 .intro > * {
   position: relative;
+  z-index: 1;
 }
 .intro:after {
   content: "";
@@ -142,8 +143,8 @@ button:hover {
 }
 @media screen and (min-width: 62.4375rem) {
   .intro:after {
-    background-image: url("/images/bg-curvy-desktop.svg");
-    height: 25rem;
+    background-image: url("/images/bg-curvy-mobile.svg");
+    height: 40rem;
     border: 1px solid aqua;
   }
 }
