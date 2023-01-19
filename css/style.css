@@ -20,7 +20,7 @@ body {
   padding: 0;
   font-family: "Open Sans", sans-serif;
   font-size: calc(1rem + 0.75vw);
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 h1, h2, h3, h4 {
@@ -128,7 +128,7 @@ button:hover {
 .intro img {
   width: 90%;
   max-width: 41.875rem;
-  column-gap: 2rem;
+  margin-bottom: 1rem;
 }
 @media screen and (min-width: 63.9375rem) {
   .intro img {
@@ -144,13 +144,19 @@ button:hover {
   max-width: 41.875rem;
   font-size: 1.5625em;
   padding: 0 0.3125rem;
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 63.9375rem) {
+  .intro h1 {
+    line-height: 1.4;
+  }
 }
 .intro p {
   max-width: 36.25rem;
   font-size: 0.96875em;
   margin-top: 0;
   margin-bottom: 1.5625em;
-  padding: 0 0.3125rem;
+  padding: 0 0.3125rem 0.9375rem;
 }
 @media screen and (min-width: 63.9375rem) {
   .intro p {

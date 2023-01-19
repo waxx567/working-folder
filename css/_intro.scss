@@ -8,7 +8,7 @@
     img {
         width: 90%;
         max-width: 41.875rem; // 675px
-        column-gap: 2rem;
+        margin-bottom: 1rem; // 16px
 
         @include breakpoint(large) {
             max-width: 41.875rem; // 675px
@@ -23,6 +23,12 @@
         max-width: 41.875rem; // 675px
         font-size: 1.5625em;   // 26px
         padding: 0 0.3125rem; // 5px
+        margin-bottom: 1rem; // 16px 
+
+        @include breakpoint(large) {
+            line-height: 1.4;
+        }
+    
     }
     
     p {
@@ -30,7 +36,7 @@
         font-size: 0.96875em; // 15.5px
         margin-top: 0;
         margin-bottom: 1.5625em; // 25px 
-        padding: 0 0.3125rem; // 5px
+        padding: 0 0.3125rem 0.9375rem; // 5px 15px
 
         @include breakpoint(large) {
             font-size: 0.75em; // 12px
