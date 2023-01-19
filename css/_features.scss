@@ -3,7 +3,6 @@
     padding-top: 9rem; // 144px
 
     &-container {
-        max-width: 53.125rem; // 900px
         margin: 0 auto;
 
         @include breakpoint(medium) {
@@ -20,4 +19,18 @@
 
 .feature {
     border: 1px solid firebrick;
+    min-height: 10rem;
+    text-align: center;
+
+    &-icon {
+
+    }
+
+    &-title{
+
+    }
+
+    &-text {
+
+    }
 }
