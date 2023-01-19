@@ -3,7 +3,7 @@
     padding-top: 9rem; // 144px
 
     &-container {
-        max-width: 50rem; // 800px
+        max-width: 53.125rem; // 900px
         margin: 0 auto;
 
         @include breakpoint(medium) {
