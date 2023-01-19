@@ -1,0 +1,9 @@
+.features {
+    background-color: $mainBlue;
+    display: grid;
+
+    .feature {
+        border: 1px solid firebrick;
+        min-height: 10rem; // 160px
+    }
+}

@@ -10,17 +10,17 @@ html {
   color: white;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-}
-
 body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
   font-size: calc(1rem + 0.75vw);
   line-height: 1.5;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 h1, h2, h3, h4 {
@@ -162,6 +162,15 @@ button:hover {
   .intro p {
     font-size: 0.75em;
   }
+}
+
+.features {
+  background-color: hsl(218deg, 28%, 13%);
+  display: grid;
+}
+.features .feature {
+  border: 1px solid firebrick;
+  min-height: 10rem;
 }
 
 footer {

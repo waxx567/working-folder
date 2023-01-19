@@ -10,17 +10,17 @@ html { // allows user to control zoom in own browser
     color: white;
 }
 
-a { // Font colour and remove underline 
-    color: white;
-    text-decoration: none;
-}
-
 body {
     margin: 0;
     padding: 0;
     font-family: $font-body; // Open Sans 
     font-size: calc(1rem + 0.75vw); // 16px is the base
     line-height: 1.5; // spacing between lines on screen
+}
+
+a { // Font colour and remove underline 
+    color: white;
+    text-decoration: none;
 }
 
 h1, h2, h3, h4 { // Raleway font 
