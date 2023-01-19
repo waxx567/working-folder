@@ -9,6 +9,7 @@
         @include breakpoint(medium) {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
             padding-top: 7rem; // 112px
         }
 
@@ -20,12 +21,14 @@
 
 .feature {
     border: 1px solid firebrick;
-    min-height: 10rem;
     text-align: center;
-    align-items: center;
 
     &-icon {
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5rem;
+        margin-bottom: 1rem;
     }
 
     &-title{
