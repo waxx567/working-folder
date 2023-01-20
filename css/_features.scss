@@ -7,7 +7,7 @@
         position: absolute;
         display: grid;
         grid-template-columns: 1fr; 
-        gap: 2rem; 
+        row-gap: 2rem; 
         max-width: 56.25rem; // 900px
 
         @include breakpoint(medium) {

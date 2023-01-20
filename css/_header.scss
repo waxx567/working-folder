@@ -38,15 +38,24 @@
 
         a {
             font-size: 0.7em;
-            color: hsla(0, 0%, 100%, 0.75);
+            font-family: $font-title;
+            color: hsla(0, 0%, 100%, 0.65);
             transition: color 200ms ease-in-out;
 
             &:hover {
                 color: $paleRed;
             }
 
+            @include breakpoint(medium) {
+                font-size: 0.55em;
+            }
+
             @include breakpoint(large) {
-                font-size: 0.6875em;
+                font-size: 0.5em;
+            }
+
+            @include breakpoint(xlarge) {
+                font-size: 0.4em;
             }
         }
     }

@@ -63,6 +63,6 @@ button {
     }
 
     @include breakpoint(large) {
-        padding: 0.9375rem 5rem; // 15px 80px
+        padding: 0.9375rem 4.75rem;
     }
 }

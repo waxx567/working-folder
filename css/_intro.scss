@@ -19,8 +19,6 @@
         height: 25vh;
         bottom: 0px;
 
-        border: 1px solid orange;
-
         @include breakpoint(medium) { // Tablet
             height: 40vh;
             background-image: url('/images/bg-curvy-desktop.svg'); 
@@ -34,8 +32,6 @@
     > * {
         position: relative;
         z-index: 1;
-
-        border: 1px solid firebrick;
     }
 
     img {
@@ -55,7 +51,7 @@
     h1 {
         position: relative;
         max-width: 41.875rem; // 675px
-        font-size: 1.4em;   // 23.2px
+        font-size: 1.3em;   // 23.2px
 
         @include breakpoint(large) {
             line-height: 1.4;
@@ -67,18 +63,28 @@
         max-width: 36.25rem; // 580px
         font-size: 0.875em;
         padding-bottom: 1.5625em; // 25px 
-        padding: 0 1rem;
+        padding: 0 4rem;
         margin: 0;
         line-height: 1.4;
-        color: hsla(0, 0%, 95%, 0.95);
+        color: hsla(0, 0%, 95%, 0.8);
+
+        @include breakpoint(medium) {
+            font-size: 0.55em; 
+            line-height: 1.475;
+        }
 
         @include breakpoint(large) {
-            font-size: 0.75em; // 12px
+            font-size: 0.65em; 
             line-height: 1.5;
         }
     }
 
     button {
         margin-top: 2.2rem;
+
+        @include breakpoint(large) {
+            font-size: 0.5em; 
+            padding: 0.85rem 4.75rem;
+        }
     }
 }
