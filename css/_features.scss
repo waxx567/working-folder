@@ -1,8 +1,10 @@
 .features {
     background-color: $mainBlue;
     padding-top: 9rem; // 144px
+    position: relative;
 
     &-container {
+        position: absolute;
         display: grid;
         grid-template-columns: 1fr; 
         gap: 2rem; 

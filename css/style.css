@@ -18,7 +18,7 @@ body {
 }
 
 a {
-  color: white;
+  color: hsl(0deg, 0%, 95%);
   text-decoration: none;
 }
 
@@ -50,11 +50,12 @@ button {
   cursor: pointer;
   border: none;
   background: linear-gradient(to right, hsl(176deg, 68%, 64%), hsl(198deg, 60%, 50%));
-  font-size: 0.9375em;
+  font-size: 0.85em;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  padding: 1.125rem 6.25rem;
+  padding: 1.125rem 5.75rem;
   border-radius: 1.875rem;
+  color: hsl(0deg, 0%, 95%);
 }
 button:hover {
   background: linear-gradient(to left, hsl(176deg, 68%, 64%), hsl(198deg, 60%, 50%));
@@ -144,7 +145,7 @@ button:hover {
   bottom: 13rem;
   z-index: 0;
 }
-@media screen and (min-width: 62.4375rem) {
+@media screen and (min-width: 43.6875rem) {
   .intro:after {
     background-image: url("/images/bg-curvy-desktop.svg");
   }
@@ -181,7 +182,8 @@ button:hover {
   padding-bottom: 1.5625em;
   padding: 0 1rem;
   margin: 0;
-  color: hsla(0deg, 0%, 95%, 0.9);
+  line-height: 1.4;
+  color: hsla(0deg, 0%, 95%, 0.95);
 }
 @media screen and (min-width: 62.4375rem) {
   .intro p {
@@ -189,12 +191,17 @@ button:hover {
     line-height: 1.5;
   }
 }
+.intro button {
+  margin-top: 2.2rem;
+}
 
 .features {
   background-color: hsl(218deg, 28%, 13%);
   padding-top: 9rem;
+  position: relative;
 }
 .features-container {
+  position: absolute;
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
