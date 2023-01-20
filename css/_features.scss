@@ -1,14 +1,11 @@
 .features {
     background-color: $mainBlue;
     padding-top: 9rem; // 144px
-    position: relative;
 
     &-container {
-        position: absolute;
         display: grid;
         grid-template-columns: 1fr; 
         row-gap: 2rem; 
-        width: 100vw;
 
         @include breakpoint(medium) {
             display: grid;

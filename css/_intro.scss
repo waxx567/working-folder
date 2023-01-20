@@ -15,13 +15,13 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom center;
-        width: 100vw;
+        width: 100%;
         height: 25vh;
         bottom: 0px;
 
         @include breakpoint(medium) { // Tablet
-            height: 40vh;
             background-image: url('/images/bg-curvy-desktop.svg'); 
+            height: 40vh;
         }
 
         @include breakpoint(large) {
