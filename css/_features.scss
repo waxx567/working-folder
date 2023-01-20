@@ -3,11 +3,11 @@
     padding-top: 9rem; // 144px
 
     &-container {
-        max-width: 56.25rem; // 900px
-        margin: 0 auto;     
         display: grid;
         grid-template-columns: 1fr; 
-        gap: 2rem;  
+        gap: 2rem; 
+        max-width: 56.25rem; // 900px
+        margin: 0 auto;      
 
         @include breakpoint(medium) {
             display: grid;
@@ -25,36 +25,40 @@
 
 .feature {
     text-align: center;
-    padding: 1.5rem 0;
+    padding: 1.3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 
     &-icon {
         display: flex;
         justify-content: center;
         align-items: center;
-
-        img {
-            size: 4.25em;
-
-            &:after {
-                width: 3.2em;
-            }
         }
-        
     }
 
     &-title{
         font-family: $font-title;
-        font-size: 0.9375em;
+        font-size: 1.2em;
         font-weight: 700;
+
+            @include breakpoint(large) {
+                font-size: 4em;
+            }
+
+        h4 {
+            
+        }
     }
 
     &-text {
         font-size: 0.90625em;
         font-weight: 400;
         padding: 0 1.2rem;
+        margin: 0 auto;
 
         &:after {
-            font-size: 0.59em;
             padding: 0 1.2rem;
         }
     }
