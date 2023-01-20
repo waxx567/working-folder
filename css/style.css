@@ -56,7 +56,7 @@ button {
   font-size: 0.9375em;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  padding: 1.25rem 6.875rem;
+  padding: 1.125rem 6.25rem;
   border-radius: 1.875rem;
 }
 button:hover {
@@ -125,7 +125,7 @@ button:hover {
   align-items: center;
   text-align: center;
   margin-bottom: 0;
-  padding-bottom: 0.0625rem;
+  padding-bottom: 0.65rem;
 }
 .intro > * {
   position: relative;
@@ -141,6 +141,7 @@ button:hover {
   width: 100%;
   height: 41vh;
   bottom: 0;
+  z-index: 0;
 }
 @media screen and (min-width: 62.4375rem) {
   .intro:after {
@@ -149,7 +150,7 @@ button:hover {
   }
 }
 .intro img {
-  height: 65px;
+  width: 90%;
   max-width: 41.875rem;
   margin-bottom: 1rem;
 }
@@ -165,8 +166,8 @@ button:hover {
 }
 .intro h1 {
   max-width: 41.875rem;
-  font-size: 1.5625em;
-  padding: 0 0.3125rem;
+  font-size: 1.5em;
+  padding: 0 0.5625rem;
   margin-bottom: 1rem;
 }
 @media screen and (min-width: 62.4375rem) {
@@ -176,14 +177,16 @@ button:hover {
 }
 .intro p {
   max-width: 36.25rem;
-  font-size: 0.96875em;
+  font-size: 0.875em;
   margin-top: 0;
   margin-bottom: 1.5625em;
   padding: 0 0.3125rem 0.9375rem;
+  line-height: 1.6;
 }
 @media screen and (min-width: 62.4375rem) {
   .intro p {
     font-size: 0.75em;
+    line-height: 1.5;
   }
 }
 
@@ -215,20 +218,27 @@ button:hover {
 
 .feature {
   text-align: center;
+  padding: 1.5rem 0;
 }
 .feature-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 3rem;
+}
+.feature-icon img {
+  size: 4.25em;
+}
+.feature-icon img:after {
+  width: 3.2em;
 }
 .feature-title {
   font-family: "Raleway", sans-serif;
-  font-size: 0.62em;
+  font-size: 0.9375em;
   font-weight: 700;
 }
 .feature-text {
-  font-size: 0.7em;
+  font-size: 0.90625em;
+  font-weight: 400;
   padding: 0 1.2rem;
 }
 .feature-text:after {

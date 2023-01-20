@@ -6,7 +6,7 @@
     align-items: center;
     text-align: center;
     margin-bottom: 0;
-    padding-bottom: 0.0625rem;
+    padding-bottom: 0.65rem;
 
     > * {
         position: relative;
@@ -23,6 +23,7 @@
         width: 100%;
         height: 41vh;
         bottom: 0;
+        z-index: 0;
 
         @include breakpoint(medium) {
             //height: 51vh; 
@@ -35,7 +36,7 @@
     }
 
     img {
-        height: 65px;
+        width: 90%;
         max-width: 41.875rem; // 675px
         margin-bottom: 1rem; // 16px
 
@@ -50,8 +51,8 @@
 
     h1 {
         max-width: 41.875rem; // 675px
-        font-size: 1.5625em;   // 26px
-        padding: 0 0.3125rem; // 5px
+        font-size: 1.5em;   // 23.2px
+        padding: 0 0.5625rem; // 9px
         margin-bottom: 1rem; // 16px 
 
         @include breakpoint(large) {
@@ -62,13 +63,15 @@
     
     p {
         max-width: 36.25rem; // 580px
-        font-size: 0.96875em; // 15.5px
+        font-size: 0.875em; // 14px
         margin-top: 0;
         margin-bottom: 1.5625em; // 25px 
         padding: 0 0.3125rem 0.9375rem; // 5px 15px
+        line-height: 1.6;
 
         @include breakpoint(large) {
             font-size: 0.75em; // 12px
+            line-height: 1.5;
         }
     }
 }

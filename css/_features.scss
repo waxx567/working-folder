@@ -25,22 +25,32 @@
 
 .feature {
     text-align: center;
+    padding: 1.5rem 0;
 
     &-icon {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 3rem;
+
+        img {
+            size: 4.25em;
+
+            &:after {
+                width: 3.2em;
+            }
+        }
+        
     }
 
     &-title{
         font-family: $font-title;
-        font-size: 0.62em;
+        font-size: 0.9375em;
         font-weight: 700;
     }
 
     &-text {
-        font-size: 0.7em;
+        font-size: 0.90625em;
+        font-weight: 400;
         padding: 0 1.2rem;
 
         &:after {
