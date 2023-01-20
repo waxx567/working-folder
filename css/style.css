@@ -21,9 +21,6 @@ a {
   color: white;
   text-decoration: none;
 }
-a:hover {
-  color: hsl(340deg, 57%, 64%);
-}
 
 h1, h2, h3, h4 {
   font-family: "Raleway", sans-serif;
@@ -75,6 +72,7 @@ button:hover {
   gap: 1.5rem;
   align-items: center;
   padding: 1.875rem 1.875rem 3.75rem 1.875rem;
+  font-family: "Raleway", sans-serif;
 }
 @media screen and (min-width: 43.6875rem) {
   .header-container {
@@ -90,7 +88,7 @@ button:hover {
 }
 .header-container img {
   cursor: pointer;
-  width: 5.125rem;
+  width: 5.6rem;
 }
 @media screen and (min-width: 43.6875rem) {
   .header-container img {
@@ -108,8 +106,12 @@ button:hover {
   }
 }
 .header-container a {
-  font-size: 0.625em;
+  font-size: 0.7em;
+  color: hsla(0deg, 0%, 100%, 0.75);
   transition: color 200ms ease-in-out;
+}
+.header-container a:hover {
+  color: hsl(340deg, 57%, 64%);
 }
 @media screen and (min-width: 62.4375rem) {
   .header-container a {
@@ -124,8 +126,6 @@ button:hover {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-bottom: 0;
-  padding-bottom: 0.625rem;
 }
 .intro > * {
   position: relative;
@@ -139,14 +139,13 @@ button:hover {
   background-repeat: no-repeat;
   background-position: bottom center;
   width: 100%;
-  height: 41vh;
+  height: 45vh;
   bottom: 0;
   z-index: 0;
 }
 @media screen and (min-width: 62.4375rem) {
   .intro:after {
     background-image: url("/images/bg-curvy-desktop.svg");
-    height: 56vh;
   }
 }
 .intro img {
@@ -229,23 +228,21 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
-.feature-icon img:after {
-  size: 0.8rem;
-}
 .feature-title {
   font-family: "Raleway", sans-serif;
-}
-.feature-title h4 {
   font-size: 1.2em;
   font-weight: 700;
 }
-.feature-title h4:after {
-  font-size: 0.6em;
+@media screen and (min-width: 62.4375rem) {
+  .feature-title {
+    font-size: 4em;
+  }
 }
 .feature-text {
   font-size: 0.90625em;
   font-weight: 400;
   padding: 0 1.2rem;
+  margin: 0 auto;
 }
 .feature-text:after {
   padding: 0 1.2rem;

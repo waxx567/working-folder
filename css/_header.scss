@@ -1,14 +1,13 @@
 .header {
 
     &-container {
-
-        // Mobile (small) is default
         background-color: $introBlue;
         display: grid;
         grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
         gap: 1.5rem; // 24px
         align-items: center;
         padding: 1.875rem 1.875rem 3.75rem 1.875rem; // 30px 30px 60px 30px
+        font-family: $font-title;
 
         @include breakpoint(medium) {
             gap: 2.5rem; // 40px
@@ -21,9 +20,8 @@
         }
 
         img {
-            // Small
             cursor: pointer;
-            width: 5.125rem; // 82px
+            width: 5.6rem;
 
             @include breakpoint(medium) {
                 width: 8.125rem; // 130px
@@ -39,12 +37,16 @@
         }
 
         a {
-            // Small
-            font-size: 0.625em; // 10px
+            font-size: 0.7em;
+            color: hsla(0, 0%, 100%, 0.75);
             transition: color 200ms ease-in-out;
 
+            &:hover {
+                color: $paleRed;
+            }
+
             @include breakpoint(large) {
-                font-size: 0.6875em; // 11px for large and xlarge
+                font-size: 0.6875em;
             }
         }
     }

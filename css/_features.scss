@@ -36,7 +36,6 @@
         justify-content: center;
         align-items: center;
         }
-    }
 
     &-title{
         font-family: $font-title;
@@ -46,10 +45,6 @@
             @include breakpoint(large) {
                 font-size: 4em;
             }
-
-        h4 {
-            
-        }
     }
 
     &-text {

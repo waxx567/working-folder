@@ -21,10 +21,6 @@ body {
 a { // Links 
     color: white;
     text-decoration: none;
-
-    &:hover {
-        color: $paleRed;
-    }
 }
 
 h1, h2, h3, h4 { // Raleway font 
