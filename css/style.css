@@ -151,7 +151,7 @@ button:hover {
   background-position: bottom center;
   width: 100%;
   height: 25vh;
-  bottom: 0px;
+  bottom: 13.5rem;
 }
 @media screen and (min-width: 43.6875rem) {
   .intro:after {
@@ -185,6 +185,7 @@ button:hover {
 }
 .intro h1 {
   position: relative;
+  z-index: 1;
   max-width: 41.875rem;
   font-size: 1.4em;
   padding-bottom: 1rem;
@@ -197,6 +198,7 @@ button:hover {
 }
 .intro p {
   position: relative;
+  z-index: 1;
   max-width: 36.25rem;
   font-size: 0.8em;
   padding-bottom: 1.5625em;
@@ -218,6 +220,8 @@ button:hover {
   }
 }
 .intro button {
+  position: relative;
+  z-index: 1;
   margin-top: 2.2rem;
 }
 @media screen and (min-width: 62.4375rem) {
@@ -234,10 +238,13 @@ button:hover {
 }
 .features-container {
   position: absolute;
+  background-color: hsl(218deg, 28%, 13%);
   z-index: 0;
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 2rem;
+  top: -53.5rem;
+  bottom: 5rem;
 }
 @media screen and (min-width: 43.6875rem) {
   .features-container {

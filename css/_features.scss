@@ -5,10 +5,13 @@
 
     &-container {
         position: absolute;
+        background-color: $mainBlue;
         z-index: 0;
         display: grid;
         grid-template-columns: 1fr; 
         row-gap: 2rem; 
+        top: -53.5rem;
+        bottom: 5rem;
 
         @include breakpoint(medium) {
             display: grid;
