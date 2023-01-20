@@ -7,16 +7,10 @@
     text-align: center;
     padding-bottom: 0px;
 
-    > * {
-        position: relative;
-        z-index: 1;
-
-        border: 1px solid firebrick;
-    }
-
     &:after {
         content: '';
         position: absolute;
+        z-index: 0;
         background-image: url('/images/bg-curvy-mobile.svg');
         background-size: cover;
         background-repeat: no-repeat;
@@ -24,14 +18,24 @@
         width: 100vw;
         height: 25vh;
         bottom: 0px;
-        //bottom: 14rem;
-        z-index: 0;
 
         border: 1px solid orange;
 
-        @include breakpoint(medium) {
+        @include breakpoint(medium) { // Tablet
+            height: 40vh;
             background-image: url('/images/bg-curvy-desktop.svg'); 
         }
+
+        @include breakpoint(large) {
+            height: 56vh;
+        }
+    }
+
+    > * {
+        position: relative;
+        z-index: 1;
+
+        border: 1px solid firebrick;
     }
 
     img {

@@ -93,17 +93,17 @@ button:hover {
 }
 @media screen and (min-width: 43.6875rem) {
   .header-container img {
-    width: 8.125rem;
+    width: 7.125rem;
   }
 }
 @media screen and (min-width: 62.4375rem) {
   .header-container img {
-    width: 11.25rem;
+    width: 9.5rem;
   }
 }
 @media screen and (min-width: 87.4375rem) {
   .header-container img {
-    width: 13.125rem;
+    width: 11.125rem;
   }
 }
 .header-container a {
@@ -129,14 +129,10 @@ button:hover {
   text-align: center;
   padding-bottom: 0px;
 }
-.intro > * {
-  position: relative;
-  z-index: 1;
-  border: 1px solid firebrick;
-}
 .intro:after {
   content: "";
   position: absolute;
+  z-index: 0;
   background-image: url("/images/bg-curvy-mobile.svg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -144,13 +140,23 @@ button:hover {
   width: 100vw;
   height: 25vh;
   bottom: 0px;
-  z-index: 0;
   border: 1px solid orange;
 }
 @media screen and (min-width: 43.6875rem) {
   .intro:after {
+    height: 40vh;
     background-image: url("/images/bg-curvy-desktop.svg");
   }
+}
+@media screen and (min-width: 62.4375rem) {
+  .intro:after {
+    height: 56vh;
+  }
+}
+.intro > * {
+  position: relative;
+  z-index: 1;
+  border: 1px solid firebrick;
 }
 .intro img {
   width: 94%;

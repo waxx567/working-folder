@@ -24,15 +24,15 @@
             width: 5.6rem;
 
             @include breakpoint(medium) {
-                width: 8.125rem; // 130px
+                width: 7.125rem;
             }
             
             @include breakpoint(large) {
-                width: 11.25rem; // 180px
+                width: 9.5rem; 
             }
 
             @include breakpoint(xlarge) {
-                width: 13.125rem; // 210px
+                width: 11.125rem;
             }
         }
 
