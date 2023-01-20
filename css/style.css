@@ -230,8 +230,11 @@ button:hover {
 .features {
   background-color: hsl(218deg, 28%, 13%);
   padding-top: 9rem;
+  position: relative;
 }
 .features-container {
+  position: absolute;
+  z-index: 0;
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 2rem;
