@@ -8,7 +8,7 @@
         display: grid;
         grid-template-columns: 1fr; 
         row-gap: 2rem; 
-        max-width: 56.25rem; // 900px
+        width: 100vw;
 
         @include breakpoint(medium) {
             display: grid;
@@ -40,7 +40,7 @@
 
     &-title{
         font-family: $font-title;
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: 700;
 
             @include breakpoint(large) {
@@ -49,7 +49,7 @@
     }
 
     &-text {
-        font-size: 0.90625em;
+        font-size: 0.8em;
         font-weight: 400;
         padding: 0 1.2rem;
 

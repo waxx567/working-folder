@@ -51,7 +51,9 @@
     h1 {
         position: relative;
         max-width: 41.875rem; // 675px
-        font-size: 1.3em;   // 23.2px
+        font-size: 1.4em;
+        padding-bottom: 1rem;
+        margin-bottom: 0;
 
         @include breakpoint(large) {
             line-height: 1.4;
@@ -61,9 +63,9 @@
     p {
         position: relative;
         max-width: 36.25rem; // 580px
-        font-size: 0.875em;
+        font-size: 0.8em;
         padding-bottom: 1.5625em; // 25px 
-        padding: 0 4rem;
+        padding: 0 1.25rem;
         margin: 0;
         line-height: 1.4;
         color: hsla(0, 0%, 95%, 0.8);

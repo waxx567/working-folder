@@ -13,6 +13,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", sans-serif;
   font-size: calc(1rem + 0.75vw);
   line-height: 1.5;
 }
@@ -185,7 +186,9 @@ button:hover {
 .intro h1 {
   position: relative;
   max-width: 41.875rem;
-  font-size: 1.3em;
+  font-size: 1.4em;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
 }
 @media screen and (min-width: 62.4375rem) {
   .intro h1 {
@@ -195,9 +198,9 @@ button:hover {
 .intro p {
   position: relative;
   max-width: 36.25rem;
-  font-size: 0.875em;
+  font-size: 0.8em;
   padding-bottom: 1.5625em;
-  padding: 0 4rem;
+  padding: 0 1.25rem;
   margin: 0;
   line-height: 1.4;
   color: hsla(0deg, 0%, 95%, 0.8);
@@ -234,7 +237,7 @@ button:hover {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 2rem;
-  max-width: 56.25rem;
+  width: 100vw;
 }
 @media screen and (min-width: 43.6875rem) {
   .features-container {
@@ -266,7 +269,7 @@ button:hover {
 }
 .feature-title {
   font-family: "Raleway", sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 700;
 }
 @media screen and (min-width: 62.4375rem) {
@@ -275,7 +278,7 @@ button:hover {
   }
 }
 .feature-text {
-  font-size: 0.90625em;
+  font-size: 0.8em;
   font-weight: 400;
   padding: 0 1.2rem;
 }
