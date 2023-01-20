@@ -233,18 +233,20 @@ button:hover {
 
 .features {
   background-color: hsl(218deg, 28%, 13%);
-  padding-top: 9rem;
   position: relative;
+  margin: 0px 0px 0px 0px;
+  padding: 16rem 0px 0px 0px;
+  height: 88.625rem;
 }
 .features-container {
   position: absolute;
-  background-color: hsl(218deg, 28%, 13%);
   z-index: 0;
+  background-color: hsl(218deg, 28%, 13%);
+  height: 88.625rem;
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 2rem;
-  top: -53.5rem;
-  bottom: 5rem;
+  top: -5rem;
 }
 @media screen and (min-width: 43.6875rem) {
   .features-container {
