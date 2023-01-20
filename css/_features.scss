@@ -7,7 +7,7 @@
         grid-template-columns: 1fr; 
         gap: 2rem; 
         max-width: 56.25rem; // 900px
-        margin: 0 auto;      
+        top: -3rem;
 
         @include breakpoint(medium) {
             display: grid;
@@ -51,7 +51,7 @@
         font-size: 0.90625em;
         font-weight: 400;
         padding: 0 1.2rem;
-        margin: 0 auto;
+        margin: 0;
 
         &:after {
             padding: 0 1.2rem;

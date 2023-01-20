@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding-bottom: 0px;
 
     > * {
         position: relative;
@@ -19,9 +20,11 @@
         background-repeat: no-repeat;
         background-position: bottom center;
         width: 100%;
-        height: 23vh;
+        height: 26vh;
         bottom: 0;
         z-index: 0;
+
+        border: 1px solid magenta;
 
         @include breakpoint(medium) {
             //height: 51vh; 
@@ -33,8 +36,9 @@
     }
 
     img {
-        width: 95%;
+        width: 94%;
         max-width: 41.875rem; // 675px
+        padding-bottom: 0.9rem;
 
         @include breakpoint(large) {
             max-width: 41.875rem; // 675px
@@ -46,24 +50,24 @@
     }
 
     h1 {
+        position: relative;
         max-width: 41.875rem; // 675px
-        font-size: 1.5em;   // 23.2px
-        padding: 0 0.5625rem; // 9px
-        margin-bottom: 1rem; // 16px 
+        font-size: 1.4em;   // 23.2px
 
         @include breakpoint(large) {
             line-height: 1.4;
         }
-    
     }
     
     p {
+        position: relative;
         max-width: 36.25rem; // 580px
-        font-size: 0.875em; // 14px
-        margin-top: 0;
-        margin-bottom: 1.5625em; // 25px 
-        padding: 0 0.4375rem;
+        font-size: 0.825em;
+        margin: 0;
+        padding-bottom: 1.5625em; // 25px 
+        padding: 0 0.5rem;
         line-height: 1.6;
+        color: hsla(0, 0%, 100%, 0.85);
 
         @include breakpoint(large) {
             font-size: 0.75em; // 12px
