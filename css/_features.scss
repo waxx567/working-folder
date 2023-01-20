@@ -47,14 +47,16 @@
 
         img {
             width: 85%;
+            margin-bottom: 1.6rem;
             padding: 1rem;
         }
     }
 
     &-title{
         font-family: $font-title;
-        font-size: 0.85em;
+        font-size: 0.84em;
         font-weight: 700;
+        color: hsla(0, 0%, 90%, 0.8);
 
             @include breakpoint(large) {
                 font-size: 4em;
@@ -72,13 +74,12 @@
 
     h4 {
         margin: 0;
-        padding: 0;
+        padding: 0 1rem 0.75rem;
     }
 
     p {
         margin: 0;
         padding: 0 1.8rem;
-        padding-bottom: 2.5rem;
     }
 }
 
