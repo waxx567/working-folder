@@ -10,6 +10,8 @@
     > * {
         position: relative;
         z-index: 1;
+
+        border: 1px solid firebrick;
     }
 
     &:after {
@@ -20,9 +22,12 @@
         background-repeat: no-repeat;
         background-position: bottom center;
         width: 100vw;
-        height: 24vh;
-        bottom: 13rem;
+        height: 25vh;
+        bottom: 0px;
+        //bottom: 14rem;
         z-index: 0;
+
+        border: 1px solid orange;
 
         @include breakpoint(medium) {
             background-image: url('/images/bg-curvy-desktop.svg'); 
