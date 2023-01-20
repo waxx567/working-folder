@@ -71,7 +71,7 @@ button:hover {
   grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
   gap: 1.5rem;
   align-items: center;
-  padding: 1.875rem 1.875rem 3.75rem 1.875rem;
+  padding: 1.875rem 1.875rem 3.5rem 1.875rem;
   font-family: "Raleway", sans-serif;
 }
 @media screen and (min-width: 43.6875rem) {
@@ -139,7 +139,7 @@ button:hover {
   background-repeat: no-repeat;
   background-position: bottom center;
   width: 100%;
-  height: 45vh;
+  height: 21.5vh;
   bottom: 0;
   z-index: 0;
 }
@@ -149,9 +149,8 @@ button:hover {
   }
 }
 .intro img {
-  width: 90%;
+  width: 95%;
   max-width: 41.875rem;
-  margin-bottom: 1rem;
 }
 @media screen and (min-width: 62.4375rem) {
   .intro img {
