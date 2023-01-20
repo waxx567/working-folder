@@ -238,7 +238,6 @@ button:hover {
   margin: 0px 0px 0px 0px;
   padding: 16rem 0px 0px 0px;
   height: 175vh;
-  border: 2px solid yellow;
 }
 .features-container {
   position: absolute;
@@ -250,7 +249,6 @@ button:hover {
   row-gap: 2rem;
   padding-top: 22.6rem;
   top: -13.6rem;
-  border: 3px solid fuchsia;
 }
 @media screen and (min-width: 43.6875rem) {
   .features-container {
@@ -273,7 +271,6 @@ button:hover {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  border: 2px solid firebrick;
 }
 .feature-icon {
   display: flex;
@@ -309,6 +306,17 @@ button:hover {
   margin: 0;
   padding: 0 1.8rem;
   padding-bottom: 2.5rem;
+}
+
+.showcase {
+  background-color: hsl(218deg, 28%, 13%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.showcase-image img {
+  width: 85%;
 }
 
 footer {
