@@ -159,6 +159,10 @@ img {
   position: relative;
 }
 
+.intro-design {
+  bottom: 100%;
+}
+
 footer {
   margin: 0;
   padding: 0;
