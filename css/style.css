@@ -137,8 +137,12 @@ main {
   }
 }
 
+.content-grid {
+  border: 5px solid black;
+}
+
 .content-grid > * {
-  border: 2px solid orangered;
+  border: 2px solid greenyellow;
 }
 
 .intro-images {
