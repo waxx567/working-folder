@@ -18,8 +18,8 @@ body {
     line-height: 1.5; // spacing between lines on screen
 }
 
-a { // Links 
-    color: hsl(0, 0%, 95%);
+a, p { // Links 
+    color: hsla(0, 0%, 95%, 0.9);
     text-decoration: none;
 }
 

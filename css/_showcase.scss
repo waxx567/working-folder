@@ -7,33 +7,70 @@
     position: absolute;
     z-index: 0;
 
+    &-container {
+        align-items: center;
+    }
+
     &-image {
 
         img {
-            width: 83%;
+            width: 94%;
             padding: 1.6rem 0 2rem 0;
         }
     }
 
     &-title {
         h4 {
-            font-size: 1.075em;
+            font-size: 1em;
+            text-align: left;
+            margin: 0;
+            padding: 0;
         } 
     }
 
     &-text {
+        font-size: 0.825em;
         text-align: left;
-
+        margin: 0;
+        padding: 0 0.1rem;
     }
 
     &-link {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 2.5fr 4.5fr;
 
-        > * {
-            text-align: left;
+        a {
+            margin: 0;
+            padding: 0;
+            font-size: 0.7em;
+            color: hsla(176, 68%, 60%, 0.9);
+            //background-image: url('/images/icon-arrow.svg');
+            //background-repeat: no-repeat;
+            //background-position: right center;
+            transition: all 200ms ease-in-out;
+
+            &:hover {
+                color: white;
+            }
         }
-    }
 
-    &-icon {
+        &-text {
+                border-bottom: 1px solid $greenCyan; 
+        }
 
+        p {
+            margin: 0;
+            padding: 0;
+            color: $greenCyan;
+        }
+
+        img {
+            width: 7.5%;
+            padding: 0.3rem 0;
+            border-bottom: 1px solid $greenCyan;
+        }
     }
 }

@@ -19,8 +19,6 @@
         height: 25vh;
         bottom: 13.525rem;
 
-        border: 2px solid blue;
-
         @include breakpoint(medium) { // Tablet
             background-image: url('/images/bg-curvy-desktop.svg'); 
             height: 40vh;
