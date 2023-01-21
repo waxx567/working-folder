@@ -11,20 +11,19 @@
 
 // card-front
 .intro-images { 
-    height: 50px;
-    border: 5px solid red;
+    border: 5px solid coral;
  }
  .intro-images > * {
-    position: absolute;
     border: 2px solid gold;
- }
- .intro-images > *:not(.intro-images__pic) { 
-    border: 2px solid whitesmoke;
  }
 
 // card-back
 .intro-heading { 
     border: 3px solid yellow;
+
+    h1 {
+        font-size: 16px;
+    }
 }
 
 .intro-heading > * {
