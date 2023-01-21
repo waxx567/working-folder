@@ -5,12 +5,15 @@
 .intro-images {
     border: 5px solid red;
  }
+
  .intro-images > * {
     border: 2px solid magenta;
  }
+
 .intro-content {
     border: 2px solid yellow;
 }
+
 .intro-content > * {
     border: 2px solid blue;
 }
