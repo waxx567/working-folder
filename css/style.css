@@ -142,19 +142,16 @@ main {
 }
 
 .intro-images {
+  width: min-content;
   border: 5px solid red;
-}
-
-.intro-images > * {
-  position: absolute;
-}
-
-.intro-images > *:not(.intro-graphic) {
-  position: relative;
 }
 
 .intro-graphic {
   border: 2px solid white;
+}
+
+.intro-graphic img {
+  max-width: 100%;
 }
 
 .intro-design {
