@@ -1,43 +1,16 @@
-
-.content-grid {
-  max-inline-size: 1200px;
-  margin-inline: auto;
-  min-block-size: 100vh;
-  min-block-size: 100dvh;
-  display: grid;
-
-  border: 3px solid magenta;
+.content-grid > * {
+    border: 2px solid orangered;
 }
 
-.intro {
-    &-container {
-        border: 2px solid blue;
-    }
+.intro-images {
+    border: 5px solid red;
+ }
+ .intro-images > * {
+    border: 2px solid magenta;
+ }
+.intro-content {
+    border: 2px solid yellow;
 }
-
-img {
-    max-width: 100%;
-    display: block;
+.intro-content > * {
+    border: 2px solid blue;
 }
-
-.intro-container {
-    position: relative;
-}
-
-.intro-graphic { // card front
-    
-
-}
-
-.intro-design { // card back
-    bottom: 100%;
-}
-
-.intro-graphic,
-.intro-design {
-    position: absolute;
-    width: min-content;
-
-    border: 1px solid lime;
-}
-
