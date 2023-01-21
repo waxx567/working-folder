@@ -10,9 +10,10 @@
     position: absolute;
  }
 
- .intro-images > *:not(.intro-design) {
-    position: absolute;
+ .intro-images > *:not(.intro-graphic) {
+    position: relative;
  }
+
  .intro-graphic {
     border: 2px solid white;
  }
