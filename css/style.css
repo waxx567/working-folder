@@ -150,6 +150,15 @@ main {
   border: 2px solid blue;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.intro-container {
+  position: relative;
+}
+
 footer {
   margin: 0;
   padding: 0;
