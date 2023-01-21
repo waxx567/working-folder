@@ -1,5 +1,14 @@
-html { // allows user to control zoom in own browser 
-    font-size: 100%;
+:root { // either --dark-mode or --no-dark-mode 
+    --color-scheme: var(--dark-mode);
+
+    /* settings */
+    --no-dark-mode: light;
+    --dark-mode: dark light;
+}
+
+html { 
+    font-size: 100%; // allows user to control zoom in own browser
+    color-scheme: var(--color-scheme);
 }
 
 *, *:after, *:before { // applies to all elements in all states 
@@ -18,7 +27,10 @@ body {
     line-height: 1.5; // spacing between lines on screen
 }
 
-a, p { // Links 
+
+
+a, 
+p { // Links 
     color: hsla(0, 0%, 95%, 0.9);
     text-decoration: none;
 }

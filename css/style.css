@@ -1,5 +1,13 @@
+:root {
+  --color-scheme: var(--dark-mode);
+  /* settings */
+  --no-dark-mode: light;
+  --dark-mode: dark light;
+}
+
 html {
   font-size: 100%;
+  color-scheme: var(--color-scheme);
 }
 
 *, *:after, *:before {
@@ -18,7 +26,8 @@ body {
   line-height: 1.5;
 }
 
-a, p {
+a,
+p {
   color: hsla(0deg, 0%, 95%, 0.9);
   text-decoration: none;
 }
