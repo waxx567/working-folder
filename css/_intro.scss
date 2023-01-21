@@ -1,25 +1,16 @@
+
+.content-grid {
+  max-inline-size: 1200px;
+  margin-inline: auto;
+  min-block-size: 100vh;
+  min-block-size: 100dvh;
+  display: grid;
+
+  border: 3px solid magenta;
+}
+
 .intro {
-
-    &-grid {
-        max-inline-size: 1200px;
-        padding-inline: 2rem;
-        margin-inline: auto;
-        min-block-size: 100vh;
-        min-block-size: 100dvh;
-        display: grid;
-
-        
+    &-container {
+        border: 2px solid blue;
     }
 }
-
-.intro-grid > * {
-    border: 2px solid blue;
-}
-
-@media (min-width: 960px) {
-    .content-grid {
-        align-items: center;
-        grid-template-columns: 1fr 1fr;
-        gap: 4rem;
-}
-

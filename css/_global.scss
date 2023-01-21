@@ -1,14 +1,5 @@
-:root { // either --dark-mode or --no-dark-mode 
-    --color-scheme: var(--dark-mode);
-
-    /* settings */
-    --no-dark-mode: light;
-    --dark-mode: dark light;
-}
-
 html { 
     font-size: 100%; // allows user to control zoom in own browser
-    color-scheme: var(--color-scheme);
     margin: 0;
     padding: 0;
 }
