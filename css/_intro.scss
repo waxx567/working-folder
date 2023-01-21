@@ -7,5 +7,19 @@
         min-block-size: 100vh;
         min-block-size: 100dvh;
         display: grid;
+
+        
     }
 }
+
+.intro-grid > * {
+    border: 2px solid blue;
+}
+
+@media (min-width: 960px) {
+    .content-grid {
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+}
+
