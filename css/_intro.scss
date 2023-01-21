@@ -11,20 +11,23 @@
 
 // card-front
 .intro-images { 
-    width: min-content;
+    height: 50px;
     border: 5px solid red;
  }
-
- .intro-images > *:not(.intro__pic) {
+ .intro-images > * {
     position: absolute;
+    border: 2px solid gold;
+ }
+ .intro-images > *:not(.intro-images__pic) { 
     border: 2px solid whitesmoke;
  }
 
 // card-back
-.intro-content { 
-    border: 2px solid yellow;
+.intro-heading { 
+    border: 3px solid yellow;
 }
 
-.intro-content > * {
+.intro-heading > * {
+    text-align: center;
     border: 2px solid blue;
 }

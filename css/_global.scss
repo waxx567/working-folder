@@ -1,7 +1,5 @@
 html { 
     font-size: 100%; // allows user to control zoom in own browser
-    margin: 0;
-    padding: 0;
 }
 
 *, *:after, *:before { // applies to all elements in all states 
@@ -69,5 +67,7 @@ button {
 }
 
 main {
+    margin: 0;
+    padding: 0;
     background-color: $mainBlue;
 }
