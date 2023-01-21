@@ -341,7 +341,7 @@ button:hover {
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: 2.5fr 4.5fr;
+  grid-template-columns: 4fr 1fr 5fr;
 }
 .showcase-link a {
   margin: 0;
@@ -354,17 +354,18 @@ button:hover {
   color: white;
 }
 .showcase-link-text {
-  border-bottom: 1px solid hsl(176deg, 68%, 64%);
+  padding: 0 0.1rem 0 0;
 }
 .showcase-link p {
   margin: 0;
   padding: 0;
   color: hsl(176deg, 68%, 64%);
+  border-bottom: 1px solid hsl(176deg, 68%, 64%);
 }
 .showcase-link img {
-  width: 7.5%;
-  padding: 0.3rem 0;
-  border-bottom: 1px solid hsl(176deg, 68%, 64%);
+  width: 50%;
+  margin: 0;
+  padding: 0 0;
 }
 
 footer {

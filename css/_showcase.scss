@@ -40,7 +40,7 @@
         margin: 0;
         padding: 0;
         display: grid;
-        grid-template-columns: 2.5fr 4.5fr;
+        grid-template-columns: 4fr 1fr 5fr;
 
         a {
             margin: 0;
@@ -57,20 +57,21 @@
             }
         }
 
-        &-text {
-                border-bottom: 1px solid $greenCyan; 
+        &-text { 
+            padding: 0 0.1rem 0 0;
         }
 
         p {
             margin: 0;
             padding: 0;
-            color: $greenCyan;
+            color: $greenCyan;            
+            border-bottom: 1px solid $greenCyan;
         }
 
         img {
-            width: 7.5%;
-            padding: 0.3rem 0;
-            border-bottom: 1px solid $greenCyan;
+            width: 50%;
+            margin: 0;
+            padding: 0 0;
         }
     }
 }
