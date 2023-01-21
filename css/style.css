@@ -138,35 +138,43 @@ main {
 }
 
 .content-grid {
-  border: 5px solid black;
+  border: 5px solid hotpink;
 }
 
 .content-grid > * {
-  border: 2px solid hotpink;
+  border: 2px solid white;
 }
 
 .intro-container {
-  border: 2px solid darkgreen;
+  border: 3px solid blue;
 }
 
-.intro-images {
+.intro-blend {
+  text-align: center;
   border: 5px solid coral;
 }
 
-.intro-images > * {
-  border: 2px solid gold;
+.intro-blend > * {
+  border: 2px solid black;
 }
 
-.intro-heading {
+.intro__bg {
+  border: 2px solid red;
+}
+
+h1 {
+  font-size: 22.85px;
+  padding: 0 32px;
+  border: 2px solid rgb(15, 208, 238);
+}
+
+.intro__pic {
   border: 3px solid yellow;
 }
-.intro-heading h1 {
-  font-size: 16px;
-}
 
-.intro-heading > * {
+.intro__heading > * {
   text-align: center;
-  border: 2px solid blue;
+  border: 2px solid rgb(49, 246, 27);
 }
 
 footer {
