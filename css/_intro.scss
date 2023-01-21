@@ -2,15 +2,26 @@
     border: 2px solid orangered;
 }
 
-.intro-images {
+.intro-images { // card-front
     border: 5px solid red;
  }
 
  .intro-images > * {
-    border: 2px solid magenta;
+    position: absolute;
  }
 
-.intro-content {
+ .intro-images > *:not(.intro-design) {
+    position: absolute;
+ }
+ .intro-graphic {
+    border: 2px solid white;
+ }
+
+ .intro-design {
+    border: 2px solid magenta;
+ } 
+
+.intro-content { // card-back
     border: 2px solid yellow;
 }
 

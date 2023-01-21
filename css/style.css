@@ -146,6 +146,18 @@ main {
 }
 
 .intro-images > * {
+  position: absolute;
+}
+
+.intro-images > *:not(.intro-design) {
+  position: absolute;
+}
+
+.intro-graphic {
+  border: 2px solid white;
+}
+
+.intro-design {
   border: 2px solid magenta;
 }
 
