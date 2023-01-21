@@ -9,24 +9,19 @@
     border: 2px solid darkgreen;
 }
 
-.intro-images { // card-front
+// card-front
+.intro-images { 
     width: min-content;
     border: 5px solid red;
  }
 
- .intro-graphic {
-    border: 2px solid white;
+ .intro-images > *:not(.intro__pic) {
+    position: absolute;
+    border: 2px solid whitesmoke;
  }
 
- .intro-graphic img {
-    max-width: 100%;
-}
-
- .intro-design {
-    border: 2px solid magenta;
- } 
-
-.intro-content { // card-back
+// card-back
+.intro-content { 
     border: 2px solid yellow;
 }
 

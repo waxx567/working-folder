@@ -154,16 +154,9 @@ main {
   border: 5px solid red;
 }
 
-.intro-graphic {
-  border: 2px solid white;
-}
-
-.intro-graphic img {
-  max-width: 100%;
-}
-
-.intro-design {
-  border: 2px solid magenta;
+.intro-images > *:not(.intro__pic) {
+  position: absolute;
+  border: 2px solid whitesmoke;
 }
 
 .intro-content {
