@@ -1,96 +1,11 @@
 .intro {
-    position: relative;
-    background-color: $introBlue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding-bottom: 0px;
 
-    &:after {
-        content: '';
-        position: absolute;
-        z-index: 0;
-        background-image: url('/images/bg-curvy-mobile.svg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: bottom center;
-        width: 100%;
-        height: 25vh;
-        bottom: 13.525rem;
-
-        @include breakpoint(medium) { // Tablet
-            background-image: url('/images/bg-curvy-desktop.svg'); 
-            height: 40vh;
-        }
-
-        @include breakpoint(large) {
-            height: 56vh;
-        }
-    }
-
-    > * {
-        position: relative;
-        z-index: 1;
-    }
-
-    img {
-        width: 94%;
-        max-width: 41.875rem; // 675px
-        padding-bottom: 0.9rem;
-
-        @include breakpoint(large) {
-            max-width: 41.875rem; // 675px
-        }
-
-        @include breakpoint(xlarge) {
-            max-width: 52.5rem; // 840px
-        }
-    }
-
-    h1 {
-        position: relative;
-        z-index: 1;
-        max-width: 41.875rem; // 675px
-        font-size: 1.4em;
-        padding-bottom: 1rem;
-        margin-bottom: 0;
-
-        @include breakpoint(large) {
-            line-height: 1.4;
-        }
-    }
-    
-    p {
-        position: relative;
-        z-index: 1;
-        max-width: 36.25rem; // 580px
-        font-size: 0.8em;
-        padding-bottom: 1.5625em; // 25px 
-        padding: 0 1.25rem;
-        margin: 0;
-        line-height: 1.4;
-        color: hsla(0, 0%, 95%, 0.8);
-
-        @include breakpoint(medium) {
-            font-size: 0.55em; 
-            line-height: 1.475;
-        }
-
-        @include breakpoint(large) {
-            font-size: 0.65em; 
-            line-height: 1.5;
-        }
-    }
-
-    button {
-        position: relative;
-        z-index: 1;
-        margin-top: 2.2rem;
-
-        @include breakpoint(large) {
-            font-size: 0.5em; 
-            padding: 0.85rem 4.75rem;
-        }
+    &-grid {
+        max-inline-size: 1200px;
+        padding-inline: 2rem;
+        margin-inline: auto;
+        min-block-size: 100vh;
+        min-block-size: 100dvh;
+        display: grid;
     }
 }

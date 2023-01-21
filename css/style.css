@@ -76,6 +76,10 @@ button:hover {
   }
 }
 
+main {
+  background-color: hsl(218deg, 28%, 13%);
+}
+
 .header-container {
   background-color: hsl(217deg, 28%, 15%);
   display: grid;
@@ -141,103 +145,13 @@ button:hover {
   }
 }
 
-.intro {
-  position: relative;
-  background-color: hsl(217deg, 28%, 15%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding-bottom: 0px;
-}
-.intro:after {
-  content: "";
-  position: absolute;
-  z-index: 0;
-  background-image: url("/images/bg-curvy-mobile.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  width: 100%;
-  height: 25vh;
-  bottom: 13.525rem;
-}
-@media screen and (min-width: 43.6875rem) {
-  .intro:after {
-    background-image: url("/images/bg-curvy-desktop.svg");
-    height: 40vh;
-  }
-}
-@media screen and (min-width: 62.4375rem) {
-  .intro:after {
-    height: 56vh;
-  }
-}
-.intro > * {
-  position: relative;
-  z-index: 1;
-}
-.intro img {
-  width: 94%;
-  max-width: 41.875rem;
-  padding-bottom: 0.9rem;
-}
-@media screen and (min-width: 62.4375rem) {
-  .intro img {
-    max-width: 41.875rem;
-  }
-}
-@media screen and (min-width: 87.4375rem) {
-  .intro img {
-    max-width: 52.5rem;
-  }
-}
-.intro h1 {
-  position: relative;
-  z-index: 1;
-  max-width: 41.875rem;
-  font-size: 1.4em;
-  padding-bottom: 1rem;
-  margin-bottom: 0;
-}
-@media screen and (min-width: 62.4375rem) {
-  .intro h1 {
-    line-height: 1.4;
-  }
-}
-.intro p {
-  position: relative;
-  z-index: 1;
-  max-width: 36.25rem;
-  font-size: 0.8em;
-  padding-bottom: 1.5625em;
-  padding: 0 1.25rem;
-  margin: 0;
-  line-height: 1.4;
-  color: hsla(0deg, 0%, 95%, 0.8);
-}
-@media screen and (min-width: 43.6875rem) {
-  .intro p {
-    font-size: 0.55em;
-    line-height: 1.475;
-  }
-}
-@media screen and (min-width: 62.4375rem) {
-  .intro p {
-    font-size: 0.65em;
-    line-height: 1.5;
-  }
-}
-.intro button {
-  position: relative;
-  z-index: 1;
-  margin-top: 2.2rem;
-}
-@media screen and (min-width: 62.4375rem) {
-  .intro button {
-    font-size: 0.5em;
-    padding: 0.85rem 4.75rem;
-  }
+.intro-grid {
+  max-inline-size: 1200px;
+  padding-inline: 2rem;
+  margin-inline: auto;
+  min-block-size: 100vh;
+  min-block-size: 100dvh;
+  display: grid;
 }
 
 footer {
