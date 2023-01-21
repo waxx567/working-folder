@@ -163,6 +163,13 @@ img {
   bottom: 100%;
 }
 
+.intro-graphic,
+.intro-design {
+  position: absolute;
+  width: min-content;
+  border: 1px solid lime;
+}
+
 footer {
   margin: 0;
   padding: 0;
