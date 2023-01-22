@@ -1,3 +1,26 @@
+ <main class="content-grid"><!--PINK-->
+
+        <!--BLUEcard-previews Section 1 -->
+        <div class="intro-container">
+            
+            <!-- Big picture -->
+            <div class="intro-picture">
+            <!--TEAL Big picture -->
+            <img src="/images/illustration-intro.png" alt="Intro illustration" class="intro__pic">
+            </div>
+
+            <!-- Background -->
+            <div class="intro-background">
+            <!--WHITEbg Background wave -->
+            <img src="/images/bg-curvy-mobile.svg" alt="Intro design feature" class="intro__bg">
+            </div>
+   
+        </div>
+    </main>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -243,3 +266,40 @@ img {
   Contact Us
   Terms
   Privacy
+
+
+
+
+
+h1 {
+    margin: 0;
+    border: 2px solid rgb(15, 208, 238);
+}
+.intro-picture { 
+    border: 3px solid yellow;
+    img {
+        border: 2px solid teal;
+    }
+}
+.intro-background {
+    bottom: 0;
+    border: 3px solid red;
+    img {
+        border: 2px solid white;
+    }
+}
+.intro-picture,
+.intro-background {
+    width: max-content;
+}
+.intro-picture > *:not(.intro__pic) {
+    //position: absolute;
+}
+.intro-background > *:not(.intro__bg) {
+    //position: absolute;
+}
+.intro__bg,
+.intro__pic {
+    //max-width: revert;
+}
+

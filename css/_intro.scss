@@ -1,7 +1,4 @@
 // Section 1
-.content-grid {
-    border:  5px solid hotpink;
-}
 .intro-container {
     background-color: $introBlue;
     width: 100%;
@@ -11,10 +8,14 @@
     border: 3px solid blue;
 }
 .intro__pic {
-    text-align: center;
+    position: relative;
+    top: 100px;
+    padding: 0 1.75rem;
     width: 94%;
 }
 .intro__bg {
+    position: absolute;    
+    bottom: 0;
     width: 100%;
 }
 
