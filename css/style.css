@@ -141,10 +141,6 @@ main {
   border: 5px solid hotpink;
 }
 
-.content-grid > * {
-  border: 2px solid white;
-}
-
 .intro-container {
   border: 3px solid blue;
 }
@@ -168,7 +164,7 @@ h1 {
   border: 2px solid rgb(15, 208, 238);
 }
 
-.intro__pic {
+.intro-picture {
   border: 3px solid yellow;
 }
 
