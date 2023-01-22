@@ -98,50 +98,44 @@ a:hover {
 }
 
 .content-grid {
-  width: max-content;
+  border: 5px solid hotpink;
 }
 
 .intro-container {
   background-color: hsl(217deg, 28%, 15%);
+  width: 90%;
+  border: 3px solid blue;
 }
 .intro-container img {
-  min-width: 23.4375rem;
-  max-width: 100%;
   display: block;
 }
 
 h1 {
   padding: 0 1.69rem;
   margin: 0;
+  border: 2px solid rgb(15, 208, 238);
 }
 
 .intro-picture {
-  z-index: 2;
-  top: 2.25rem;
-  text-align: center;
+  border: 3px solid yellow;
 }
 .intro-picture img {
-  padding: 0 2.5rem;
+  width: 960px;
+  border: 2px solid teal;
 }
 
 .intro-background {
-  z-index: 1;
   bottom: 0;
+  border: 3px solid red;
 }
+.intro-background img {
+  width: 960px;
+  border: 2px solid white;
+}
+
 .intro-picture,
 .intro-background {
-  position: relative;
   width: min-content;
-}
-
-.intro-picture > *:not(.intro__pic),
-.intro-background > *:not(.intro__bg) {
-  position: absolute;
-}
-
-.intro__bg,
-.intro__pic {
-  max-width: revert;
 }
 
 footer {
