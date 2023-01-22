@@ -111,13 +111,11 @@ a:hover {
 }
 
 h1 {
-  padding: 0 1.69rem;
   margin: 0;
   border: 2px solid rgb(15, 208, 238);
 }
 
 .intro-picture {
-  position: absolute;
   border: 3px solid yellow;
 }
 .intro-picture img {
@@ -136,7 +134,7 @@ h1 {
 
 .intro-picture,
 .intro-background {
-  width: min-content;
+  width: max-content;
 }
 
 footer {

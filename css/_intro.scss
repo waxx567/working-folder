@@ -11,12 +11,10 @@
     border: 3px solid blue;
 }
 h1 {
-    padding: 0 1.69rem;
     margin: 0;
     border: 2px solid rgb(15, 208, 238);
 }
 .intro-picture { 
-    position: absolute;
     border: 3px solid yellow;
     img {
         width: 960px;
@@ -33,10 +31,11 @@ h1 {
 }
 .intro-picture,
 .intro-background {
-    //position: relative;
-    width: min-content;
+    width: max-content;
 }
-.intro-picture > *:not(.intro__pic),
+.intro-picture > *:not(.intro__pic) {
+    //position: absolute;
+}
 .intro-background > *:not(.intro__bg) {
     //position: absolute;
 }
