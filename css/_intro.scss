@@ -23,39 +23,28 @@ h1 {
     //border: 3px solid yellow;
     img {
         padding: 0 2.5rem;
-        width: 24.375rem;
+        min-width: 23.4375rem;
+        
         //border: 2px solid teal;
     }
 }
-.intro-blend {
+.intro-background {
     z-index: 1;
-    width: 24.375rem;
     bottom: 0;
     //border: 5px solid red;
     img {
-        z-index: 3;
         width: 24.375rem;
         //border: 2px solid white;
     }
 }
 .intro-picture,
-.intro-blend {
+.intro-background {
     position: relative;
     width: min-content;
 }
 .intro-picture > *:not(.intro__pic),
-.intro-blend > *:not(.intro__bg) {
+.intro-background > *:not(.intro__bg) {
     position: absolute;
-}
-.intro__heading {
-    font-size: 0.85rem;
-    bottom: 0;
-    left: 0;
-}
-.intro__heading > * {
-    text-align: center;
-    width: 24.375rem;
-    //border: 2px solid rgb(49, 246, 27);
 }
 .intro__bg,
 .intro__pic {

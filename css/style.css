@@ -122,39 +122,26 @@ h1 {
 }
 .intro-picture img {
   padding: 0 2.5rem;
-  width: 24.375rem;
+  min-width: 23.4375rem;
 }
 
-.intro-blend {
+.intro-background {
   z-index: 1;
-  width: 24.375rem;
   bottom: 0;
 }
-.intro-blend img {
-  z-index: 3;
+.intro-background img {
   width: 24.375rem;
 }
 
 .intro-picture,
-.intro-blend {
+.intro-background {
   position: relative;
   width: min-content;
 }
 
 .intro-picture > *:not(.intro__pic),
-.intro-blend > *:not(.intro__bg) {
+.intro-background > *:not(.intro__bg) {
   position: absolute;
-}
-
-.intro__heading {
-  font-size: 0.85rem;
-  bottom: 0;
-  left: 0;
-}
-
-.intro__heading > * {
-  text-align: center;
-  width: 24.375rem;
 }
 
 .intro__bg,
