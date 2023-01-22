@@ -5,11 +5,12 @@
 }
 .intro-container {
     background-color: $introBlue;
+    img {
+        min-width: 23.4375rem;
+        max-width: 100%;
+        display: block;
+    }
     //border: 3px solid blue;
-}
-img {
-    max-width: 100%;
-    display: block;
 }
 h1 {
     padding: 0 1.69rem;
@@ -23,7 +24,6 @@ h1 {
     //border: 3px solid yellow;
     img {
         padding: 0 2.5rem;
-        min-width: 23.4375rem;
         
         //border: 2px solid teal;
     }
@@ -33,7 +33,6 @@ h1 {
     bottom: 0;
     //border: 5px solid red;
     img {
-        width: 24.375rem;
         //border: 2px solid white;
     }
 }

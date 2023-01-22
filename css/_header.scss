@@ -6,10 +6,12 @@
     align-items: center;
     padding: 1.75rem 1.875rem 0 1rem;
     font-family: $font-title;
-}
-img {
-    cursor: pointer;
-    width: 5rem;
+    img {
+        cursor: pointer;
+        min-width: 4.75rem;
+        max-width: 5.5rem;
+        //border: 2px solid red;
+    }
 }
 a {
     font-size: 0.65em;

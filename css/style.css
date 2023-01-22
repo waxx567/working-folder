@@ -81,10 +81,10 @@ main {
   padding: 1.75rem 1.875rem 0 1rem;
   font-family: "Raleway", sans-serif;
 }
-
-img {
+.header-container img {
   cursor: pointer;
-  width: 5rem;
+  min-width: 4.75rem;
+  max-width: 5.5rem;
 }
 
 a {
@@ -104,8 +104,8 @@ a:hover {
 .intro-container {
   background-color: hsl(217deg, 28%, 15%);
 }
-
-img {
+.intro-container img {
+  min-width: 23.4375rem;
   max-width: 100%;
   display: block;
 }
@@ -122,17 +122,12 @@ h1 {
 }
 .intro-picture img {
   padding: 0 2.5rem;
-  min-width: 23.4375rem;
 }
 
 .intro-background {
   z-index: 1;
   bottom: 0;
 }
-.intro-background img {
-  width: 24.375rem;
-}
-
 .intro-picture,
 .intro-background {
   position: relative;
