@@ -6,6 +6,7 @@
 //}
 
 .intro-container {
+    background-color: $introBlue;
     border: 3px solid blue;
 }
 // Section 1 //
@@ -14,13 +15,11 @@ img {
     display: block;
 }
 h1 {
-    font-size: 0.65rem;
-    top: 0;
-    right: 0;
     border: 2px solid rgb(15, 208, 238);
 }
 .intro-blend,
 .intro-picture { 
+    position: relative;
     width: min-content;
 }
 // card-front
@@ -54,4 +53,10 @@ h1 {
 .intro__bg,
 .intro__pic {
     max-width: revert;
+}
+
+.intro__heading {
+    font-size: 0.65rem;
+    top: 60px;
+    left: 0;
 }
