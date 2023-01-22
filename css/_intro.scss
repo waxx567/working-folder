@@ -15,10 +15,12 @@ img {
     display: block;
 }
 h1 {
+    margin: 0;
+    padding: 0;
     border: 2px solid rgb(15, 208, 238);
 }
 .intro-blend,
-.intro-picture { 
+.intro-picture {
     position: relative;
     width: min-content;
 }
@@ -54,9 +56,8 @@ h1 {
 .intro__pic {
     max-width: revert;
 }
-
 .intro__heading {
     font-size: 0.65rem;
-    top: 60px;
+    bottom: 0;
     left: 0;
 }

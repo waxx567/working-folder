@@ -152,6 +152,8 @@ img {
 }
 
 h1 {
+  margin: 0;
+  padding: 0;
   border: 2px solid rgb(15, 208, 238);
 }
 
@@ -198,7 +200,7 @@ h1 {
 
 .intro__heading {
   font-size: 0.65rem;
-  top: 60px;
+  bottom: 0;
   left: 0;
 }
 
