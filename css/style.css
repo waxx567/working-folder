@@ -145,31 +145,36 @@ main {
   border: 3px solid blue;
 }
 
+.intro-picture {
+  border: 3px solid yellow;
+  width: 360px;
+  text-align: center;
+}
+.intro-picture img {
+  width: 340px;
+  border: 2px solid teal;
+}
+
 .intro-blend {
   text-align: center;
-  border: 5px solid coral;
+  width: 360px;
+  border: 5px solid red;
 }
-
-.intro-blend > * {
-  border: 2px solid black;
+.intro-blend img {
+  width: 340px;
 }
-
-.intro__bg {
-  border: 2px solid red;
-}
-
-h1 {
-  font-size: 22.85px;
-  padding: 0 32px;
+.intro-blend img h1 {
+  font-size: 0.65rem;
   border: 2px solid rgb(15, 208, 238);
 }
 
-.intro-picture {
-  border: 3px solid yellow;
+.intro__bg {
+  border: 2px solid black;
 }
 
 .intro__heading > * {
   text-align: center;
+  width: 360px;
   border: 2px solid rgb(49, 246, 27);
 }
 
