@@ -16,26 +16,25 @@ h1 {
     margin: 0;
     //border: 2px solid rgb(15, 208, 238);
 }
-// card-front
 .intro-picture { 
     z-index: 2;
+    top: 2.25rem;
     text-align: center;
     //border: 3px solid yellow;
     img {
-        padding: 0 2rem;
-        width: 390px;
+        padding: 0 2.5rem;
+        width: 24.375rem;
         //border: 2px solid teal;
     }
 }
-// card-back
 .intro-blend {
     z-index: 1;
-    width: 392px;
-    bottom: 30px;
+    width: 24.375rem;
+    bottom: 0;
     //border: 5px solid red;
     img {
         z-index: 3;
-        width: 390px;
+        width: 24.375rem;
         //border: 2px solid white;
     }
 }
@@ -49,13 +48,13 @@ h1 {
     position: absolute;
 }
 .intro__heading {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     bottom: 0;
     left: 0;
 }
 .intro__heading > * {
     text-align: center;
-    width: 390px;
+    width: 24.375rem;
     //border: 2px solid rgb(49, 246, 27);
 }
 .intro__bg,

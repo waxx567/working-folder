@@ -78,40 +78,13 @@ main {
   grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
   gap: 1.5rem;
   align-items: center;
-  padding: 1.75rem 1.875rem 3.3rem 1rem;
+  padding: 1.75rem 1.875rem 0 1rem;
   font-family: "Raleway", sans-serif;
-}
-@media screen and (min-width: 43.6875rem) {
-  .header-container {
-    gap: 2.5rem;
-    padding: 3.5rem 3rem;
-  }
-}
-@media screen and (min-width: 62.4375rem) {
-  .header-container {
-    gap: 3.5rem;
-    padding: 4rem 3.5rem;
-  }
 }
 
 img {
   cursor: pointer;
   width: 5rem;
-}
-@media screen and (min-width: 43.6875rem) {
-  img {
-    width: 7.125rem;
-  }
-}
-@media screen and (min-width: 62.4375rem) {
-  img {
-    width: 9.5rem;
-  }
-}
-@media screen and (min-width: 87.4375rem) {
-  img {
-    width: 11.125rem;
-  }
 }
 
 a {
@@ -122,21 +95,6 @@ a {
 }
 a:hover {
   color: hsl(340deg, 57%, 64%);
-}
-@media screen and (min-width: 43.6875rem) {
-  a {
-    font-size: 0.55em;
-  }
-}
-@media screen and (min-width: 62.4375rem) {
-  a {
-    font-size: 0.5em;
-  }
-}
-@media screen and (min-width: 87.4375rem) {
-  a {
-    font-size: 0.4em;
-  }
 }
 
 .content-grid {
@@ -159,21 +117,22 @@ h1 {
 
 .intro-picture {
   z-index: 2;
+  top: 2.25rem;
   text-align: center;
 }
 .intro-picture img {
-  padding: 0 2rem;
-  width: 390px;
+  padding: 0 2.5rem;
+  width: 24.375rem;
 }
 
 .intro-blend {
   z-index: 1;
-  width: 392px;
-  bottom: 30px;
+  width: 24.375rem;
+  bottom: 0;
 }
 .intro-blend img {
   z-index: 3;
-  width: 390px;
+  width: 24.375rem;
 }
 
 .intro-picture,
@@ -188,14 +147,14 @@ h1 {
 }
 
 .intro__heading {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   bottom: 0;
   left: 0;
 }
 
 .intro__heading > * {
   text-align: center;
-  width: 390px;
+  width: 24.375rem;
 }
 
 .intro__bg,

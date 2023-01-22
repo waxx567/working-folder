@@ -4,29 +4,12 @@
     grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
     gap: 1.5rem;
     align-items: center;
-    padding: 1.75rem 1.875rem 3.3rem 1rem;
+    padding: 1.75rem 1.875rem 0 1rem;
     font-family: $font-title;
-    @include breakpoint(medium) {
-        gap: 2.5rem; // 40px
-        padding: 3.5rem 3rem; // 56px 48px
-    }
-    @include breakpoint(large) {
-        gap: 3.5rem; // 56px
-        padding: 4rem 3.5rem; // 64px 56px
-    }
 }
 img {
     cursor: pointer;
     width: 5rem;
-    @include breakpoint(medium) {
-        width: 7.125rem;
-    }
-    @include breakpoint(large) {
-        width: 9.5rem; 
-    }
-    @include breakpoint(xlarge) {
-        width: 11.125rem;
-    }
 }
 a {
     font-size: 0.65em;
@@ -35,14 +18,5 @@ a {
     transition: color 200ms ease-in-out;
     &:hover {
         color: $paleRed;
-    }
-    @include breakpoint(medium) {
-        font-size: 0.55em;
-    }
-    @include breakpoint(large) {
-        font-size: 0.5em;
-    }
-    @include breakpoint(xlarge) {
-        font-size: 0.4em;
     }
 }
