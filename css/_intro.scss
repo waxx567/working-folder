@@ -1,63 +1,65 @@
+// Section 1
 .content-grid {
-    border:  5px solid hotpink;
+    width: max-content;
+    //border:  5px solid hotpink;
 }
-//.content-grid > * {
-    //border: 2px solid white;
-//}
-
 .intro-container {
     background-color: $introBlue;
-    border: 3px solid blue;
+    //border: 3px solid blue;
 }
-// Section 1 //
 img {
     max-width: 100%;
     display: block;
 }
 h1 {
+    padding: 0 1.69rem;
     margin: 0;
-    padding: 0;
-    border: 2px solid rgb(15, 208, 238);
-}
-.intro-blend,
-.intro-picture {
-    position: relative;
-    width: min-content;
+    //border: 2px solid rgb(15, 208, 238);
 }
 // card-front
-.intro-blend {
-    border: 5px solid red;
-    width: 360px;
+.intro-picture { 
+    z-index: 2;
+    text-align: center;
+    //border: 3px solid yellow;
     img {
-        width: 340px;
-        border: 2px solid white;
+        padding: 0 2rem;
+        width: 390px;
+        //border: 2px solid teal;
     }
 }
 // card-back
-.intro-picture { 
-    border: 3px solid yellow;
-    width: 360px;
-    text-align: center;
+.intro-blend {
+    z-index: 1;
+    width: 392px;
+    bottom: 30px;
+    //border: 5px solid red;
     img {
-        width: 340px;
-        border: 2px solid teal;
+        z-index: 3;
+        width: 390px;
+        //border: 2px solid white;
     }
 }
-.intro-blend > *:not(.intro__bg),
-.intro-picture > *:not(.intro__pic) {
+.intro-picture,
+.intro-blend {
+    position: relative;
+    width: min-content;
+}
+.intro-picture > *:not(.intro__pic),
+.intro-blend > *:not(.intro__bg) {
     position: absolute;
+}
+.intro__heading {
+    font-size: 0.75rem;
+    bottom: 0;
+    left: 0;
 }
 .intro__heading > * {
     text-align: center;
-    width: 360px;
-    border: 2px solid rgb(49, 246, 27);
+    width: 390px;
+    //border: 2px solid rgb(49, 246, 27);
 }
 .intro__bg,
 .intro__pic {
     max-width: revert;
 }
-.intro__heading {
-    font-size: 0.65rem;
-    bottom: 0;
-    left: 0;
-}
+

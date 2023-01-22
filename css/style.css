@@ -93,57 +93,58 @@ main {
     padding: 4rem 3.5rem;
   }
 }
-.header-container img {
+
+img {
   cursor: pointer;
-  width: 5.6rem;
+  width: 5rem;
 }
 @media screen and (min-width: 43.6875rem) {
-  .header-container img {
+  img {
     width: 7.125rem;
   }
 }
 @media screen and (min-width: 62.4375rem) {
-  .header-container img {
+  img {
     width: 9.5rem;
   }
 }
 @media screen and (min-width: 87.4375rem) {
-  .header-container img {
+  img {
     width: 11.125rem;
   }
 }
-.header-container a {
-  font-size: 0.7em;
+
+a {
+  font-size: 0.65em;
   font-family: "Raleway", sans-serif;
   color: hsla(0deg, 0%, 100%, 0.65);
   transition: color 200ms ease-in-out;
 }
-.header-container a:hover {
+a:hover {
   color: hsl(340deg, 57%, 64%);
 }
 @media screen and (min-width: 43.6875rem) {
-  .header-container a {
+  a {
     font-size: 0.55em;
   }
 }
 @media screen and (min-width: 62.4375rem) {
-  .header-container a {
+  a {
     font-size: 0.5em;
   }
 }
 @media screen and (min-width: 87.4375rem) {
-  .header-container a {
+  a {
     font-size: 0.4em;
   }
 }
 
 .content-grid {
-  border: 5px solid hotpink;
+  width: max-content;
 }
 
 .intro-container {
   background-color: hsl(217deg, 28%, 15%);
-  border: 3px solid blue;
 }
 
 img {
@@ -152,56 +153,54 @@ img {
 }
 
 h1 {
+  padding: 0 1.69rem;
   margin: 0;
-  padding: 0;
-  border: 2px solid rgb(15, 208, 238);
 }
 
-.intro-blend,
 .intro-picture {
+  z-index: 2;
+  text-align: center;
+}
+.intro-picture img {
+  padding: 0 2rem;
+  width: 390px;
+}
+
+.intro-blend {
+  z-index: 1;
+  width: 392px;
+  bottom: 30px;
+}
+.intro-blend img {
+  z-index: 3;
+  width: 390px;
+}
+
+.intro-picture,
+.intro-blend {
   position: relative;
   width: min-content;
 }
 
-.intro-blend {
-  border: 5px solid red;
-  width: 360px;
-}
-.intro-blend img {
-  width: 340px;
-  border: 2px solid white;
-}
-
-.intro-picture {
-  border: 3px solid yellow;
-  width: 360px;
-  text-align: center;
-}
-.intro-picture img {
-  width: 340px;
-  border: 2px solid teal;
-}
-
-.intro-blend > *:not(.intro__bg),
-.intro-picture > *:not(.intro__pic) {
+.intro-picture > *:not(.intro__pic),
+.intro-blend > *:not(.intro__bg) {
   position: absolute;
+}
+
+.intro__heading {
+  font-size: 0.75rem;
+  bottom: 0;
+  left: 0;
 }
 
 .intro__heading > * {
   text-align: center;
-  width: 360px;
-  border: 2px solid rgb(49, 246, 27);
+  width: 390px;
 }
 
 .intro__bg,
 .intro__pic {
   max-width: revert;
-}
-
-.intro__heading {
-  font-size: 0.65rem;
-  bottom: 0;
-  left: 0;
 }
 
 footer {
