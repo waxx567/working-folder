@@ -110,31 +110,12 @@ a:hover {
   display: block;
 }
 
-h1 {
-  margin: 0;
-  border: 2px solid rgb(15, 208, 238);
+.intro__pic {
+  width: 94%;
 }
 
-.intro-picture {
-  border: 3px solid yellow;
-}
-.intro-picture img {
-  width: 960px;
-  border: 2px solid teal;
-}
-
-.intro-background {
-  bottom: 0;
-  border: 3px solid red;
-}
-.intro-background img {
-  width: 960px;
-  border: 2px solid white;
-}
-
-.intro-picture,
-.intro-background {
-  width: max-content;
+.intro__bg {
+  width: 100%;
 }
 
 footer {

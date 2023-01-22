@@ -10,37 +10,14 @@
     }
     border: 3px solid blue;
 }
-h1 {
-    margin: 0;
-    border: 2px solid rgb(15, 208, 238);
-}
-.intro-picture { 
-    border: 3px solid yellow;
-    img {
-        width: 960px;
-        border: 2px solid teal;
-    }
-}
-.intro-background {
-    bottom: 0;
-    border: 3px solid red;
-    img {
-        width: 960px;
-        border: 2px solid white;
-    }
-}
-.intro-picture,
-.intro-background {
-    width: max-content;
-}
-.intro-picture > *:not(.intro__pic) {
-    //position: absolute;
-}
-.intro-background > *:not(.intro__bg) {
-    //position: absolute;
-}
-.intro__bg,
 .intro__pic {
-    //max-width: revert;
+    width: 94%;
 }
+.intro__bg {
+    width: 100%;
+}
+
+
+
+
 
