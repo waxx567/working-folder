@@ -1,15 +1,38 @@
 .content-grid {
     border:  5px solid hotpink;
 }
-.content-grid > * {
+//.content-grid > * {
     //border: 2px solid white;
-}
+//}
 
 .intro-container {
     border: 3px solid blue;
 }
 // Section 1 //
+img {
+    max-width: 100%;
+    display: block;
+}
+h1 {
+    font-size: 0.65rem;
+    top: 0;
+    right: 0;
+    border: 2px solid rgb(15, 208, 238);
+}
+.intro-blend,
+.intro-picture { 
+    width: min-content;
+}
 // card-front
+.intro-blend {
+    border: 5px solid red;
+    width: 360px;
+    img {
+        width: 340px;
+        border: 2px solid white;
+    }
+}
+// card-back
 .intro-picture { 
     border: 3px solid yellow;
     width: 360px;
@@ -19,26 +42,16 @@
         border: 2px solid teal;
     }
 }
-
-// card-back
-.intro-blend { 
-    text-align: center;
-    width: 360px;
-    border: 5px solid red;
-    img {
-        width: 340px;
-        h1 {
-    font-size: 0.65rem;
-    border: 2px solid rgb(15, 208, 238);
-}
-    }
-}
-.intro__bg {
-    border: 2px solid black;
+.intro-blend > *:not(.intro__bg),
+.intro-picture > *:not(.intro__pic) {
+    position: absolute;
 }
 .intro__heading > * {
     text-align: center;
     width: 360px;
     border: 2px solid rgb(49, 246, 27);
 }
-
+.intro__bg,
+.intro__pic {
+    max-width: revert;
+}

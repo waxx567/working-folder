@@ -145,6 +145,32 @@ main {
   border: 3px solid blue;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1 {
+  font-size: 0.65rem;
+  top: 0;
+  right: 0;
+  border: 2px solid rgb(15, 208, 238);
+}
+
+.intro-blend,
+.intro-picture {
+  width: min-content;
+}
+
+.intro-blend {
+  border: 5px solid red;
+  width: 360px;
+}
+.intro-blend img {
+  width: 340px;
+  border: 2px solid white;
+}
+
 .intro-picture {
   border: 3px solid yellow;
   width: 360px;
@@ -155,27 +181,20 @@ main {
   border: 2px solid teal;
 }
 
-.intro-blend {
-  text-align: center;
-  width: 360px;
-  border: 5px solid red;
-}
-.intro-blend img {
-  width: 340px;
-}
-.intro-blend img h1 {
-  font-size: 0.65rem;
-  border: 2px solid rgb(15, 208, 238);
-}
-
-.intro__bg {
-  border: 2px solid black;
+.intro-blend > *:not(.intro__bg),
+.intro-picture > *:not(.intro__pic) {
+  position: absolute;
 }
 
 .intro__heading > * {
   text-align: center;
   width: 360px;
   border: 2px solid rgb(49, 246, 27);
+}
+
+.intro__bg,
+.intro__pic {
+  max-width: revert;
 }
 
 footer {
