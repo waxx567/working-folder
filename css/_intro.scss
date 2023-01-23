@@ -1,5 +1,5 @@
 // Section 1
-.intro-one {
+.intro-images {
     position: relative;
     background-color: $introBlue;
     height: max-content;
@@ -7,32 +7,41 @@
     img {
         display: block;
     }
-    border: 3px solid blue;
+    //border: 3px solid blue;
 }
 .intro__pic {
     position: relative;
     z-index: 2;
     padding: 2rem;
     width: 100%;
-    border: 2px solid magenta;
+    //border: 2px solid magenta;
 }
 .intro__bg {
     position: relative;
     z-index: 0;
     width: 100%;
     padding: 0;
-    bottom: 5rem;
-    border: 2px solid lawngreen;
-}
-.intro__heading {
-    padding: 0 2rem;
-    border: 2px solid firebrick;
+    top: -4.5rem;
+    //border: 2px solid lawngreen;
 }
 h1 {
-    font-family: $font-title;
+    position: relative;
+    z-index: 2;
     text-align: center;
-    font-size: 1.345em;
-    border: 2px solid white;
+    font-size: 1.7em;
+    line-height: 1.5;
+    top: -10.5rem;
+    //border: 2px solid white;
+}
+.intro__heading {
+    position: relative;
+    height: max-content;
+    width: 100%;
+    text-align: center;
+    padding: 4rem 1.5rem;
+    top: -3.8rem;
+    font-size: 0.8375em;
+    //border: 3px solid blue;
 }
 
 

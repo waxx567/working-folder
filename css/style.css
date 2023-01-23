@@ -81,8 +81,7 @@ main {
   grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
   gap: 1.5rem;
   align-items: center;
-  padding: 1.75rem 1.875rem 1rem 1rem;
-  font-family: "Raleway", sans-serif;
+  padding: 1.5rem 1.875rem 1rem 1rem;
 }
 .header-container img {
   cursor: pointer;
@@ -92,7 +91,6 @@ main {
 
 a {
   font-size: 0.65em;
-  font-family: "Raleway", sans-serif;
   color: hsla(0deg, 0%, 100%, 0.65);
   transition: color 200ms ease-in-out;
 }
@@ -100,14 +98,13 @@ a:hover {
   color: hsl(340deg, 57%, 64%);
 }
 
-.intro-one {
+.intro-images {
   position: relative;
   background-color: hsl(217deg, 28%, 15%);
   height: max-content;
   width: 100%;
-  border: 3px solid blue;
 }
-.intro-one img {
+.intro-images img {
   display: block;
 }
 
@@ -116,7 +113,6 @@ a:hover {
   z-index: 2;
   padding: 2rem;
   width: 100%;
-  border: 2px solid magenta;
 }
 
 .intro__bg {
@@ -124,20 +120,26 @@ a:hover {
   z-index: 0;
   width: 100%;
   padding: 0;
-  bottom: 5rem;
-  border: 2px solid lawngreen;
-}
-
-.intro__heading {
-  padding: 0 2rem;
-  border: 2px solid firebrick;
+  top: -4.5rem;
 }
 
 h1 {
-  font-family: "Raleway", sans-serif;
+  position: relative;
+  z-index: 2;
   text-align: center;
-  font-size: 1.345em;
-  border: 2px solid white;
+  font-size: 1.7em;
+  line-height: 1.5;
+  top: -10.5rem;
+}
+
+.intro__heading {
+  position: relative;
+  height: max-content;
+  width: 100%;
+  text-align: center;
+  padding: 4rem 1.5rem;
+  top: -3.8rem;
+  font-size: 0.8375em;
 }
 
 footer {
