@@ -31,19 +31,19 @@ a, h1, h2, h3, h4 { // Raleway font
     font-family: $font-title;
 }
 
-h1 { // 28px 
+h1 { 
     font-size: 1.75em; 
 }
 
-h2 { // 24px 
+h2 { 
     font-size: 1.5em; 
 }
 
-h3 {  // 22px 
+h3 { 
     font-size: 1.375em;
 }
 
-h4 { // 20px 
+h4 { 
     font-size: 1.25em; 
 }
 
@@ -54,7 +54,7 @@ button {
     font-size: 0.75em;
     font-family: $font-body;
     font-weight: 700;
-    padding: 1rem 5.75rem;
+    padding: 1rem 5.875rem;
     border-radius: 1.875rem; // 30px
     color: hsl(0, 0%, 95%);
 
@@ -67,8 +67,3 @@ button {
     }
 }
 
-main {
-    margin: 0;
-    padding: 0;
-    background-color: $mainBlue;
-}
