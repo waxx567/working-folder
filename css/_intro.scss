@@ -7,19 +7,21 @@
     img {
         display: block;
     }
-    //border: 3px solid blue;
+    border: 3px solid blue;
 }
 .intro__pic {
-    position: absolute;
+    position: relative;
     z-index: 2;
     padding: 2rem;
     width: 100%;
-    //border: 1px solid magenta;
+    border: 2px solid magenta;
 }
 .intro__bg {
     position: relative;
-    padding: 240px 0 0 0;
     width: 100%;
+    padding: 0;
+    bottom: 5rem;
+    border: 2px solid lawngreen;
 }
 
 
