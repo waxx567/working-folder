@@ -1,21 +1,24 @@
 // Section 1
 .intro-container {
+    position: relative;
     background-color: $introBlue;
+    height: max-content;
     width: 100%;
     img {
         display: block;
     }
-    border: 3px solid blue;
+    //border: 3px solid blue;
 }
 .intro__pic {
-    position: relative;
-    top: 100px;
-    padding: 0 1.75rem;
-    width: 94%;
+    position: absolute;
+    z-index: 2;
+    padding: 2rem;
+    width: 100%;
+    //border: 1px solid magenta;
 }
 .intro__bg {
-    position: absolute;    
-    bottom: 0;
+    position: relative;
+    padding: 240px 0 0 0;
     width: 100%;
 }
 

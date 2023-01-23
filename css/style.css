@@ -81,7 +81,7 @@ main {
   grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
   gap: 1.5rem;
   align-items: center;
-  padding: 1.75rem 1.875rem 0 1rem;
+  padding: 1.75rem 1.875rem 1.75rem 1rem;
   font-family: "Raleway", sans-serif;
 }
 .header-container img {
@@ -101,24 +101,25 @@ a:hover {
 }
 
 .intro-container {
+  position: relative;
   background-color: hsl(217deg, 28%, 15%);
+  height: max-content;
   width: 100%;
-  border: 3px solid blue;
 }
 .intro-container img {
   display: block;
 }
 
 .intro__pic {
-  position: relative;
-  top: 100px;
-  padding: 0 1.75rem;
-  width: 94%;
+  position: absolute;
+  z-index: 2;
+  padding: 2rem;
+  width: 100%;
 }
 
 .intro__bg {
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  padding: 240px 0 0 0;
   width: 100%;
 }
 
