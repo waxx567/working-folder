@@ -149,8 +149,11 @@ a:hover {
 .features {
   background-color: hsl(218deg, 28%, 13%);
   border: 2px solid blue;
+  text-align: center;
 }
-
+.features h4 {
+  font-size: 1em;
+}
 footer {
   margin: 0;
   padding: 0;
