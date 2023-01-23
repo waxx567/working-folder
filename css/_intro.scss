@@ -12,48 +12,49 @@
 .intro__pic {
     position: relative;
     z-index: 2;
-    padding: 2rem;
+    padding: 2rem 2rem 6.5rem;
     width: 100%;
     //border: 2px solid magenta;
 }
 .intro__bg {
-    position: relative;
+    position: absolute;
     z-index: 0;
     width: 100%;
     padding: 0;
-    top: -4.5rem;
+    top: 15rem;
     //border: 2px solid lawngreen;
 }
-h1 {
+.intro-content {
     position: relative;
-    z-index: 2;
+    z-index: 1;
     text-align: center;
-    font-size: 1.7em;
-    line-height: 1.5;
-    top: -10.5rem;
-    //border: 2px solid white;
+    bottom: 6rem;
+    padding: 0 0 3rem;
+    p {
+        padding: 0 2.75rem 1.4rem;
+        font-size: 0.8em;
+        //border: 1px solid gold;
+    }
+    //border: 1px solid magenta;
 }
 .intro__heading {
     position: relative;
     height: max-content;
     width: 100%;
+    padding: 0 2rem;
     text-align: center;
-    padding: 4.5rem 1.5rem 0;
-    top: -3.9rem;
-    font-size: 0.8375em;
-}
-.intro-content {
-    position: relative;
-    z-index: 1;
-    background-color: $mainBlue;
-    text-align: center;
-    top: -19.5rem;
-    p {
-        padding: 5.75rem 2rem 1rem;
-        font-size: 0.825em;
+    font-size: 1.4em;
+    h1 {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        font-size: 1.7em;
+        line-height: 1.5;
+        //border: 2px solid white;
     }
-    //border: 2px solid magenta;
+    //border: 1px solid firebrick;
 }
+
 
 
 

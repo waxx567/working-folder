@@ -1,69 +1,59 @@
 html { 
     font-size: 100%; // allows user to control zoom in own browser
 }
-
 *, *:after, *:before { // applies to all elements in all states 
     box-sizing: border-box; // includes padding in width as size changes
 }
-
 * { // Universal font colour 
     color: hsla(0, 0%, 100%, 1);
 }
-
 body {
     margin: 0;
     padding: 0;
+    background-color: $mainBlue;
     font-family: $font-body; // Open Sans 
     font-size: calc(1rem + 0.75vw); // 16px is the base
     line-height: 1.5; // spacing between lines on screen
 }
-
-a, 
-p { // Links and paragraphs
+a, p { 
     font-size: 1em;
     color: hsla(0, 0%, 95%, 0.9);
     text-decoration: none;
 }
-p { // Open Sans font
-    font-family: $font-body;
-}
-a, h1, h2, h3, h4 { // Raleway font 
+a {
     font-family: $font-title;
 }
-
+p { 
+    padding: 0 2rem;
+    font-family: $font-body;
+}
+h1, h2, h3, h4 {
+    padding: 0 2rem; 
+    font-family: $font-title;
+}
 h1 { 
     font-size: 1.75em; 
 }
-
 h2 { 
     font-size: 1.5em; 
 }
-
 h3 { 
     font-size: 1.375em;
 }
-
 h4 { 
     font-size: 1.25em; 
 }
-
 button {
     cursor: pointer;
     border: none;
     background: linear-gradient(to right, $greenCyan, $lightBlue);
-    font-size: 0.75em;
-    font-family: $font-body;
+    font-size: 0.8em;
+    font-family: $font-title;
     font-weight: 700;
     padding: 1rem 5.875rem;
     border-radius: 1.875rem; // 30px
     color: hsl(0, 0%, 95%);
-
     &:hover {
         background: linear-gradient(to left, $greenCyan, $lightBlue);
     }
-
-    @include breakpoint(large) {
-        padding: 0.9375rem 4.75rem;
-    }
 }
-
