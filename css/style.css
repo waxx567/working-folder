@@ -148,6 +148,10 @@ h1 {
   font-size: 0.825em;
 }
 
+.features {
+  border: 2px solid magenta;
+}
+
 footer {
   margin: 0;
   padding: 0;
