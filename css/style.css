@@ -151,9 +151,16 @@ a:hover {
   border: 2px solid blue;
   text-align: center;
 }
-.features h4 {
+
+.features__heading {
   font-size: 1em;
 }
+
+.features__text {
+  padding: 0 2rem;
+  font-size: 0.8em;
+}
+
 footer {
   margin: 0;
   padding: 0;
