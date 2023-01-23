@@ -1,6 +1,5 @@
 html {
   font-size: 100%;
-  background-color: hsl(218deg, 28%, 13%);
 }
 
 *, *:after, *:before {
@@ -33,6 +32,7 @@ a {
 p {
   padding: 0 2rem;
   font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
 }
 
 h1, h2, h3, h4 {
@@ -90,71 +90,28 @@ a:hover {
   color: hsl(340deg, 57%, 64%);
 }
 
-.intro-images {
-  position: relative;
-  background-color: hsl(217deg, 28%, 15%);
-  height: max-content;
-  width: 100%;
-  border: 3px solid blue;
+.intro-container {
+  border: 1px solid lawngreen;
 }
-.intro-images img {
+.intro-container img {
+  width: 100%;
   display: block;
 }
 
+.intro-picture {
+  padding: 0 2rem;
+}
+
 .intro__pic {
-  position: relative;
-  z-index: 2;
-  padding: 2rem 2rem 0;
-  width: 100%;
-  border: 2px solid magenta;
+  border: 1px solid magenta;
 }
 
 .intro__bg {
-  position: absolute;
-  z-index: 0;
-  width: 100%;
-  background-color: hsl(217deg, 28%, 15%);
-  padding: 0;
-  bottom: -6rem;
-  border: 2px solid lawngreen;
-}
-
-.intro__heading {
-  position: relative;
-  height: max-content;
-  width: 100%;
-  padding: 1.25rem 2rem 0;
-  text-align: center;
-  font-size: 1.4em;
-  border: 1px solid firebrick;
-}
-
-h1 {
-  position: relative;
-  z-index: 2;
-  text-align: center;
-  font-size: 1.7em;
-  line-height: 1.5;
-  border: 2px solid white;
-}
-
-.intro-content {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  bottom: 1.75rem;
-  padding: 0 0 3rem;
-  border: 1px solid magenta;
-}
-.intro-content p {
-  padding: 0 2.75rem 1.4rem;
-  font-size: 0.8em;
-  border: 1px solid gold;
+  border: 2px solid blue;
 }
 
 .features {
-  background-color: hsl(218deg, 28%, 13%);
-  border: 2px solid blue;
+  position: relative;
   text-align: center;
 }
 

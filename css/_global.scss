@@ -1,6 +1,5 @@
 html { 
     font-size: 100%; // allows user to control zoom in own browser
-    background-color: $mainBlue;
 }
 *, *:after, *:before { // applies to all elements in all states 
     box-sizing: border-box; // includes padding in width as size changes
@@ -27,6 +26,7 @@ a {
 p { 
     padding: 0 2rem;
     font-family: $font-body;
+    font-size: 0.8em;
 }
 h1, h2, h3, h4 {
     padding: 0 2rem; 
