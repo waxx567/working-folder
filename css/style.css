@@ -40,19 +40,15 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 1.75em;
+  font-size: 1.4em;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 h3 {
-  font-size: 1.375em;
-}
-
-h4 {
-  font-size: 1.25em;
+  font-size: 1.1em;
 }
 
 button {
@@ -144,6 +140,7 @@ a:hover {
   text-align: center;
   font-size: 1.7em;
   line-height: 1.5;
+  border: 2px solid white;
 }
 
 .features {
@@ -153,7 +150,7 @@ a:hover {
 }
 
 .features__heading {
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .features__text {
