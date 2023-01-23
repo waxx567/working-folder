@@ -20,13 +20,14 @@ body {
 
 a, 
 p { // Links and paragraphs
-    font-family: $font-title;
     font-size: 1em;
     color: hsla(0, 0%, 95%, 0.9);
     text-decoration: none;
 }
-
-h1, h2, h3, h4 { // Raleway font 
+p { // Open Sans font
+    font-family: $font-body;
+}
+a, h1, h2, h3, h4 { // Raleway font 
     font-family: $font-title;
 }
 

@@ -20,13 +20,16 @@ body {
 
 a,
 p {
-  font-family: "Raleway", sans-serif;
   font-size: 1em;
   color: hsla(0deg, 0%, 95%, 0.9);
   text-decoration: none;
 }
 
-h1, h2, h3, h4 {
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+a, h1, h2, h3, h4 {
   font-family: "Raleway", sans-serif;
 }
 
