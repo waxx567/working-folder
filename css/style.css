@@ -100,14 +100,14 @@ a:hover {
   color: hsl(340deg, 57%, 64%);
 }
 
-.intro-container {
+.intro-one {
   position: relative;
   background-color: hsl(217deg, 28%, 15%);
   height: max-content;
   width: 100%;
   border: 3px solid blue;
 }
-.intro-container img {
+.intro-one img {
   display: block;
 }
 
@@ -121,10 +121,10 @@ a:hover {
 
 .intro__bg {
   position: relative;
+  z-index: 0;
   width: 100%;
   padding: 0;
   bottom: 5rem;
-  border: 2px solid lawngreen;
 }
 
 footer {
