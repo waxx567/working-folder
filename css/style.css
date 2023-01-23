@@ -128,8 +128,16 @@ a:hover {
   border: 2px solid lawngreen;
 }
 
+.intro__heading {
+  padding: 0 2rem;
+  border: 2px solid firebrick;
+}
+
 h1 {
+  font-family: "Raleway", sans-serif;
   text-align: center;
+  font-size: 1.345em;
+  border: 2px solid white;
 }
 
 footer {
