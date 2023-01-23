@@ -1,5 +1,6 @@
 html {
   font-size: 100%;
+  background-color: hsl(218deg, 28%, 13%);
 }
 
 *, *:after, *:before {
@@ -94,6 +95,7 @@ a:hover {
   background-color: hsl(217deg, 28%, 15%);
   height: max-content;
   width: 100%;
+  border: 3px solid blue;
 }
 .intro-images img {
   display: block;
@@ -102,45 +104,52 @@ a:hover {
 .intro__pic {
   position: relative;
   z-index: 2;
-  padding: 2rem 2rem 6.5rem;
+  padding: 2rem 2rem 0;
   width: 100%;
+  border: 2px solid magenta;
 }
 
 .intro__bg {
   position: absolute;
   z-index: 0;
   width: 100%;
+  background-color: hsl(217deg, 28%, 15%);
   padding: 0;
-  top: 15rem;
-}
-
-.intro-content {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  bottom: 6rem;
-  padding: 0 0 3rem;
-}
-.intro-content p {
-  padding: 0 2.75rem 1.4rem;
-  font-size: 0.8em;
+  bottom: -6rem;
+  border: 2px solid lawngreen;
 }
 
 .intro__heading {
   position: relative;
   height: max-content;
   width: 100%;
-  padding: 0 2rem;
+  padding: 1.25rem 2rem 0;
   text-align: center;
   font-size: 1.4em;
+  border: 1px solid firebrick;
 }
-.intro__heading h1 {
+
+h1 {
   position: relative;
   z-index: 2;
   text-align: center;
   font-size: 1.7em;
   line-height: 1.5;
   border: 2px solid white;
+}
+
+.intro-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  bottom: 1.75rem;
+  padding: 0 0 3rem;
+  border: 1px solid magenta;
+}
+.intro-content p {
+  padding: 0 2.75rem 1.4rem;
+  font-size: 0.8em;
+  border: 1px solid gold;
 }
 
 .features {
