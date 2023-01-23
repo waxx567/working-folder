@@ -4,12 +4,12 @@
         width: 100%;
         display: block;
     }   
-    border: 1px solid lawngreen;   
+    //border: 1px solid lawngreen;   
 }
 
 .intro-picture,
 .intro-graphic {
-    background-color: $introBlue;
+    background: transparent;
     //width: min-content;
 }
 
@@ -17,16 +17,20 @@
     padding: 0 2.5rem;
 }
 
+.intro-graphic {
+    //background-color: $introBlue;
+}
+
 .intro__pic {
     position: relative;
     z-index: 2;
     top: 2rem;
     position: relative;
-    border: 1px solid magenta;
+    //border: 1px solid magenta;
 }
 
 .intro__bg {
     position: relative;
     z-index: 0;
-    border: 2px solid blue;
+    //border: 2px solid blue;
 }
