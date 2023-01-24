@@ -16,7 +16,7 @@
 
 </head>
 <body> <!-- Visible elements -->
-    <header> <!-- Logo and links -->
+    <header class="header"> <!-- Logo and links -->
         <div class="header-container highlight">
             <!-- Logo-->
             <img src="/images/logo.svg" alt="Fylo logo">
@@ -26,24 +26,53 @@
     </header>
     <main class="content-grid">
         <!-- Section 1: Main picture and background graphic -->
-        <section class="intro-images"><!--card-previews-->
-            <div class="intro-picture"><!--card-front-->
+        <section class="intro-images">
+            <div class="intro-picture">
                 <img src="/images/illustration-intro.png" alt="Intro illustration" class="intro__pic">
             </div>
-            <div class="intro-graphic"><!--card-back-->
+            <div class="intro-graphic">
                 <img src="/images/bg-curvy-mobile.svg" alt="Intro background" class="intro__bg">
             </div>
         </section>
-
         <section class="intro-heading">
             <h1 class="intro__heading">All your files in one secure location, accessible anywhere.</h1>
-        </section>
-        
+        </section> 
         <section class="intro-content">
             <p class="intro__text">Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
             <button class="intro__button">Get Started</button>
         </section>
-        wayne
+        <!-- Section 3: Icon, heading and text x 4 -->
+        <section class="features">
+            <div class="feature"> <!-- Access Anywhere --> 
+                <div class="features__icon">
+                    <img src="/images/icon-access-anywhere.svg" alt="Access icon">
+                </div>
+                <div class="features__heading">
+                    <h3>Access your files, anywhere</h3>
+                </div>
+                <div class="features__text">
+                    <p>The ability to use a smartphone, tablet, or computer to access your account means your 
+                        files follow you everywhere.</p>
+                </div>
+            </div>
+            <div class="feature"> <!-- Security --> 
+                <img src="/images/icon-security.svg" alt="Security icon" class="features__icon">
+                <h3 class="features__heading">Security you can trust</h3>
+                <p class="features__text">
+                    2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>          
+            </div>
+            <div class="feature"> <!-- Collaboration --> 
+                <img src="/images/icon-collaboration.svg" alt="Collaboration icon" class="features__icon">
+                <h3 class="features__heading">Real-time collaboration</h3>
+                <p class="features__text">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+            </div>
+            <div class="feature"> <!-- Storage --> 
+                <img src="/images/icon-any-file.svg" alt="Any file icon" class="features__icon">
+                <h3 class="features__heading">Store any type of file</h3>
+                <p class="features__text">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
+            </div>
+        </section>
+        
         
     </main>
     

@@ -67,8 +67,11 @@ button:hover {
   background: linear-gradient(to left, hsl(176deg, 68%, 64%), hsl(198deg, 60%, 50%));
 }
 
-.header-container {
+.header {
   background-color: hsl(217deg, 28%, 15%);
+}
+
+.header-container {
   display: grid;
   grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
   gap: 1.5rem;
@@ -90,6 +93,9 @@ a:hover {
   color: hsl(340deg, 57%, 64%);
 }
 
+.intro-images {
+  background-color: hsl(217deg, 28%, 15%);
+}
 .intro-images img {
   width: 100%;
   display: block;
@@ -118,7 +124,6 @@ a:hover {
 
 .intro-heading {
   text-align: center;
-  background-color: hsl(218deg, 28%, 13%);
 }
 
 .intro__heading {
@@ -138,18 +143,40 @@ a:hover {
   padding: 0 2.5rem 1.5rem;
 }
 
-.features {
-  position: relative;
+.feature {
   text-align: center;
+  margin-bottom: 6rem;
+  border: 1px solid yellow;
+}
+
+.features__icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  border: 1px solid firebrick;
+}
+.features__icon img {
+  width: 85%;
 }
 
 .features__heading {
-  font-size: 1.1em;
+  font-size: 0.925em;
+  border: 1px solid hotpink;
+}
+.features__heading h3 {
+  margin: 0;
+  padding: 2rem 0 0;
 }
 
 .features__text {
-  padding: 0 2rem;
-  font-size: 0.8em;
+  padding: 0 1.75rem;
+  font-size: 0.925em;
+  border: 1px solid blue;
+}
+.features__text p {
+  margin: 0;
+  padding: 0.75rem 0 0;
 }
 
 footer {

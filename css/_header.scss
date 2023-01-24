@@ -1,5 +1,8 @@
-.header-container {
+.header {
     background-color: $introBlue;
+}
+
+.header-container {
     display: grid;
     grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
     gap: 1.5rem;
