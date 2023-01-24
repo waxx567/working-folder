@@ -291,6 +291,7 @@ a:hover {
 footer {
   margin: 0;
   padding: 0;
+  background-color: hsl(216deg, 53%, 9%);
 }
 
 .attribution {
