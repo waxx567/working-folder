@@ -225,9 +225,6 @@ a:hover {
   position: relative;
   padding: 0 3rem 9rem;
 }
-.testimonials-container img {
-  width: 50%;
-}
 
 .testimonial__graphic {
   position: absolute;
@@ -247,10 +244,6 @@ a:hover {
   padding: 1rem 2rem 0.75rem;
   border-radius: 0.325rem;
 }
-.testimonial img {
-  width: 1.75rem;
-  border-radius: 50%;
-}
 
 .testimonial__text {
   padding: 0;
@@ -265,9 +258,14 @@ a:hover {
 }
 
 .person-image {
+  width: 3.5rem;
   padding-top: 0.25rem;
 }
 .person-image img {
+  width: 2rem;
+}
+
+.person__image {
   border-radius: 50%;
 }
 

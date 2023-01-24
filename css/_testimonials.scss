@@ -1,11 +1,6 @@
 .testimonials-container {
     position: relative;
     padding: 0 3rem 9rem;
-
-    img {
-        width: 50%;
-        //border: 1px solid mediumvioletred;
-    }
     //border: 1px solid blue;
 }
 
@@ -27,12 +22,6 @@
     background-color: $testimBlue;
     padding: 1rem 2rem 0.75rem;
     border-radius: 0.325rem;
-
-    img {
-        width: 1.75rem;
-        border-radius: 50%;
-    }
-
     //border: 1px solid darkred;
 }
 
@@ -51,11 +40,17 @@
 }
 
 .person-image {
+    width: 3.5rem;
     padding-top: 0.25rem;
 
     img {
-        border-radius: 50%;
+        width: 2rem;
+        //border: 1px solid mediumvioletred;
     }
+}
+
+.person__image {
+    border-radius: 50%;
 }
 
 .person__name {
