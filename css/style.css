@@ -221,32 +221,31 @@ a:hover {
   border-bottom: 2px solid hsl(176deg, 68%, 64%);
 }
 
-.testimonials {
-  border: 1px solid lightsalmon;
-}
-
 .testimonials-container {
   position: relative;
-  padding: 0 2rem;
-  border: 1px solid blue;
+  padding: 0 3rem 9rem;
+}
+.testimonials-container img {
+  width: 50%;
 }
 
 .testimonial__graphic {
   position: absolute;
-  left: 2.1rem;
+  top: -1rem;
+  left: 2.6rem;
 }
 
 .testimonial-box {
-  margin: 2rem 0 2rem;
-  border: 1px solid lightseagreen;
+  margin: 1rem 0 2rem;
 }
 
 .testimonial {
   position: relative;
   z-index: 2;
+  margin-bottom: 1.5rem;
   background-color: hsl(219deg, 30%, 18%);
-  border-radius: 0.1875rem;
-  border: 1px solid darkred;
+  padding: 1rem 2rem 0.75rem;
+  border-radius: 0.325rem;
 }
 .testimonial img {
   width: 1.75rem;
@@ -254,26 +253,37 @@ a:hover {
 }
 
 .testimonial__text {
+  padding: 0;
   font-size: 0.68rem;
   line-height: 2;
-  border: 1px solid saddlebrown;
 }
 
 .testimonial-person {
   display: grid;
-  grid-template-columns: 1fr 4fr;
-  border: 3px solid goldenrod;
+  grid-template-columns: 1fr 6fr;
+  height: max-content;
+}
+
+.person-image {
+  padding-top: 0.25rem;
+}
+.person-image img {
+  border-radius: 50%;
 }
 
 .person__name {
+  margin: 0.2rem 0;
+  padding: 0;
+  width: max-content;
   font-size: 0.55em;
   font-weight: 700;
-  border: 1px solid blueviolet;
 }
 
 .person__title {
-  font-size: 0.45em;
-  border: 1px solid yellowgreen;
+  margin: 0;
+  padding: 0;
+  width: max-content;
+  font-size: 0.44em;
 }
 
 footer {
