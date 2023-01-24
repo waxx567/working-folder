@@ -41,15 +41,15 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 1.4em;
+  font-size: 1.295em;
 }
 
 h2 {
-  font-size: 1.25em;
+  font-size: 1.15625em;
 }
 
 h3 {
-  font-size: 1.1em;
+  font-size: 1.0175em;
 }
 
 button {
@@ -143,10 +143,13 @@ a:hover {
   padding: 0 2.5rem 1.5rem;
 }
 
+.features {
+  padding: 0 0 4rem;
+}
+
 .feature {
   text-align: center;
   margin-bottom: 6rem;
-  border: 1px solid yellow;
 }
 
 .features__icon {
@@ -154,16 +157,11 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   width: max-content;
-  border: 1px solid firebrick;
 }
 .features__icon img {
   width: 85%;
 }
 
-.features__heading {
-  font-size: 0.925em;
-  border: 1px solid hotpink;
-}
 .features__heading h3 {
   margin: 0;
   padding: 2rem 0 0;
@@ -171,12 +169,40 @@ a:hover {
 
 .features__text {
   padding: 0 1.75rem;
-  font-size: 0.925em;
-  border: 1px solid blue;
 }
 .features__text p {
   margin: 0;
   padding: 0.75rem 0 0;
+}
+
+.showcase__image {
+  padding: 0 2.5rem;
+}
+.showcase__image img {
+  width: 100%;
+}
+
+.showcase__heading h3 {
+  margin-top: 2rem;
+}
+
+.showcase__text p {
+  line-height: 1.4;
+}
+
+.showcase__link {
+  border: 1px solid green;
+}
+.showcase__link a {
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  border: 1px solid gold;
+}
+.showcase__link p {
+  border: 1px solid violet;
+}
+.showcase__link img {
+  border: 1px solid blueviolet;
 }
 
 footer {

@@ -1,7 +1,11 @@
+.features {
+    padding: 0 0 4rem;
+}
+
 .feature {
     text-align: center;
     margin-bottom: 6rem;
-    border: 1px solid yellow;
+    //border: 1px solid yellow;
 }
 
 .features__icon {
@@ -12,26 +16,24 @@
     img {
         width: 85%;
     }
-    border: 1px solid firebrick;
+    //border: 1px solid firebrick;
 }
 
 .features__heading {
-    font-size: 0.925em;
     h3 {
         margin: 0;
         padding: 2rem 0 0;
     }
-    border: 1px solid hotpink;
+    //border: 1px solid hotpink;
 }
 
 .features__text {
     padding: 0 1.75rem;
-    font-size: 0.925em;
     p {
         margin: 0;
         padding: 0.75rem 0 0;
     }
-    border: 1px solid blue;
+    //border: 1px solid blue;
 }
 
 
