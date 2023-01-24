@@ -23,23 +23,38 @@
     z-index: 2;
     background-color: $testimBlue;
     border-radius: 0.1875rem;
+
+    img {
+        width: 1.75rem;
+        border-radius: 50%;
+    }
+
     border: 1px solid darkred;
 }
 
 .testimonial__text {
     font-size: 0.68rem;
-    line-height: 1.6;
+    line-height: 2;
     border: 1px solid saddlebrown;
 }
 
+.testimonial-person {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    border: 3px solid goldenrod;
+}
+
 .person_image {
-    border-radius: 50%;
+    
 }
 
 .person__name {
+    font-size: 0.55em;
+    font-weight: 700;
     border: 1px solid blueviolet;
 }
 
 .person__title {
+    font-size: 0.45em;
     border: 1px solid yellowgreen;
 }
