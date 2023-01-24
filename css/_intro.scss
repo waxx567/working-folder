@@ -34,3 +34,29 @@
     z-index: 0;
     //border: 2px solid blue;
 }
+
+.intro-heading {
+    text-align: center;
+    background-color: $mainBlue;
+    //border: 1px solid blue;
+}
+
+.intro__heading {
+    position: relative;
+    z-index: 1;
+    bottom: 6rem;
+    //border: 1px solid white;
+}
+
+.intro-content {
+    position: relative;
+    background-color: $mainBlue;
+    text-align: center;
+    bottom: 7.5rem;
+    //border: 1px solid firebrick;
+}
+
+.intro__text {
+    padding: 0 2.5rem 1.5rem;
+}
+

@@ -26,7 +26,7 @@ a {
 p { 
     padding: 0 2rem;
     font-family: $font-body;
-    font-size: 0.8em;
+    font-size: 0.825em;
 }
 h1, h2, h3, h4 {
     padding: 0 2rem; 
@@ -48,7 +48,7 @@ button {
     font-size: 0.8em;
     font-family: $font-title;
     font-weight: 700;
-    padding: 1rem 5.875rem;
+    padding: 1.05rem 5.875rem;
     border-radius: 1.875rem; // 30px
     color: hsl(0, 0%, 95%);
     &:hover {

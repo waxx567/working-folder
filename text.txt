@@ -314,11 +314,7 @@ h1 {
   
 
     <!-- Section 2: Text and call-to-action button -->
-        <section class="intro-content">
-            <h1 class="intro__heading">All your files in one secure location, accessible anywhere.</h1>
-            <p class="intro__text">Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
-            <button class="intro__button">Get Started</button>
-        </section>
+        
         <!-- Section 3: Icon, heading and text x 4 -->
         <section class="features">
             <div class="feature"> <!-- Access Anywhere --> 
