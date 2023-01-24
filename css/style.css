@@ -223,7 +223,7 @@ a:hover {
 
 .testimonials-container {
   position: relative;
-  padding: 0 3rem 9rem;
+  padding: 0 3rem 20rem;
 }
 
 .testimonial__graphic {
@@ -285,7 +285,7 @@ a:hover {
 }
 
 .signup-container {
-  border: 2px solid aqua;
+  border: 1px solid aqua;
 }
 
 footer {
