@@ -221,6 +221,52 @@ a:hover {
   border-bottom: 2px solid hsl(176deg, 68%, 64%);
 }
 
+.testimonials {
+  border: 1px solid lightsalmon;
+}
+
+.testimonials-container {
+  position: relative;
+  padding: 0 2rem;
+  border: 1px solid blue;
+}
+
+.testimonial__graphic {
+  position: absolute;
+  left: 2.1rem;
+}
+
+.testimonial-box {
+  margin: 2rem 0 2rem;
+  border: 1px solid lightseagreen;
+}
+
+.testimonial {
+  position: relative;
+  z-index: 2;
+  background-color: hsl(219deg, 30%, 18%);
+  border-radius: 0.1875rem;
+  border: 1px solid darkred;
+}
+
+.testimonial__text {
+  font-size: 0.68rem;
+  line-height: 1.6;
+  border: 1px solid saddlebrown;
+}
+
+.person_image {
+  border-radius: 50%;
+}
+
+.person__name {
+  border: 1px solid blueviolet;
+}
+
+.person__title {
+  border: 1px solid yellowgreen;
+}
+
 footer {
   margin: 0;
   padding: 0;
