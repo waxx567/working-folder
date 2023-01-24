@@ -284,6 +284,10 @@ a:hover {
   font-size: 0.44em;
 }
 
+.signup-container {
+  border: 2px solid aqua;
+}
+
 footer {
   margin: 0;
   padding: 0;
