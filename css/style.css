@@ -175,15 +175,24 @@ a:hover {
   padding: 0.75rem 0 0;
 }
 
+.showcase {
+  padding: 0 2rem 12rem;
+}
+
+.showcase__image {
+  padding: 0 0.5rem;
+}
 .showcase__image img {
   width: 100%;
 }
 
 .showcase__heading h3 {
+  padding: 0;
   margin-top: 2rem;
 }
 
 .showcase__text p {
+  padding: 0;
   line-height: 1.4;
 }
 
@@ -191,7 +200,6 @@ a:hover {
   width: max-content;
   align-items: center;
   font-size: 1.25em;
-  color: hsl(176deg, 68%, 64%);
   width: max-content;
 }
 .showcase__link a {
@@ -201,15 +209,16 @@ a:hover {
 }
 .showcase__link p {
   margin: 0;
-  padding: 0 0.5rem 0 0;
+  padding: 0 0.5rem 0.2rem 0;
   width: max-content;
-  border-bottom: 1px solid hsl(176deg, 68%, 64%);
+  color: hsl(176deg, 68%, 64%);
+  border-bottom: 2px solid hsl(176deg, 68%, 64%);
 }
 .showcase__link img {
   margin: 0;
   width: max-content;
-  padding: 0.25rem 0 0.1rem 0;
-  border-bottom: 1px solid hsl(176deg, 68%, 64%);
+  padding: 0.25rem 0 0.3rem 0;
+  border-bottom: 2px solid hsl(176deg, 68%, 64%);
 }
 
 footer {

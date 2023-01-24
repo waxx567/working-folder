@@ -1,18 +1,28 @@
+.showcase {
+    padding: 0 2rem 12rem;
+}
+
 .showcase__image {
+    padding: 0 0.5rem;
+
     img {
         width: 100%;
     }
 }
 
 .showcase__heading {
+
     h3 {
+        padding: 0;
         margin-top: 2rem;
         //border: 1px solid purple;
     }
 }
 
 .showcase__text {
+
     p {
+        padding: 0;
         line-height: 1.4;
     }
 }
@@ -21,26 +31,29 @@
     width: max-content;
     align-items: center;
     font-size: 1.25em;
-    color: $greenCyan;
     width: max-content;
-    a {
+
+    a { // Links x 2
         display: grid;
         grid-template-columns: 4fr 1fr;
         width: max-content;
         //border: 1px solid gold;
     }    
-    p {
+
+    p { // Text
         margin: 0;
-        padding: 0 0.5rem 0 0;
+        padding: 0 0.5rem 0.2rem 0;
         width: max-content;
-        border-bottom: 1px solid $greenCyan;
+        color: $greenCyan;
+        border-bottom: 2px solid $greenCyan;
         //border: 1px solid violet;
     }
-    img {
+
+    img { // Icon
         margin: 0;
         width: max-content;
-        padding: 0.25rem 0 0.1rem 0;
-        border-bottom: 1px solid $greenCyan;
+        padding: 0.25rem 0 0.3rem 0;
+        border-bottom: 2px solid $greenCyan;
         //border: 1px solid blueviolet;
     }
 }
