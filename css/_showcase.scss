@@ -22,22 +22,25 @@
     align-items: center;
     font-size: 1.25em;
     color: $greenCyan;
+    width: max-content;
     a {
         display: grid;
         grid-template-columns: 4fr 1fr;
         width: max-content;
-        padding-bottom: 0.25rem;
-        border-bottom: 1px solid $greenCyan;
         //border: 1px solid gold;
     }    
     p {
         margin: 0;
         padding: 0 0.5rem 0 0;
+        width: max-content;
+        border-bottom: 1px solid $greenCyan;
         //border: 1px solid violet;
     }
     img {
         margin: 0;
-        padding: 0.25rem 0 0 0;
+        width: max-content;
+        padding: 0.25rem 0 0.1rem 0;
+        border-bottom: 1px solid $greenCyan;
         //border: 1px solid blueviolet;
     }
 }
