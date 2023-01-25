@@ -335,8 +335,17 @@ footer {
 
 }
 */
-.location-text p {
-  font-size: 1rem;
+.location__text {
+  font-size: 0.925em;
+}
+
+/*
+.phone__icon {
+
+}
+*/
+.phone__number {
+  font-size: 0.85em;
 }
 
 .attribution {
