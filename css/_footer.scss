@@ -8,7 +8,7 @@ footer {
 }
 
 .footer-logo {
-    padding-left: 2.5rem;
+    padding: 0 2.5rem 0 0;
 }
 
 .footer__logo {
@@ -21,7 +21,7 @@ footer {
 }
 */
 .contact-fylo {
-    padding-left: 2rem;
+    padding: 0 2rem 0 0;
 }
 
 .footer-location {
@@ -92,6 +92,15 @@ footer {
 }
 
 .footer-links {
+    padding: 0 2.5rem 0 0;
+}
+
+.links-current {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.links-info {
     display: grid;
     grid-template-columns: 1fr;
 }
