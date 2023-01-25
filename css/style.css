@@ -433,9 +433,8 @@ footer {
 .social-icons > * {
   padding: 0 0.25rem;
 }
-
-.black {
-  color: black;
+.social-icons > * ion-icon {
+  color: white;
 }
 
 .attribution {

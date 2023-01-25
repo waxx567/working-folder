@@ -117,12 +117,13 @@ footer {
 
     > * {
         padding: 0 0.25rem;
+
+        ion-icon {
+            color: white;
+        }
     }
 }
 
-.black {
-    color: black;
-}
 .attribution { 
     margin: 0;
     padding: 0;
