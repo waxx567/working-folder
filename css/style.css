@@ -343,32 +343,22 @@ footer {
   padding-left: 2rem;
 }
 
-/*
-.phone__icon {
-
+.footer-location {
+  display: grid;
+  grid-template-columns: 1fr 14fr;
+  border: 1px solid peru;
+  padding-top: 2rem;
 }
 
-.phone__number {
-    font-size: 0.85em;
+.location-directions {
+  padding: 0;
+  border: 1px solid navy;
 }
 
-.email__icon {
-
-}
-
-.email__address {
-    font-size: 0.925em;
-}
-*/
 .footer__link {
   font-size: 0.875em;
 }
 
-/*
-.social-icons {
-
-}
-*/
 .attribution {
   margin: 0;
   padding: 0;
