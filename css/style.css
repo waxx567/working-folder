@@ -406,6 +406,11 @@ footer {
   padding: 0;
 }
 
+.footer-links {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .attribution {
   margin: 0;
   padding: 0;
