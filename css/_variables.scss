@@ -11,6 +11,7 @@ $paleRed: hsl(340, 57%, 64%); // hover colour
 // Fonts 
 $font-title: 'Raleway', sans-serif;
 $font-body: 'Open Sans', sans-serif;
+$fa-font-path: "./webfonts";
 
 // Breakpoints 
 @mixin breakpoint($size) {
