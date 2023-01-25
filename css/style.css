@@ -41,7 +41,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 1.295em;
+  font-size: 1.4em;
 }
 
 h2 {
@@ -59,7 +59,7 @@ button {
   font-size: 0.8em;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  padding: 1.05rem 5.875rem;
+  padding: 1.1rem 5.75rem;
   border-radius: 1.875rem;
   color: hsl(0deg, 0%, 95%);
 }
@@ -76,7 +76,7 @@ button:hover {
   grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
   gap: 1.5rem;
   align-items: center;
-  padding: 1.5rem 1.875rem 1rem 1rem;
+  padding: 1.5rem 1.875rem 0 1rem;
 }
 .header-container img {
   cursor: pointer;
@@ -113,7 +113,7 @@ a:hover {
 .intro__pic {
   position: relative;
   z-index: 2;
-  top: 2rem;
+  top: 3rem;
   position: relative;
 }
 
@@ -136,15 +136,15 @@ a:hover {
   position: relative;
   background-color: hsl(218deg, 28%, 13%);
   text-align: center;
-  bottom: 7.5rem;
+  bottom: 6rem;
 }
 
 .intro__text {
-  padding: 0 2.5rem 1.5rem;
+  padding: 0 2.5rem 1rem;
 }
 
 .features {
-  padding: 0 0 4rem;
+  padding: 3rem 0 0;
 }
 
 .feature {
