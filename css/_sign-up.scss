@@ -1,10 +1,12 @@
 .signup {
     padding: 1.5rem;
+    height: 21.5rem;
+    //border: 1px solid chartreuse;
 }
 .signup-container {
     position: relative;
     z-index: 2;
-    bottom: -14rem;
+    bottom: -7rem;
     padding: 1.5rem 0.25rem 2.5rem;
     border-radius: 0.5rem;
     background-color: $introBlue;

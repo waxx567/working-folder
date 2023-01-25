@@ -230,6 +230,7 @@ a:hover {
   position: absolute;
   top: -1rem;
   left: 2.6rem;
+  width: 7.5%;
 }
 
 .testimonial-box {
@@ -253,7 +254,7 @@ a:hover {
 
 .testimonial-person {
   display: grid;
-  grid-template-columns: 1fr 6fr;
+  grid-template-columns: 1fr 9fr;
   height: max-content;
 }
 
@@ -262,7 +263,7 @@ a:hover {
   padding-top: 0.5rem;
 }
 .person-image img {
-  width: 2rem;
+  width: 1.75rem;
 }
 
 .person__image {
@@ -286,12 +287,13 @@ a:hover {
 
 .signup {
   padding: 1.5rem;
+  height: 21.5rem;
 }
 
 .signup-container {
   position: relative;
   z-index: 2;
-  bottom: -14rem;
+  bottom: -7rem;
   padding: 1.5rem 0.25rem 2.5rem;
   border-radius: 0.5rem;
   background-color: hsl(217deg, 28%, 15%);
@@ -318,10 +320,10 @@ a:hover {
 
 footer {
   position: relative;
+  z-index: 1;
   margin: 0;
-  padding: 2rem;
+  padding: 10rem 2rem 2rem;
   background-color: hsl(216deg, 53%, 9%);
-  border: 1px solid tomato;
 }
 
 .attribution {
@@ -329,8 +331,11 @@ footer {
   padding: 0;
   font-size: 0.6875rem;
   text-align: center;
+  height: max-content;
+  background-color: rgb(37, 41, 41);
 }
 .attribution a {
+  font-size: 1em;
   color: hsl(228deg, 45%, 44%);
   text-decoration: none;
 }

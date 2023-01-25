@@ -1,9 +1,10 @@
 footer {
     position: relative;
+    z-index: 1;
     margin: 0;
-    padding: 2rem;
+    padding: 10rem 2rem 2rem;
     background-color: $footerBlue;
-    border: 1px solid tomato;
+    //border: 1px solid tomato;
 }
 
 .attribution { 
@@ -11,8 +12,11 @@ footer {
     padding: 0;
     font-size: 0.6875rem; // 11px 
     text-align: center;
+    height: max-content;
+    background-color: rgb(37, 41, 41);
     
     a { 
+        font-size: 1em;
         color: hsl(228, 45%, 44%); 
         text-decoration: none;
 

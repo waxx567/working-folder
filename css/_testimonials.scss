@@ -4,10 +4,13 @@
     //border: 1px solid blue;
 }
 
+
 .testimonial__graphic {
     position: absolute;
     top: -1rem;
-    left: 2.6rem;
+    left: 2.6rem; 
+    width: 7.5%;
+    //border: 1px solid springgreen;
 }
 
 .testimonial-box {
@@ -34,7 +37,7 @@
 
 .testimonial-person {
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr 9fr;
     height: max-content;
     //border: 3px solid goldenrod;
 }
@@ -44,7 +47,7 @@
     padding-top: 0.5rem;
 
     img {
-        width: 2rem;
+        width: 1.75rem;
         //border: 1px solid mediumvioletred;
     }
 }
