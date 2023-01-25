@@ -351,9 +351,13 @@ footer {
 .email__icon {
 
 }
-*/
+
 .email__address {
-  font-size: 0.925em;
+    font-size: 0.925em;
+}
+*/
+.footer__link {
+  font-size: 0.875em;
 }
 
 .attribution {
