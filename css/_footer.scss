@@ -2,13 +2,14 @@ footer {
     position: relative;
     z-index: 1;
     margin: 0;
-    padding: 17.5rem 2rem 2rem;
+    padding: 16.5rem 2.5rem 2rem;
     background-color: $footerBlue;
     //border: 1px solid tomato;
 }
 
 .footer__logo {
-
+    height: 3.75rem;
+    //border: 1px solid fuchsia;
 }
 
 .footer__phone {
