@@ -11,13 +11,17 @@ footer {
     height: 3.75rem;
     //border: 1px solid fuchsia;
 }
-
+/*
 .location__icon {
 
 }
+*/
+.location-text {
 
-.location__text {
-
+    p {
+        font-size: 1rem;
+    }
+    
 }
 
 .phone__icon {
