@@ -339,8 +339,12 @@ footer {
 
 }
 */
-.location__text {
-  font-size: 0.925em;
+.contact-fylo {
+  padding-left: 2rem;
+}
+
+.location-icon {
+  color: red;
 }
 
 /*
