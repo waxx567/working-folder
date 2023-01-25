@@ -347,7 +347,6 @@ footer {
   display: grid;
   grid-template-columns: 1fr 14fr;
   padding-top: 1.75rem;
-  border: 1px solid peru;
 }
 
 .location-icon {
@@ -358,7 +357,6 @@ footer {
 .location-directions {
   margin: 0;
   padding: 0 2.5rem 0 0;
-  border: 1px solid navy;
 }
 
 .location__directions {
@@ -366,8 +364,46 @@ footer {
   padding: 0;
 }
 
-.footer__link {
-  font-size: 0.875em;
+.footer-phone {
+  display: grid;
+  grid-template-columns: 1fr 14fr;
+  padding-top: 1rem;
+}
+
+.phone-icon {
+  padding-top: 0.1rem;
+  padding-right: 1.5rem;
+}
+
+.phone-number {
+  margin: 0;
+  padding: 0 2.5rem 0 0;
+}
+
+.phone__number {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-email {
+  display: grid;
+  grid-template-columns: 1fr 14fr;
+  padding-top: 1rem;
+}
+
+.email-icon {
+  padding-top: 0.1rem;
+  padding-right: 1.5rem;
+}
+
+.email-address {
+  margin: 0;
+  padding: 0 2.5rem 0 0;
+}
+
+.email__address {
+  margin: 0;
+  padding: 0;
 }
 
 .attribution {

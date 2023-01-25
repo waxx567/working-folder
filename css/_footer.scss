@@ -28,7 +28,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 14fr;
     padding-top: 1.75rem;
-    border: 1px solid peru;
+    //border: 1px solid peru;
     
 }
 
@@ -40,15 +40,55 @@ footer {
 .location-directions{
     margin: 0;
     padding: 0 2.5rem 0 0;
-    border: 1px solid navy;
+    //border: 1px solid navy;
 }
 .location__directions {
     margin: 0;
     padding: 0;
 }
 
-.footer__link {
-    font-size: 0.875em;
+.footer-phone {
+    display: grid;
+    grid-template-columns: 1fr 14fr;
+    padding-top: 1rem;
+}
+
+.phone-icon {
+    padding-top: 0.1rem;
+    padding-right: 1.5rem;
+}
+
+.phone-number {
+    margin: 0;
+    padding: 0 2.5rem 0 0;
+    //border: 1px solid navy;
+}
+
+.phone__number {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-email {
+    display: grid;
+    grid-template-columns: 1fr 14fr;
+    padding-top: 1rem;
+}
+
+.email-icon {
+    padding-top: 0.1rem;
+    padding-right: 1.5rem;
+}
+
+.email-address {
+    margin: 0;
+    padding: 0 2.5rem 0 0;
+    //border: 1px solid navy;
+}
+
+.email__address {
+    margin: 0;
+    padding: 0;
 }
 
 .attribution { 
