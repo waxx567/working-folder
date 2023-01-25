@@ -8,7 +8,7 @@ footer {
 }
 
 .footer-logo {
-    padding: 0 2.5rem 0 0;
+    padding: 0 0 0 2.5rem;
 }
 
 .footer__logo {
@@ -21,7 +21,7 @@ footer {
 }
 */
 .contact-fylo {
-    padding: 0 2rem 0 0;
+    padding: 0 0 0 2rem;
 }
 
 .footer-location {
@@ -60,7 +60,7 @@ footer {
 
 .phone-number {
     margin: 0;
-    padding: 0 2.5rem 0 0;
+    padding: 0 0 0 2.5rem;
     //border: 1px solid navy;
 }
 
@@ -82,7 +82,7 @@ footer {
 
 .email-address {
     margin: 0;
-    padding: 0 2.5rem 0 0;
+    padding: 0 0 0 2.5rem;
     //border: 1px solid navy;
 }
 
@@ -92,8 +92,8 @@ footer {
 }
 
 .footer-links {
-    padding: 3rem 2.5rem 0 0;
-    font-size: 0.825rem;
+    padding: 6rem 0 0 2.5rem;
+    font-size: 1.25em;
 }
 
 .links-current {
@@ -101,11 +101,20 @@ footer {
     grid-template-columns: 1fr;
 }
 
+.footer__link:not(first-child) {
+    padding: 1.5rem 0 0 0;
+}
+
 .links-info {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 6rem 0 0 0;
 }
 
+.social-icons {
+    padding: 6rem 0 0 0;
+    text-align: center;
+}
 .attribution { 
     margin: 0;
     padding: 0;
