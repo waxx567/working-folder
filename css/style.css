@@ -356,7 +356,7 @@ footer {
 
 .location-directions {
   margin: 0;
-  padding: 0 2.5rem 0 0;
+  padding: 0 1.5rem 0 2.5rem;
 }
 
 .location__directions {
@@ -417,18 +417,25 @@ footer {
 }
 
 .footer__link:not(first-child) {
-  padding: 1.5rem 0 0 0;
+  padding: 1rem 0 0 0;
 }
 
 .links-info {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 6rem 0 0 0;
+  padding: 2.5rem 0 0 0;
 }
 
 .social-icons {
-  padding: 6rem 0 0 0;
+  padding: 6rem 0 2rem;
   text-align: center;
+}
+.social-icons > * {
+  padding: 0 0.25rem;
+}
+
+.black {
+  color: black;
 }
 
 .attribution {
@@ -445,5 +452,5 @@ footer {
   text-decoration: none;
 }
 .attribution a:hover {
-  color: hsl(340deg, 57%, 64%);
+  color: blue;
 }
