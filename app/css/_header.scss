@@ -1,0 +1,39 @@
+.header {
+    background-color: $darkBlue;
+/*
+    &__logo {
+
+        img {
+
+        }
+    }
+
+    &__menu { 
+        
+        > span {
+            display: block;
+            width: 26px;
+            height: 2px;
+            background-color: $darkBlue;
+
+            &:not(:last-child) {
+                margin-bottom: 0.5625rem;
+            }
+        }
+    }
+    */
+}
+
+.header__menu {
+
+    > span {
+        display: block;
+        width: 26px;
+        height: 2px;
+        background-color: $darkBlue;
+
+        &:not(:last-child) {
+            margin-bottom: 0.5625rem;
+        }
+    }
+}

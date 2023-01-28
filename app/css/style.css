@@ -28,6 +28,7 @@ body {
 }
 
 .header {
+  background-color: hsl(233deg, 26%, 24%);
   /*
       &__logo {
 
@@ -35,12 +36,27 @@ body {
 
           }
       }
-  */
+
+      &__menu { 
+
+          > span {
+              display: block;
+              width: 26px;
+              height: 2px;
+              background-color: $darkBlue;
+
+              &:not(:last-child) {
+                  margin-bottom: 0.5625rem;
+              }
+          }
+      }
+      */
 }
+
 .header__menu > span {
   display: block;
-  width: 1rem;
-  height: 0.125rem;
+  width: 26px;
+  height: 2px;
   background-color: hsl(233deg, 26%, 24%);
 }
 .header__menu > span:not(:last-child) {
