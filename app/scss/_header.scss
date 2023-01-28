@@ -3,11 +3,15 @@
     &__logo {
 
         img {
-            
+
         }
     }
 
     &__menu { 
         
+        > span {
+            display: block;
+            
+        }
     }
 }
