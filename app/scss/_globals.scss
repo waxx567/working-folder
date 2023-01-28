@@ -10,13 +10,16 @@ html {
 body {
     margin: 0;
     padding: 0;
+    background-color: $white;
     font-family: 'Public Sans', sans-serif;
     font-size: 1.125rem;
+    color: $lightGrayishBlue;
     line-height: 1.4;
 }
 
 a, a:visited, a:hover {
     font-size: 0.875rem;
+    color: $lightGrayishBlue;
     text-decoration: none;
 }
 

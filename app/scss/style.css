@@ -10,11 +10,16 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: hsl(0deg, 0%, 100%);
   font-family: "Public Sans", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(220deg, 16%, 96%);
   line-height: 1.4;
 }
 
 a, a:visited, a:hover {
+  font-size: 0.875rem;
+  color: hsl(220deg, 16%, 96%);
   text-decoration: none;
 }
 
