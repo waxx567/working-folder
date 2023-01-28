@@ -28,37 +28,14 @@ body {
 }
 
 .header {
-  background-color: hsl(233deg, 26%, 24%);
-  /*
-      &__logo {
-
-          img {
-
-          }
-      }
-
-      &__menu { 
-
-          > span {
-              display: block;
-              width: 26px;
-              height: 2px;
-              background-color: $darkBlue;
-
-              &:not(:last-child) {
-                  margin-bottom: 0.5625rem;
-              }
-          }
-      }
-      */
+  background-color: hsl(0deg, 0%, 100%);
 }
-
 .header__menu > span {
   display: block;
-  width: 26px;
-  height: 2px;
+  width: 1.75rem;
+  height: 0.125rem;
   background-color: hsl(233deg, 26%, 24%);
 }
 .header__menu > span:not(:last-child) {
-  margin-bottom: 0.5625rem;
+  margin-bottom: 0.375rem;
 }
