@@ -29,4 +29,7 @@ body {
 
 .header__menu > span {
   display: block;
+  width: 1rem;
+  height: 0.125rem;
+  background-color: hsl(233deg, 26%, 24%);
 }
