@@ -13,3 +13,20 @@ body {
     font-family: 'Public Sans', sans-serif;
     line-height: 1.4;
 }
+
+// Flexbox
+.flex {
+    display: flex;
+
+    &-jc-sb {
+        justify-content: space-between;
+    }
+
+    &-jc-c {
+        justify-content: center;
+    }
+
+    &-ai-c {
+        align-items: center;
+    }
+}
