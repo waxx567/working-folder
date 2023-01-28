@@ -39,3 +39,12 @@ a, a:visited, a:hover {
         align-items: center;
     }
 }
+
+button, .button {
+    padding: 1rem 1.875rem;
+    border: none;
+    border-radius: 3.125rem;
+    background: linear-gradient(to right, $limeGreen, $brightCyan);
+    cursor: pointer;
+    color: $white;
+}

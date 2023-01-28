@@ -36,6 +36,15 @@ a, a:visited, a:hover {
   align-items: center;
 }
 
+button, .button {
+  padding: 1rem 1.875rem;
+  border: none;
+  border-radius: 3.125rem;
+  background: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
+  cursor: pointer;
+  color: hsl(0deg, 0%, 100%);
+}
+
 .header {
   background-color: hsl(0deg, 0%, 100%);
   padding: 1.25rem;
