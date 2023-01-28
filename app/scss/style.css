@@ -27,9 +27,22 @@ body {
   align-items: center;
 }
 
+.header {
+  /*
+      &__logo {
+
+          img {
+
+          }
+      }
+  */
+}
 .header__menu > span {
   display: block;
   width: 1rem;
   height: 0.125rem;
   background-color: hsl(233deg, 26%, 24%);
+}
+.header__menu > span:not(:last-child) {
+  margin-bottom: 0.5625rem;
 }
