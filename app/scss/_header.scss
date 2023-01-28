@@ -1,10 +1,11 @@
 .header {
     background-color: $white;
+    padding: 1.25rem;
 
     &__logo {
 
         img {
-
+            align-items: center;
         }
     }
 
@@ -12,13 +13,14 @@
         
         > span {
             display: block;
-            width: 1.75rem;
-            height: 0.125rem;
-            background-color: $darkBlue;
+            width: 1.675rem;
+            height: 0.1125rem;
+            background-color: hsla($darkBlue, 0.1);
 
             &:not(:last-child) {
-                margin-bottom: 0.375rem;
+                margin-bottom: 0.225rem;
             }
         }
     }
+    border: 2px solid blue;
 }

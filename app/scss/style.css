@@ -29,13 +29,18 @@ body {
 
 .header {
   background-color: hsl(0deg, 0%, 100%);
+  padding: 1.25rem;
+  border: 2px solid blue;
+}
+.header__logo img {
+  align-items: center;
 }
 .header__menu > span {
   display: block;
-  width: 1.75rem;
-  height: 0.125rem;
+  width: 1.675rem;
+  height: 0.1125rem;
   background-color: hsl(233deg, 26%, 24%);
 }
 .header__menu > span:not(:last-child) {
-  margin-bottom: 0.375rem;
+  margin-bottom: 0.225rem;
 }
