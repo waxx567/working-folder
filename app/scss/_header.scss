@@ -15,12 +15,16 @@
             display: block;
             width: 1.675rem;
             height: 0.1125rem;
-            background-color: hsla($darkBlue, 0.1);
+            background-color: $darkBlue;
 
             &:not(:last-child) {
                 margin-bottom: 0.225rem;
             }
         }
+    }
+
+    &__links {
+
     }
     border: 2px solid blue;
 }
