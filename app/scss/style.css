@@ -79,3 +79,6 @@ a, a:visited, a:hover {
 .header__links a:not(:last-child) {
   margin-right: 1rem;
 }
+.header__links a:hover {
+  color: hsl(233deg, 26%, 24%);
+}
