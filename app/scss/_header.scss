@@ -1,6 +1,6 @@
 .header {
     background-color: $white;
-    padding: 1.25rem;
+    padding: 1.0625rem 1.5rem;
 
     &__logo {
 
@@ -20,23 +20,36 @@
             &:not(:last-child) {
                 margin-bottom: 0.225rem;
             }
+
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                height: 0.3125rem;
+                background: linear-gradient(to right, $limeGreen, $brightCyan);
+                right: 0;
+                left: 0;
+                bottom: -1.0625rem;
+            }
         }
     }
 
     &__links {
 
-            a {
-                color: $grayishBlue;
-                transition: color 200ms ease-in-out;
+        a {
+            position: relative;
+            color: $grayishBlue;
+            transition: color 200ms ease-in-out;
 
-                &:not(:last-child) {
-                    margin-right: 1rem;
-                }
-
-                &:hover {
-                    color: $darkBlue;
-                }
+            &:not(:last-child) {
+                margin-right: 1.5rem;
             }
+
+            &:hover {
+                color: $darkBlue;
+            }
+        }
+        border: 1px solid magenta;
     }
     border: 2px solid blue;
 }
