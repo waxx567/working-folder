@@ -27,6 +27,7 @@
 
             a {
                 color: $grayishBlue;
+                transition: color 200ms ease-in-out;
 
                 &:not(:last-child) {
                     margin-right: 1rem;
