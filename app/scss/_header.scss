@@ -25,6 +25,7 @@
                 content: '';
                 display: block;
                 position: absolute;
+                z-index: 1;
                 height: 0.3125rem;
                 background: linear-gradient(to right, $limeGreen, $brightCyan);
                 right: 0;

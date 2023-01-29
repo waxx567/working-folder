@@ -77,6 +77,7 @@ a, a:visited, a:hover {
   content: "";
   display: block;
   position: absolute;
+  z-index: 1;
   height: 0.3125rem;
   background: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
   right: 0;
