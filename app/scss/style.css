@@ -62,3 +62,6 @@ a, a:visited, a:hover {
 .header__menu > span:not(:last-child) {
   margin-bottom: 0.225rem;
 }
+.header__links a {
+  color: hsl(233deg, 8%, 62%);
+}
