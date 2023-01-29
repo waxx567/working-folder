@@ -73,7 +73,7 @@ a, a:visited, a:hover {
 .header__menu > span:not(:last-child) {
   margin-bottom: 0.225rem;
 }
-.header__menu > span::before {
+.header__menu > span:before {
   content: "";
   display: block;
   position: absolute;
