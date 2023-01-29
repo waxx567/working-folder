@@ -40,12 +40,12 @@ a, a:visited, a:hover {
 }
 
 .button {
-    padding: 1rem 1.875rem;
+    padding: 0.725rem 2rem;
     border-radius: 3.125rem;
     background: linear-gradient(to right, $limeGreen, $brightCyan);
     cursor: pointer;
     color: $white;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 

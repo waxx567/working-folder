@@ -36,12 +36,12 @@ a, a:visited, a:hover {
 }
 
 .button {
-  padding: 1rem 1.875rem;
+  padding: 0.725rem 2rem;
   border-radius: 3.125rem;
   background: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
   cursor: pointer;
   color: hsl(0deg, 0%, 100%);
-  font-weight: 400;
+  font-weight: 700;
 }
 
 @media (max-width: 63.9375em) {
@@ -75,4 +75,7 @@ a, a:visited, a:hover {
 }
 .header__links a {
   color: hsl(233deg, 8%, 62%);
+}
+.header__links a:not(:last-child) {
+  margin-right: 1rem;
 }
