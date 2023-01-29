@@ -75,6 +75,9 @@ a, a:visited, a:hover {
 .header__menu > span:not(:last-child) {
   margin-bottom: 0.225rem;
 }
+.header .navigation {
+  border: 1px solid firebrick;
+}
 .header__links {
   border: 1px solid magenta;
 }
