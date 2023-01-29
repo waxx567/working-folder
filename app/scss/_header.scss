@@ -1,5 +1,6 @@
 .header {
     position: relative;
+    margin: 0;
     background-color: $white;
     padding: 1.0625rem 1.5rem;
 
@@ -21,18 +22,7 @@
 
             &:not(:last-child) {
                 margin-bottom: 0.225rem;
-            }
-
-            &::before {
-                content: '';
-                display: block;
-                position: absolute;
-                height: 0.3125rem;
-                background: linear-gradient(to right, $limeGreen, $brightCyan);
-                right: 0;
-                left: 0;
-                bottom: -1.0625rem;
-            }
+            }    
         }
     }
 
@@ -46,6 +36,17 @@
 
             &:not(:last-child) {
                 margin-right: 1.5rem;
+            }
+
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                height: 0.3125rem;
+                background: linear-gradient(to right, $limeGreen, $brightCyan);
+                right: 0;
+                left: 0;
+                bottom: -1.5rem;
             }
 
             &:hover {
