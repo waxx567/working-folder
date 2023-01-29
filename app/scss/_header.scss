@@ -1,4 +1,5 @@
 .header {
+    position: relative;
     background-color: $white;
     padding: 1.0625rem 1.5rem;
 
@@ -9,6 +10,7 @@
         }
     }
 
+    // Hamburger menu (mobile)
     &__menu { 
         
         > span {
@@ -21,11 +23,10 @@
                 margin-bottom: 0.225rem;
             }
 
-            &:before {
+            &::before {
                 content: '';
                 display: block;
                 position: absolute;
-                z-index: 1;
                 height: 0.3125rem;
                 background: linear-gradient(to right, $limeGreen, $brightCyan);
                 right: 0;
@@ -35,6 +36,7 @@
         }
     }
 
+    // Links (desktop)
     &__links {
 
         a {

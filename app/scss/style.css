@@ -57,6 +57,7 @@ a, a:visited, a:hover {
 }
 
 .header {
+  position: relative;
   background-color: hsl(0deg, 0%, 100%);
   padding: 1.0625rem 1.5rem;
   border: 2px solid blue;
@@ -73,11 +74,10 @@ a, a:visited, a:hover {
 .header__menu > span:not(:last-child) {
   margin-bottom: 0.225rem;
 }
-.header__menu > span:before {
+.header__menu > span::before {
   content: "";
   display: block;
   position: absolute;
-  z-index: 1;
   height: 0.3125rem;
   background: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
   right: 0;
