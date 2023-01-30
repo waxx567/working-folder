@@ -104,6 +104,7 @@ a, a:visited, a:hover {
   bottom: 0;
   left: 0;
   background-image: linear-gradient(hsl(233deg, 26%, 24%), transparent);
+  animation: fade-out 300ms ease-in-out forwards;
 }
 .header__logo img {
   align-items: center;
