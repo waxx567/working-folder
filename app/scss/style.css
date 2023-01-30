@@ -112,7 +112,6 @@ a, a:visited, a:hover {
   transform: rotate(-45deg);
 }
 .header .overlay {
-  display: none;
   opacity: 0;
   position: fixed;
   top: 3.65rem;
