@@ -4,7 +4,7 @@
     background-color: $white;
 
     nav {
-        padding-top: 1.0625rem;
+        padding-top: 1.5rem;
         padding-bottom: 1.0625rem;
     }
     
@@ -29,7 +29,7 @@
     .overlay {
         opacity: 0;
         position: fixed;
-        top: 3.65rem;
+        top: 4rem;
         right: 0;
         bottom: 0;
         left: 0;
@@ -62,12 +62,11 @@
     &__menu { // Links appear after toggle is clicked
         position: absolute;
         width: calc(100% - 3rem);
-        left: 50%;
-        transform: translateX(-50%);
         background: $white;
         margin: 0 1.5rem;
         padding: 1.625rem;
-        border-radius: 0.1875rem;
+        border-radius: 0.3175rem;
+        font-size: 1rem;
 
         a {
             display: block;
