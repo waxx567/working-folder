@@ -6,7 +6,7 @@
     
     &.open {
 
-        .header__menu {
+        .header__toggle {
 
             > span:first-child {
                 transform: rotate(45deg);
@@ -40,7 +40,7 @@
     }
 
     // Hamburger menu (mobile)
-    &__menu { 
+    &__toggle { 
         
         > span {
             display: block;
@@ -54,10 +54,6 @@
                 margin-bottom: 0.3125rem;
             }    
         }
-    }
-
-    .navigation {
-        //border: 1px solid firebrick;
     }
 
     // Links (desktop)
@@ -98,3 +94,6 @@
     //border: 2px solid blue;
 }
 
+.navigation {
+    //border: 1px solid firebrick;
+}
