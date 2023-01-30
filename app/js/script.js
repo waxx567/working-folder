@@ -1,7 +1,7 @@
 const hamburger = document.querySelector('#btnHamburger');
 const header = document.querySelector('.header');
 
-btnHamburger.addEventListener('click', function(){
+btnHamburger.addEventListener('click', function() {
     console.log('open');
 
     if(header.classList.contains('open')) {
