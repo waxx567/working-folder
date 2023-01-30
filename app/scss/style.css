@@ -76,7 +76,7 @@ a, a:visited, a:hover {
   background-color: hsl(233deg, 26%, 24%);
 }
 .header__menu > span:not(:last-child) {
-  margin-bottom: 0.225rem;
+  margin-bottom: 0.3125rem;
 }
 .header__links a {
   position: relative;
