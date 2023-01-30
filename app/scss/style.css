@@ -100,7 +100,6 @@ a, a:visited, a:hover {
   position: relative;
   margin: 0;
   background-color: hsl(0deg, 0%, 100%);
-  padding: 1.0625rem 1.5rem;
 }
 .header.open .header__toggle > span:first-child {
   transform: rotate(45deg);
