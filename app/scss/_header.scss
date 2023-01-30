@@ -60,9 +60,10 @@
         padding: 1.625rem;
 
         a {
-            color: $darkBlue;
-            padding: 0.625rem;
             display: block;
+            padding: 0.625rem;
+            color: $darkBlue;            
+            text-align: center;
         }
     }
 

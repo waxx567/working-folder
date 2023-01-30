@@ -139,9 +139,10 @@ a, a:visited, a:hover {
   padding: 1.625rem;
 }
 .header__menu a {
-  color: hsl(233deg, 26%, 24%);
-  padding: 0.625rem;
   display: block;
+  padding: 0.625rem;
+  color: hsl(233deg, 26%, 24%);
+  text-align: center;
 }
 .header__links a {
   position: relative;
