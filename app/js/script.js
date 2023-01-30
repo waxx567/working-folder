@@ -1,12 +1,12 @@
-const hamburger = document.querySelector("#btnHamburger");
+const hamburger = document.querySelector('#btnHamburger');
 
-btnHamburger.addEventListener("click", function(){
-    console.log("open hamburger");
+btnHamburger.addEventListener('click', function(){
+    console.log('open hamburger');
 
-    if(btnHamburger.classList.contains("extended")) {
-        btnHamburger.classList.add("extended");
+    if(btnHamburger.classList.contains('open')) {
+        btnHamburger.classList.add('open');
     }
     else {
-        btnHamburger.classList.remove("extended");
+        btnHamburger.classList.remove('open');
     }
 });
