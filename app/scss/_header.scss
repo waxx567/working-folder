@@ -20,14 +20,14 @@
             height: 0.1125rem;
             background-color: $darkBlue;
             transition: all 300ms ease-in-out;
-            transform-origin: left center;
+            //transform-origin: top left;
 
             &:not(:last-child) {
                 margin-bottom: 0.3125rem;
             }    
         }
 
-        &.expanded {
+        &.open {
 
             > span:first-child {
                 transform: rotate(45deg);
