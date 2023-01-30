@@ -42,6 +42,10 @@ a, a:visited, a:hover {
   cursor: pointer;
   color: hsl(0deg, 0%, 100%);
   font-weight: 700;
+  transition: opacity 300ms ease-in-out;
+}
+.button:hover {
+  opacity: 0.75;
 }
 
 @media (max-width: 63.9375em) {
