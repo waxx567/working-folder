@@ -145,8 +145,9 @@ a, a:visited, a:hover {
 .header__menu {
   position: absolute;
   width: calc(100% - 3rem);
+  left: 50%;
+  transform: translateX(-50%);
   background: hsl(0deg, 0%, 100%);
-  margin: 0 1.5rem;
   padding: 1.625rem;
   border-radius: 0.3175rem;
 }
@@ -155,7 +156,7 @@ a, a:visited, a:hover {
   padding: 0.625rem;
   color: hsl(233deg, 26%, 24%);
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 .header__links a {
   position: relative;
