@@ -47,14 +47,20 @@
                 display: block;
                 position: absolute;
                 height: 0.3125rem;
-                background: linear-gradient(to right, $limeGreen, $brightCyan);
                 right: 0;
                 left: 0;
                 bottom: -1.875rem;
+                background: linear-gradient(to right, $limeGreen, $brightCyan);
+                opacity: 0;
+                transition: opacity 200ms ease-in-out;
             }
 
             &:hover {
                 color: $darkBlue;
+
+                &::before {
+                    opacity: 1;
+                }
             }
         }
         border: 1px solid magenta;
