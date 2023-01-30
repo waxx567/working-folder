@@ -134,6 +134,15 @@ a, a:visited, a:hover {
 .header__toggle > span:not(:last-child) {
   margin-bottom: 0.3125rem;
 }
+.header__menu {
+  background: hsl(0deg, 0%, 100%);
+  padding: 1.625rem;
+}
+.header__menu a {
+  color: hsl(233deg, 26%, 24%);
+  padding: 0.625rem;
+  display: block;
+}
 .header__links a {
   position: relative;
   color: hsl(233deg, 8%, 62%);

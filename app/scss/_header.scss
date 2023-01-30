@@ -55,6 +55,17 @@
         }
     }
 
+    &__menu { // Links appear after toggle is clicked
+        background: $white;
+        padding: 1.625rem;
+
+        a {
+            color: $darkBlue;
+            padding: 0.625rem;
+            display: block;
+        }
+    }
+
     &__links { // Links (desktop)
         a {
             position: relative;
