@@ -66,6 +66,23 @@ a, a:visited, a:hover {
   background-color: hsl(0deg, 0%, 100%);
   padding: 1.0625rem 1.5rem;
 }
+.header.open > span:first-child {
+  transform: rotate(45deg);
+}
+.header.open > span:nth-child(2) {
+  opacity: 0;
+}
+.header.open > span:last-child {
+  transform: rotate(-45deg);
+}
+.header .overlay {
+  position: fixed;
+  top: 3.65rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(hsl(233deg, 26%, 24%), transparent);
+}
 .header__logo img {
   align-items: center;
 }
@@ -79,15 +96,6 @@ a, a:visited, a:hover {
 }
 .header__menu > span:not(:last-child) {
   margin-bottom: 0.3125rem;
-}
-.header__menu.open > span:first-child {
-  transform: rotate(45deg);
-}
-.header__menu.open > span:nth-child(2) {
-  opacity: 0;
-}
-.header__menu.open > span:last-child {
-  transform: rotate(-45deg);
 }
 .header__links a {
   position: relative;
@@ -114,15 +122,6 @@ a, a:visited, a:hover {
 }
 .header__links a:hover::before {
   opacity: 1;
-}
-
-.overlay {
-  position: fixed;
-  top: 3.65rem;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: linear-gradient(hsl(233deg, 26%, 24%), transparent);
 }
 
 .intro {
