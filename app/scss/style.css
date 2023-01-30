@@ -61,7 +61,6 @@ a, a:visited, a:hover {
   margin: 0;
   background-color: hsl(0deg, 0%, 100%);
   padding: 1.0625rem 1.5rem;
-  border: 2px solid blue;
 }
 .header__logo img {
   align-items: center;
@@ -74,12 +73,6 @@ a, a:visited, a:hover {
 }
 .header__menu > span:not(:last-child) {
   margin-bottom: 0.225rem;
-}
-.header .navigation {
-  border: 1px solid firebrick;
-}
-.header__links {
-  border: 1px solid magenta;
 }
 .header__links a {
   position: relative;
