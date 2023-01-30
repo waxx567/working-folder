@@ -80,6 +80,9 @@ a, a:visited, a:hover {
   background-color: hsl(0deg, 0%, 100%);
   padding: 1.0625rem 1.5rem;
 }
+.header.open .overlay {
+  animation: fade-in 300ms ease-in-out forwards;
+}
 .header.open .header__menu > span:first-child {
   transform: rotate(45deg);
 }

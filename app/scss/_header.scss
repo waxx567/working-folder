@@ -5,8 +5,13 @@
     padding: 1.0625rem 1.5rem;
     
     &.open {
+
+        .overlay {
+            animation: fade-in 300ms ease-in-out forwards;
+        }
+        
         .header__menu {
-            
+
             > span:first-child {
                 transform: rotate(45deg);
             }
