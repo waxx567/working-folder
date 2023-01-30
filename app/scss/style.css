@@ -66,13 +66,13 @@ a, a:visited, a:hover {
   background-color: hsl(0deg, 0%, 100%);
   padding: 1.0625rem 1.5rem;
 }
-.header.open > span:first-child {
+.header.open .header__menu > span:first-child {
   transform: rotate(45deg);
 }
-.header.open > span:nth-child(2) {
+.header.open .header__menu > span:nth-child(2) {
   opacity: 0;
 }
-.header.open > span:last-child {
+.header.open .header__menu > span:last-child {
   transform: rotate(-45deg);
 }
 .header .overlay {
