@@ -39,8 +39,7 @@
         }
     }
 
-    // Hamburger menu (mobile)
-    &__toggle { 
+    &__toggle { // Hamburger menu (mobile)
         
         > span {
             display: block;
@@ -56,9 +55,7 @@
         }
     }
 
-    // Links (desktop)
-    &__links {
-
+    &__links { // Links (desktop)
         a {
             position: relative;
             color: $grayishBlue;
