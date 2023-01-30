@@ -19,6 +19,7 @@
             width: 1.675rem;
             height: 0.1125rem;
             background-color: $darkBlue;
+            transition: all 300ms ease-in-out;
 
             &:not(:last-child) {
                 margin-bottom: 0.3125rem;
@@ -26,7 +27,18 @@
         }
 
         &.expanded {
-            
+
+            > span:first-child {
+                transform: rotate(45deg);
+            }
+
+            > span:nth-child(2) {
+                opacity: 0;
+            }
+
+            > span:last-child {
+                transform: rotate(-45deg);
+            }
         }
     }
 
