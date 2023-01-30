@@ -106,6 +106,10 @@ a, a:visited, a:hover {
   margin: 0;
   background-color: hsl(0deg, 0%, 100%);
 }
+.header nav {
+  padding-top: 1.0625rem;
+  padding-bottom: 1.0625rem;
+}
 .header.open .header__toggle > span:first-child {
   transform: rotate(45deg);
 }
