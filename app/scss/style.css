@@ -148,7 +148,8 @@ a, a:visited, a:hover {
   left: 50%;
   transform: translateX(-50%);
   background: hsl(0deg, 0%, 100%);
-  padding: 1.625rem;
+  margin-top: 1.5rem;
+  padding: 1.5rem 1.625rem;
   border-radius: 0.3175rem;
 }
 .header__menu a {
