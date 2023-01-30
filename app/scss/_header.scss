@@ -84,3 +84,13 @@
     }
     //border: 2px solid blue;
 }
+
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: $darkBlue;
+    background-image: linear-gradient($darkBlue, transparent);
+}

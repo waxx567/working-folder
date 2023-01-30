@@ -116,6 +116,16 @@ a, a:visited, a:hover {
   opacity: 1;
 }
 
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: hsl(233deg, 26%, 24%);
+  background-image: linear-gradient(hsl(233deg, 26%, 24%), transparent);
+}
+
 .intro {
   background-color: hsl(0deg, 0%, 98%);
 }
