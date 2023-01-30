@@ -100,3 +100,7 @@ a, a:visited, a:hover {
 .header__links a:hover::before {
   opacity: 1;
 }
+
+.intro {
+  background-color: hsl(0deg, 0%, 98%);
+}
