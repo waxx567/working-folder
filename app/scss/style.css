@@ -233,6 +233,7 @@ p {
 @media (min-width: 64em) {
   .intro__images {
     flex: 1;
+    order: 2;
   }
 }
 .intro__images::before {

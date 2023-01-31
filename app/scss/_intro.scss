@@ -16,6 +16,7 @@
 
         @include breakpoint-up(large) {
             flex: 1;
+            order: 2;
         }
 
         &::before {
