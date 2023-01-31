@@ -203,3 +203,20 @@ a, a:visited, a:hover {
 .intro {
   background-color: hsl(0deg, 0%, 98%);
 }
+.intro__image {
+  position: relative;
+  background-image: url("/images/bg-intro-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 17.5rem;
+}
+.intro__image::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  background-image: url("/images/image-mockups.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
