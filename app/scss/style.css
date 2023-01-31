@@ -219,7 +219,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 17rem;
+  min-height: 17.5rem;
 }
 .intro__image::before {
   content: "";
