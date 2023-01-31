@@ -9,10 +9,10 @@ btnHamburger.addEventListener('click', function() {
     // Close hamburger menu
     if(header.classList.contains('open')) {
         header.classList.remove('open');
-        fadeElements.forEach(function(element)) {
+        fadeElements.forEach(function(element) {
             element.classList.remove('fade-in');
             element.classList.add('fade-out');
-        };
+        });
     }
     // Open hamburger menu
     else { 
