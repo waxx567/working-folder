@@ -80,8 +80,8 @@ p {
 }
 
 .container-tb {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .container-rl {
@@ -237,13 +237,16 @@ p {
 }
 .intro__text {
   text-align: center;
+  padding-bottom: 6rem;
 }
 .intro__text h1 {
-  padding-top: 2rem;
   line-height: 1.15;
 }
 .intro__text p {
   line-height: 1.75;
   padding-top: 1rem;
   margin-bottom: 2.75rem;
+}
+.intro__text .button {
+  font-weight: 500;
 }

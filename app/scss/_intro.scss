@@ -24,9 +24,9 @@
 
     &__text {
         text-align: center;
+        padding-bottom: 6rem;
 
         h1 {
-            padding-top: 2rem;
             line-height: 1.15;
         }
 
@@ -34,6 +34,10 @@
             line-height: 1.75;
             padding-top: 1rem;
             margin-bottom: 2.75rem;
+        }
+
+        .button {
+            font-weight: 500;
         }
     }
 }
