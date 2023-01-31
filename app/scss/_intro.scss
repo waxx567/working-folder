@@ -8,7 +8,7 @@
         background-repeat: no-repeat;
         background-position: center center;
         min-height: 17.5rem;
-        border: 1px solid hotpink;
+        //border: 1px solid hotpink;
 
         &::before {
             content: '';
@@ -16,7 +16,7 @@
             width: 100%;
             height: 100%;
             background-image: url("/images/image-mockups.png");
-            background-size: 95%;
+            background-size: 92%;
             background-repeat: no-repeat;
             background-position: center bottom;
         }
@@ -26,11 +26,12 @@
         text-align: center;
 
         h1 {
-            line-height: 1.2;
+            line-height: 1.15;
         }
 
         p {
             line-height: 1.5;
+            padding-top: 1rem;
         }
     }
 }
