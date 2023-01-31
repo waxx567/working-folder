@@ -65,8 +65,8 @@ a, a:visited, a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3 {
-  margin-top: 0px;
+h1, h2, h3, p {
+  margin: 0px;
 }
 
 h1 {
@@ -239,9 +239,14 @@ p {
   text-align: center;
 }
 .intro__text h1 {
+  padding-top: 2rem;
   line-height: 1.15;
 }
 .intro__text p {
-  line-height: 1.5;
+  line-height: 1.75;
   padding-top: 1rem;
+  padding-bottom: 2.75rem;
+}
+.intro__text .button {
+  margin-bottom: 1rem;
 }

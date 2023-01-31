@@ -26,12 +26,18 @@
         text-align: center;
 
         h1 {
+            padding-top: 2rem;
             line-height: 1.15;
         }
 
         p {
-            line-height: 1.5;
+            line-height: 1.75;
             padding-top: 1rem;
+            padding-bottom: 2.75rem;
+        }
+
+        .button {
+            margin-bottom: 1rem;
         }
     }
 }
