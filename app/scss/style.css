@@ -159,6 +159,12 @@ p {
   padding-top: 1.25rem;
   padding-bottom: 1.0625rem;
 }
+@media (min-width: 64em) {
+  .header nav {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+}
 .header.open .header__toggle > span:first-child {
   transform: rotate(45deg);
 }
@@ -279,14 +285,25 @@ p {
   .intro__text {
     flex: 2;
     order: 1;
+    padding-left: 4rem;
     text-align: left;
   }
 }
 .intro__text h1 {
   line-height: 1.15;
 }
+@media (min-width: 64em) {
+  .intro__text h1 {
+    font-size: 3.5rem;
+  }
+}
 .intro__text p {
   line-height: 1.75;
   padding-top: 1rem;
   margin-bottom: 2.75rem;
+}
+@media (min-width: 64em) {
+  .intro__text p {
+    font-size: 1.125rem;
+  }
 }

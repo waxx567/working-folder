@@ -8,6 +8,11 @@
         background-color: $white;
         padding-top: 1.25rem;
         padding-bottom: 1.0625rem;
+
+        @include breakpoint-up(large) {
+            padding-right: 4rem;
+            padding-left: 4rem;
+        }
     }
     
     &.open {

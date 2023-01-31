@@ -42,17 +42,26 @@
         @include breakpoint-up(large) {
             flex: 2;
             order: 1;
+            padding-left: 4rem;
             text-align: left;
         }
 
         h1 {
             line-height: 1.15;
+
+            @include breakpoint-up(large) {
+                font-size: 3.5rem;
+            }
         }
 
         p {
             line-height: 1.75;
             padding-top: 1rem;
             margin-bottom: 2.75rem;
+
+            @include breakpoint-up(large) {
+                font-size: 1.125rem;
+            }
         }
     }
 }
