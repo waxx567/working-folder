@@ -26,8 +26,8 @@
     opacity: 1;
   }
   99% {
-    visibility: hidden;
-    opacity: 1;
+    visibility: visible;
+    opacity: 0;
   }
   to {
     visibility: hidden;
@@ -148,6 +148,7 @@ a, a:visited, a:hover {
 }
 .header__menu {
   position: absolute;
+  opacity: 0;
   width: calc(100% - 3rem);
   left: 50%;
   transform: translateX(-50%);
