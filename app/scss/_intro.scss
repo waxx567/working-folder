@@ -24,5 +24,13 @@
 
     &__text {
         text-align: center;
+
+        h1 {
+            line-height: 1.2;
+        }
+
+        p {
+            line-height: 1.5;
+        }
     }
 }
