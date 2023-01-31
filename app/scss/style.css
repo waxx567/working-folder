@@ -79,14 +79,8 @@ p {
   font-size: 0.875rem;
 }
 
-.container-tb {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.container-rl {
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+.container {
+  padding: 2rem 1.5rem;
 }
 
 .flex {
@@ -233,10 +227,11 @@ p {
 }
 @media (min-width: 64em) {
   .intro__images {
-    background-image: url("/images/bg-intro-desktop.svg");
-    height: 41rem;
-    flex: 1;
+    flex: 3;
     order: 2;
+    height: 41rem;
+    background-image: url("/images/bg-intro-desktop.svg");
+    background-position: left center;
   }
 }
 .intro__images::before {
@@ -255,7 +250,7 @@ p {
 }
 @media (min-width: 64em) {
   .intro__text {
-    flex: 1;
+    flex: 2;
     order: 1;
   }
 }

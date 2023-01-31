@@ -16,10 +16,11 @@
         //border: 1px solid hotpink;
 
         @include breakpoint-up(large) {
-            background-image: url("/images/bg-intro-desktop.svg");
-            height: 41rem;
-            flex: 1;
+            flex: 3;
             order: 2;
+            height: 41rem;
+            background-image: url("/images/bg-intro-desktop.svg");
+            background-position: left center;
         }
 
         &::before {
@@ -39,7 +40,7 @@
         padding-bottom: 6rem;
 
         @include breakpoint-up(large) {
-            flex: 1;
+            flex: 2;
             order: 1;
         }
 
