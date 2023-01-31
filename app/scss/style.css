@@ -103,6 +103,7 @@ p {
 }
 
 .button {
+  display: inline block;
   padding: 0.725rem 2rem;
   border-radius: 3.125rem;
   background: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
