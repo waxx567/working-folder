@@ -22,8 +22,13 @@ a, a:visited, a:hover {
     text-decoration: none;
 }
 
-// Spacing 
-.container {
+// Spacing
+.container-tb {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.container-rl {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
 }
