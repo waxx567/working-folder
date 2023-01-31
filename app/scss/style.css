@@ -210,14 +210,17 @@ a, a:visited, a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 17.5rem;
+  border: 1px solid hotpink;
 }
 .intro__image::before {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 95%;
   height: 100%;
   background-image: url("/images/image-mockups.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
+  left: 50%;
+  transform: translateX(-50%);
 }
