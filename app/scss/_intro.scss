@@ -3,6 +3,7 @@
 
     @include breakpoint-up(large) {
         display: flex;
+        align-items: center;
     }
 
     &__images {
@@ -15,6 +16,7 @@
         //border: 1px solid hotpink;
 
         @include breakpoint-up(large) {
+            height: 41rem;
             flex: 1;
             order: 2;
         }
@@ -37,6 +39,7 @@
 
         @include breakpoint-up(large) {
             flex: 1;
+            order: 1;
         }
 
         h1 {

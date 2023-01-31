@@ -220,6 +220,7 @@ p {
 @media (min-width: 64em) {
   .intro {
     display: flex;
+    align-items: center;
   }
 }
 .intro__images {
@@ -232,6 +233,7 @@ p {
 }
 @media (min-width: 64em) {
   .intro__images {
+    height: 41rem;
     flex: 1;
     order: 2;
   }
@@ -253,6 +255,7 @@ p {
 @media (min-width: 64em) {
   .intro__text {
     flex: 1;
+    order: 1;
   }
 }
 .intro__text h1 {
