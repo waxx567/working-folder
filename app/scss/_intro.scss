@@ -58,10 +58,6 @@
             line-height: 1.75;
             padding-top: 1rem;
             margin-bottom: 2.75rem;
-
-            @include breakpoint-up(large) {
-                font-size: 1.125rem;
-            }
         }
     }
 }

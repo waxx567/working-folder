@@ -38,6 +38,10 @@ h1 {
 
 p {
     font-size: 0.875rem;
+
+    @include breakpoint-up(large) {
+        font-size: 1.125rem;
+    }
 }
 
 // Spacing

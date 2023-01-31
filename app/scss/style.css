@@ -78,6 +78,11 @@ h1 {
 p {
   font-size: 0.875rem;
 }
+@media (min-width: 64em) {
+  p {
+    font-size: 1.125rem;
+  }
+}
 
 .container {
   max-width: 90rem;
@@ -301,9 +306,4 @@ p {
   line-height: 1.75;
   padding-top: 1rem;
   margin-bottom: 2.75rem;
-}
-@media (min-width: 64em) {
-  .intro__text p {
-    font-size: 1.125rem;
-  }
 }
