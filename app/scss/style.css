@@ -217,6 +217,11 @@ p {
 .intro {
   background-color: hsl(0deg, 0%, 98%);
 }
+@media (min-width: 64em) {
+  .intro {
+    display: flex;
+  }
+}
 .intro__images {
   position: relative;
   background-image: url("/images/bg-intro-mobile.svg");
@@ -224,6 +229,11 @@ p {
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 17.5rem;
+}
+@media (min-width: 64em) {
+  .intro__images {
+    flex: 1;
+  }
 }
 .intro__images::before {
   content: "";
