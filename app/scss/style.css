@@ -245,8 +245,5 @@ p {
 .intro__text p {
   line-height: 1.75;
   padding-top: 1rem;
-  padding-bottom: 2.75rem;
-}
-.intro__text .button {
-  margin-bottom: 1rem;
+  margin-bottom: 2.75rem;
 }
