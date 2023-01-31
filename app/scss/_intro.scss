@@ -16,6 +16,7 @@
         //border: 1px solid hotpink;
 
         @include breakpoint-up(large) {
+            background-image: url("/images/bg-intro-desktop.svg");
             height: 41rem;
             flex: 1;
             order: 2;
