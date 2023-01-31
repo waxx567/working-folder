@@ -65,6 +65,16 @@ a, a:visited, a:hover {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: hsl(233deg, 26%, 24%);
+}
+
+p {
+  font-size: 1rem;
+}
+
 .container-tb {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -210,7 +220,6 @@ a, a:visited, a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 18.225rem;
-  border: 1px solid hotpink;
 }
 .intro__image::before {
   content: "";
@@ -222,6 +231,6 @@ a, a:visited, a:hover {
   background-repeat: no-repeat;
   background-position: center bottom;
 }
-.intro__text h1 {
-  font-weight: 300;
+.intro__text {
+  text-align: center;
 }
