@@ -66,13 +66,13 @@ a, a:visited, a:hover {
 }
 
 h1 {
-  font-size: 2.75rem;
+  font-size: 2.25rem;
   font-weight: 300;
   color: hsl(233deg, 26%, 24%);
 }
 
 p {
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 
 .container-tb {
@@ -219,7 +219,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 19rem;
+  min-height: 17rem;
 }
 .intro__image::before {
   content: "";
