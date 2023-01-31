@@ -80,9 +80,20 @@ p {
 }
 
 .container {
-  max-width: 69.375rem;
+  max-width: 69.5625rem;
   margin: 0 auto;
-  padding: 2rem 1.5rem;
+}
+.container--pt {
+  padding-top: 2rem;
+}
+.container--pr {
+  padding-right: 1.5rem;
+}
+.container--pb {
+  padding-bottom: 2rem;
+}
+.container--pl {
+  padding-left: 1.5rem;
 }
 
 .flex {
