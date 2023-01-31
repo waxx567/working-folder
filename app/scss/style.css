@@ -268,8 +268,7 @@ p {
     flex: 3;
     order: 2;
     height: 41rem;
-    background-image: url("/images/bg-intro-desktop.svg");
-    background-position: left center;
+    background-image: none;
   }
 }
 .intro__images::before {
