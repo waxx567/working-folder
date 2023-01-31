@@ -61,7 +61,7 @@ body.no-scroll {
 }
 
 a, a:visited, a:hover {
-  font-size: 0.875rem;
+  font-size: 0.825rem;
   text-decoration: none;
 }
 
@@ -104,12 +104,12 @@ p {
 
 .button {
   display: inline block;
-  padding: 0.725rem 2rem;
+  padding: 0.875rem 2.1875rem;
   border-radius: 3.125rem;
   background: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
   cursor: pointer;
   color: hsl(0deg, 0%, 100%);
-  font-weight: 700;
+  font-weight: 400;
   transition: opacity 300ms ease-in-out;
 }
 .button:hover {
@@ -247,7 +247,4 @@ p {
   line-height: 1.75;
   padding-top: 1rem;
   margin-bottom: 2.75rem;
-}
-.intro__text .button {
-  font-weight: 500;
 }
