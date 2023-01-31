@@ -215,7 +215,7 @@ p {
 }
 
 .intro {
-  background-color: hsl(0deg, 0%, 98%);
+  background-color: hsl(0deg, 0%, 100%);
 }
 .intro__images {
   position: relative;
