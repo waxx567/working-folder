@@ -61,7 +61,6 @@
 
     &__menu { // Links appear after toggle is clicked
         position: absolute;
-        visibility: hidden;
         width: calc(100% - 3rem);
         left: 50%;
         transform: translateX(-50%);
