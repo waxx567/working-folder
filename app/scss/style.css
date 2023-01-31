@@ -209,18 +209,19 @@ a, a:visited, a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 17.5rem;
+  min-height: 18.225rem;
   border: 1px solid hotpink;
 }
 .intro__image::before {
   content: "";
   position: absolute;
-  width: 95%;
+  width: 100%;
   height: 100%;
   background-image: url("/images/image-mockups.png");
-  background-size: cover;
+  background-size: 95%;
   background-repeat: no-repeat;
   background-position: center bottom;
-  left: 50%;
-  transform: translateX(-50%);
+}
+.intro__text h1 {
+  font-weight: 300;
 }
