@@ -66,7 +66,7 @@ a, a:visited, a:hover {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.35rem;
   font-weight: 300;
   color: hsl(233deg, 26%, 24%);
 }
@@ -213,16 +213,16 @@ p {
 .intro {
   background-color: hsl(0deg, 0%, 98%);
 }
-.intro__image {
+.intro__images {
   position: relative;
   background-image: url("/images/bg-intro-mobile.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 18rem;
+  min-height: 17.5rem;
   border: 1px solid hotpink;
 }
-.intro__image::before {
+.intro__images::before {
   content: "";
   position: absolute;
   width: 100%;

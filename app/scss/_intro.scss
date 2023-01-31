@@ -1,13 +1,13 @@
 .intro {
     background-color: $veryLightGray;
 
-    &__image {
+    &__images {
         position: relative;
         background-image: url("/images/bg-intro-mobile.svg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        min-height: 18rem;
+        min-height: 17.5rem;
         border: 1px solid hotpink;
 
         &::before {
