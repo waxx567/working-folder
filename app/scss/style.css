@@ -246,9 +246,13 @@ p {
   background-position: center bottom;
 }
 .intro__text {
-  flex: 1;
   text-align: center;
   padding-bottom: 6rem;
+}
+@media (min-width: 64em) {
+  .intro__text {
+    flex: 1;
+  }
 }
 .intro__text h1 {
   line-height: 1.15;

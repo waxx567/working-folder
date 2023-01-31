@@ -31,9 +31,12 @@
     }
 
     &__text {
-        flex: 1;
         text-align: center;
         padding-bottom: 6rem;
+
+        @include breakpoint-up(large) {
+            flex: 1;
+        }
 
         h1 {
             line-height: 1.15;
