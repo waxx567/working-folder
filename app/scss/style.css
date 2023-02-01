@@ -280,7 +280,6 @@ p {
   background-size: 92%;
   background-repeat: no-repeat;
   background-position: center bottom;
-  bottom: 5%;
 }
 .intro__images::after {
   content: "";
