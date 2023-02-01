@@ -263,6 +263,11 @@ p {
   background-position: center center;
   min-height: 17.5rem;
 }
+@media (min-width: 40em) {
+  .intro__images {
+    background-size: 0;
+  }
+}
 @media (min-width: 64em) {
   .intro__images {
     flex: 3;
@@ -280,10 +285,17 @@ p {
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+@media (min-width: 40em) {
+  .intro__images::before {
+    width: 100%;
+    min-height: 35rem;
+    background-size: 150%;
+    background-position: center bottom;
+  }
+}
 @media (min-width: 64em) {
   .intro__images::before {
     width: 150%;
-    background-size: 100%;
     background-position: 20% 175%;
   }
 }
