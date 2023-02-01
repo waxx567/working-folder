@@ -283,8 +283,8 @@ p {
 @media (min-width: 64em) {
   .intro__images::before {
     width: 150%;
-    background-size: 110%;
-    background-position: 0% 110%;
+    background-size: 100%;
+    background-position: 20% 175%;
   }
 }
 .intro__images::after {
@@ -296,11 +296,11 @@ p {
   background-size: 92%;
   background-repeat: no-repeat;
   background-position: center bottom;
-  left: 20%;
 }
 @media (min-width: 64em) {
   .intro__images::after {
-    background-size: 94%;
+    height: 95%;
+    left: 20%;
   }
 }
 .intro__text {
