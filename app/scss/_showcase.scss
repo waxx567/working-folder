@@ -14,16 +14,17 @@
 
     &-features {
 
+        @include breakpoint-up(medium) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
         @include breakpoint-up(large) {
-            display: flex;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
         }
 
         .feature {
             padding: 1rem;
-
-            @include breakpoint-up(large) {
-                flex: 1;
-            }
 
             &__icon {
     

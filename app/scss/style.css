@@ -345,17 +345,18 @@ p {
 .showcase-features {
   border: 1px solid green;
 }
+@media (min-width: 40em) {
+  .showcase-features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media (min-width: 64em) {
   .showcase-features {
-    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 .showcase-features .feature {
   padding: 1rem;
   border: 1px solid firebrick;
-}
-@media (min-width: 64em) {
-  .showcase-features .feature {
-    flex: 1;
-  }
 }
