@@ -342,9 +342,6 @@ p {
 .showcase {
   background-color: hsl(220deg, 16%, 96%);
 }
-.showcase-features {
-  border: 1px solid green;
-}
 @media (min-width: 40em) {
   .showcase-features {
     display: grid;
@@ -357,6 +354,13 @@ p {
   }
 }
 .showcase-features .feature {
-  padding: 1rem;
-  border: 1px solid firebrick;
+  padding: 1.25rem;
+}
+.showcase-features .feature__heading h3 {
+  font-weight: 400;
+  color: hsl(233deg, 26%, 24%);
+  padding-top: 1.5rem;
+}
+.showcase-features .feature__text p {
+  font-size: 0.865rem;
 }
