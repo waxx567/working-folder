@@ -261,7 +261,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 17.5rem;
+  min-height: 19.5rem;
 }
 @media (min-width: 40em) {
   .intro__images {
@@ -298,7 +298,7 @@ p {
   width: 100%;
   height: 100%;
   background-image: url("/images/image-mockups.png");
-  background-size: 92%;
+  background-size: 80%;
   background-repeat: no-repeat;
   background-position: center bottom;
 }
@@ -309,7 +309,7 @@ p {
 }
 @media (min-width: 64em) {
   .intro__images::after {
-    height: 95%;
+    background-size: 100%;
     left: 20%;
   }
 }

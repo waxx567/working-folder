@@ -12,7 +12,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        min-height: 17.5rem;
+        min-height: 19.5rem;
         //border: 1px solid hotpink;
 
         @include breakpoint-up(medium) {
@@ -48,7 +48,7 @@
             width: 100%;
             height: 100%;
             background-image: url("/images/image-mockups.png");
-            background-size: 92%;
+            background-size: 80%;
             background-repeat: no-repeat;
             background-position: center bottom;
 
@@ -58,7 +58,7 @@
             
 
             @include breakpoint-up(large) {
-                height: 95%;
+                background-size: 100%;
                 left: 20%;
             }
         }
