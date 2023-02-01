@@ -301,6 +301,11 @@ p {
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+@media (min-width: 40em) {
+  .intro__images::after {
+    background-size: 50%;
+  }
+}
 @media (min-width: 64em) {
   .intro__images::after {
     height: 95%;

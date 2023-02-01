@@ -50,6 +50,10 @@
             background-size: 92%;
             background-repeat: no-repeat;
             background-position: center bottom;
+
+            @include breakpoint-up(medium) {
+                background-size: 50%;
+            }
             
 
             @include breakpoint-up(large) {
