@@ -19,6 +19,7 @@
         }
 
         .feature {
+            padding: 1rem;
 
             @include breakpoint-up(large) {
                 flex: 1;

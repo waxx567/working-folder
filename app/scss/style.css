@@ -347,6 +347,9 @@ p {
     display: flex;
   }
 }
+.showcase-features .feature {
+  padding: 1rem;
+}
 @media (min-width: 64em) {
   .showcase-features .feature {
     flex: 1;
