@@ -342,6 +342,9 @@ p {
 .showcase {
   background-color: hsl(220deg, 16%, 96%);
 }
+.showcase-features {
+  border: 1px solid green;
+}
 @media (min-width: 64em) {
   .showcase-features {
     display: flex;
@@ -349,6 +352,7 @@ p {
 }
 .showcase-features .feature {
   padding: 1rem;
+  border: 1px solid firebrick;
 }
 @media (min-width: 64em) {
   .showcase-features .feature {
