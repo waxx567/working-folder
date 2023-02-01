@@ -265,6 +265,7 @@ p {
 }
 @media (min-width: 40em) {
   .intro__images {
+    background-position: center 70%;
     min-height: 25rem;
   }
 }

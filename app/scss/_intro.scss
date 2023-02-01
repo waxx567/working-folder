@@ -16,6 +16,7 @@
         //border: 1px solid hotpink;
 
         @include breakpoint-up(medium) {
+            background-position: center 70%;
             min-height: 25rem;
         }
 
