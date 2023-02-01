@@ -13,7 +13,15 @@
 
     &-features {
 
+        @include breakpoint-up(large) {
+            display: flex;
+        }
+
         .feature {
+
+            @include breakpoint-up(large) {
+                flex: 1;
+            }
 
             &__icon {
     

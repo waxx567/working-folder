@@ -338,3 +338,14 @@ p {
   padding-top: 1rem;
   margin-bottom: 2.75rem;
 }
+
+@media (min-width: 64em) {
+  .showcase-features {
+    display: flex;
+  }
+}
+@media (min-width: 64em) {
+  .showcase-features .feature {
+    flex: 1;
+  }
+}
