@@ -277,7 +277,7 @@ p {
   background-image: url("/images/bg-intro-desktop.svg");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center 165%;
 }
 @media (min-width: 64em) {
   .intro__images::before {
@@ -294,6 +294,7 @@ p {
   background-size: 92%;
   background-repeat: no-repeat;
   background-position: center bottom;
+  left: 20%;
 }
 .intro__text {
   text-align: center;

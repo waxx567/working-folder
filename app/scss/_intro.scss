@@ -28,7 +28,7 @@
             background-image: url("/images/bg-intro-desktop.svg");
             background-size: 100%;
             background-repeat: no-repeat;
-            background-position: center bottom;
+            background-position: center 165%;
 
             @include breakpoint-up(large) {
                 width: 150%;
@@ -45,6 +45,7 @@
             background-size: 92%;
             background-repeat: no-repeat;
             background-position: center bottom;
+            left: 20%;
         }
     }
 
