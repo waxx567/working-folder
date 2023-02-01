@@ -339,6 +339,9 @@ p {
   margin-bottom: 2.75rem;
 }
 
+.showcase {
+  background-color: hsl(220deg, 16%, 96%);
+}
 @media (min-width: 64em) {
   .showcase-features {
     display: flex;
