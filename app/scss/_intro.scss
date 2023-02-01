@@ -48,6 +48,10 @@
             background-repeat: no-repeat;
             background-position: center bottom;
             left: 20%;
+
+            @include breakpoint-up(large) {
+                background-size: 100%;
+            }
         }
     }
 
