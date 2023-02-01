@@ -26,18 +26,31 @@ a, a:visited, a:hover {
     text-decoration: none;
 }
 
+h1, h2, h3 {
+    color: $darkBlue;
+}
+
 h1, h2, h3, p {
     margin: 0px;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.5em;
     font-weight: 300;
-    color: $darkBlue;
+}
+
+h2 {
+    font-size: 1.875em;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 1.75em;
+    font-weight: 400;
 }
 
 p {
-    font-size: 0.875rem;
+    font-size: 0.875em;
 
     @include breakpoint-up(large) {
         font-size: 1.125rem;
