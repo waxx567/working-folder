@@ -274,12 +274,13 @@ p {
 .intro__images::before {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 150%;
   height: 100%;
   background-image: url("/images/bg-intro-desktop.svg");
   background-size: 92%;
   background-repeat: no-repeat;
   background-position: center bottom;
+  bottom: 5%;
 }
 .intro__images::after {
   content: "";
@@ -290,6 +291,7 @@ p {
   background-size: 92%;
   background-repeat: no-repeat;
   background-position: center bottom;
+  left: 20%;
 }
 .intro__text {
   text-align: center;
