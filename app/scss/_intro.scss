@@ -34,7 +34,7 @@
             @include breakpoint-up(large) {
                 width: 150%;
                 background-size: 110%;
-                background-position: 0% 120%;
+                background-position: 0% 110%;
             }
         }
             
@@ -50,7 +50,7 @@
             left: 20%;
 
             @include breakpoint-up(large) {
-                background-size: 100%;
+                background-size: 94%;
             }
         }
     }
