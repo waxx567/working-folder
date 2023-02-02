@@ -355,10 +355,6 @@ p {
 .showcase {
   background-color: hsl(220deg, 16%, 96%);
 }
-.showcase-title .title__heading {
-  font-weight: 400;
-  color: hsl(233deg, 26%, 24%);
-}
 @media (min-width: 40em) {
   .showcase-features {
     display: grid;
