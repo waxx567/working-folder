@@ -156,6 +156,7 @@ p {
   border-radius: 3.125rem;
   background: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
   color: hsl(0deg, 0%, 100%);
+  font-size: 0.85em;
   font-weight: 400;
   transition: opacity 300ms ease-in-out;
 }
@@ -215,7 +216,7 @@ p {
 }
 .header__toggle > span {
   display: block;
-  width: 1.45rem;
+  width: 1.5rem;
   height: 0.0875rem;
   background-color: hsl(233deg, 26%, 24%);
   transition: all 300ms ease-in-out;
@@ -320,7 +321,7 @@ p {
   width: 100%;
   height: 100%;
   background-image: url("/images/image-mockups.png");
-  background-size: 80%;
+  background-size: 95%;
   background-repeat: no-repeat;
   background-position: center bottom;
 }
@@ -356,9 +357,9 @@ p {
   }
 }
 .intro__text p {
-  line-height: 1.75;
-  padding-top: 1rem;
-  margin-bottom: 2.75rem;
+  line-height: 1.65;
+  padding-top: 0.75rem;
+  margin-bottom: 2.5rem;
 }
 
 .showcase {
