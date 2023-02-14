@@ -350,6 +350,7 @@ p {
 }
 .intro__text h1 {
   line-height: 1.15;
+  font-weight: 300;
 }
 @media (min-width: 40em) {
   .intro__text h1 {
@@ -365,6 +366,11 @@ p {
   line-height: 1.65;
   padding-top: 0.75rem;
   margin-bottom: 2.5rem;
+}
+@media (min-width: 40em) {
+  .intro__text p {
+    padding-bottom: 1rem;
+  }
 }
 
 .showcase {
