@@ -327,7 +327,7 @@ p {
 }
 @media (min-width: 40em) {
   .intro__images::after {
-    background-size: 50%;
+    background-size: 70%;
   }
 }
 @media (min-width: 64em) {
