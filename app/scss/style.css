@@ -351,6 +351,11 @@ p {
 .intro__text h1 {
   line-height: 1.15;
 }
+@media (min-width: 40em) {
+  .intro__text h1 {
+    padding-bottom: 1rem;
+  }
+}
 @media (min-width: 64em) {
   .intro__text h1 {
     font-size: 3.5rem;

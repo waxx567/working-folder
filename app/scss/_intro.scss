@@ -78,6 +78,10 @@
         h1 {
             line-height: 1.15;
 
+            @include breakpoint-up(medium) {
+                padding-bottom: 1rem;
+            }
+
             @include breakpoint-up(large) {
                 font-size: 3.5rem;
             }
