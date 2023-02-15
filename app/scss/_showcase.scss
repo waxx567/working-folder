@@ -5,11 +5,12 @@
     &-title {
 
         .title__heading {
-            
+            line-height: 1.25;
         }
         
         .title__text {
-        
+            margin-top: 1rem;
+            line-height: 1.6;
         }
     }
 
@@ -42,9 +43,6 @@
     
             &__text {
                 
-                p {
-                    font-size: 0.865rem;
-                }
             }
 
             //border: 1px solid firebrick;
