@@ -13,12 +13,17 @@
             margin-top: 1rem;
             line-height: 1.6;
         }
-        border: 1px solid turquoise;
+        //border: 1px solid turquoise;
     }
 
     &-features {
         display: grid;
         row-gap: 1rem;
+
+        & > * {
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
 
         @include breakpoint-up(medium) {
             grid-template-columns: repeat(2, 1fr);
@@ -34,25 +39,37 @@
             align-items: center;
 
             &__icon {
-                width: 5rem;
-                border: 1px solid blueviolet;
+                width: max-content;
+                //border: 1px solid blueviolet;
             }
     
             &__heading {
+                margin: 1.4rem 0;
+                font-size: 1.15em;
+                font-weight: 400;
+                color: $darkBlue;
     
                 h3 {
-                    font-weight: 400;
-                    color: $darkBlue;
+                    
                     padding-top: 1.5rem;
-                    border: 1px solid black;
+                    //border: 1px solid black;
                 }
-                border: 1px solid hotpink;
+                //border: 1px solid hotpink;
             }
     
             &__text {
-                border: 1px solid green;
+                margin: 0 1rem;
+                font-size: 0.875em;
+                line-height: 1.6;
+                //border: 1px solid green;
             }
-            border: 1px solid blue;
+
+            @include breakpoint-up(medium) {
+                padding-right: 1rem;
+                padding-left: 1rem;
+            }
+            
+            //border: 1px solid blue;
         }
         
         //border: 1px solid green;
