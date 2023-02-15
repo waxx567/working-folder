@@ -479,3 +479,13 @@ p {
 .articles__heading {
   text-align: center;
 }
+
+.article {
+  margin: 0 auto;
+}
+.article > * {
+  padding: 1rem 2rem;
+}
+.article img {
+  width: 100%;
+}
