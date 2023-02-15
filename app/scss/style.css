@@ -476,15 +476,26 @@ p {
   }
 }
 
+.articles {
+  padding-top: 6rem;
+  background-color: hsl(0deg, 0%, 98%);
+}
 .articles__heading {
   text-align: center;
+  padding-bottom: 2.5rem;
 }
 
 .article {
   margin: 0 auto;
+  padding-bottom: 2rem;
+  border-radius: 5%;
+  border: 1px solid yellowgreen;
 }
 .article > * {
-  padding: 1rem 2rem;
+  margin: 0 2rem;
+}
+.article > *:not(:first-child) {
+  background-color: hsl(0deg, 0%, 100%);
 }
 .article img {
   width: 100%;
