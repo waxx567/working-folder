@@ -382,6 +382,7 @@ p {
 
 .showcase {
   background-color: hsl(220deg, 16%, 96%);
+  text-align: center;
 }
 @media (min-width: 40em) {
   .showcase-features {
