@@ -228,6 +228,7 @@ p {
 }
 .header__menu {
   position: absolute;
+  z-index: 2;
   width: calc(100% - 3rem);
   left: 50%;
   transform: translateX(-50%);
