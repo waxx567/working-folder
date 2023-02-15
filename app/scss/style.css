@@ -204,7 +204,6 @@ p {
 }
 .header .overlay {
   opacity: 0;
-  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
@@ -284,12 +283,12 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-  min-height: 21rem;
+  min-height: 25rem;
 }
 @media (min-width: 40em) {
   .intro__images {
     background-position: center 70%;
-    min-height: 25rem;
+    min-height: 30rem;
   }
 }
 @media (min-width: 64em) {
@@ -327,7 +326,8 @@ p {
 }
 @media (min-width: 40em) {
   .intro__images::after {
-    background-size: 70%;
+    height: 100%;
+    background-size: 90%;
   }
 }
 @media (min-width: 64em) {
@@ -337,6 +337,8 @@ p {
   }
 }
 .intro__text {
+  margin-top: 0;
+  padding-top: 0;
   text-align: center;
   padding-bottom: 6rem;
 }
@@ -349,6 +351,8 @@ p {
   }
 }
 .intro__text h1 {
+  margin: 0;
+  padding: 0;
   line-height: 1.15;
   font-weight: 300;
 }
