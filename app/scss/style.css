@@ -475,3 +475,7 @@ p {
     text-align: left;
   }
 }
+
+.articles__heading {
+  text-align: center;
+}
