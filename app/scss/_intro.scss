@@ -90,7 +90,7 @@
             font-weight: 300;
 
             @include breakpoint-up(medium) {
-                padding-bottom: 1rem;
+                padding: 0 2rem 1rem;
             }
 
             @include breakpoint-up(large) {
