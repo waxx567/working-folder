@@ -106,7 +106,7 @@ h4 {
 }
 
 h5 {
-  font-size: 1.25em;
+  font-size: 1.2em;
   font-weight: 300;
 }
 
@@ -432,6 +432,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 250px;
   border: 1px solid blue;
 }
 .showcase-features .feature__icon {
@@ -439,8 +440,6 @@ p {
   border: 1px solid blueviolet;
 }
 .showcase-features .feature__heading {
-  height: max-content;
-  padding: 1rem;
   border: 1px solid hotpink;
 }
 .showcase-features .feature__heading h3 {
@@ -450,5 +449,6 @@ p {
   border: 1px solid black;
 }
 .showcase-features .feature__text {
+  margin-top: 1rem;
   border: 1px solid green;
 }
