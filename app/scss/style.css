@@ -380,7 +380,7 @@ p {
 }
 @media (min-width: 40em) {
   .intro__text h1 {
-    padding: 0 2rem 1rem;
+    padding: 1rem;
   }
 }
 @media (min-width: 64em) {
@@ -396,6 +396,7 @@ p {
 @media (min-width: 40em) {
   .intro__text p {
     padding-bottom: 1rem;
+    padding-inline: 2rem;
   }
 }
 
@@ -460,7 +461,9 @@ p {
 }
 @media (min-width: 64em) {
   .showcase-features .feature__text {
+    text-align: left;
     margin-left: 0;
+    padding-left: 0;
   }
 }
 @media (min-width: 40em) {
