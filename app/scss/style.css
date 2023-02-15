@@ -380,29 +380,29 @@ p {
   }
 }
 
-.showcase {
+.hero {
   background-color: hsl(220deg, 16%, 96%);
   text-align: center;
 }
 @media (min-width: 40em) {
-  .showcase-features {
+  .hero-features {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (min-width: 64em) {
-  .showcase-features {
+  .hero-features {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
-.showcase-features .feature {
+.hero-features .feature {
   padding: 1.25rem;
 }
-.showcase-features .feature__heading h3 {
+.hero-features .feature__heading h3 {
   font-weight: 400;
   color: hsl(233deg, 26%, 24%);
   padding-top: 1.5rem;
 }
-.showcase-features .feature__text p {
+.hero-features .feature__text p {
   font-size: 0.865rem;
 }
