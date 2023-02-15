@@ -286,7 +286,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-  min-height: 25rem;
+  min-height: 22rem;
 }
 @media (min-width: 40em) {
   .intro__images {
