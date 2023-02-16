@@ -595,6 +595,7 @@ p {
 
 .footer {
   display: grid;
+  padding: 2rem 0;
   background-color: hsl(233deg, 26%, 24%);
   text-align: center;
 }
