@@ -346,7 +346,8 @@ p {
 }
 @media (min-width: 64em) {
   .intro__images::after {
-    background-size: 100%;
+    height: 130%;
+    background-size: cover;
     left: 20%;
   }
 }
@@ -365,7 +366,6 @@ p {
   .intro__text {
     flex: 2;
     order: 1;
-    padding-left: 4rem;
     text-align: left;
   }
 }
@@ -382,6 +382,7 @@ p {
 }
 @media (min-width: 64em) {
   .intro__text h1 {
+    padding-left: 3rem;
     font-size: 3.5rem;
   }
 }
@@ -396,11 +397,36 @@ p {
     padding-inline: 2rem;
   }
 }
+@media (min-width: 64em) {
+  .intro__text p {
+    padding-left: 3rem;
+  }
+}
+@media (min-width: 64em) {
+  .intro__text a {
+    margin-left: 3rem;
+  }
+}
 
 .showcase {
   background-color: hsl(220deg, 16%, 96%);
   text-align: center;
   padding-top: 2rem;
+}
+@media (min-width: 64em) {
+  .showcase {
+    padding-top: 6rem;
+  }
+}
+@media (min-width: 64em) {
+  .showcase-title {
+    text-align: left;
+  }
+}
+@media (min-width: 64em) {
+  .showcase-title > * {
+    padding-left: 2rem;
+  }
 }
 .showcase-title .title__heading {
   line-height: 1.25;
@@ -408,6 +434,7 @@ p {
 .showcase-title .title__text {
   margin-top: 1rem;
   line-height: 1.6;
+  max-width: 700px;
 }
 .showcase-features {
   display: grid;
@@ -425,13 +452,13 @@ p {
 @media (min-width: 64em) {
   .showcase-features {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 2rem;
   }
 }
 .showcase-features .feature {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid blue;
 }
 .showcase-features .feature__icon {
   width: max-content;
@@ -449,7 +476,6 @@ p {
   margin: 0 1rem;
   font-size: 0.875em;
   line-height: 1.6;
-  border: 1px solid green;
 }
 @media (min-width: 40em) {
   .showcase-features .feature__text {
@@ -483,6 +509,13 @@ p {
 .articles__heading {
   text-align: center;
   padding-bottom: 2.5rem;
+}
+
+@media (min-width: 64em) {
+  .article-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .article {

@@ -8,22 +8,30 @@
     }
 }
 
+.article-container {
+    
+    @include breakpoint-up(large) {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
 .article {
-        margin: 0 2rem;
-        padding-bottom: 2rem;
-        border-radius: 4px;
+    margin: 0 2rem;
+    padding-bottom: 2rem;
+    border-radius: 4px;
 
-        & > * {
+    & > * {
 
-            &:not(:first-child) {
-                background-color: $white;
-            }
+        &:not(:first-child) {
+            background-color: $white;
         }
+    }
 
-        img {
-            width: 100%;
-            border-radius: 4px 4px 0 0;
-        }
+    img {
+        width: 100%;
+        border-radius: 4px 4px 0 0;
+    }
 
     &__author {
 
