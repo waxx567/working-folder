@@ -600,6 +600,9 @@ p {
 }
 .footer__logo {
   padding: 2rem 0;
+  fill: none;
+  stroke: pink;
+  stroke-width: 1;
 }
 .footer__link {
   padding: 1rem 0;
