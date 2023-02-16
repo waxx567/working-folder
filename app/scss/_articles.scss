@@ -31,11 +31,7 @@
         &:not(:first-child) {
             background-color: $white;
         }
-        border: 1px solid yellowgreen;
-    }
-
-    &__image {
-        border: 2px solid black;
+        //border: 1px solid yellowgreen;
     }
 
     &__image-01 {
@@ -47,7 +43,7 @@
         background-repeat: no-repeat;
         background-position: center center;
         border-radius: 5px 5px 0 0;
-        border: 1px solid hotpink;
+        //border: 1px solid hotpink;
     }
 
     &__image-02 {
@@ -59,7 +55,7 @@
         background-repeat: no-repeat;
         background-position: center center;
         border-radius: 5px 5px 0 0;
-        border: 1px solid hotpink;
+        //border: 1px solid hotpink;
     }
 
     &__image-03 {
@@ -71,7 +67,7 @@
         background-repeat: no-repeat;
         background-position: center center;
         border-radius: 5px 5px 0 0;
-        border: 1px solid hotpink;
+        //border: 1px solid hotpink;
     }
 
     &__image-04 {
@@ -83,18 +79,23 @@
         background-repeat: no-repeat;
         background-position: center center;
         border-radius: 5px 5px 0 0;
-        border: 1px solid hotpink;
+        //border: 1px solid hotpink;
     }
 
     &__author {
-
+        padding: 2rem 2rem 1rem;
+        font-size: 0.75em;
     }
 
     &__title {
-
+        padding-inline: 2rem;
+        color: $darkBlue;
+        font-weight: 400;
     }
 
     &__text {
+        padding: 1rem 2rem;
+        font-size: 0.875em;
         border-radius: 0 0 5px 5px;
     }
 }
