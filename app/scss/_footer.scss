@@ -1,0 +1,14 @@
+.footer {
+    background-color: $darkBlue;
+
+    &__logo {
+
+        img {
+            color: $white;   
+        }
+    }
+}
+
+.attribution {
+    background-color: $veryLightGray;
+}

@@ -592,3 +592,14 @@ p {
   font-size: 0.875em;
   border-radius: 0 0 5px 5px;
 }
+
+.footer {
+  background-color: hsl(233deg, 26%, 24%);
+}
+.footer__logo img {
+  color: hsl(0deg, 0%, 100%);
+}
+
+.attribution {
+  background-color: hsl(0deg, 0%, 98%);
+}
