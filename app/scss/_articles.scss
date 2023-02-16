@@ -25,7 +25,7 @@
 .article {
     margin: 0 2rem;
     padding-bottom: 2rem;
-    border-radius: 4px;
+    border-radius: 0 0 5px 5px;
 
     & > * {
 
@@ -36,22 +36,47 @@
 
     &__image {
         height: 200px;
-
-        &:nth-child(1) {
-            content: '';
-            background-image: url(/images/image-currency.jpg);
-            background-size: 100%;
-            background-repeat: no-repeat;
-            background-position: center center;
-        }
-        
-        img {
-            width: 100%;
-            border-radius: 4px 4px 0 0;
-        }
+        object-fit: cover;
         //border: 1px solid firebrick;
     }
 
+    img {
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+    }
+    
+    &:nth-child(1) {
+        content: '';
+        background-image: url("/images/image-currency.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    &:nth-child(2) {
+        content: '';
+        background-image: url("/images/image-restaurant.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    &:nth-child(3) {
+        content: '';
+        background-image: url("/images/image-plane.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    &:nth-child(4) {
+        content: '';
+        background-image: url("/images/image-confetti.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    } 
+    
     &__author {
 
     }
