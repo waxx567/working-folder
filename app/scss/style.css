@@ -633,10 +633,3 @@ p {
 .attribution {
   background-color: hsl(0deg, 0%, 98%);
 }
-
-.svg {
-  width: 10rem;
-  background-image: url("/images/logo.svg");
-  background-repeat: no-repeat;
-  fill: url("#grad1");
-}
