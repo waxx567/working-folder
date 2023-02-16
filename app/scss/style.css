@@ -601,9 +601,6 @@ p {
 .footer__logo {
   padding: 2rem 0;
 }
-.footer__logo img {
-  color: hsl(0deg, 0%, 100%);
-}
 .footer__link {
   padding: 1rem 0;
 }
@@ -612,9 +609,22 @@ p {
   color: hsl(0deg, 0%, 100%);
 }
 .footer .button {
+  margin: 1rem auto 2rem;
+  max-width: 13rem;
+}
+
+.social {
+  display: flex;
+  width: 11rem;
+  justify-content: space-between;
   margin-right: auto;
   margin-left: auto;
-  max-width: 13rem;
+  padding-bottom: 1rem;
+}
+
+.copyright {
+  font-size: 0.95em;
+  padding-bottom: 3rem;
 }
 
 .attribution {
