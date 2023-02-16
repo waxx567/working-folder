@@ -51,6 +51,10 @@
 .copyright{
     font-size: 0.9em;
     padding-bottom: 3rem;
+
+    @include breakpoint-up(medium) {
+        padding-top: 4rem;
+    }
 }
 .attribution {
     background-color: $veryLightGray;
