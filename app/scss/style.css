@@ -635,7 +635,8 @@ p {
 }
 
 .svg {
-  background-image: url("/images/logo.svg");
   width: 10rem;
+  background-image: url("/images/logo.svg");
   background-repeat: no-repeat;
+  fill: url("#grad1");
 }
