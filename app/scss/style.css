@@ -603,6 +603,9 @@ p {
   fill: none;
   stroke: pink;
   stroke-width: 1;
+  background-image: url("/images/logo.svg");
+  background-repeat: no-repeat;
+  filter: saturate(200%);
 }
 .footer__link {
   padding: 1rem 0;
