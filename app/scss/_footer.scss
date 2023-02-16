@@ -1,11 +1,19 @@
 .footer {
+    display: grid;
     background-color: $darkBlue;
+    text-align: center;
 
     &__logo {
 
         img {
             color: $white;   
         }
+    }
+
+    .button {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 13rem;
     }
 }
 

@@ -594,10 +594,17 @@ p {
 }
 
 .footer {
+  display: grid;
   background-color: hsl(233deg, 26%, 24%);
+  text-align: center;
 }
 .footer__logo img {
   color: hsl(0deg, 0%, 100%);
+}
+.footer .button {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 13rem;
 }
 
 .attribution {
