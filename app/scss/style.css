@@ -633,3 +633,9 @@ p {
 .attribution {
   background-color: hsl(0deg, 0%, 98%);
 }
+
+.svg {
+  background-image: url("/images/logo.svg");
+  width: 10rem;
+  background-repeat: no-repeat;
+}
