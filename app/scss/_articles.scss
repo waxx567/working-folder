@@ -5,6 +5,11 @@
     &__heading {
         text-align: center;
         padding-bottom: 2.5rem;
+
+        @include breakpoint-up(large) {
+            padding-left: 2rem;
+            text-align: left;
+        }
     }
 }
 
@@ -13,6 +18,7 @@
     @include breakpoint-up(large) {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        padding-right: 5.5rem;
     }
 }
 
@@ -28,9 +34,22 @@
         }
     }
 
-    img {
-        width: 100%;
-        border-radius: 4px 4px 0 0;
+    &__image {
+        height: 200px;
+
+        &:nth-child(1) {
+            content: '';
+            background-image: url(/images/image-currency.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        
+        img {
+            width: 100%;
+            border-radius: 4px 4px 0 0;
+        }
+        //border: 1px solid firebrick;
     }
 
     &__author {

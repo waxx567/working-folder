@@ -47,6 +47,7 @@
 
         @include breakpoint-up(large) {
             grid-template-columns: 1fr 1fr 1fr 1fr;
+            padding-right: 4rem;
             padding-left: 2rem;
         }
 

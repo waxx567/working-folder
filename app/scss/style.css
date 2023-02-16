@@ -452,6 +452,7 @@ p {
 @media (min-width: 64em) {
   .showcase-features {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-right: 4rem;
     padding-left: 2rem;
   }
 }
@@ -510,11 +511,18 @@ p {
   text-align: center;
   padding-bottom: 2.5rem;
 }
+@media (min-width: 64em) {
+  .articles__heading {
+    padding-left: 2rem;
+    text-align: left;
+  }
+}
 
 @media (min-width: 64em) {
   .article-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    padding-right: 5.5rem;
   }
 }
 
@@ -526,7 +534,17 @@ p {
 .article > *:not(:first-child) {
   background-color: hsl(0deg, 0%, 100%);
 }
-.article img {
+.article__image {
+  height: 200px;
+}
+.article__image:nth-child(1) {
+  content: "";
+  background-image: url(/images/image-currency.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.article__image img {
   width: 100%;
   border-radius: 4px 4px 0 0;
 }
