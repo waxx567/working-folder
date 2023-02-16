@@ -595,11 +595,20 @@ p {
 
 .footer {
   display: grid;
-  padding: 2rem 0;
   background-color: hsl(233deg, 26%, 24%);
   text-align: center;
 }
+.footer__logo {
+  padding: 2rem 0;
+}
 .footer__logo img {
+  color: hsl(0deg, 0%, 100%);
+}
+.footer__link {
+  padding: 1rem 0;
+}
+.footer__link a {
+  font-size: 1em;
   color: hsl(0deg, 0%, 100%);
 }
 .footer .button {

@@ -3,13 +3,20 @@
     background-color: $darkBlue;
     text-align: center;
 
-    }
-
     &__logo {
         padding: 2rem 0;
 
         img {
             color: $white;   
+        }
+    }
+
+    &__link {
+        padding: 1rem 0;
+
+        a {
+            font-size: 1em;
+            color: $white;
         }
     }
 
