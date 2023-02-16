@@ -534,39 +534,36 @@ p {
 .article > *:not(:first-child) {
   background-color: hsl(0deg, 0%, 100%);
 }
-.article__image {
-  height: 200px;
-  object-fit: cover;
-}
 .article img {
   width: 100%;
   border-radius: 5px 5px 0 0;
+  border: 1px solid green;
 }
 .article:nth-child(1) {
   content: "";
   background-image: url("/images/image-currency.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .article:nth-child(2) {
   content: "";
   background-image: url("/images/image-restaurant.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .article:nth-child(3) {
   content: "";
   background-image: url("/images/image-plane.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .article:nth-child(4) {
   content: "";
   background-image: url("/images/image-confetti.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
