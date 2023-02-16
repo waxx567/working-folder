@@ -664,10 +664,13 @@ p {
     padding-top: 5rem;
   }
 }
+@media (min-width: 64em) {
+  .copyright {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+}
 
 .attribution {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
   background-color: hsl(0deg, 0%, 98%);
 }

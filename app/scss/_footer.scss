@@ -6,7 +6,6 @@
     @include breakpoint-up(large) {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 3fr;
-        
     }
 
     &-block {
@@ -79,11 +78,13 @@
     @include breakpoint-up(medium) {
         padding-top: 5rem;
     }
+
+    @include breakpoint-up(large) {
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
 }
 .attribution {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
     background-color: $veryLightGray;
 }
 
