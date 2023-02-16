@@ -529,7 +529,6 @@ p {
 .article {
   margin: 0 2rem;
   padding-bottom: 2rem;
-  border-radius: 0 0 5px 5px;
 }
 .article > * {
   border: 1px solid yellowgreen;
@@ -548,6 +547,7 @@ p {
   background-image: url("/images/image-currency.jpg");
   background-repeat: no-repeat;
   background-position: center center;
+  border-radius: 5px 5px 0 0;
   border: 1px solid hotpink;
 }
 .article__image-02 {
@@ -558,6 +558,7 @@ p {
   background-image: url("/images/image-restaurant.jpg");
   background-repeat: no-repeat;
   background-position: center center;
+  border-radius: 5px 5px 0 0;
   border: 1px solid hotpink;
 }
 .article__image-03 {
@@ -568,6 +569,7 @@ p {
   background-image: url("/images/image-plane.jpg");
   background-repeat: no-repeat;
   background-position: center center;
+  border-radius: 5px 5px 0 0;
   border: 1px solid hotpink;
 }
 .article__image-04 {
@@ -578,5 +580,9 @@ p {
   background-image: url("/images/image-confetti.jpg");
   background-repeat: no-repeat;
   background-position: center center;
+  border-radius: 5px 5px 0 0;
   border: 1px solid hotpink;
+}
+.article__text {
+  border-radius: 0 0 5px 5px;
 }

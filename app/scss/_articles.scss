@@ -25,7 +25,6 @@
 .article {
     margin: 0 2rem;
     padding-bottom: 2rem;
-    border-radius: 0 0 5px 5px;
 
     & > * {
 
@@ -47,6 +46,7 @@
         background-image: url("/images/image-currency.jpg");
         background-repeat: no-repeat;
         background-position: center center;
+        border-radius: 5px 5px 0 0;
         border: 1px solid hotpink;
     }
 
@@ -58,6 +58,7 @@
         background-image: url("/images/image-restaurant.jpg");
         background-repeat: no-repeat;
         background-position: center center;
+        border-radius: 5px 5px 0 0;
         border: 1px solid hotpink;
     }
 
@@ -69,6 +70,7 @@
         background-image: url("/images/image-plane.jpg");
         background-repeat: no-repeat;
         background-position: center center;
+        border-radius: 5px 5px 0 0;
         border: 1px solid hotpink;
     }
 
@@ -80,9 +82,10 @@
         background-image: url("/images/image-confetti.jpg");
         background-repeat: no-repeat;
         background-position: center center;
+        border-radius: 5px 5px 0 0;
         border: 1px solid hotpink;
     }
-    
+
     &__author {
 
     }
@@ -92,6 +95,6 @@
     }
 
     &__text {
-        
+        border-radius: 0 0 5px 5px;
     }
 }
