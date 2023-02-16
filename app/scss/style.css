@@ -518,9 +518,14 @@ p {
   }
 }
 
-@media (min-width: 64em) {
+@media (min-width: 40em) {
   .article-container {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 64em) {
+  .article-container {
     grid-template-columns: repeat(4, 1fr);
     padding-right: 5.5rem;
   }

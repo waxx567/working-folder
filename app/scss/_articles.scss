@@ -14,9 +14,13 @@
 }
 
 .article-container {
+
+    @include breakpoint-up(medium) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
     
     @include breakpoint-up(large) {
-        display: grid;
         grid-template-columns: repeat(4, 1fr);
         padding-right: 5.5rem;
     }
