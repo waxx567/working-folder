@@ -1,5 +1,7 @@
 # The process to get the app to this point
 
+Build is a React JS frontend utilizing Tailwind CSS paired with a Python Flask backend.
+
 Original brief was to:
 
 Create a billing app for complicated billing.
@@ -9,7 +11,7 @@ Decided to make it accessible to all for broader appeal.
 Must-haves:
 Light and dark mode
 Must look good on mobile, tablet and normal size computer screens
-Custom colours for the user for a uniue experience
+Custom colours for the user for a unique experience
 Easier to use than other book-keeping apps and intuitive for those not familiar with online accounting
 
 Nice-to-haves:
