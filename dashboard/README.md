@@ -4,13 +4,12 @@ An app aimed at people who would appreciate a no-hassle app for their business/e
 
 Build is a React JS frontend utilizing Tailwind CSS paired with a Python Flask backend.
 
-Acknowledgments:
+npm start to initialize
 
+Acknowledgments:
 David Malan
 Adrian Hajdin
 Brad Traversy
 Kevin Powell
 Bernice Hynard
 Madelaine Smith
-
-npm start to initialize
