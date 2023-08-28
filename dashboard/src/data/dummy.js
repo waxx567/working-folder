@@ -481,10 +481,10 @@ export const links = [
   },
 
   {
-    title: 'Pages',
+    title: 'Overview',
     links: [
       {
-        name: 'orders',
+        name: 'transactions',
         icon: <AiOutlineShoppingCart />,
       },
       {
@@ -519,7 +519,7 @@ export const links = [
     ],
   },
   {
-    title: 'Charts',
+    title: 'Analytics',
     links: [
       {
         name: 'line',
