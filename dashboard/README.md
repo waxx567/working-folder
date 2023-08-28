@@ -12,3 +12,5 @@ Brad Traversy
 Kevin Powell
 Bernice Hynard
 Madelaine Smith
+
+npm start to initialize
